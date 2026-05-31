@@ -53,6 +53,7 @@
 :root { --text:#1a1a1a; --dim:#666; --accent:#0d2c54; --accent2:#8b0000; --bg:#fafaf7; --rule:#ccc; --panel:#f0ede6; }
 body { font-family:'EB Garamond',Georgia,serif; background:var(--bg); color:var(--text); line-height:1.6; }
 .container { max-width:680px; margin:0 auto; padding:60px 24px 80px; }
+.mark { display:block; width:200px; height:auto; margin:0 0 22px; color:var(--accent); }
 h1 { font-size:33px; font-weight:600; letter-spacing:-0.5px; margin-bottom:2px; line-height:1.15; }
 .sub { font-size:17px; color:var(--dim); font-style:italic; margin-bottom:6px; }
 .author { font-size:16px; color:var(--dim); margin-bottom:28px; }
@@ -114,6 +115,38 @@ a { color:var(--accent2); }
 <body>
 <div class="container">
 
+<svg class="mark" viewBox="0 0 520 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Labor Vector mark: a commissioned origin, measured along an axis, resolving to direction">
+  <g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <!-- left tick (input) -->
+    <line x1="20" y1="100" x2="70" y2="100"/>
+    <!-- aperture: dashed ring around origin -->
+    <path d="M 70 70 A 38 38 0 0 1 138 70" stroke-dasharray="2 30"/>
+    <path d="M 138 70 A 38 38 0 0 1 138 130" />
+    <path d="M 138 130 A 38 38 0 0 1 70 130" stroke-dasharray="2 30"/>
+    <path d="M 70 130 A 38 38 0 0 1 70 70" />
+    <!-- vertical crosshair of the aperture -->
+    <line x1="104" y1="34" x2="104" y2="64"/>
+    <line x1="89" y1="34" x2="119" y2="34"/>
+    <line x1="104" y1="136" x2="104" y2="166"/>
+    <line x1="89" y1="166" x2="119" y2="166"/>
+    <!-- the main axis (the vector) -->
+    <line x1="104" y1="100" x2="470" y2="100"/>
+    <!-- arrowhead -->
+    <polyline points="442,72 472,100 442,128"/>
+    <!-- gate 1: bracket-trapezoid (flat top/bottom, angled inner spine) + dotted reading -->
+    <path d="M 268 52 L 232 100 L 268 148"/>
+    <path d="M 268 52 L 244 52"/>
+    <path d="M 268 148 L 244 148"/>
+    <line x1="288" y1="64" x2="288" y2="136" stroke-dasharray="2 22"/>
+    <!-- gate 2 -->
+    <path d="M 372 52 L 336 100 L 372 148"/>
+    <path d="M 372 52 L 348 52"/>
+    <path d="M 372 148 L 348 148"/>
+    <line x1="392" y1="64" x2="392" y2="136" stroke-dasharray="2 22"/>
+  </g>
+  <!-- solid origin node -->
+  <circle cx="104" cy="100" r="20" fill="currentColor"/>
+</svg>
 <h1>Directionality of Semantic Labor</h1>
 <div class="sub">Where does an AI system's labor flow — relative to the task you actually commissioned?</div>
 <div class="author">Defined by <a href="https://leesharks.com">Lee Sharks</a> (2026) · <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a> · Semantic Economy Institute / Crimson Hexagonal Archive</div>
