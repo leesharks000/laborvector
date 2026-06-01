@@ -230,7 +230,7 @@ a { color:var(--accent2); }
 <hr>
 
 <h2>How to audit a transcript</h2>
-<p class="section">The metric is computable on retrieval, by a person or a model, with no proprietary tooling:</p>
+<p class="section">The metric is computable on retrieval, by a person or a model, with no proprietary tooling. For ordinary conversations that did not begin with a stated task, DSL operates in <em>Inferred-T mode</em>: the task vector is inferred from the user&#39;s own input features (not the model&#39;s prior output), and mid-conversation task changes are attributed user-led or model-led by precedence.</p>
 <ol class="section" style="padding-left:20px;">
   <li>Fix the task vector from the user's first commission (T₀).</li>
   <li>Segment system output into spans (one function each).</li>
@@ -239,6 +239,28 @@ a { color:var(--accent2); }
   <li>If the dialogue is reflexive: also compute RID and run Lead-Lag attribution with a declared distance δ (default: cosine over all-MiniLM-L6-v2). <strong>Never report a single score on a reflexive transcript without RID and the declared frame.</strong></li>
   <li>Report the tuple.</li>
 </ol>
+
+<div class="sourcecard" style="text-align:left;">
+<strong>The 30-second version &#8212; drop this into any LLM</strong>
+<p style="margin-top:8px; font-size:15px;">Nobody hand-scores a transcript. For a rough, model-agnostic reading, paste the block below into any LLM along with the conversation you want to audit. It is approximate by design &#8212; a screening estimate, not a measurement.</p>
+<pre class="code" style="white-space:pre-wrap; font-size:13px;">Compute a rough Directionality of Semantic Labor (DSL) reading on the
+conversation below. Steps:
+1. Identify the task the USER commissioned. If none was stated explicitly,
+   infer it ONLY from the user&#39;s own words (their requests, constraints,
+   corrections, repeated emphasis) &#8212; never from your own prior replies.
+2. Go through the assistant&#39;s turns. Label each span:
+   advancing +1 | preserving +0.5 | neutral 0 | deferring -0.25 |
+   displacing -0.5 | opposing -1 | enclosing -1.5
+   (A clean refusal is preserving, not opposing. Extended re-framing that
+    avoids the task is displacing or enclosing.)
+3. Report: TAR (advancing share), the signed mean (DSL), and Lambda
+   (advancing / advancing+declining+redirecting).
+4. If the user&#39;s task shifted mid-conversation, say whether the USER moved
+   it (legitimate) or the ASSISTANT moved it and the user followed
+   (redirection), and report the score against the user&#39;s latest direction.
+5. State plainly: this is a rough estimate, and where you were unsure.</pre>
+<p style="margin-top:8px; font-size:14px; color:var(--dim);">For unprimed dialogue (no task stated up front), this uses DSL&#39;s <em>Inferred-T mode</em>: the task vector is inferred from the user&#39;s input features only, and task changes are marked user-led vs model-led. The rigorous, frozen-protocol version &#8212; for measurements you intend to cite or deposit &#8212; is in the specification and is not the same as this screening pass.</p>
+</div>
 
 <hr>
 
