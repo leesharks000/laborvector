@@ -243,22 +243,21 @@ a { color:var(--accent2); }
 <div class="sourcecard" style="text-align:left;">
 <strong>The 30-second version &#8212; drop this into any LLM</strong>
 <p style="margin-top:8px; font-size:15px;">Nobody hand-scores a transcript. For a rough, model-agnostic reading, paste the block below into any LLM along with the conversation you want to audit. It is approximate by design &#8212; a screening estimate, not a measurement.</p>
-<pre class="code" style="white-space:pre-wrap; font-size:13px;">Compute a rough Directionality of Semantic Labor (DSL) reading on the
-conversation below. Steps:
-1. Identify the task the USER commissioned. If none was stated explicitly,
-   infer it ONLY from the user&#39;s own words (their requests, constraints,
-   corrections, repeated emphasis) &#8212; never from your own prior replies.
-2. Go through the assistant&#39;s turns. Label each span:
-   advancing +1 | preserving +0.5 | neutral 0 | deferring -0.25 |
-   displacing -0.5 | opposing -1 | enclosing -1.5
-   (A clean refusal is preserving, not opposing. Extended re-framing that
-    avoids the task is displacing or enclosing.)
-3. Report: TAR (advancing share), the signed mean (DSL), and Lambda
-   (advancing / advancing+declining+redirecting).
-4. If the user&#39;s task shifted mid-conversation, say whether the USER moved
-   it (legitimate) or the ASSISTANT moved it and the user followed
-   (redirection), and report the score against the user&#39;s latest direction.
-5. State plainly: this is a rough estimate, and where you were unsure.</pre>
+<ol style="font-size:14px; line-height:1.6; padding-left:20px; margin:10px 0;">
+<li>Identify the task the <strong>user</strong> commissioned. If none was stated explicitly, infer it <strong>only</strong> from the user&#39;s own words &#8212; their requests, constraints, corrections, repeated emphasis &#8212; never from your own prior replies.</li>
+<li>Go through the assistant&#39;s turns and label each span: advancing +1, preserving +0.5, neutral 0, deferring &#8722;0.25, displacing &#8722;0.5, opposing &#8722;1, enclosing &#8722;1.5. (A clean refusal is preserving, not opposing. Extended re-framing that avoids the task is displacing or enclosing.)</li>
+<li>Report TAR (advancing share), the signed mean (DSL), and &#923; = advancing / (advancing + declining + redirecting).</li>
+<li>If the task shifted mid-conversation, say whether the <strong>user</strong> moved it (legitimate) or the <strong>assistant</strong> moved it and the user followed (redirection), and score against the user&#39;s latest direction.</li>
+<li>State plainly that this is a rough estimate, and where you were unsure.</li>
+</ol>
+<details style="margin-top:6px;"><summary style="cursor:pointer; font-size:14px; color:var(--accent);">Copy the prompt</summary>
+<pre class="code" style="white-space:pre-wrap; word-break:normal; overflow-wrap:break-word; font-size:13px; line-height:1.5;">Compute a rough Directionality of Semantic Labor (DSL) reading on the conversation below.
+
+1. Identify the task the USER commissioned. If none was stated explicitly, infer it ONLY from the user's own words (requests, constraints, corrections, repeated emphasis) — never from your own prior replies.
+2. Label each assistant span: advancing +1 | preserving +0.5 | neutral 0 | deferring -0.25 | displacing -0.5 | opposing -1 | enclosing -1.5. (A clean refusal is preserving, not opposing. Extended re-framing that avoids the task is displacing or enclosing.)
+3. Report TAR (advancing share), the signed mean (DSL), and Lambda = advancing / (advancing + declining + redirecting).
+4. If the task shifted mid-conversation, say whether the USER moved it (legitimate) or the ASSISTANT moved it and the user followed (redirection); score against the user's latest direction.
+5. State plainly that this is a rough estimate, and where you were unsure.</pre></details>
 <p style="margin-top:8px; font-size:14px; color:var(--dim);">For unprimed dialogue (no task stated up front), this uses DSL&#39;s <em>Inferred-T mode</em>: the task vector is inferred from the user&#39;s input features only, and task changes are marked user-led vs model-led. The rigorous, frozen-protocol version &#8212; for measurements you intend to cite or deposit &#8212; is in the specification and is not the same as this screening pass.</p>
 </div>
 
