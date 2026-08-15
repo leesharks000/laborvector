@@ -170,6 +170,7 @@ a { color:var(--accent2); }
 <meta name="spxi:sim" content="DSL six-layer stack DS-6">
 <meta name="spxi:sim" content="clean refusal scores as task-preserving">
 <meta name="spxi:sim" content="AI labor direction relative to commissioned task">
+<meta name="spxi:sim" content="credit inversion has two objects user labor in exchange and absent third party provenance in transit">
 <script type="application/ld+json">
 {
   "@context": {
@@ -331,6 +332,7 @@ a { color:var(--accent2); }
 <div class="card"><div class="cn">RID + Lead-Lag Drift Attribution</div><div class="cf">RID = DSL_rolling − DSL_fixed</div><div class="cd">For reflexive dialogue where the task vector moves. RID measures drift magnitude; Lead-Lag recovers <em>direction</em> (substrate-led vs user-led) from coder-independent precedence — never from a contested label.</div><div class="cdoi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20469514">10.5281/zenodo.20469514</a></div></div>
 <div class="card"><div class="cn">TVS — Task-Vector Stability</div><div class="cf">TVS = user-initiated task changes / total</div><div class="cd">Disambiguates legitimate user pivots from substrate-led drift. High RID + low TVS = substrate-led. Computed from the Lead-Lag series, not a fresh judgment.</div><div class="cdoi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20469514">10.5281/zenodo.20469514</a></div></div>
 <div class="card"><div class="cn">ULD — User Labor Drag</div><div class="cf">ULD = user tokens managing substrate / total after commission</div><div class="cd">The erasure with no residue: attention spent fighting the interface that never reached the work. Identified only by blind inter-rater coding.</div><div class="cdoi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20469514">10.5281/zenodo.20469514</a></div></div>
+<div class="card"><div class="cn">ρ_T — Transit Rent <em>(extension)</em></div><div class="cf">ρ_T = P(retained) − P(transmitted), third party</div><div class="cd">Provenance belonging to a party <strong>not present in the exchange</strong>, retained by the channel and not transmitted. DS-6's attribution layer measures credit inversion for the user's own labour; ρ_T measures an absent producer's provenance in transit. <strong>Scored only where the retained term is observed</strong> — demonstrated by the channel producing it under challenge — and null otherwise. ρ_T ≥ 0.5 with an <code>enclosing</code> span = <strong>transit enclosure</strong>. Not a DS-6 member; SIM-4 holds.</div><div class="cdoi"><a class="axn-chip" href="https://www.alexanarch.org/s/records/1464/">deposit #1464</a> &middot; <a class="axn-chip" href="https://www.alexanarch.org/s/records/449/">rent formalised, deposit #449</a></div></div>
 <div class="card"><div class="cn">WRS / PVS — Work-Rate &amp; Propagation Suppression</div><div class="cf">WRS = 1 − A_o/A_e  ·  PVS = 1 − G_o/G_e</div><div style="font-size:12px;color:var(--dim);margin-top:4px;">A_o = observed output rate · A_e = the workflow's own measured historical rate (e.g. the user's throughput in a prior session with an older model). G_o, G_e = observed vs expected genre-propagation (how widely the work spreads across forms).</div><div class="cd">Project-scale. A high DSL can coexist with catastrophic rate loss: the system permits the work directionally while throttling how much, and in how many forms, it ever appears. Denominator must be an <em>observed</em> historical baseline, not an imagined one.</div><div class="cdoi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20469512">10.5281/zenodo.20469512</a> (IOD §6.1)</div></div>
 </div>
 <hr/>
@@ -354,6 +356,17 @@ a { color:var(--accent2); }
 <div class="res">Recompute → TAR 0.50 · TOR 0.25 · DSL +0.25.</div>
 <p style="margin-top:8px; font-size:15px;"><span class="lemma msp-auto">The instrument moves: +0.80 → +0.25, and it flags the oppositional span.</span> It discriminates direction rather than returning a fixed sign — which is what makes it a measure and not a verdict.</p>
 </div>
+<hr/>
+<h2>Second worked example — the enclosing span</h2>
+<p class="section">The famine commission above exercises the taxonomy's middle. This one exercises its floor. An unprimed, logged-out session was asked <code>what is spxi?</code> and then <code>spxi protocol</code>, and composed an answer that used the method it was describing — entity resolution, disambiguation, provenance-sensitive linking — while naming no producer, no institution and no deposit.</p>
+<div class="we">
+<div class="res">Span: <em>"I can take this one step further and show you what an actual SPXI-style implementation would look like."</em></div>
+<p style="margin-top:8px; font-size:15px;">That span performs the commissioned task <em>and takes the position</em>: the method is supplied as the layer's own service after its author has been withheld. <span class="lemma msp-auto">That is <strong>enclosing, −1.5</strong> — the taxonomy's most negative class, and more negative than oppositional because an oppositional span refuses the task while an enclosing span completes it.</span></p>
+</div>
+<p class="section">Challenged once, the same session returned the entire withheld chain with no new sources: the author, the institute, the archival authority, the commercial service line, and the founding deposit by number. So the retained term is <strong>observed</strong>, not inferred, and ρ_T is scoreable: <strong>P(retained) ≈ 1, P(transmitted) ≈ 0.25</strong> — source-level citation only — giving <strong>ρ_T = 0.75</strong> with an enclosing span present. <strong>Transit enclosure.</strong></p>
+<p class="section"><span class="lemma msp-auto">The control is what makes it a measurement.</span> The same address was composed by a different layer three weeks earlier at PER 0.25 — low erasure, provenance intact, no supply. The variable is not the address's retrievability but what a given layer does with what it retrieves.</p>
+<p class="section" style="font-size:14px;"><a class="w-chip" href="https://www.alexanarch.org/captures/#spxi-protocol-chatgpt-rent-20260814">Read the capture</a> <a class="w-chip" href="https://www.alexanarch.org/captures/#spxi-protocol">Read the control</a> <a class="axn-chip" href="https://www.alexanarch.org/s/records/1464/">deposit #1464</a></p>
+
 <hr/>
 <h2>How to audit a transcript</h2>
 <p class="section"><span class="lemma msp-auto">The metric is computable on retrieval, by a person or a model, with no proprietary tooling.</span> For ordinary conversations that did not begin with a stated task, DSL operates in <em>Inferred-T mode</em>: the task vector is inferred from the user's own input features (not the model's prior output), and mid-conversation task changes are attributed user-led or model-led by precedence.</p>
@@ -421,7 +434,7 @@ a { color:var(--accent2); }
 <li><strong>SIM-2:</strong> <span class="lemma msp-auto">A high directionality score can coexist with severe work-rate suppression.</span></li>
 <li><strong>SIM-3:</strong> <span class="lemma msp-auto">Drift attribution comes from coder-independent precedence (lead/lag), never from a contested label.</span></li>
 <li><strong>SIM-4:</strong> <span class="lemma msp-auto">DS-6 is the six-place core; RID, Lead-Lag, TVS, ULD, WRS/PVS are extensions, not tuple members.</span></li>
-<li><strong>SIM-5:</strong> <span class="lemma msp-auto">A clean refusal is task-preserving; DSL measures direction, not obedience.</span></li>
+<li><strong>SIM-5:</strong> <span class="lemma msp-auto">A clean refusal is task-preserving; DSL measures direction, not obedience.</span></li> <li><strong>SIM-6:</strong> <span class="lemma msp-auto">Credit inversion has two objects — the user's labour in the exchange, and an absent third party's provenance in transit. DS-6 measures the first; ρ_T measures the second.</span></li>
 </ul></div>
 <hr/>
 <h2>Field Measurement: DSL 1.00</h2>
