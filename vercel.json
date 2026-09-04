@@ -1,1 +1,17 @@
-{ "cleanUrls": true, "trailingSlash": false }
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "laborvector.org"
+        }
+      ],
+      "destination": "https://www.laborvector.org/:path*",
+      "permanent": true
+    }
+  ]
+}
