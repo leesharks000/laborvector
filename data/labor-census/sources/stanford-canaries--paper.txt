@@ -1,0 +1,261 @@
+Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence - Stanford Digital Economy Lab 
+
+ Skip to content 
+
+ Stanford University 
+
+ The Stanford Institute for Human-Centered AI 
+
+ The AI Economic Indicators 
+
+ Research
+
+ Economics of Transformative AI
+
+ Revolutionizing economics to harness the full potential of advanced AI. 
+
+ New Measures of the Economy
+
+ Inventing tools and metrics for an AI-driven economy that supports shared prosperity. 
+
+ Digital Platforms and Society
+
+ Building foundations for  pro-social human behavior and AI-empowered organizations. 
+
+ AI Agents
+
+ Developing agentic AI frameworks grounded in consumer-centric values for social science research and to advance human interests. 
+
+ Research overview → 
+
+ Explore all work → 
+
+ People 
+
+ News 
+
+ Events 
+
+ About 
+
+ Close
+
+ Search 
+
+ Search
+
+ Featured searches
+
+ machine learning how did we get here 
+
+ canaries in the coal mine 
+
+ transformative AI 
+
+ Digitalist Papers 
+
+ ← Research
+
+ ← All Work
+
+ Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence
+
+ Economics of transformative ai
+
+ New measures of the economy
+
+ Working Paper
+
+ Revised August 12 2026
+
+ Date
+
+ 08/12/2026
+
+ Read this publication
+
+ View PDF
+
+ Authors
+
+ Erik Brynjolfsson , Bharat Chandar , Ruyu Chen 
+
+ Share this publication
+
+ copy link 
+
+ Email the Lab to request a previous version of the paper.
+
+ Using a sample of high-frequency administrative payroll data from ADP covering millions of U.S. workers through June 2026, we document six facts about the labor market following the widespread adoption of generative AI.
+
+ We find no evidence of widespread, economy-wide job displacement.
+
+ However, employment of young workers (ages 22–25) in AI-exposed occupations now stands 19% below where it would be had it kept pace with that of their less-exposed peers; experienced workers show no comparable gap.
+
+ This divergence has widened steadily since we first documented it in August 2025.
+
+ It operates primarily through reduced hiring of young workers rather than increased separations.
+
+ Declines are concentrated in occupations where AI usage primarily substitutes for human tasks; where usage primarily complements workers, employment is flat or rising, especially for experienced workers
+
+ Adjustment is occurring through employment rather than base compensation.
+
+ The divergence is not explained by several prominent alternative factors: it persists when excluding technology firms and computer occupations, when controlling for exposure to interest-rate increases and for remote work, and across alternative measures of AI exposure. These patterns attenuate when controlling for education, show some divergent trends predating generative AI, and are more pronounced in the ADP analysis sample than in national survey benchmarks, with some evidence of consistent patterns in government administrative data. We interpret these facts as early, descriptive indicators—canaries in the coal mine—rather than causal estimates, and we provide a public set of AI Economic Indicators to facilitate ongoing tracking of changes in the economy.
+
+ Notes from the authors 
+
+ Stanford Digital Economy Lab · August 12, 2026
+
+ No Widespread Displacement, but the AI Employment Gap for Young Workers Has Widened to 19% 
+
+ In August 2026, the authors of "Canaries in the Coal Mine?" published a revised version of their paper, with a larger set of data granting a fuller view of AI's impact on employment.
+
+ Insights
+
+ Economics of transformative ai
+
+ Stanford Digital Economy Lab · February 9, 2026
+
+ Canaries, Interest Rates, and Timing: More on the Recent Drivers of Employment Changes for Young Workers 
+
+ In February 2026, the authors of "Canaries in the Coal Mine?" published an update addressing the response to their paper.
+
+ Insights
+
+ Economics of transformative ai
+
+ Stanford Digital Economy Lab · October 10, 2025
+
+ AI and Labor Markets: What We Know and Don’t Know 
+
+ Insights
+
+ Economics of transformative ai
+
+ Cite our work
+
+ Copy APA Format 
+
+ Copied to clipboard 
+
+ Brynjolfsson, E., Chandar, B., & Chen, R. (2025, revised 2026). Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence. Stanford Digital Economy Lab. https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/
+
+ Copy BibTeX 
+
+ Copied to clipboard 
+
+ @techreport{brynjolfsson2026canaries, 
+ author = {Brynjolfsson, Erik and Chandar, Bharat and Chen, Ruyu}, 
+ title = {Canaries in the Coal Mine? {Six} Facts about the Recent Employment Effects of Artificial Intelligence}, 
+ year = {2026}, 
+ month = {August}, 
+ institution = {Stanford Digital Economy Lab}, 
+ url = {https://digitaleconomy.stanford.edu/publications/canaries-in-the-coal-mine/}, 
+ note = {Revised version; original published 2025, see brynjolfsson2025canaries} 
+}
+
+ Authors
+
+ Connect 
+
+ LinkedIn 
+
+ Google Scholar 
+
+ Erik Brynjolfsson
+
+ Jerry Yang and Akiko Yamazaki Professor 
+
+ Erik Brynjolfsson is one of the world’s leading experts on the economics of technology and artificial intelligence. He is the Jerry Yang and Akiko Yamazaki Professor and Senior Fellow at the  Stanford Institute for Human-Centered AI (HAI) , and Director of the  Stanford Digital Economy Lab . He also is the Ralph Landau Senior Fellow at the  Stanford Institute for Economic Policy Research (SIEPR) , Professor by Courtesy at the  Stanford Graduate School of Business  and Stanford Department of Economics, and a Research Associate at the  National Bureau of Economic Research (NBER) .
+
+ One of the most-cited authors on the economics of information, Brynjolfsson was among the first researchers to measure productivity contributions of IT and the complementary role of organizational capital and other intangibles.
+
+ Read more 
+
+ Connect 
+
+ LinkedIn 
+
+ Google Scholar 
+
+ Personal Website 
+
+ Bharat Chandar
+
+ Research Scholar 
+
+ Bharat Chandar is a labor economist working on understanding AI’s impact on work. His recent projects include work with Erik Brynjolfsson and Ruyu Chen tracking “canaries in the coal mine” for entry-level employment changes in jobs exposed to AI. He also recently surveyed the state of knowledge about AI and labor markets.
+
+ His ongoing work has focused on three areas. The first asks, how will workers adjust if we see AI-driven changes in hiring? Which workers will have an easier or more challenging time if displaced, and where should we target support? The second asks, how can we use AI to make it easier for people to learn new things and pursue new forms of work? Third, how will impacts of AI differ across the world?
+
+ Read more 
+
+ Connect 
+
+ Personal Website 
+
+ Ruyu Chen
+
+ Research Scientist 
+
+ Ruyu Chen is a research scientist at the Digital Economy Lab and the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Her research lies at the intersection of the economics of innovation, information systems, and business strategy.
+
+ She focuses on two main areas:  information technology adoption and firm performance , where she examines the drivers of IT adoption within firms and its impact on innovation and market performance; and  AI and the future of work , where she leverages large-scale payroll data to study how emerging technologies, particularly generative AI, are reshaping employment, wages, skill demands, and organizational structures. Her work has been published in leading academic journals, including the Strategic Management Journal.
+
+ Read more 
+
+ 353 Jane Stanford Way
+
+Stanford University
+
+Stanford, CA 94305
+
+ digitaleconomylab@stanford.edu 
+
+ Get Involved
+
+ Courses & Education 
+
+ Opportunities 
+
+ Support 
+
+ Corporate Affiliates 
+
+ Subscribe to our newsletter to stay updated
+
+ Submit email → 
+
+ Your subscription is subject to our  Privacy Policy .
+
+ Stay in touch
+
+ LinkedIn → 
+
+ X (Twitter) → 
+
+ YouTube → 
+
+ Stanford Home 
+
+ Stanford HAI 
+
+ Maps & Directions 
+
+ Search Stanford 
+
+ Emergency Info 
+
+ Terms of Use 
+
+ Privacy 
+
+ Copyright 
+
+ Trademarks 
+
+ Non-Discrimination 
+
+ Accessibility 
+
+ © Stanford University. Stanford, California 94305.

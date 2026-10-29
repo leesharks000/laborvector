@@ -1,0 +1,285 @@
+Responsible Data Enrichment Sourcing Library - Partnership on AI 
+
+ RESEARCH 
+
+ Research 
+
+ AI & Human Connection 
+
+ AI, Labor, and the Economy 
+
+ AI Safety 
+
+ Enterprise AI 
+
+ Public Policy 
+
+ Philanthropy 
+
+ European Steering Committee 
+
+ RESOURCES 
+
+ Blog 
+
+ Resource Library 
+
+ EVENTS 
+
+ ABOUT US 
+
+ About Us 
+
+ Expert Council 
+
+ ChangeMakers 
+
+ Team 
+
+ Funding 
+
+ Press 
+
+ Careers 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ RESEARCH 
+
+ Research 
+
+ AI & Human Connection 
+
+ AI, Labor, and the Economy 
+
+ AI Safety 
+
+ Enterprise AI 
+
+ Public Policy 
+
+ Philanthropy 
+
+ European Steering Committee 
+
+ RESOURCES 
+
+ Blog 
+
+ Resource Library 
+
+ EVENTS 
+
+ ABOUT US 
+
+ About Us 
+
+ Expert Council 
+
+ ChangeMakers 
+
+ Team 
+
+ Funding 
+
+ Press 
+
+ Careers 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ DONATE 
+
+ × 
+
+ SEARCH 
+
+ Responsible Data Enrichment Sourcing Library
+
+ -->
+
+ Improving Conditions for Data Enrichment Workers
+
+ Resources for AI Practitioners
+
+ Content Wrapper
+
+ Click here to start editing
+
+ --> 
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ AI is powered by data enrichment workers…
+
+ To create today’s machine learning (ML) models, AI developers require enriched datasets, vast quantities of information organized by humans so that it can be understood by machines. While these datasets can contain millions of individual entries, the extensive labor that goes into building them is often overlooked, performed by faraway workers under precarious conditions.
+
+ …but their contributions are often overlooked
+
+ Research shows these workers often face inconsistent and inappropriate compensation for their work, unclear instructions, lack of recognition, and emotional and physical stress related to long, ad-hoc working hours. Under-appreciating the importance of this work doesn’t just impact the wellbeing of these workers, it also affects the quality of the data AI technology is built on.
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ How can AI companies make data enrichment work better?
+
+ AI companies and the people that work for them have the power to improve the lives of data enrichment workers. When designing a project involving enriched data, there are five, worker-centric guidelines that AI practitioners should follow.
+
+ Follow these five guidelines:
+
+ 1. Ensure all data enrichment workers are paid above the local living wage 
+
+ AI Practitioners must pay workers/participants at least the living wage for their location. Therefore, please take into consideration the following when setting payment terms: the worker’s location, estimated time needed to complete a task and other associated activities, payment structure (e.g. per task, per hour, etc), and the difficulty of the task.
+
+ For more information on Global Living Wage, please see Annex 1 of PAI’s white paper . These are calculated at a country-level basis; if more exact locations are provided (e.g. State/City), please use the corresponding living wage for that location, as these may differ to the national standard.
+
+ If the data enrichment project pays per task, use the pilots (See Guideline 2 below) to establish a baseline estimate* of how long it takes to complete a task, including time spent reading instructions, going through any training and reviewing work before submission. The per task rate should be based on the hourly living wage, divided by the adjusted number of tasks that can be completed in an hour. Furthermore, researchers should track completion times throughout the data enrichment project and adjust targets, and compensation, accordingly.
+
+ AI Practitioners should pay for any work completed by workers to compensate for their time, being mindful that mass rejections of work completed without opportunities for redress impact the workers’ livelihood. The only exceptions should be in the cases of obvious abuse or fraud.
+
+ * The distribution of completion times should be calculated during the pilot and to make an informed decision about how to set the baseline. We would discourage using a simple median, as this could cause half the workers to receive an insufficient wage.
+
+ 2. Design and run a pilot before launching a data enrichment project 
+
+ AI Practitioners should always run a pilot before launching a new or substantially modified data enrichment project; this helps establish reasonable baselines for timeframes and payments. Pilots are smaller versions of data enrichment projects done before the main project with the goal of testing the project design so AI practitioners can make adjustments before the full data enrichment project is done under the same conditions. Pilots should also be used to test the clarity of the instructions and gather feedback on worker experience, looking at task design and tool usability. Testing should occur with a representative group of workers/participants to ensure that researchers get feedback from the types of people who will be completing the task later. 
+
+ Note: Pilots can recruit a distinct set of workers compared with the main data enrichment project. However, using the same filters as you would for the actual task is helpful for recruiting similar workers for both.
+
+ 3. Identify appropriate data enrichment workers for the desired task 
+
+ Matching data enrichment tasks to the skill set, expertise, and/or demographic category of workers can ensure your data enrichment project keeps to time, whilst also protecting workers against the economic impacts of wasted time or rejected tasks. Depending on the data enrichment project, AI practitioners may need to identify a demographically representative set of workers or identify workers with the relevant demographic background necessary to complete the task (e.g. cultural background, age range, location). AI Practitioners should be mindful when designing eligibility criteria, assuring the requirements for successful task completion are clear and only relevant to the task (e.g. language proficiency or domain knowledge) and not onerous, overly limiting or potentially identifying. 
+
+ For more complex tasks, or those that require a certain level of domain knowledge, it may be beneficial to maintain a consistent workforce across the project lifetime; in this case, both data quality and worker satisfaction can be improved by investing in a workforce. In other instances a consistent workforce may not be appropriate; for example if data collection would benefit from diversity or broader coverage of individuals.
+
+ 4. Provide verified instructions and/or training materials for data enrichment workers 
+
+ Create clear training materials for data enrichment tasks, taking into account the existing and required domain knowledge of workers, as well as the tools or platforms being used. Instructions should undergo review by a representative group of workers during an official pilot, before becoming verified. Instructions should typically include examples of correctly and incorrectly completed tasks and, for more difficult studies, allow workers a few practice tasks before launching a new data enrichment project.  Please refer to this checklist to help guide you in what to include as a part of your instructions and training materials. 
+
+ Note: As discussed in Guideline 1, time spent reading instructions or in training should be compensated.
+
+ 5. Establish clear and regular communication mechanisms 
+
+ Clear communication is critical to ensuring workers have the necessary information to effectively and efficiently complete tasks. AI Practitioners should clarify expectations around communication cadence with workers or managers before starting the project and ensure that workers know who and how to raise questions or concerns with, including contesting any rejected work. 
+
+ Irrespective of whether your data enrichment project involves one off interactions with workers or reengagement with the same pool over time, AI Practitioners must ensure that workers are provided with clear mechanisms for asking questions, reporting concerns or technical issues that may arise during the data enrichment project . Moreover, AI Practitioners should collect feedback from workers on all aspects of the project and adjust the data enrichment project accordingly. 
+
+ These guidelines, based on PAI’s Responsible Sourcing of Data Enrichment Services white paper and developed in partnership with DeepMind, have been tested and adopted by DeepMind organization-wide.
+
+ Download these Guidelines 
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ What resources can help practitioners meet these guidelines?
+
+ Data Enrichment Sourcing Guidelines
+
+ A shareable PDF listing the five key, worker-centric guidelines that AI practitioners should follow when designing a project involving enriched data 
+
+ Good Instructions Checklist for Data Enrichment Projects
+
+ A PDF listing what should be included in a set of task instructions to make sure they are as clear as possible for data enrichment workers 
+
+ Data Enrichment Vendor Comparison Template
+
+ A Google Sheets template for comparing various vendors of data enrichment services and surfacing relevant worker-centric considerations 
+
+ Local Living Wages Spreadsheet Template
+
+ A Google Sheets template to create a centralized resource for looking up wage information about areas where your data enrichment workers live 
+
+ DeepMind Case Study
+
+ A case study detailing why DeepMind committed to the Data Enrichment Sourcing Guidelines, how they did it, and the impact of adopting these recommendations 
+
+ Responsible Sourcing White Paper
+
+ The original PAI white paper detailing how the choices made by AI practitioners impact data enrichment workers and what they should do about it 
+
+ When to use these resources:
+
+ Before starting a project involving enriched data…
+
+ Read the Data Enrichment Sourcing Guidelines document, which lists five key, worker-centric guidelines that AI practitioners should follow when designing a project involving enriched data 
+
+ Before writing task instructions for data enrichment workers…
+
+ Use the Good Instructions Checklist for Data Enrichment Projects , which lists what should be included in a set of task instructions to make sure they are as clear as possible for data enrichment workers
+
+ Before setting payments for data enrichment workers…
+
+ Start by referencing Annex 1 of the “ Responsible Sourcing of Data Enrichment Services ” white paper to find tools and resources that can be used to determine local living wages
+
+ To make things easier for your team, use these values to fill out the Local Living Wages Spreadsheet Template 
+
+ When working with multiple data enrichment platforms or vendors…
+
+ Use the Data Enrichment Vendor Comparison Template to create a vendor comparison table.
+
+ Work with your team to fill it out, enabling you to quickly identify any vendor-specific data enrichment sourcing guidelines
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ These resources have been tested by DeepMind 
+
+ Please accept preferences, statistics, marketing cookies to watch this video.
+
+ To ensure usability, versions of these resources were tested and implemented in practice by research and development teams at DeepMind. We thank DeepMind for partnering with us to develop, test, and refine these resources. To learn more about how these resources were iteratively developed, read our case study “Implementing Responsible Data Enrichment Practices at an AI Developer: The Example of DeepMind.” 
+
+ Read the Case Study 
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ Help us advance this work
+
+ To ensure our guidance truly improves conditions for data enrichment workers, we welcome feedback:
+
+ from AI practitioners on usability
+
+ from workers on their resulting experiences
+
+ from the broader AI community on how to further improve industry practice
+
+ If you are interested in acting on these guidelines and resources or have feedback on how they can be improved, please get in touch.
+
+ GIVE YOUR FEEDBACK 
+
+ RESEARCH 
+
+ RESOURCES 
+
+ EVENTS 
+
+ ABOUT US 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ © 2026 Partnership on AI | All Rights Reserved
+
+ Transparency and Governance 
+
+ Privacy Policy

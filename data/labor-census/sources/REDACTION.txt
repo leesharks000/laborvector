@@ -1,0 +1,7 @@
+Redaction, 2026-10-29
+
+pai-responsible-sourcing--library.html.gz and pai-responsible-sourcing--workstream.html.gz embed a Google Maps API key
+in a script URL of Partnership on AI's own pages (maps.googleapis.com/maps/api/js?key=...). The key is replaced in the
+saved copies by [REDACTED-ACCESS-KEY], so the repository can be pushed past GitHub's secret scanning. Nothing else in
+either file is changed. The sha256 in manifest.json is of the bytes as fetched, before this redaction; the .txt files
+(the text the census quotes from) carry no key and are unchanged.

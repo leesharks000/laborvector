@@ -1,0 +1,242 @@
+Negotiating tech 
+
+ Skip to content 
+
+ Main Logo 
+
+ Programs 
+
+ Publications 
+
+ Tools & Resources 
+
+ News & Events 
+
+ People 
+
+ About 
+
+ Contact 
+
+ Research & Policy
+
+ Green Economy 
+
+ Health Care 
+
+ Low-Wage Work 
+
+ Technology and Work 
+
+ Retirement Security 
+
+ Unions & Worker Organizations 
+
+ Labor Education & Training
+
+ Workshops & Leadership Schools 
+
+ Labor-Management Partnerships 
+
+ Students & Labor
+
+ Student Engagement 
+
+ Labor Summer Internship 
+
+ Donate 
+
+ Negotiating Tech: An Inventory of U.S. Union Contract Provisions for the Digital Age
+
+ Search for: 
+
+ Search 
+
+ Overview
+
+ This searchable inventory documents how unions have addressed workplace technologies through collective bargaining. It includes provisions from more than 175 agreements, drawn from a review of over 500 contracts, and highlights a range of strategies, including securing rights and protections, shaping how technologies are introduced and used, and establishing governance mechanisms. Designed as an informational resource rather than a source of model language, the inventory offers insight into how unions are responding to emerging technologies through recent agreements, while also showing how long-standing provisions remain relevant in today’s rapidly evolving digital workplace.
+
+ The inventory was researched and developed by Lisa Kresge as a project of the UC Berkeley Labor Center’s Technology and Work Program , and was last updated on July 2, 2025. 
+
+ First time here? Read how to use the inventory below .
+
+ 1. Technology definitions
+
+ Provides definitions of key workplace technologies—like AI and wearables—as well as definitions of technological change itself. These definitions establish a foundation for worker protections, employer responsibilities, and union involvement in shaping tech-driven change.
+
+ Explore definitions
+
+ 2. Foundational technology rights
+
+ Features contract provisions that establish union and worker rights when employers introduce new or modified technologies, including advance notice, information, negotiation, participation, and jurisdiction, typically outlined in technological change clauses.
+
+ Explore foundational rights
+
+ 3. Employer commitments in technology implementation
+
+ Details contract provisions that protect workers during technological change, including guarantees around job security, pay, retraining, and safe, accessible working conditions.
+
+ Explore employer commitments
+
+ 4. Governance of workplace technology applications
+
+ Highlights collective bargaining provisions that govern the use of workplace technologies, including electronic monitoring and surveillance, HR and workforce management systems, and job-related digital tools.
+
+ Explore technology governance
+
+ 5. Participation in technology governance
+
+ Documents agreements that create joint committees, advisory groups, and other collaborative mechanisms for co-governance of workplace technologies.
+
+ Explore participation mechanisms
+
+ 6. Other workplace technology provisions
+
+ Outlines additional contract language on data collection, data rights and protections, and negotiated standards for telework and remote work.
+
+ Explore other provisions
+
+ Explore the Inventory
+
+ How to use the inventory 
+The inventory is designed to help users locate and understand how unions have addressed workplace technologies in collective bargaining agreements.
+
+ Organization 
+The inventory has six main sections, each focused on a different area of union-negotiated workplace technology provisions. When you click on one of the tiles above , you will open a new page with a brief description of the topic followed by a list of subsections that are organized by key analytical themes—such as bargaining strategies, technology functions, rights and protections, or patterns in contract language. 
+
+ Contract provisions 
+Contract provisions relevant to each subsection are listed under the “Examples” heading. They are either direct excerpts of contract language or paraphrased summaries when needed to clarify complex language, condense long clauses, or highlight key ideas shared across multiple agreements. References to specific employers or unions are generally omitted. When a clause touches on multiple issues, it may appear in more than one subsection.
+
+ Access full contracts 
+Each provision or summary is accompanied by a link to the complete collective bargaining agreement, allowing users to review the full language and see how specific provisions are structured and situated within the broader contract.
+
+ Navigating the inventory 
+To move between sections and subsections, you can use the sidebar menu or click the “next” link at the bottom of every page. 
+
+ Search the inventory 
+You can search the inventory by keyword—such as a type of technology (e.g., artificial intelligence, GPS), a union acronym, or an issue area (e.g., data rights, surveillance, training). Keep in mind that many agreements don’t mention specific technologies by name. Instead, they often use functional terms like “automated,” “electronic,” or “monitoring.” Searching by broader workplace functions (e.g., time management, evaluation) or themes (e.g., oversight, workload, liability) may yield more targeted results.
+
+ If you’re searching for union acronyms that include common words or letter combinations, adding a dash after the acronym (e.g., “AFT-”) will narrow your results. To find the list of union acronyms, click into any section of the inventory and scroll to the bottom of the sidebar navigation.
+
+ Looking for specific technologies? 
+If you’re searching for clauses tied to specific technologies or tools, start with Section 4, which organizes provisions by workplace function (e.g., electronic monitoring and surveillance, HR and workforce management, work task applications). For a focused list of named technologies see Section 4.4, which catalogs explicit technology mentions along with links to the relevant contracts.
+
+ Search the inventory
+
+ Looking for contract language related to a specific topic? Search the inventory by keyword or union acronym to see examples of how different collective bargaining agreements handle a range of topics.
+
+ Search for: 
+
+ Search 
+
+ Frequently Asked Questions
+
+ How were contracts selected and sourced for the inventory? 
+
+ The contracts in this inventory were gathered from multiple sources to ensure a robust and diverse dataset. These sources include public databases such as the U.S. Department of Labor’s Office of Labor-Management Standards (OLMS) repository and the Office of Personnel Management’s CBA database, as well as union and employer websites and direct contributions from unions.
+
+ In total, the research reviewed over 500 collective bargaining agreements from both public and private sector unions across a range of industries. Of these, more than 175 agreements containing relevant technology-related provisions were included in the final inventory. With over 950 technology-related contract provisions referenced, the inventory offers a rich picture of how unions are addressing workplace technology.
+
+ Contracts were identified and reviewed using keyword searches focused on terms such as surveillance, monitoring, and automation, followed by manual review to locate relevant content. Each provision was then analyzed using a structured coding framework that captures four key dimensions: bargaining strategy, technology type and function, worker and union rights, and employer obligations. While not exhaustive of all sectors, the inventory provides a detailed view into how unions are engaging with digital workplace technologies through collective bargaining.
+
+ What kind of contracts does the inventory cover? 
+
+ The inventory features more than 175 collective bargaining agreements from both public and private sector unions, representing a broad cross-section of industries.
+
+ What types of technologies does this inventory cover? 
+
+ This inventory includes a wide range of technologies. Many provisions refer broadly to “technology” or “technological change,” and some specifically mention “automation.” The use of such broad terms allows a single clause to cover diverse technologies, helping contracts stay relevant as new tools and systems emerge. This approach is especially valuable for preemptive language that secures rights and protections in anticipation of, or prior to, the adoption of new technologies.
+
+ Some provisions address workplace-specific systems, while others cite particular technologies such as GPS, surveillance cameras, computers, handheld devices, or internet-based tools. A few recent contracts explicitly reference artificial intelligence or generative AI, though most do not name AI or other emerging technologies directly. This type of specific language is more common in clauses focused on the governance and regulation of how particular technologies are used in the workplace, often involving mechanisms for participatory oversight or joint decision-making.
+
+ What is the time span of the contracts included in the inventory? 
+
+ The inventory includes provisions from contracts negotiated across several decades. Some were established many years ago, showing that longstanding language around technology remains relevant even as new innovations emerge. Others reflect more recent negotiations and address current technological developments.
+
+ Does the inventory include best practices or model language? 
+
+ No. The inventory highlights actual negotiated provisions but does not offer model contract language. Instead, it aims to surface strategies unions have used in practice.
+
+ What is the naming convention for the linked contracts? 
+
+ Each contract is labeled with the acronym of the local union or unions that negotiated it and, when applicable, the acronym of the national or affiliated union. A custom identifier is also included to indicate the contract’s data source and its unique ID within this technology agreement dataset. Sources include OLMS (Office of Labor-Management Standards), OPM (Office of Personnel Management), and publicly posted collective bargaining agreements (PCBA).
+
+ For example, SEIU-OLMS46 indicates that the contract was negotiated by SEIU and is entry number 46 in the subset of technology-related contracts drawn from the OLMS repository maintained by the U.S. Department of Labor.
+
+ Will new contracts be added to the inventory over time? 
+
+ Yes. We plan to update this inventory periodically and welcome suggestions for contracts to include or ideas to improve coverage and usability. The most recent update was made on July 2, 2025.
+
+ How can I cite this inventory? 
+
+ Kresge, Lisa. “Negotiating tech: An inventory of U.S. union contract provisions for the digital age.” Center for Labor Research and Education, University of California, Berkeley. July 2025. https://laborcenter.berkeley.edu/negotiating-tech/ .
+
+ How can I contact you? 
+
+ For questions, submissions, or technical assistance related to digital workplace technologies and technology bargaining, please contact Lisa Kresge, UC Berkeley Labor Center, lkresge@berkeley.edu .
+
+ Who was involved in creating this inventory? 
+
+ Researched and compiled by
+ Lisa Kresge
+
+ With appreciation to
+ Jenifer MacGillvary, for copyediting and thoughtful input on how to organize the inventory content and structure the website
+
+ Additional thanks to
+ Annette Bernhardt, Ra Criscitiello, Nell Geiser, and Dan Reynolds, for their thoughtful feedback on the inventory
+Ana Fox-Hodess, Julie Light, and Sandra Olgeirson, for feedback on the website design
+
+ Website design and development by
+ Ben Kuehn at Accomplice
+
+ Funding support provided by 
+John D. and Catherine T. MacArthur Foundation and Omidyar Network
+
+ © Copyright 2026 UC Berkeley Labor Center 
+
+ Privacy | Accessibility | Nondiscrimination 
+
+ Quick Links
+
+ Publications 
+
+ Tools & Resources 
+
+ News & Events 
+
+ Newsletter Archive 
+
+ People 
+
+ About 
+
+ Contact 
+
+ Job Opportunities 
+
+ Follow Us
+
+ Bluesky 
+
+ Facebook 
+
+ Instagram 
+
+ YouTube 
+
+ Subscribe 
+
+ Contact
+
+ 2521 Channing Way #5555
+
+Berkeley, CA 94720
+
+ Phone: (510) 642-0323 
+
+ Fax: (510) 643-4673 
+
+ Email: laborcenter@berkeley.edu 
+
+ Access Guide / Wayfinding

@@ -1,0 +1,373 @@
+Data Workers' Inquiry - Data Workers' Inquiry 
+
+ Zum Inhalt springen
+
+ Data Workers' Inquiry
+
+ Repository 
+
+ Inquiries 
+
+ Invited Pieces 
+
+ Blog 
+
+ Resouces 
+
+ Press 
+
+ Events 
+
+ Papers and Reports 
+
+ About 
+
+ The Team 
+
+ Our Methodology 
+
+ Contact 
+
+ Repository 
+
+ Inquiries 
+
+ Invited Pieces 
+
+ Blog 
+
+ Resouces 
+
+ Press 
+
+ Events 
+
+ Papers and Reports 
+
+ About 
+
+ The Team 
+
+ Our Methodology 
+
+ Contact 
+
+ DATA WORKERS’ INQUIRY  is a global, radically participatory research initiative spanning nine countries across five continents. Here, data workers themselves become community researchers, identifying urgent issues, formulating their own questions, and choosing the formats that best tell their stories: zines, documentaries, comics, essays, podcasts, and animations can be downloaded from the project repository .
+ For Data Workers‘ Inquiry, we created and developed Workers’ Inquiry as a Research Methodology or WIRM , a framework designed to turn hidden and precarious labor into a shared, politicized site for knowledge-making, public engagement, and tangible change.
+
+ data workers worldwide report on their workplaces
+
+ The Inquiries
+
+ 19 data workers in Venezuela, Kenya, Syria, Brazil, France and Germany conducting research with their colleagues in their respective workplaces and reporting on labor conditions and widespread practices in the AI industry. Explore the inquiries below!
+
+ Data Workers in Kenya Organize!
+
+ Learn more about the grievances of data workers at Sama, Cloud Factory, and Remotasks, and how they organize to demand better working conditions.
+
+ The African Women of Content Moderation
+
+ by Botlhokwa Ranta
+
+ This zine sheds light on the experiences of women, mothers, and migrants working as content moderators at Sama. 
+
+ Mental Health and Drug Dependency in Content Moderation
+
+ by Fasica Berhane Gebrekidan
+
+ Exploited by subcontractors like Sama, Meta content moderators in Nairobi face psychological trauma and silencing. 
+
+ A Mental Health Intervention 
+for Data Workers
+
+ by Kauna Ibrahim Malgwi 
+
+ A scalable mental health intervention designed for data workers – grounded in hands‑on insight and evidence‑based practice from my dual perspective as a former content moderator and a registered clinical psychologist.
+
+ Impact of Remotasks’ Closure on Kenyan Workers
+
+ by Mophat Okinyi 
+
+ In March 2024, Remotasks shut down thousands of accounts of data workers in African countries. 
+
+ Click Captives. The Unseen Struggle of Data Workers.
+
+ by Wilington Shitawa 
+
+ Based on the author’s experience at Cloud Factory and Sama, this comic describes the widespread exploitation of data workers.
+
+ Data Workers Organizing: 
+The African Content Moderators Union
+
+ by Richard Mathenge
+
+ This documentary explores the issues faced by data workers at Sama in Nairobi, Kenya, that led to the union’s creation. 
+
+ Organizing Across Borders
+
+ by Joan Kinyua 
+
+ A Partnership Between the Data Workers Inquiry and the Data Labelers Association. 
+
+ The Labor Behind AI Intimacy
+
+ by Michael Geoffrey Asia 
+
+ When users think they are talking to a machine, human emotion becomes data. 
+
+ “Just Send us Pictures of Your feet”: Consent and Biometric Extraction in the AI Supply Chain
+
+ by James Mojez Oyange 
+
+ The boundary between labour and personal resource has disappeared: the human body becomes raw material.
+
+ Syrian Data Workers in their own Words.
+
+ Read a report describing the challenges faced by refugee data workers in Lebanon and watch a Vlog exploring a day in the life of a data worker in Syria.
+
+ "If I Had Another Job, I Would Not Accept Data Annotation Tasks"
+
+ by Roukaya al-Hammada 
+
+ This report examines the unique challenges faced by Syrian refugees working as data annotators in Lebanon. 
+
+ Annotate to Educate: The Dual life of a Syrian Student & Data Annotator
+
+ by Yasser Yousef Alrayes 
+
+ This short film highlights the inadequate training of data workers in Syria and their resulting personal struggles. 
+
+ Latin American Data Workers Say Enough!
+
+ Watch Oskarina’s and Ruba’s animated videos and read Alex’s report to learn more about platform-mediated data work in Latin America.
+
+ Life of a Latin American Data Worker 
+
+ by Oskarina Veronica Fuentes Anaya
+
+ Irregular working hours, uncertainty, meager wages, and unpaid time are daily realities for platform data workers. This animation video highlights the profession’s structural issues, which are exacerbated by economic and political crises in Latin America. 
+
+ The Impact of Gift Card Payments on MTurk Workers
+
+ by Alexis Chávez 
+
+ Amazon Mechanical Turk pays data workers with gift cards instead of money. This report underlines how this payment method fosters workers‘ dependency, especially in countries conditioned by financial turbulences. 
+
+ Artificial AI made in Brazil
+
+ by Ruba 
+
+ The promise of easy and flexible work, and small paid tasks done from home without a boss giving orders attracts many workers to digital platforms. This video explores the many ways in which the reality is far from the promised autonomy with strict time and quality management, non-transparent rules, and low pay. 
+
+ Behind the For You - Content Moderators under TikTok's Control
+
+ by Lúcio 
+
+ TikTok’s deliberate management strategies to maximize productivity at the cost of workers‘ well-being: a relentless metrics system, constant competition among colleagues, and a lack of career prospects. 
+
+ Inteligencia artificial y transformación del trabajo: ¿El fin del trabajo de los UX writers? 
+
+ por Trabajadora Anónima 
+
+ Un estudio de caso sobre trabajadores despedidos de la empresa de comercio electrónico más importante de Latinoamérica. 
+
+ Datos y Precariedad: La vida de los trabajadores de plataformas
+
+ por Oskarina Fuentes 
+
+ Un reporte sobre cómo las plataformas se aprovechan de nuestra situación de dependencia económica. 
+ Editor invitado: Julian Posada 
+
+ Data Workers in Europe Speak Out.
+
+ Explore two powerful podcast episodes and a video by content moderators in Germany, a comic from chatbot impersonators from France and a Zine from Spain to learn more about the widespread grievances of data workers in Europe.
+
+ From Data Workers to Data Workers 1 – Precarious Working Conditions in Content Moderation and their Consequences for Workers
+
+ by Lais, Layla & Omar 
+
+ This podcast (GER w/EN subtitles) discusses the struggles of content moderators at Telus International Germany, highlighting poor pay, mentally taxing tasks, and lack of support. 
+
+ In the Colony of Blooded Eyes: A Trilogy on Working Conditions as a Content Moderator in Germany
+
+ by Sakine Mohamadi Bozorg
+
+ A brutally honest first-person account of the psychological scars borne by migrant content moderators in Germany. 
+
+ From Data Workers to Data Workers 2 - Mind over Moderation
+
+ by Anonymous Workers
+
+ This podcast was developed and recorded by two anonymous data workers, currently employed as Content Moderators at an outsourcing company in Berlin, Germany.
+
+ Behind the Face of AI
+
+ by Clara and B 
+
+ This short comic details the experiences of data workers in France working for Scale AI as human chatbots. They explore what it is to be human and the consequences of acting like a machine. 
+
+ From Data Workers to Data Workers: The Data Labelers Association
+
+ By Aaliyah, Omar & DLA 
+
+ This podcast tells a story of transnational solidarity among data workers, focusing on Kenyan data labelers who organized to improve their working conditions and gain recognition. It follows how worker-led collective action in Nairobi connects to broader global struggles for justice in the digital economy.
+
+ Trabajando para la Máquina: Fragmentos de vida y muerte de un moderador de contenido
+
+ By Horacio Espinosa 
+
+ An auto-ethnographic investigation into the psychological grinder that is content moderation. Revealing what should no longer remain hidden. 
+
+ Unveiling: The Invisible Lives of TikTok Data Workers in London
+
+ by Fasica Berhane Gebrekidan 
+
+ This report documents the lived experiences of trust and safety workers at TikTok in London. They face systematic outsourcing, replacement by inadequate automated systems, and layoffs  without accountability.
+
+ “This is Capitalism”: Apple’s Hidden Data Workers at the Shadows of the AI Boom.
+
+ by Luciana 
+
+ The working conditions and resistance of Apple’s outsourced data workers in Spain.
+
+ Data Work beyond data work
+
+ Invited Pieces
+
+ Artists, translators, writers, nurses, and internet users produce data for AI without compensation. As part of the Data Workers‘ Inquiry, workers collectives describe how they organize to fight power concentration and exploitation in the tech industry.
+
+ We Are All Data Workers!
+
+ From essays to audiovisual pieces, the authors describe how they, too, are forced into data work.
+
+ The Art of Translation Reduced to Data
+
+ by Tadhg Mac Eoghain 
+ Guerrilla Media Collective
+
+ Reflections on the WGA Strike, AI and Where We Go from Here
+
+ by John Lopez 
+ Writers Guild of America
+
+ Zombie Trainers and a New Era of Forced Labor
+
+ by Adrienne Williams
+
+ DAIR 
+
+ Art and "Generative AI" are NOT the same
+
+ by Arte es Ética
+
+ Transnational Solidarity with Data Workers
+
+ Experiences of cross-border solidarity and advocacy for data workers.
+
+ What I Have Learned from International Turkers
+
+ by Krystal Kauffman 
+ Turkopticon, DAIR
+
+ Care Work and Endurance. Lessons From Feminist Activism in Platform Work
+
+ by Julia Kloiber
+
+ SUPERRR Lab
+
+ data workers' inquiry
+
+ The Team
+
+ We are the organizing team developing a methodology and a platform for data workers to conduct individual inquiries . We provide guidance and training in specific data collection and analysis methods, and constantly monitor the legal and ethical boundaries of the inquiries.
+
+ The Data workers' Inquiry 
+
+ Supported by amazing people:
+
+ Videography : Petros Teka 
+ Website : Lena Pohlmann, David Hartmann, Marc Pohl 
+ Events production and support : Max Rech, Christie Taylor 
+ Copy editing : Nicholas Rodelo
+
+ Graphic design : Heitor Bonan , Pauline Wee 
+ Illustrations : Marc Pohl , Kevin Makinya Kaunda, Pauline Wee 
+ Animations : Vladimir L. Ochoa-Andrade
+ Social Media:  Anna Vidal Miceli Pohl
+
+ Funded by
+
+ lET'S TALK
+
+ We believe in dialogue, community, and justice.
+ If this resonates with you, especially if you are a data worker, we’d love to hear from you!
+
+ Contact us 
+
+ Linkedin 
+
+ Instagram 
+
+ Repository 
+
+ Inquiries 
+
+ Invited Pieces 
+
+ Blog 
+
+ Resouces 
+
+ Press 
+
+ Events 
+
+ Papers and Reports 
+
+ About 
+
+ The Team 
+
+ Our Methodology 
+
+ Contact 
+
+ Repository 
+
+ Inquiries 
+
+ Invited Pieces 
+
+ Blog 
+
+ Resouces 
+
+ Press 
+
+ Events 
+
+ Papers and Reports 
+
+ About 
+
+ The Team 
+
+ Our Methodology 
+
+ Contact 
+
+ Support the authors and their communities!
+
+ Donate here. 
+
+ join our Newsletter
+
+ Sign up for our newsletter to be the first to hear about new articles and upcoming events.
+
+ Email 
+
+ Sign Me Up 
+
+ © 2026 DAIR Institute. All Rights Reserved. 
+
+ Privacy Policy

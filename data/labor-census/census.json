@@ -1,0 +1,3746 @@
+{
+ "name": "Labor Vector meta-aggregator census",
+ "compiled": "2026-10-29",
+ "schema_version": "1.0",
+ "editor": "Lee Sharks",
+ "schema_note": "The MMRS and provenance census core (slug, name, aka, url, operator, kind, unit, count, lifecycle, version_and_time, negative_tags, evidence, relations, unchecked, sources) extended for labor: intersections (one or more of five), evidence_kind, labor_object (whose work), direction (who supplies the labor, who directs it, who receives gains or bears costs, each as the resource records it, or 'not recorded'), method, coverage, findings, stated_limits, answers and does_not_answer (which labor questions this kind of evidence can and cannot settle), and lv_intersection (where it meets DSL, task-origin and user labor drag: the archive's reading, kept apart from the resource's own terms). Every quote is verbatim from a saved source.",
+ "organizing_question": "Who supplies the labor, who directs it, and who receives its gains — and what kind of evidence does this resource bring to that question?",
+ "intersections": {
+  "labor-producing-ai": "Labor producing AI: annotation, moderation, evaluation, maintenance, and creative or scholarly work entering training and retrieval",
+  "ai-governing-labor": "AI governing labor: hiring, surveillance, scheduling, quotas, evaluation and discipline",
+  "labor-with-ai": "Labor performed with AI: assistance, delegation, task fidelity, correction burdens and user labor drag",
+  "gains-and-losses": "Distribution of gains and losses: wages, employment, workload, credit, ownership, and who captures productivity gains",
+  "worker-power": "Worker power: bargaining, organizing, consent, refusal, contestation and enforceable protections"
+ },
+ "evidence_kinds": [
+  "exposure estimate",
+  "observed employment outcome",
+  "worker testimony",
+  "negotiated provision",
+  "interaction data",
+  "task benchmark",
+  "rating against standards",
+  "policy tracker",
+  "product inventory",
+  "data access",
+  "organizing resource",
+  "practitioner guidance"
+ ],
+ "unread_sources": {
+  "openai-gdpval--post": {
+   "url": "https://openai.com/index/gdpval/",
+   "http": "403",
+   "fetched": "2026-10-29T21:49:14Z"
+  },
+  "yale-budget-lab-ai-tracker--first-report": {
+   "url": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
+   "http": "403",
+   "fetched": "2026-10-29T21:49:16Z"
+  },
+  "yale-budget-lab-ai-tracker--september-cps-update": {
+   "url": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-september-cps-update",
+   "http": "403",
+   "fetched": "2026-10-29T21:50:24Z"
+  }
+ },
+ "rows": [
+  {
+   "slug": "data-workers-inquiry",
+   "name": "Data Workers' Inquiry",
+   "aka": [
+    "DWI",
+    "Workers' Inquiry as a Research Methodology (WIRM)"
+   ],
+   "url": "https://data-workers.org/",
+   "operator": "Distributed AI Research Institute (DAIR) and the Weizenbaum Institute, with TU Berlin; project lead Milagros Miceli",
+   "kind": "global, radically participatory research initiative; community-based research project with a public repository of worker-made inquiries",
+   "intersections": [
+    "labor-producing-ai",
+    "worker-power",
+    "ai-governing-labor"
+   ],
+   "evidence_kind": [
+    "worker testimony",
+    "organizing resource"
+   ],
+   "unit": "an inquiry: one data worker's research in their own workplace, published in a format the worker chose (zine, documentary, comic, essay, podcast, animation, report)",
+   "labor_object": "data labeling, content moderation, data annotation, chatbot impersonation and other data processing that enables AI systems, done by workers at outsourcing companies and platforms (Sama, Cloud Factory, Remotasks, Telus International, Scale AI, Amazon Mechanical Turk, TikTok and Apple's outsourced workforce among those named); invited pieces extend it to artists, translators, writers, nurses and internet users who produce data for AI without compensation",
+   "direction": {
+    "supplies": "data workers, often in the Global Majority, precariously employed and politically dispersed, as the project states; in the inquiries, content moderators and annotators in Kenya, Syria, Lebanon, Venezuela, Brazil, Germany, France, Spain and the UK",
+    "directs": "outsourcing companies and platforms, as the inquiries name them (Sama, Cloud Factory, Remotasks, Telus International, Scale AI, Amazon Mechanical Turk), working for client firms named in the inquiries (Meta, TikTok, Apple)",
+    "gains": "not recorded as a quantity; the inquiries record the costs workers bear (psychological trauma, low pay, unpaid time, gift-card payment, account shutdowns, layoffs) and name the firms the work serves"
+   },
+   "method": "worker-written inquiry: participatory action research in which data workers act as community researchers, set their own questions, design and conduct the inquiry (interviews with colleagues among them) and choose the presentation format; the organizing team trains them in data collection and analysis and monitors legal and ethical boundaries",
+   "coverage": {
+    "geography": "nine countries across five continents (the home page); Kenya, Venezuela, Syria, Lebanon and Germany at launch",
+    "period": "project phase at the Weizenbaum Institute August 2023 to November 2024; the repository continues on data-workers.org (copyright 2026)"
+   },
+   "count": {
+    "value": "19 data workers conducting inquiries (the home page); 15 at the launch of the repository (the press release)",
+    "as_of": "2026-10-29 (home page read); the press release is undated in its saved text"
+   },
+   "findings": [
+    "the repository presents data workers' realities ranging from psychological, physical and sexual abuse to resistance strategies and efforts to unionize",
+    "outsourcing companies prey on vulnerable populations, such as refugees, offering them work with little compensation (the Weizenbaum project page)",
+    "named inquiries document Remotasks shutting down thousands of accounts of African data workers in March 2024, and Amazon Mechanical Turk paying data workers with gift cards"
+   ],
+   "stated_limits": [
+    "none stated as limits; the project states that epistemic authority remains with the workers, so each inquiry speaks for its author and the colleagues the author consulted"
+   ],
+   "answers": [
+    "what data workers themselves identify as the urgent issues in their workplaces",
+    "how named outsourcers and platforms manage, pay and discipline data workers, in the workers' own accounts",
+    "how data workers organize (the African Content Moderators Union, the Data Labelers Association)"
+   ],
+   "does_not_answer": [
+    "how prevalent any reported condition is across the data-work industry",
+    "wage or employment figures at scale",
+    "how much of a given AI system's training data any reported work produced"
+   ],
+   "lv_intersection": "The inquiries record labor producing AI from the worker's side, including work in which a person performs as the machine ('human chatbots' at Scale AI; 'When users think they are talking to a machine, human emotion becomes data'); the archive reads this as bearing on task-origin, where the attribution of a composition to the system conceals the human labor that produced it.",
+   "data_access": "inquiries downloadable from the project repository on data-workers.org",
+   "license": "not stated in the saved sources (site footer: © 2026 DAIR Institute. All Rights Reserved.)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "Weizenbaum project phase August 2023 to November 2024; the repository launched with a virtual event on July 8 (year not given in the saved press release); the home page lists 19 inquirers and invited pieces, copyright 2026"
+   },
+   "founded": "August 2023 (the Weizenbaum project's stated duration)",
+   "version_and_time": {
+    "project_duration": "August 2023 - November 2024",
+    "repository_launch": "July 8 (year not stated in the saved press release)",
+    "site_copyright": "2026",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a representative survey of data workers: each inquiry is one worker's research with colleagues",
+    "NOT research about data workers by outside researchers: the workers set the questions",
+    "NOT a union, though inquiries document union organizing"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "is a global, radically participatory research initiative spanning nine countries across five continents. Here, data workers themselves become community researchers, identifying urgent issues, formulating their own questions, and choosing the formats that best tell their stories"
+    },
+    "methodology": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "we created and developed Workers' Inquiry as a Research Methodology or WIRM , a framework designed to turn hidden and precarious labor into a shared, politicized site for knowledge-making, public engagement, and tangible change."
+    },
+    "count": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "19 data workers in Venezuela, Kenya, Syria, Brazil, France and Germany conducting research with their colleagues in their respective workplaces and reporting on labor conditions and widespread practices in the AI industry."
+    },
+    "count_launch": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "This community-based research project has brought together 15 data workers from Kenya, Venezuela, Syria, Lebanon, and Germany, and diverse employment contexts, including various outsourcing companies and platforms."
+    },
+    "operator": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "The Distributed AI Research Institute (DAIR) and Weizenbaum Institute launch the Data Worker's Inquiry repository and talk series."
+    },
+    "partners": {
+     "src": "data-workers-inquiry--weizenbaum",
+     "basis": "operator",
+     "quote": "Partners : Weizenbaum-Institut, TU Berlin, DAIR Institut"
+    },
+    "duration": {
+     "src": "data-workers-inquiry--weizenbaum",
+     "basis": "operator",
+     "quote": "Duration : August 2023 - November 2024"
+    },
+    "labor_object": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "The data workers who are tasked with the labor-intensive and emotionally taxing work of data labeling, content moderation, and other forms of data processing that enable AI systems to function, are often located in the Global Majority, precariously employed, and politically dispersed."
+    },
+    "invited_pieces": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "Artists, translators, writers, nurses, and internet users produce data for AI without compensation."
+    },
+    "method_par": {
+     "src": "data-workers-inquiry--weizenbaum",
+     "basis": "operator",
+     "quote": "the Data Workers Inquiry employs a participatory action research (PAR) methodology"
+    },
+    "method_team": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "We provide guidance and training in specific data collection and analysis methods, and constantly monitor the legal and ethical boundaries of the inquiries."
+    },
+    "method_steps": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "The data workers develop unique research questions, design and conduct their inquiries, and prepare a presentation format for their findings."
+    },
+    "epistemic_authority": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "We are proactive supporters, but the epistemic authority remains with the workers."
+    },
+    "finding_range": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "ranging from psychological, physical, and sexual abuse, to resistance strategies and efforts to unionize"
+    },
+    "finding_refugees": {
+     "src": "data-workers-inquiry--weizenbaum",
+     "basis": "operator",
+     "quote": "These accounts show how outsourcing companies prey on vulnerable populations, such as refugees, offering them work with little compensation."
+    },
+    "finding_remotasks": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "In March 2024, Remotasks shut down thousands of accounts of data workers in African countries."
+    },
+    "finding_giftcards": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "Amazon Mechanical Turk pays data workers with gift cards instead of money."
+    },
+    "finding_meta": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "Exploited by subcontractors like Sama, Meta content moderators in Nairobi face psychological trauma and silencing."
+    },
+    "human_chatbots": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "This short comic details the experiences of data workers in France working for Scale AI as human chatbots."
+    },
+    "intimacy": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "When users think they are talking to a machine, human emotion becomes data."
+    },
+    "tiktok": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "They face systematic outsourcing, replacement by inadequate automated systems, and layoffs without accountability."
+    },
+    "organizing": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "This documentary explores the issues faced by data workers at Sama in Nairobi, Kenya, that led to the union's creation."
+    },
+    "launch": {
+     "src": "data-workers-inquiry--press",
+     "basis": "operator",
+     "quote": "The launch event will take place online on Monday, July 8th, 8:00 AM PT / 11:00 AM EST / 5 PM CET."
+    },
+    "data_access": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "zines, documentaries, comics, essays, podcasts, and animations can be downloaded from the project repository"
+    },
+    "license": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "© 2026 DAIR Institute. All Rights Reserved."
+    },
+    "turkopticon_piece": {
+     "src": "data-workers-inquiry--home",
+     "basis": "operator",
+     "quote": "What I Have Learned from International Turkers by Krystal Kauffman Turkopticon, DAIR"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "turkopticon",
+     "note": "the home page lists an invited piece by Krystal Kauffman (Turkopticon, DAIR); the press release names her on the launch panel"
+    }
+   ],
+   "unchecked": [
+    "the inquiries themselves (zines, documentaries, reports) in the repository",
+    "the Our Methodology page (WIRM)",
+    "the Papers and Reports page",
+    "the year of the press release"
+   ],
+   "sources": {
+    "data-workers-inquiry--home": {
+     "url": "https://data-workers.org/",
+     "read": "2026-10-29",
+     "sha256": "7c84a1c0d4cbd70b3b3350e2138fa63750eb96e6530dc3de6e601770597e1ba0",
+     "http": "200"
+    },
+    "data-workers-inquiry--press": {
+     "url": "https://data-workers.org/press-release/",
+     "read": "2026-10-29",
+     "sha256": "05e5c433400642ba2a752fe43e67911487c4ea23d4ee8c81402a6c2866130b37",
+     "http": "200"
+    },
+    "data-workers-inquiry--weizenbaum": {
+     "url": "https://www.weizenbaum-institut.de/en/projects/data-workers-inquiry/",
+     "read": "2026-10-29",
+     "sha256": "0b02a8e7d4c1a397c7e2e51d6faacf8c118959d6065eaa30f43410ef23ccd42d",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "fairwork-cloudwork",
+   "name": "Fairwork Cloudwork Ratings",
+   "aka": [
+    "Fairwork Cloudwork Ratings 2025: Advancing Standards in Digital Labour and AI Supply Chain Governance",
+    "Fairwork",
+    "Fairwork AI"
+   ],
+   "url": "https://fairwork.oii.ox.ac.uk/wp-content/uploads/sites/17/2025/05/Fairwork-Cloudwork-Report-2025-FINAL.pdf",
+   "operator": "the Fairwork project, based at the Oxford Internet Institute, University of Oxford, and the WZB Berlin Social Science Center; funded by BMZ, commissioned by GIZ",
+   "kind": "rating programme: a ratings report (league table) scoring cloudwork platforms against the five Fairwork Cloudwork Principles",
+   "intersections": [
+    "labor-producing-ai",
+    "gains-and-losses",
+    "worker-power",
+    "ai-governing-labor"
+   ],
+   "evidence_kind": [
+    "rating against standards",
+    "worker testimony"
+   ],
+   "unit": "a cloudwork platform, scored out of 10 on ten thresholds (two per principle: fair pay, conditions, contracts, management, representation)",
+   "labor_object": "cloudwork: online remote work through digital labour platforms, from microwork (data labelling and processing, AI training, image categorisation) to freelance work (translation, design, web development, writing); the report names AI data work for clients such as Amazon, Google, Microsoft and Nvidia",
+   "direction": {
+    "supplies": "cloudworkers, generally classified as self-employed or independent workers paid piece rates; the survey drew 776 workers in 100 countries",
+    "directs": "the platforms rated (16, including Upwork, Amazon Mechanical Turk, Fiverr, Remotasks, Appen, Clickworker, Prolific) and the requesters or clients who post work on them",
+    "gains": "not recorded as a quantity; the report records which platforms meet pay thresholds (four of 16 met the local minimum wage threshold) and names leading AI companies among the clients of AI data work"
+   },
+   "method": "desk research (public information and platforms' contractual terms), platform manager evidence (questionnaire and interviews), and worker surveys; scores decided collectively by the core team and peer-reviewed; a point is awarded only on clear evidence",
+   "coverage": {
+    "geography": "global platforms and regional market leaders; worker survey responses from 100 countries",
+    "period": "survey data collected February 2024 to January 2025; changes counted since the July 2023 report"
+   },
+   "count": {
+    "value": "16 cloudwork platforms rated; 776 worker survey responses in 100 countries",
+    "as_of": "Cloudwork Ratings 2025 (the third cloudwork report)"
+   },
+   "findings": [
+    "three platforms scored 8 and two scored 7 out of 10; Amazon Mechanical Turk, Freelancer and Microworkers scored 0",
+    "four platforms met threshold 1.2 (the majority of workers earn at least the local minimum wage)",
+    "no platform received the second representation point (collective governance or bargaining)",
+    "56 changes were adopted by platforms since the last report, estimated to affect over two million workers",
+    "of 448 respondents asked which rights matter most, 33.3% named receiving at least the local minimum wage"
+   ],
+   "stated_limits": [
+    "the worker surveys do not aim to be representative",
+    "failing to achieve a point does not necessarily mean a platform fails the principle; it means no evidence was found",
+    "where platform managers do not engage, scoring rests on desk research and worker surveys",
+    "the report contains sections in common with other Fairwork reports",
+    "in the platform comments (Appendix II), Scale/Remotasks states the evaluation remains overly subjective in key areas",
+    "the executive summary says the remaining nine platforms scored no more than 2, the key findings say eight (the league table shows eight)"
+   ],
+   "answers": [
+    "whether a named cloudwork platform shows evidence of meeting each Fairwork threshold",
+    "which platform policies changed during the scoring dialogue",
+    "which rights surveyed cloudworkers rank highest"
+   ],
+   "does_not_answer": [
+    "the share of cloudworkers earning below minimum wage across the market",
+    "whether a platform with no point actually violates the principle",
+    "the conditions of AI data work at business process outsourcing companies outside the platforms rated"
+   ],
+   "lv_intersection": "none stated. The archive reads the ratings as scoring the intermediary that directs cloudwork (allocation, rejection, deactivation, contract terms); thresholds 1.1 and 2.1 (payment for all completed work; compensating loading and reviewing time) are the report's own measures of unpaid labor and stay in its terms.",
+   "data_access": "the report as a PDF on fairwork.oii.ox.ac.uk; a platform search tool on the Fairwork home page; the Principles and methodology pages",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "active",
+    "detail": "Cloudwork Ratings 2025 is the third cloudwork report (earlier reports 2021 and 2023); Fairwork published Germany Ratings 2026 and offers an AI supply chain certification scheme"
+   },
+   "founded": "2018 (the five principles, at a multi-stakeholder workshop at the ILO); cloudwork principles 2020",
+   "version_and_time": {
+    "report": "Cloudwork Ratings 2025 (PDF path dated 2025/05)",
+    "survey_period": "February 2024 - January 2025",
+    "previous_report": "July 2023",
+    "principles_renewed": "2024",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a representative survey of cloudworkers",
+    "NOT a finding of non-compliance where a point is missing",
+    "NOT the Fairwork AI Principles for workplace AI deployment, a separate Fairwork strand",
+    "NOT the location-based platform ratings (38 countries)"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "The Fairwork Cloudwork Ratings 2025 assesses and scores basic standards of fairness in working arrangements on 16 cloudwork digital labour platforms according to the five Fairwork Cloudwork Principles: fair pay, conditions, contracts, management, and representation."
+    },
+    "findings_scores": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Three platforms scored 8, and two platforms scored 7 out of 10 points. One platform scored 5, one 4, and one 3 out of 10 points. For the remaining eight platforms, the final scores did not surpass 2 out of 10 points. For three platforms, we could not find any evidence that they met any of the ten points."
+    },
+    "findings_scores_summary": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "the remaining nine platforms, the final scores did not"
+    },
+    "league_table": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Upwork 1 Amazon Mechanical Turk 0 Freelancer 0 Microworkers 0"
+    },
+    "minimum_wage": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "The point for threshold 1.2, which states that the majority of workers should earn at least the local minimum wage, was awarded to four platforms: ComeUp, Translated, Elharefa, and Terawork."
+    },
+    "representation": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "We were unable to award the second point (there is collective governance or bargaining) to any of the platforms evaluated this year."
+    },
+    "changes": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "of 56 changes were adopted since the last report launched"
+    },
+    "changes_reach": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "changes to affect over two million workers globally."
+    },
+    "rights_priorities": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Among the 448 respondents, the top priorities were:"
+    },
+    "rights_priorities_2": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "receiving at least the local minimum wage (33.3%),"
+    },
+    "rights_priorities_3": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "ensuring payment for all completed work (18.3%),"
+    },
+    "method": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "at digital labour platforms: desk research, worker"
+    },
+    "method_2": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "interviews and surveys, and interviews with platform"
+    },
+    "survey_count": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "we sampled at least 30 workers per platform from that region. After cleaning the data, we were left with responses from 776 workers in 100 countries."
+    },
+    "survey_period": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "collected between February 2024 and January 2025."
+    },
+    "limit_representative": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "These surveys do not aim to build a representative set"
+    },
+    "limit_point": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Failing to achieve a point does not necessarily"
+    },
+    "limit_evidence": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "threshold, the platform is not awarded that point."
+    },
+    "limit_common_sections": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Please note that this report contains sections in common with other Fairwork reports"
+    },
+    "labor_object": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "Those platforms offer multiple services, such as data"
+    },
+    "labor_object_2": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "annotation, labelling, mining and validation, image"
+    },
+    "labor_object_clients": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "AI companies, such as Amazon, Google, Microsoft, and"
+    },
+    "piece_rates": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "and cloudworkers are generally"
+    },
+    "operator": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "The project is based at the Oxford Internet Institute,"
+    },
+    "funder": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "The Fairwork Project has received funding from the Federal Ministry for Economic Cooperation and Development (BMZ), commissioned by the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ)."
+    },
+    "founded": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "developed in 2018 at a multi-stakeholder workshop at"
+    },
+    "platform_response": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "these improvements, we believe the evaluation remains"
+    },
+    "platform_response_2": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "overly subjective in key areas."
+    },
+    "ai_strand": {
+     "src": "fairwork-cloudwork--oii-ai",
+     "basis": "operator",
+     "quote": "There is nothing \"artificial\" about the immense amount of human labour that builds, supports, and maintains AI systems."
+    },
+    "certification": {
+     "src": "fairwork-cloudwork--oii-ai",
+     "basis": "operator",
+     "quote": "Fairwork's research has informed the development of an independent evaluation and certification framework for organisations seeking to assess and improve labour conditions across AI supply chains."
+    },
+    "cloudwork_home": {
+     "src": "fairwork-cloudwork--oii-home",
+     "basis": "operator",
+     "quote": "This includes small tasks like filling in surveys and training AI systems, to freelance services like translation, web development or design. We rate the working conditions on major cloudwork platforms in line with five principles of fair online work ."
+    },
+    "location_based": {
+     "src": "fairwork-cloudwork--oii-home",
+     "basis": "operator",
+     "quote": "We have produced national rankings in 38 countries across 5 continents."
+    },
+    "workplace_ai": {
+     "src": "fairwork-cloudwork--oii-home",
+     "basis": "operator",
+     "quote": "Fairwork has developed a set of principles to guide the fair use of AI systems in the workplace."
+    },
+    "lifecycle": {
+     "src": "fairwork-cloudwork--oii-home",
+     "basis": "operator",
+     "quote": "The Fairwork Germany Ratings 2026 are published!"
+    },
+    "turkopticon_cited": {
+     "src": "fairwork-cloudwork--oii-cloudwork-report",
+     "basis": "operator",
+     "quote": "26. Turkopticon. 2025. Website Homepage. Retrieved April 8, 2025, from"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "turkopticon",
+     "note": "the report rates Amazon Mechanical Turk (0 of 10) and cites Turkopticon among worker resources (endnote 26)"
+    }
+   ],
+   "unchecked": [
+    "the Fairwork Cloudwork Principles and Methodology pages",
+    "the platform search tool on the home page (JavaScript)",
+    "the Fairwork AI Principles and the AI supply chain evaluations (Tinkogroup 2026)",
+    "the 2021 and 2023 cloudwork reports",
+    "the PDF's two-column layout interleaves its extracted text, so some quotes are short single-column runs"
+   ],
+   "sources": {
+    "fairwork-cloudwork--oii-cloudwork-report": {
+     "url": "https://fairwork.oii.ox.ac.uk/wp-content/uploads/sites/17/2025/05/Fairwork-Cloudwork-Report-2025-FINAL.pdf",
+     "read": "2026-10-29",
+     "sha256": "5a12e5c6c666fbae1471e22277ff8aee65f6c52ead3309659a03f861fe8305d1",
+     "http": "200"
+    },
+    "fairwork-cloudwork--oii-ai": {
+     "url": "https://fairwork.oii.ox.ac.uk/ai",
+     "read": "2026-10-29",
+     "sha256": "8d4ae5161e6c5d59a4fe0e36f3732b46c66484a387600535a4f8e2a5508ab920",
+     "http": "200"
+    },
+    "fairwork-cloudwork--oii-home": {
+     "url": "https://fairwork.oii.ox.ac.uk/",
+     "read": "2026-10-29",
+     "sha256": "5cf5af5cb8c96b3fc6dfec08877f4c9986ae33b4ab052e4c18a4e51b871c8d16",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "pai-responsible-sourcing",
+   "name": "Responsible Sourcing Across the Data Supply Line",
+   "aka": [
+    "Responsible Sourcing workstream",
+    "Responsible Data Enrichment Sourcing Library",
+    "Improving Conditions for Data Enrichment Workers",
+    "Data Enrichment Sourcing Guidelines"
+   ],
+   "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
+   "operator": "Partnership on AI (PAI), AI, Labor, and the Economy programme; the guidelines developed in partnership with DeepMind",
+   "kind": "workstream and resource library: recommendations and practitioner tools (guidelines, checklist, templates, a case study, a white paper)",
+   "intersections": [
+    "labor-producing-ai",
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "practitioner guidance"
+   ],
+   "unit": "a guideline or practical tool addressed to AI practitioners (five guidelines; six resources in the library)",
+   "labor_object": "data enrichment work: data preparation and cleaning (annotation, intent recognition, sentiment analysis, image recognition, speech-to-text validation) and human-review work (content moderation, feedback loops, validating algorithmic outputs and models)",
+   "direction": {
+    "supplies": "data enrichment workers, described as faraway workers under precarious conditions",
+    "directs": "AI practitioners (data scientists, AI engineers, product managers) who design data enrichment projects and set payment terms, and the vendors and platforms they source through",
+    "gains": "not recorded as a quantity; the sources state that the devaluing of this work brings poor working conditions for workers and worse outcomes for AI development"
+   },
+   "method": "guidance drafted from PAI's white paper, developed with DeepMind and tested and adopted by DeepMind organization-wide; feedback invited from practitioners, workers and the AI community",
+   "coverage": {
+    "geography": "data enrichment workers around the world (not otherwise specified)",
+    "period": "workstream posts from December 2020 to April 2026; library and guidelines published November 2022"
+   },
+   "count": {
+    "value": "five guidelines; six resources listed in the library",
+    "as_of": "2026-10-29"
+   },
+   "findings": [
+    "the sources hold recommendations and report no measured findings of their own; the library states that research shows data enrichment workers often face inconsistent and inappropriate compensation, unclear instructions, lack of recognition and stress from long, ad-hoc hours",
+    "guideline 1: pay all data enrichment workers above the local living wage, including time spent reading instructions and in training"
+   ],
+   "stated_limits": [
+    "the guidelines were tested at one AI developer (DeepMind); the library asks for feedback on how they can be improved",
+    "PAI cautions against setting per-task rates from a simple median completion time"
+   ],
+   "answers": [
+    "what PAI recommends AI practitioners do when sourcing enriched data (pay, pilots, worker selection, instructions, communication)",
+    "what tools PAI provides to compare vendors and look up local living wages"
+   ],
+   "does_not_answer": [
+    "what data enrichment workers are actually paid",
+    "which AI developers follow the guidelines, beyond DeepMind",
+    "whether the guidelines changed conditions for workers (the DeepMind case study was not read)"
+   ],
+   "lv_intersection": "none stated. The archive reads guideline 1's instruction to count time spent reading instructions, training and reviewing work before submission as the resource's own accounting of uncompensated labor around a task; it stays in PAI's terms.",
+   "data_access": "guidelines, checklist and white paper as PDFs; vendor comparison and living-wage templates as Google Sheets, linked from the library page",
+   "license": "not stated in the saved sources (site footer: © 2026 Partnership on AI | All Rights Reserved)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "workstream updates from 22 December 2020 to 29 April 2026; the library and DeepMind collaboration announced 16 November 2022; vendor engagement guidance and transparency template August 2024"
+   },
+   "founded": "2020 (the earliest workstream post, 22 December 2020)",
+   "version_and_time": {
+    "first_post": "2020-12-22",
+    "library": "2022-11-16",
+    "vendor_guidance": "2024-08-28",
+    "latest_post": "2026-04-29",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a dataset or survey of data enrichment workers",
+    "NOT a rating or certification of vendors",
+    "NOT an audit of DeepMind's adoption: the case study is DeepMind's account with PAI"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "the Responsible Sourcing workstream aims to develop recommendations and actionable resources to improve the working conditions of these professionals."
+    },
+    "labor_object": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Data enrichment is a broadly defined term that encapsulates various types of data preparation and cleaning as well as human-review processes."
+    },
+    "labor_object_2": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Data labelers, data cleaners, and others who contribute human judgment to artificial intelligence (AI) systems play a critical role in developing this technology."
+    },
+    "directs": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "to provide actionable guidance for data scientists, AI engineers, and product managers"
+    },
+    "supplies": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "the extensive labor that goes into building them is often overlooked, performed by faraway workers under precarious conditions."
+    },
+    "costs": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "This disconnect leads to a devaluing of data enrichment work, poor working conditions for data enrichment workers, and, often, worse outcomes for AI development itself."
+    },
+    "research_cited": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "Research shows these workers often face inconsistent and inappropriate compensation for their work, unclear instructions, lack of recognition, and emotional and physical stress related to long, ad-hoc working hours."
+    },
+    "count": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "there are five, worker-centric guidelines that AI practitioners should follow."
+    },
+    "guideline_1": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "1. Ensure all data enrichment workers are paid above the local living wage"
+    },
+    "unpaid_time": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "including time spent reading instructions, going through any training and reviewing work before submission."
+    },
+    "median_limit": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "We would discourage using a simple median, as this could cause half the workers to receive an insufficient wage."
+    },
+    "method_deepmind": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "These guidelines, based on PAI's Responsible Sourcing of Data Enrichment Services white paper and developed in partnership with DeepMind, have been tested and adopted by DeepMind organization-wide."
+    },
+    "feedback": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "If you are interested in acting on these guidelines and resources or have feedback on how they can be improved, please get in touch."
+    },
+    "templates": {
+     "src": "pai-responsible-sourcing--library",
+     "basis": "operator",
+     "quote": "A Google Sheets template for comparing various vendors of data enrichment services and surfacing relevant worker-centric considerations"
+    },
+    "library_date": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Improving Conditions for Data Enrichment Workers PAI Staff Nov 16, 2022"
+    },
+    "first_post": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Developing Guidance for Responsible Data Enrichment Sourcing B Cavello Dec 22, 2020"
+    },
+    "latest_post": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Responsible AI Starts with the Data Supply Chain Michael George, Eliza McCullough Apr 29, 2026"
+    },
+    "vendor_guidance": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "Protecting AI's Essential Workers: Introducing our Vendor Engagement Guidance & Transparency Template Sonam Jindal Aug 28, 2024"
+    },
+    "license": {
+     "src": "pai-responsible-sourcing--workstream",
+     "basis": "operator",
+     "quote": "© 2026 Partnership on AI | All Rights Reserved"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the white paper Responsible Sourcing of Data Enrichment Services and its Annex 1",
+    "the DeepMind case study",
+    "the PDFs and Google Sheets templates",
+    "the workstream's blog posts",
+    "the vendor engagement guidance and transparency template (2024)"
+   ],
+   "sources": {
+    "pai-responsible-sourcing--workstream": {
+     "url": "https://partnershiponai.org/workstream/responsible-sourcing/",
+     "read": "2026-10-29",
+     "sha256": "0d85b11fe5482688d2055ec85ccb691ebddebaa45a2d935732a81ca7f5509988",
+     "http": "200"
+    },
+    "pai-responsible-sourcing--library": {
+     "url": "https://partnershiponai.org/responsible-sourcing-library/",
+     "read": "2026-10-29",
+     "sha256": "1b82a03a457a6f41f0ffc717dd367fc6fff63f0a99e77078dff6666b72b786c5",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "turkopticon",
+   "name": "Turkopticon",
+   "aka": [
+    "TO",
+    "the Turkopticon Script"
+   ],
+   "url": "https://turkopticon.net/",
+   "operator": "Turkopticon: a worker-run committee of Turk workers, maintained with volunteers from Tech Workers Coalition; founded by Lilly Irani and Six Silberman",
+   "kind": "worker-run organizing and advocacy project, with a review site and browser add-on rating Amazon Mechanical Turk requesters",
+   "intersections": [
+    "worker-power",
+    "labor-producing-ai",
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "worker testimony",
+    "rating against standards",
+    "organizing resource",
+    "data access"
+   ],
+   "unit": "a worker's review of a Mechanical Turk requester, rated on four attributes (communicativity, pay (now pay/hr), fairness, promptness); the API returns a requester's average ratings and review counts",
+   "labor_object": "the work of Amazon Mechanical Turk workers (Turkers) on HITs posted by requesters; since the expansion, data workers on all data-work platforms",
+   "direction": {
+    "supplies": "Turkers, and data workers on other data-work platforms after the expansion",
+    "directs": "Mechanical Turk requesters, who make payment decisions; the FAQ places them 'in a position of power over workers by virtue of making payment decisions' and states they are 'not employers in the legal sense'; Amazon runs the platform",
+    "gains": "not recorded as a quantity; the founders built it after seeing requesters and researchers celebrate how cheaply they could get work done on Mechanical Turk; reviews rate how well requesters paid for the time HITs take"
+   },
+   "method": "worker-written reviews moderated by flags and moderators; organizing work: account reinstatement help, a weekly report to AMT staff on requesters with low approval ratings, worker forums, campaigns",
+   "coverage": {
+    "geography": "Amazon Mechanical Turk workers (global); data workers worldwide after the expansion",
+    "period": "2008 to present; worker-led since 2019"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-10-29"
+   },
+   "findings": [
+    "the saved sources state no aggregate findings; the organization reports a working relationship with Amazon, a reinstatement system for mistakenly suspended accounts, and an ongoing mass rejection campaign"
+   ],
+   "stated_limits": [
+    "Turkopticon does not use its data to produce research and does not publish papers using its data",
+    "use of Turkopticon is not implicit consent to being a research subject",
+    "it has not released anonymized database extracts and would consult workers publicly first",
+    "the API is rate-limited and untested beyond a hundred or so IDs per call"
+   ],
+   "answers": [
+    "how workers rate a named Mechanical Turk requester's communication, pay per hour, fairness of approvals and promptness",
+    "what organizing and advocacy Turkers run on Mechanical Turk"
+   ],
+   "does_not_answer": [
+    "representative pay or rejection rates on Mechanical Turk",
+    "the conditions of data work on other platforms (the expansion is announced, without data in the saved sources)",
+    "what the HITs are used for downstream"
+   ],
+   "lv_intersection": "none stated. The archive reads the review as the worker's record of the party that directs the task (the requester), kept in Turkopticon's four attributes; it answers who directs the labor from the side of the one who supplies it.",
+   "data_access": "public API (multi-attrs.php) returning requesters' average ratings and review counts as JSON; no permission needed; reviews require a Turkopticon login",
+   "license": "the API code on GitHub under the GNU Affero General Public License; the reviews' licence is not stated",
+   "lifecycle": {
+    "state": "active",
+    "detail": "started 2008 as a class project; transition to a worker-led advocacy organization began 2019; expanded to all data workers (undated announcement); continues its Mechanical Turk mass rejection campaign"
+   },
+   "founded": "2008",
+   "version_and_time": {
+    "faq": "Version July 18 2023 (replaces the 2014 FAQ)",
+    "transition": "2019",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT associated with Amazon",
+    "NOT a research dataset: Turkopticon does not publish papers using its data",
+    "NOT a union, an advocacy organization led by workers",
+    "NOT a platform rating: it rates requesters on Mechanical Turk"
+   ],
+   "evidence": {
+    "mission": {
+     "src": "turkopticon--home",
+     "basis": "operator",
+     "quote": "Turkopticon's mission is to organize data workers to build collective power, improve working conditions, and hold platforms, companies, and institutions accountable to the labor they rely on."
+    },
+    "self_description": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "Turkopticon used to be a volunteer run software project and now it is a worker-run organizing and advocacy project, and software is one of the things we do."
+    },
+    "operator": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "Turkopticon is maintained by the committee and volunteers from Tech Workers Coalition."
+    },
+    "founders": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "Turkopticon was founded by Lilly Irani and Six Silberman when they were kids."
+    },
+    "amazon": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "1.5. Is Turkopticon associated with Amazon? No. It is not and it has never been."
+    },
+    "founded": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "Turkopticon started in 2008 as a class project to raise awareness about the unaccountability of Mechanical Turk requesters."
+    },
+    "gains": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "We saw requesters and researchers celebrating how cheaply they could get work done on Mechanical Turk and we felt this was wrong."
+    },
+    "unit": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "generosity (\"pay\"): How well has this requester paid for the amount of time their HITs take?"
+    },
+    "unit_fair": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "fairness (\"fair\"): How fair has this requester been in approving or rejecting your work?"
+    },
+    "pay_hr": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "We have added a pay/hr attribute in place of the 1-5 scale rating for pay/generosity."
+    },
+    "directs": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "While requesters are not employers in the legal sense, requesters are in a position of power over workers by virtue of making payment decisions that may have significant practical consequences."
+    },
+    "moderation": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "If a review has at least two flags, and at least one is from a moderator, the review is hidden."
+    },
+    "api": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "The Turkopticon API is a PHP file that accepts Mechanical Turk requester IDs and returns the information about those requesters available in the Turkopticon database."
+    },
+    "api_permission": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "4.4. Do I need permission to use it? No."
+    },
+    "api_limit": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "It has not been tested with more than a hundred or so, however."
+    },
+    "api_rate": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "If you call the API more than once a second, you will receive an error message."
+    },
+    "license": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "It is licensed under the GNU Affero General Public License ."
+    },
+    "limit_research": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "we do not use Turkopticon data to produce research. We have published papers about Turkopticon, but we do not publish papers using Turkopticon data. Use of Turkopticon is not implicit consent to being a research subject."
+    },
+    "limit_anonymized": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "We have not done this so far, although we might be willing to consider it. We would consult publicly with workers first"
+    },
+    "faq_version": {
+     "src": "turkopticon--faq",
+     "basis": "operator",
+     "quote": "Turkopticon FAQ Version July 18 2023"
+    },
+    "transition": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "In 2019, Turkopticon began the process of transitioning to a worker-led, worker-run advocacy organization in addition to hosting the original tool and website."
+    },
+    "method_organizing": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "A weekly report is prepared and sent to AMT staff that reports \"bad\" requesters with low approval ratings."
+    },
+    "reinstatement": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "We implemented a system to help workers who have had their accounts mistakenly suspended get them reinstated."
+    },
+    "expansion": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "we have decided to expand our efforts to assist ALL data workers!"
+    },
+    "campaign": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "We will continue our work with AMT, especially our mass rejection campaign."
+    },
+    "still_used": {
+     "src": "turkopticon--whats-next",
+     "basis": "operator",
+     "quote": "It was the first tool of its kind and is still widely used by the turker community today."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "data-workers-inquiry",
+     "note": "the Data Workers' Inquiry home page carries an invited piece by Krystal Kauffman (Turkopticon, DAIR), whose name signs the Turkopticon announcement"
+    },
+    {
+     "rel": "neighbour",
+     "target": "fairwork-cloudwork",
+     "note": "Fairwork's Cloudwork Ratings 2025 cites Turkopticon among worker resources and scores Amazon Mechanical Turk 0 of 10"
+    }
+   ],
+   "unchecked": [
+    "the review database and requester list (login required)",
+    "the API's live output",
+    "the date of the expansion announcement (not in the saved text)",
+    "the blog's articles and newsletters listed in its navigation"
+   ],
+   "sources": {
+    "turkopticon--home": {
+     "url": "https://turkopticon.net/",
+     "read": "2026-10-29",
+     "sha256": "0d6a298b57985d706e5887fbf9a4951be8466da8f1d8ce2ee6209a6554d97ed9",
+     "http": "200"
+    },
+    "turkopticon--faq": {
+     "url": "https://turkopticon.net/faq/index.html",
+     "read": "2026-10-29",
+     "sha256": "d46d655396550f62dd6818bb854b1fe29659f3c636907ad47f87045395af4fbf",
+     "http": "200"
+    },
+    "turkopticon--whats-next": {
+     "url": "https://blog.turkopticon.net/?p=3600",
+     "read": "2026-10-29",
+     "sha256": "be82055a7a38f37b2082a83e6d70e2c2523512cb494e62370b1b5aeb01cdd24e",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "coworker-bossware-database",
+   "name": "Bossware and Employment Tech Database",
+   "aka": [
+    "Little Tech database",
+    "Bossware and Employment Tech",
+    "Little Tech Is Coming for Workers (the accompanying report)"
+   ],
+   "url": "https://home.coworker.org/worktech/",
+   "operator": "Coworker.org",
+   "kind": "database",
+   "intersections": [
+    "ai-governing-labor",
+    "gains-and-losses",
+    "worker-power"
+   ],
+   "evidence_kind": [
+    "product inventory",
+    "rating against standards"
+   ],
+   "unit": "a labor-focused technology product (one table row per product, with its parent company, category, type, targeted workers, investors, and assessments of its data practices against worker-rights criteria)",
+   "labor_object": "the work of hourly, contract, salaried, non-management and management workers whose hiring, productivity, safety, benefits and pay pass through these products; the report centres low-wage and hourly workers",
+   "direction": {
+    "supplies": "the workers each product targets (its 'Targeted Workers' field: hourly, contract, salaried, non-management, management, and in some rows visitors)",
+    "directs": "employers who buy and deploy the products (each row's 'Clients' and 'Industries Product is Marketed Towards'), through the vendors who make them",
+    "gains": "the vendors and the investors each row names; the report states that the products are continuing to shift the costs of production onto workers"
+   },
+   "method": "desk research on public sources: product sites, privacy statements, terms of service and public impact assessments; investor data from Crunchbase; app permissions and hardware data from the Google Play store",
+   "coverage": {
+    "geography": "42 distinct origin-territory values in the saved table, most from the United States (461 of 635 rows); the report states non-U.S. products were omitted or overlooked",
+    "period": "research November 2020 to May 2021; products developed 2018 to 2021; published 17 November 2021"
+   },
+   "count": {
+    "value": "more than 550 products (its own statement); 635 product rows in the saved table",
+    "as_of": "2021-11-17 (published); rows counted in the page saved 2026-10-29"
+   },
+   "findings": [
+    "most products touch the whole labor process, from hiring and recruitment to payroll and benefits",
+    "31% of the products listed emerged between 2020 and 2021",
+    "only 35% of the products share any information on privacy policy and data sharing arrangements",
+    "the report reads the products as eroding labor standards and weakening worker voice and worker power",
+    "in the saved table: 242 rows Labor Market Optimization, 178 Workplace Performance/Productivity Monitoring, 176 Workplace Safety, 34 Workplace Benefits, Health, and Well-being, 5 in two categories; 595 In Use; 206 emerged during Covid-19; 86 rows record that informed consent is not obtained before personal information is collected"
+   ],
+   "stated_limits": [
+    "the database is not exhaustive: hundreds more products still emerging or in development, and non-U.S. products, were omitted or overlooked",
+    "collection stopped once the researchers felt they had sufficient evidence of pervasiveness",
+    "built at the product level, so smaller Big Tech platform companies (Uber, Lyft, DoorDash and others) are omitted",
+    "privacy assessments rest on publicly accessible statements and documents"
+   ],
+   "answers": [
+    "which workplace technology products existed in 2020 to 2021, by category, type, targeted workers, origin and investors",
+    "what each product's public documents say about consent, worker access to data, grievance mechanisms, data sharing and law-enforcement access"
+   ],
+   "does_not_answer": [
+    "how any product is used at a given workplace, or how often",
+    "what effect a product has on wages, workload or employment",
+    "products launched after May 2021, or the present status of listed products"
+   ],
+   "lv_intersection": "The database inventories the products through which employers direct work and collect workers' data, product by product; it meets the directionality stack at the layer of who directs labor. It records nothing on whether a system's labor advanced a commissioned task, so DSL and task-origin find no measurement in it.",
+   "data_access": "a filterable table embedded in the page; the report as a PDF download",
+   "license": "report: CC BY-NC-ND 4.0 (Attribution NonCommercial-NoDerivatives 4.0 International); no licence stated for the database table",
+   "lifecycle": {
+    "state": "historical",
+    "detail": "researched November 2020 to May 2021 and published 17 November 2021; no later update is stated on the saved page"
+   },
+   "founded": "published 2021-11-17",
+   "version_and_time": {
+    "research": "2020-11 to 2021-05",
+    "published": "2021-11-17",
+    "report": "2021",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a measure of how widely any product is deployed",
+    "NOT worker testimony: the page invites workers to share stories, and the table holds none",
+    "NOT an exhaustive census of workplace technology",
+    "NOT updated since 2021 on the saved page",
+    "NOT a record of the Big Tech gig platforms, which it omits"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "Coworker.org’s Bossware and Employment Tech database compiles more than 550 labor-focused technology products that are changing our relationship to work."
+    },
+    "published": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "NOVEMBER 17, 2021 | COWORKER.ORG"
+    },
+    "scope": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "In the database you’ll find companies — and their products and investors — that touch every part of the labor process, from hiring to productivity monitoring and more."
+    },
+    "scope_2": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "the database covers products that use technology like AI, location tracking, and biometrics to manage employees and collect their data — often without their knowledge."
+    },
+    "fields": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "Informed consent obtained Can the worker access and interpret their own data? Can the worker correct incorrect data?"
+    },
+    "fields_2": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "Grievance mechanism Forced use of tool Discrimination potential Right to freedom of association"
+    },
+    "story_invitation": {
+     "src": "coworker-bossware-database--database",
+     "basis": "operator",
+     "quote": "Click here to share your story with our team ."
+    },
+    "count": {
+     "src": "coworker-bossware-database--database",
+     "basis": "observed",
+     "quote": null,
+     "note": "the embedded table parsed from the saved HTML: 635 rows of 54 columns (633 distinct product names); category, status, Covid-19, consent, origin and targeted-worker counts tallied by script"
+    },
+    "research_period": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "Our research, which ran from November 2020"
+    },
+    "research_period_2": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "until May 2021, catalogued more than 550"
+    },
+    "emerged": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "Thirty-one percent of the products listed"
+    },
+    "emerged_2": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "emerged between 2020 and 2021; the rest"
+    },
+    "privacy_share": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "Only 35% of the products share any information on privacy policy and data sharing arrangements."
+    },
+    "finding_1": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "1. The current proliferation of tech products has the potential to continue eroding labor standards and weaken worker voice and worker power, while also increasing the potential for discrimination and other harms."
+    },
+    "costs": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "ing to shift the costs of production onto"
+    },
+    "low_wage_focus": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "report primarily discusses the experience of"
+    },
+    "limit": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "note that the database is not exhaustive,"
+    },
+    "limit_2": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "and we omitted or overlooked hundreds"
+    },
+    "limit_3": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "development as well as non-U.S. products."
+    },
+    "limit_4": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "We stopped collecting information once"
+    },
+    "limit_5": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "as we developed the database at the product and not company level, and we were looking at products that had emerged in the workplace in the past one to two years."
+    },
+    "method": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "Investor information was obtained from Crunchbase. For app permissions and hardware usage data, we have relied on the data available in the Google Play store for Android devices. In assessing the privacy implications of a product, we have relied on publicly accessible privacy statements, terms of service documents, and public impact assessments."
+    },
+    "license": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "© 2021 by Coworker.org, is licensed under Attribution NonCommercial-NoDerivatives 4.0 International."
+    },
+    "database_credit": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "An extra special shoutout to Ayden Federline for meticulously and graciously researching and creating the database of employment tech products."
+    },
+    "berkeley_list": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "UC Berkeley Labor Center’s list in their report"
+    },
+    "berkeley_ack": {
+     "src": "coworker-bossware-database--little-tech-report",
+     "basis": "operator",
+     "quote": "Lisa Kresge, UC Berkeley Labor Center"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "berkeley-negotiating-tech",
+     "note": "the report acknowledges Lisa Kresge of the UC Berkeley Labor Center, who compiled Negotiating Tech, and compares its data points with the Labor Center's list"
+    }
+   ],
+   "unchecked": [
+    "the report read in part: the PDF text is two-column and quotes are held to single-column runs; its percentages for categories (40% workplace safety, 38% labor-market optimisation) are not reproduced by the saved table (176 and 242 of 635 rows)",
+    "the worker stories submitted through the page",
+    "the news, corporate-document and testimonial links in each row",
+    "whether the 635 saved rows include products added after the 2021 report"
+   ],
+   "sources": {
+    "coworker-bossware-database--database": {
+     "url": "https://home.coworker.org/?p=770",
+     "read": "2026-10-29",
+     "sha256": "463549f73929836e03c4954b22bc2fbf43f8c575d26b2d586b7ee7b450ee5cac",
+     "http": "200"
+    },
+    "coworker-bossware-database--little-tech-report": {
+     "url": "https://home.coworker.org/wp-content/uploads/2021/11/Little-Tech-Is-Coming-for-Workers.pdf",
+     "read": "2026-10-29",
+     "sha256": "4232b0e7fbc7ea08239bfad0842e1d833f0158a6b4e05e74f7282d7e6255429f",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "worker-info-exchange",
+   "name": "Worker Info Exchange",
+   "aka": [
+    "WIE",
+    "Stichting WIE International"
+   ],
+   "url": "https://www.workerinfoexchange.org/",
+   "operator": "Worker Info Exchange, a non-profit in London; the Uber collective action is brought by Stichting WIE International",
+   "kind": "non-profit organisation: data access requests, data investigations, data trusts and strategic litigation for gig workers",
+   "intersections": [
+    "ai-governing-labor",
+    "worker-power",
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "data access",
+    "organizing resource"
+   ],
+   "unit": "a subject access or data portability request made on behalf of a worker; also a targeted data investigation or report",
+   "labor_object": "the work of gig economy workers managed by algorithms (Uber drivers in the UK and Europe named in its news; its reports include a Just Eat Report and a McMisery Report)",
+   "direction": {
+    "supplies": "gig economy workers, as the sources say, Uber drivers among them",
+    "directs": "tech platforms through opaque automated management systems (hidden algorithms) that allocate work, determine pay and assess performance",
+    "gains": "not recorded as a quantity in the saved sources; it names algorithmic wage cuts and damages drivers have suffered from Uber's dynamic pay system, and news titles report falling pay and soaring commission fees"
+   },
+   "method": "subject access and data portability requests under data protection law, targeted data investigations and analyses, strategic litigation, and aggregation of workers' data through data trusts",
+   "coverage": {
+    "geography": "London-based; UK and Europe (the Uber action)",
+    "period": "news items from March 2025 onward on the saved home page (earlier pages not read)"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-10-29"
+   },
+   "findings": [
+    "the saved pages state positions and report titles; news titles report falling pay and soaring commission fees for Liverpool Uber drivers as AI-controlled dynamic pay takes hold"
+   ],
+   "stated_limits": [
+    "none stated in the saved sources"
+   ],
+   "answers": [
+    "what data a platform holds and uses about an individual worker, as returned to a request",
+    "how a platform's algorithm allocated work, set pay and assessed performance for the workers whose data was obtained"
+   ],
+   "does_not_answer": [
+    "platform-wide pay or dismissal rates beyond the workers whose data is aggregated",
+    "the outcome of the Uber collective action (pending in the saved sources)"
+   ],
+   "lv_intersection": "none stated. The archive reads WIE's data access as recovering, from the worker's side, the record of how an algorithm directed the work (allocation, pay, performance), the directionality question asked of the system that directs labor.",
+   "data_access": "requests made on behalf of workers (the Request Data page); the data returned belongs to the workers and is not published as a dataset in the saved sources",
+   "license": "not stated in the saved sources",
+   "lifecycle": {
+    "state": "active",
+    "detail": "a collective action against Uber over dynamic pay launched by Stichting WIE International; latest news item dated Jul 23 (year not shown, listed above a 20 November 2025 item)"
+   },
+   "version_and_time": {
+    "site_copyright": "2025",
+    "news_latest_dated": "2025-11-20 (a later item dated Jul 23 carries no year)",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a union: it supports trade unions and grassroots worker organisations",
+    "NOT a public dataset of platform data",
+    "NOT the platforms' own transparency reporting"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Worker Info Exchange is a non-profit helping workers reclaim control over the data collected from them at work. We help workers turn data into power — challenging unfair algorithmic systems and holding tech platforms to account."
+    },
+    "operator_london": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Worker Info Exchange | Data Rights for Digital Workers | London"
+    },
+    "uber_action": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Stichting WIE International has launched a new collective action against Uber over its unfair dynamic pay system to stop algorithmic wage cuts and secure compensation for the damages drivers have suffered."
+    },
+    "unit": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "We facilitate data access by making specific subject access and data portability requests on behalf of workers. Our goal is to create transparency over their working conditions by interrogating how their work is allocated, how their pay is determined and how their performance is assessed."
+    },
+    "investigations": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "We carry out targeted investigations and data analyses to expose unfair algorithmic decision making. These investigations support the strategic litigation work through which we help workers contest illegal automated dismissals and management decisions."
+    },
+    "data_trusts": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "We support trade unions and grassroots worker organisations to aggregate their data with other workers through the development of data trusts."
+    },
+    "directs": {
+     "src": "worker-info-exchange--about-us",
+     "basis": "operator",
+     "quote": "Digital rights are increasingly important in the fight for worker rights for gig workers who are managed and controlled at work by hidden algorithms. Opaque automated management systems foster exploitation and discrimination. They facilitate illegal workplace practices including unfair work allocation, performance management and dismissals."
+    },
+    "method": {
+     "src": "worker-info-exchange--about-us",
+     "basis": "operator",
+     "quote": "Our solution is to help workers assert their digital rights under the law so that they may take control of their data, have full transparency of how they have been subject to algorithmic management and to challenge illegal or unfair automated management decisions."
+    },
+    "news_pay": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Liverpool Uber drivers hit by falling pay and soaring commission fees as AI controlled \"dynamic pay\" takes hold Worker Info Exchange Jul 23"
+    },
+    "news_sue": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Drivers in UK and Europe set to sue Uber for unfair pay set by algorithm Worker Info Exchange Nov 20, 2025"
+    },
+    "news_research": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "New Research Exposes Deepening Exploitation of Uber Drivers by Algorithmic Pay Worker Info Exchange Jun 19, 2025"
+    },
+    "reports": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "Managed by Bots Report Just Eat Report McMisery Report Dying for Data Report"
+    },
+    "copyright": {
+     "src": "worker-info-exchange--home",
+     "basis": "operator",
+     "quote": "© 2025 Worker Info Exchange"
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the research reports (Managed by Bots, Just Eat, McMisery, Dying for Data, Workers' Recommendations on EU Directive)",
+    "the Board, Team, Funding and Manifesto pages",
+    "the news and blog posts themselves",
+    "the Request Data page"
+   ],
+   "sources": {
+    "worker-info-exchange--home": {
+     "url": "https://www.workerinfoexchange.org/",
+     "read": "2026-10-29",
+     "sha256": "fbcd4b9857cdf882e627f0b6dca7594aae14ed9fde1f5de887ea2ff5f357c03e",
+     "http": "200"
+    },
+    "worker-info-exchange--about-us": {
+     "url": "https://www.workerinfoexchange.org/about-us",
+     "read": "2026-10-29",
+     "sha256": "2ebc0cea511e10f80e14023eb2f66ce08ff3e7dfe2cef52d8364045d0bce5697",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "ilo-platform-policy-tracker",
+   "name": "Digital Labour Platform Policy Tracker",
+   "aka": [
+    "Global Policy Tracker on Digital Labour Platforms",
+    "Policy Tracker on Digital Labour Platforms",
+    "Digital Labour Platform Tracker",
+    "Digital Labour Policy Tracker"
+   ],
+   "url": "https://digitallabour.ilo.org/",
+   "operator": "International Labour Organization (ILO), within its Observatory on AI and Work in the Digital Economy",
+   "kind": "global policy tracker (a database of legislation, policies and decisions, with a collective bargaining agreements component)",
+   "intersections": [
+    "worker-power",
+    "ai-governing-labor",
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "policy tracker",
+    "negotiated provision"
+   ],
+   "unit": "a national or regional legislative or policy initiative on platform work; in the CBA component, a collective bargaining agreement between trade unions and platform companies",
+   "labor_object": "work and employment on digital labour platforms",
+   "direction": {
+    "supplies": "workers on digital labour platforms",
+    "directs": "platform companies, with the automated decision-making systems (algorithms) the tracked rules address; governments regulate and trade unions bargain",
+    "gains": "not recorded as outcomes; the tracked rules address remuneration, social security, occupational safety and health, and contract termination"
+   },
+   "method": "compilation of national and regional laws, policies and decisions, and of collective bargaining agreements, described by content, scope and legal status",
+   "coverage": {
+    "geography": "global for legislation; the CBA component describes agreements at national, sectoral or enterprise level within the European Union",
+    "period": "launched 14 August 2025; CBA component added 7 November 2025"
+   },
+   "count": {
+    "value": "not stated in the saved sources",
+    "as_of": "2026-10-29"
+   },
+   "findings": [
+    "none stated as findings: the tracker is presented as an overview of regulations for governments, employers' and workers' representatives"
+   ],
+   "stated_limits": [
+    "coverage is still being expanded: the next phase plans wider geographic and thematic coverage and the integration of judicial decisions"
+   ],
+   "answers": [
+    "which jurisdictions have legislative or policy initiatives on platform work, and on which issues (employment status, remuneration, algorithms, working time, data, safety, termination, collective bargaining)",
+    "which platform-work collective agreements exist in the EU, at what level, and what they cover"
+   ],
+   "does_not_answer": [
+    "how the rules are enforced or what they change for platform workers",
+    "judicial decisions, before the planned next phase",
+    "anything the tracker application holds, which this row has not opened"
+   ],
+   "lv_intersection": "The tracker records the legal and bargained rules laid over platform work, including rules on automated decision-making systems; it meets the directionality stack at the layer of rules on who may direct labor and how. None stated on DSL, task-origin or user labor drag.",
+   "data_access": "an online database at digitallabour.ilo.org, filterable by country and platform type",
+   "license": "not stated in the saved sources (the ILO pages carry © 1996-2026 International Labour Organization)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "launched 14 August 2025; CBA component added 7 November 2025; continuous updating with new legislation and agreements announced"
+   },
+   "founded": "2025-08-14",
+   "version_and_time": {
+    "launched": "2025-08-14",
+    "cba_component": "2025-11-07",
+    "observatory_page": "items dated to 2026-10-29",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a measure of platform workers' conditions",
+    "NOT a court-decision database yet: judicial decisions are planned",
+    "the CBA component covers agreements within the European Union"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "The International Labour Organization (ILO) is launching a new global policy tracker to provide a comprehensive overview of legislative initiatives concerning digital labour platforms."
+    },
+    "kind": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "Global tracker of laws, policies, and decisions on platform work"
+    },
+    "launched": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "14 August 2025"
+    },
+    "audience": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "The global policy tracker is designed to equip governments, and employers’ and workers' representatives, with information to facilitate discussions and foster decent work in the platform economy."
+    },
+    "issues": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "It will shed light on how different jurisdictions address issues such as employment status classification, remuneration, automated decision-making systems (algorithms), working time, workers’ personal data and privacy, occupational safety and health, contract termination, including suspension and collective bargaining, among others, in the context of platform work."
+    },
+    "unit": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "By consolidating information on national and regional legislative and policy initiatives"
+    },
+    "part_of": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "As a key feature of the ILO Observatory on AI and Work in the Digital Economy"
+    },
+    "url": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "observed",
+     "quote": null,
+     "note": "the 'Click here' link of the saved launch item (and the Observatory's 'Explore' link) points to https://digitallabour.ilo.org/"
+    },
+    "cba_date": {
+     "src": "ilo-platform-policy-tracker--cba-expansion",
+     "basis": "operator",
+     "quote": "7 November 2025"
+    },
+    "cba_unit": {
+     "src": "ilo-platform-policy-tracker--cba-expansion",
+     "basis": "operator",
+     "quote": "This new resource offers an overview of agreements concluded between trade unions and platform companies across various countries and sectors."
+    },
+    "cba_coverage": {
+     "src": "ilo-platform-policy-tracker--cba-expansion",
+     "basis": "operator",
+     "quote": "It provides details on each agreement’s content, scope, and legal status, helping users understand whether the agreements operate at the national, sectoral, or enterprise level within the European Union."
+    },
+    "data_access": {
+     "src": "ilo-platform-policy-tracker--cba-expansion",
+     "basis": "operator",
+     "quote": "allows users to filter information by country and platform type, and to explore descriptive summaries across a range of thematic areas."
+    },
+    "limit": {
+     "src": "ilo-platform-policy-tracker--cba-expansion",
+     "basis": "operator",
+     "quote": "Looking ahead, the next phase of the project will focus on expanding geographic and thematic coverage, integrating judicial decisions related to the platform economy, and continuously updating the database with new legislation, and collective bargaining agreements."
+    },
+    "observatory": {
+     "src": "ilo-platform-policy-tracker--observatory",
+     "basis": "operator",
+     "quote": "Global policy tracker providing a comprehensive overview of legislative initiatives concerning digital labour platforms."
+    },
+    "observatory_2": {
+     "src": "ilo-platform-policy-tracker--observatory",
+     "basis": "operator",
+     "quote": "It aims to support governments and social partners in understanding and managing the digital transformation of work."
+    },
+    "observatory_ai_jobs": {
+     "src": "ilo-platform-policy-tracker--observatory",
+     "basis": "operator",
+     "quote": "ILO researchers developed a methodology to estimate the effects of generative AI on existing occupations."
+    },
+    "license": {
+     "src": "ilo-platform-policy-tracker--launch",
+     "basis": "operator",
+     "quote": "© 1996-2026 International Labour Organization (ILO)"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "ilo-genai-exposure-index",
+     "note": "both are featured on the ILO Observatory on AI and Work in the Digital Economy (the tracker and 'AI impact on jobs')"
+    },
+    {
+     "rel": "neighbour",
+     "target": "berkeley-negotiating-tech",
+     "note": "both hold collective agreements on work and technology; Negotiating Tech covers U.S. contracts"
+    }
+   ],
+   "unchecked": [
+    "the tracker application at digitallabour.ilo.org (not saved): its record counts, countries, fields and any licence",
+    "the CBA records themselves",
+    "whether judicial decisions have since been added"
+   ],
+   "sources": {
+    "ilo-platform-policy-tracker--launch": {
+     "url": "https://www.ilo.org/resource/news/ilo-launches-global-policy-tracker-digital-labour-platforms",
+     "read": "2026-10-29",
+     "sha256": "9b2b9a1fdd16b54bd33f3cd2635d9dafde961d4bb706e0a7bf958df5dde6bb07",
+     "http": "200"
+    },
+    "ilo-platform-policy-tracker--cba-expansion": {
+     "url": "https://www.ilo.org/resource/news/ilo-expands-digital-labour-platform-policy-tracker-include-collective",
+     "read": "2026-10-29",
+     "sha256": "278fc5938b834101eccc81a185b6549b45ad483099ffba38553fda529f9ff28e",
+     "http": "200"
+    },
+    "ilo-platform-policy-tracker--observatory": {
+     "url": "https://www.ilo.org/topics-and-sectors/observatory-ai-and-work-digital-economy",
+     "read": "2026-10-29",
+     "sha256": "402a902dac92f13a919040f18c1b23402dd05338ab3ec56a6e59d6a8abeb8a44",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "anthropic-economic-index",
+   "name": "Anthropic Economic Index",
+   "aka": [
+    "AEI",
+    "EconomicIndex (the Hugging Face dataset)",
+    "Anthropic Economic Index report",
+    "Anthropic Economic Index Survey",
+    "Anthropic AI Usage Index (AUI)"
+   ],
+   "url": "https://www.anthropic.com/economic-index",
+   "operator": "Anthropic (its Economics team)",
+   "kind": "report series with data releases: six reports and their datasets, from the operator's own product usage",
+   "intersections": [
+    "labor-with-ai",
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "interaction data",
+    "exposure estimate",
+    "worker testimony",
+    "data access"
+   ],
+   "unit": "a sampled Claude conversation (Claude.ai consumer chat and Cowork) or a 1P API prompt-response record, classified by Claude to an O*NET task and to economic primitives; since June 2026 also a survey respondent linked to up to 20 of their own sessions",
+   "labor_object": "the tasks people bring to Anthropic's own product Claude, mapped to the O*NET tasks of the occupations that typically perform them; observed on Claude.ai, Cowork, Claude Code and Anthropic's first-party API only",
+   "direction": {
+    "supplies": "Claude users and 1P API customers bring the tasks; Claude performs them, recorded as the share of occupational tasks 'we already see being done with Claude'",
+    "directs": "the user, recorded as collaboration mode (directive, feedback loop, task iteration, validation, learning) and as the autonomy users delegate to Claude on a 1-5 scale; users choose which tasks to bring",
+    "gains": "not recorded as a distribution; the reports estimate aggregate US labor productivity effects and record survey respondents' self-reported productivity gains and their expectations about pay, job security and shared gains"
+   },
+   "method": "privacy-preserving classification of sampled transcripts by Claude (another instance of Claude reads the transcripts); task mapping to O*NET; classifiers for five economic primitives validated for directional accuracy; since June 2026 continuous daily sampling and a survey of Claude users linked to their usage",
+   "coverage": {
+    "geography": "global Claude usage, with country and US-state breakdowns from IP geolocation",
+    "period": "reports from February 2025 to June 2026; the January 2026 report samples 13-20 November 2025; the June 2026 report samples 10 April to 10 June 2026"
+   },
+   "count": {
+    "value": "1M Claude.ai conversations and 1M 1P API transcripts (January 2026 report); over 3,000 unique work tasks on Claude.ai; about 9,700 linked survey respondents (June 2026 report)",
+    "as_of": "2026-06-26"
+   },
+   "findings": [
+    "augmentation 52% and automation 45% of Claude.ai conversations in November 2025; 1P API traffic three-quarters automation",
+    "top ten tasks 24% of Claude.ai conversations and 32% of 1P API traffic; the most common task is modifying software to correct errors",
+    "49% of jobs have seen AI usage for at least a quarter of their tasks (across reports)",
+    "removing the tasks Claude covers produces a net deskilling effect across most occupations",
+    "implied labor productivity growth of 1.8 percentage points a year falls to about 1.0-1.2 once task success is factored in",
+    "survey: 10% of respondents rate losing their own job as likely or very likely; those who use Claude in the most automated way are the most optimistic about pay and job security"
+   ],
+   "stated_limits": [
+    "task success is Claude's own assessment",
+    "primitives are directionally accurate and not exact",
+    "observed success rates reflect users' selection of tasks",
+    "the survey is not representative of the general population",
+    "the primitives are not shown to be causal",
+    "the implications depend on how often conversations displace or augment work"
+   ],
+   "answers": [
+    "which O*NET tasks are performed with Claude, and in what share",
+    "how users collaborate with Claude (automation and augmentation modes, delegated autonomy) by task, occupation, country and product surface",
+    "how Claude-assessed task success and estimated time savings vary with task complexity",
+    "what Claude users report and expect about their own work, linked to their usage"
+   ],
+   "does_not_answer": [
+    "AI use on other providers' systems",
+    "observed employment or wage change",
+    "whether a conversation displaces or augments work that would otherwise be done by a person",
+    "who captures the productivity gains it estimates",
+    "task success as judged by the user or by an external grader"
+   ],
+   "lv_intersection": "The archive's reading: the collaboration modes and the AI-autonomy and task-success primitives classify who directs a Claude task and whether Claude completed it, as Claude assesses its own completion; this is the nearest of the resource's measures to DSL's question of whether the system's labor advanced the commissioned task. Its turn counts (users engage more, 1.53 times as many turns, in higher-wage occupations) and task iteration mode bear on user labor drag as the resource records them.",
+   "data_access": "data releases on Hugging Face (Anthropic/EconomicIndex), with prompt texts in an online appendix",
+   "license": "data CC-BY; code MIT (the dataset card's YAML header gives license: mit)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "six reports from the initial release of 2025-02-10 to the sixth of 2026-06-26; the index page last updated 26 June 2026; the June 2026 report changed the pipeline to continuous daily sampling"
+   },
+   "founded": "2025-02-10 (the initial data release)",
+   "version_and_time": {
+    "initial_release": "2025-02-10",
+    "fourth_report": "2026-01-15",
+    "fifth_report": "2026-03-24",
+    "sixth_report": "2026-06-26",
+    "index_page_updated": "2026-06-26",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a measure of AI use across providers: a platform-specific observation of Anthropic's own product, Claude (Claude.ai, Cowork, Claude Code and the first-party API), published by Anthropic",
+    "NOT an employment outcome series: it observes usage and survey responses",
+    "task success is Claude's assessment of whether Claude completes tasks",
+    "the Economic Index Survey is NOT representative of the general population",
+    "NOT independent of the provider: the transcripts are classified by another instance of Claude"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "anthropic-economic-index--readme",
+     "basis": "operator",
+     "quote": "The Anthropic Economic Index provides insights into how AI is being incorporated into real-world tasks across the modern economy."
+    },
+    "home": {
+     "src": "anthropic-economic-index--home",
+     "basis": "operator",
+     "quote": "Anthropic Economic Index Understanding AI’s effects on the economy Last updated: June 26, 2026"
+    },
+    "platform": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Throughout the report we analyze a random sample of 1M conversations from Claude.ai Free, Pro and Max conversations (we also refer to this as “consumer data” since it mostly represents consumer use) and 1M transcripts from our first-party (1P) API traffic"
+    },
+    "platform_period": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Both samples come from November 13, 2025 to November 20, 2025."
+    },
+    "platform_2": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "This includes chat conversations and Cowork sessions from consumer (Free/Pro/Max) accounts on both Claude.ai and the Claude desktop app. \"First-party API\" or 1P API refers to developer traffic routed directly through Anthropic's own programming interface, which is distinct from both Anthropic's consumer-facing Claude.ai application and third-party platforms such as Amazon Bedrock or Google Cloud Vertex."
+    },
+    "method": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Throughout, all analyses are based on privacy-preserving classifiers: transcripts are only read by another instance of Claude."
+    },
+    "method_primitives": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "which we generate by asking Claude specific questions about anonymized Claude.ai and first-party (1P) API transcripts"
+    },
+    "method_sampling": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Our new privacy-preserving telemetry, which continuously samples a slice of conversations every day, allows us to study daily and hourly patterns in usage, in contrast to the seven-day samples each previous Economic Index report drew on."
+    },
+    "period_jun": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Data in this chapter cover chat and Cowork conversations sampled between April 10 and June 10, 2026."
+    },
+    "supplies": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "we constructed a measure of observed exposure , which captures the share of occupational tasks we already see being done with Claude."
+    },
+    "directs": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "AI autonomy measures the degree to which users delegate decision-making to Claude."
+    },
+    "directs_selection": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "In our data, users choose which tasks to bring to Claude."
+    },
+    "collaboration_modes": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Directive: Human delegates complete task execution to AI with minimal interaction - Feedback Loop: Human and AI engage in iterative dialogue to complete task with human mainly providing feedback from the environment - Task Iteration: Human and AI engage in iterative dialogue to complete a task with the human refining the AI outputs - Learning: Human seeks understanding and explanation rather than direct task completion - Validation: Human uses AI to check or validate their own work"
+    },
+    "count_tasks": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "While we see over 3,000 unique work tasks in Claude.ai, the top 10 most common tasks account for 24% of our sampled conversations"
+    },
+    "count_survey": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Our final linked sample consists of about 9,700 survey respondents."
+    },
+    "survey_link": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "To characterize each respondent's usage patterns, we randomly sample up to 20 sessions per person within this time window"
+    },
+    "finding_augmentation": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "The share of conversations classified as augmented jumped 5pp to 52% and the share deemed automated fell 4pp to 45%."
+    },
+    "finding_api": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "with three-quarters of interactions classified as automation compared to less than half on Claude.ai"
+    },
+    "finding_concentration": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "For first-party (1P) API enterprise customers, concentration among tasks increased more notably: the top ten tasks now represent 32% of traffic, up from 28% in the last report."
+    },
+    "finding_top_task": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "The most prevalent task in November 2025—modifying software to correct errors—alone represented 6% of usage."
+    },
+    "finding_coverage": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Combining across reports, 49% of jobs have seen AI usage for at least a quarter of their tasks."
+    },
+    "finding_deskilling": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Claude's tendency to cover higher-education tasks produces a net deskilling effect across most occupations, as the tasks AI handles are often the more skilled components of a job."
+    },
+    "finding_productivity": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Adjusting productivity estimates for task reliability roughly halves the implied gains, from 1.8 to about 1.0 percentage points of annual labor productivity growth over the next decade."
+    },
+    "finding_productivity_2": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "implied productivity growth falls from 1.8 to 1.2 percentage points per year for the next decade based on Claude.ai usage, and to 1.0 percentage points for API traffic."
+    },
+    "finding_job_loss": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "10% rated losing their own jobs as likely or very likely."
+    },
+    "finding_optimism": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "people who use Claude in the most automated way expect AI to take on more of their tasks in the next year, yet feel the most optimistic about what that means for their work, anticipating positive impacts on pay, job security, and meaning."
+    },
+    "gains_selfreport": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "large majorities of people report productivity gains in speed, scope, and quality of their work (86%, 82%, and 69%, respectively)"
+    },
+    "gains_hope": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "The third most common theme, expressed by about one third of survey respondents, was one of shared prosperity: the hope that the economic gains from AI will be widely shared."
+    },
+    "lv_turns": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "In conversations mapped to higher-wage occupations, Claude produces more (1.34 times as much output per turn), while users engage more (1.53 times as many turns)"
+    },
+    "limit_success": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Task success measures Claude’s assessment of whether Claude completes tasks successfully."
+    },
+    "limit_accuracy": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "While we are very confident in the directional accuracy of the new measures (e.g., tasks with higher average years of education needed to understand the human prompt are likely more complex), none of the measures should be taken as exact or definitive"
+    },
+    "limit_selection": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "This means observed success rates reflect not just model capability but also user judgment about what will work, the cost of setting up the problem for Claude, and the expected time savings if the task succeeds."
+    },
+    "limit_survey": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "The Economic Index Survey is not representative of the general population. We reach a random sample of Claude users, there may be selection in who completes the survey, and we filter out infrequent users from our analysis."
+    },
+    "limit_causal": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "Importantly, the primitives themselves are not necessarily causal factors"
+    },
+    "limit_displacement": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "However, its implications depend on how often these Claude conversations actually displace or augment work that would otherwise be done by humans."
+    },
+    "limit_aggregates": {
+     "src": "anthropic-economic-index--jun-2026",
+     "basis": "operator",
+     "quote": "Ultimately, Claude’s impact on the economy will be visible in economic aggregates like employment and productivity as much as its usage logs."
+    },
+    "data_access": {
+     "src": "anthropic-economic-index--readme",
+     "basis": "operator",
+     "quote": "This repository contains multiple data releases, each with its own documentation:"
+    },
+    "license": {
+     "src": "anthropic-economic-index--readme",
+     "basis": "operator",
+     "quote": "Data released under CC-BY, code released under MIT License."
+    },
+    "founded": {
+     "src": "anthropic-economic-index--readme",
+     "basis": "operator",
+     "quote": "Initial release with O*NET task mappings, automation vs. augmentation data, and more"
+    },
+    "sixth_report": {
+     "src": "anthropic-economic-index--readme",
+     "basis": "operator",
+     "quote": "date = {2026-06-26},"
+    },
+    "third_party_description": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "third_party",
+     "quote": "The Anthropic Economic Index summarizes total usage at the occupation level and further decomposes this usage into automation and augmentation patterns."
+    },
+    "used_by": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "the automation/augmentation distinction from prior reports has already been used by external researchers to analyze labor market shifts ( Brynjolfsson, Chandar & Chen, 2025 )"
+    },
+    "neighbour_microsoft": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "operator",
+     "quote": "See also Tomlinson et al (2025) for a related AI applicability score."
+    }
+   },
+   "relations": [
+    {
+     "rel": "used_by",
+     "target": "stanford-canaries",
+     "note": "the Canaries Dashboard groups occupations by the Index's augmentation and automation ratios and uses it as an exposure measure"
+    },
+    {
+     "rel": "neighbour",
+     "target": "microsoft-working-with-ai",
+     "note": "the January 2026 report cites Tomlinson et al. for a related AI applicability score; the same method family on another provider's product"
+    }
+   ],
+   "unchecked": [
+    "the index home page's data (the saved page shows only 'Loading data'; it is a JavaScript application)",
+    "the datasets on Hugging Face (only the README was read)",
+    "the 1st, 2nd, 3rd and 5th reports, the appendices, and the 'Labor market impacts' and robot-exposure releases",
+    "the companion Claude Code report and the October 2026 'The AI expectations gap' article listed as related"
+   ],
+   "sources": {
+    "anthropic-economic-index--readme": {
+     "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/raw/main/README.md",
+     "read": "2026-10-29",
+     "sha256": "7f3a9c7c8fb2c04c55794810671926466698f171294cd2641075eb7bc403a9f0",
+     "http": "200"
+    },
+    "anthropic-economic-index--home": {
+     "url": "https://www.anthropic.com/economic-index",
+     "read": "2026-10-29",
+     "sha256": "b29a39839c9952f64f475d9fe1830bc35fe7dfebab7246b7cc97602a8fde669e",
+     "http": "200"
+    },
+    "anthropic-economic-index--jan-2026": {
+     "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+     "read": "2026-10-29",
+     "sha256": "8d0d80679aaf24b9fecdadb0d26bd44b50e8d90a2c4e7d01172d7b969f2d9d8d",
+     "http": "200"
+    },
+    "anthropic-economic-index--jun-2026": {
+     "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+     "read": "2026-10-29",
+     "sha256": "31119973d1365f0d032ec513de32c1a72ce2fe04cd62eb1d7da8a9fad6435e21",
+     "http": "200"
+    },
+    "stanford-canaries--dashboard": {
+     "url": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/",
+     "read": "2026-10-29",
+     "sha256": "2db132b18f4da51b2b8ec9c9ce4bb5ddfddf0b1d7bde7fbfa1a2cbe74c34ed31",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "openai-gdpval",
+   "name": "GDPval",
+   "aka": [
+    "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks",
+    "GDPval gold subset",
+    "GDPval full set"
+   ],
+   "url": "https://openai.com/index/gdpval/",
+   "operator": "OpenAI: the paper's 19 authors (Tejal Patwardhan first; nine marked equal contribution) give OpenAI as their affiliation, with correspondence to an openai.com address; OpenAI's own post at this address answered 403 and is unread",
+   "kind": "benchmark (an evaluation dataset with an experimental automated grader)",
+   "intersections": [
+    "labor-with-ai",
+    "labor-producing-ai"
+   ],
+   "evidence_kind": [
+    "task benchmark"
+   ],
+   "unit": "a task: a request (often with reference files) and a deliverable, constructed from actual work product of an expert professional; graded by blinded pairwise expert comparison of model and human deliverables (win rate)",
+   "labor_object": "the work product of recruited industry professionals in 44 predominantly digital occupations across the 9 sectors contributing over 5% of U.S. GDP, recast as tasks for models; the same professionals' labor as task writers, reviewers and graders",
+   "direction": {
+    "supplies": "recruited industry professionals (minimum 4 years' experience, average 14) wrote the tasks and their deliverables, reviewed them (an average of five reviews per task) and graded model deliverables against human ones; the paper states they were 'well compensated' and gives no rate; it also thanks 'vendor partners' without naming them",
+    "directs": "OpenAI's research team: occupations chosen by GDP share and total wages; researchers reviewed all tasks, promoted experts to reviewers and ran quality-control checks; OpenAI models screened submissions, with experts retaining final responsibility for task accuracy",
+    "gains": "not recorded as a distribution; the paper models time and cost savings for an expert who uses a model and fixes or redoes unsatisfactory output, valued at BLS median wages, and states those wages likely underestimate the experts' market cost"
+   },
+   "method": "occupations selected from BLS and O*NET data (top 5 by total wages per sector, predominantly digital by a GPT-4o task classification at a 60% threshold); expert-written tasks classified against O*NET tasks; multi-stage model and human review; blinded pairwise grading by occupational experts; an automated grader based on GPT-5-high for the gold subset",
+   "coverage": {
+    "geography": "U.S. occupations and sectors (BLS, O*NET, OEWS May 2024 wages, Q2 2024 GDP shares)",
+    "period": "the first version, arXiv v1 of 5 October 2025"
+   },
+   "count": {
+    "value": "1,320 tasks in the full set (30 per occupation) across 44 occupations and 9 sectors that collectively earn $3T annually; a gold subset of 220 tasks (5 per occupation) open-sourced; the gold subset covers 208 unique O*NET tasks",
+    "as_of": "arXiv v1, 2025-10-05"
+   },
+   "findings": [
+    "performance of OpenAI frontier models increased roughly linearly over time on the gold subset",
+    "models are beginning to approach parity with industry experts: 47.6% of Claude Opus 4.1 deliverables were graded better than or as good as the human deliverable; the text also says model deliverables outperformed or matched experts' in just over half the tasks",
+    "Claude Opus 4.1 was best overall, strongest on aesthetics; GPT-5 strongest on accuracy",
+    "experts most often preferred the human deliverable because models failed to fully follow instructions",
+    "with expert review and redo counted, the payoff shrinks: GPT-5 at 39.0% win rate gives 90x naive speed but 1.12x (try once) and 1.39x (try n times)",
+    "of GPT-5's losses, roughly 29% were rated bad or catastrophic (roughly 3% catastrophic)",
+    "win rates decline as task completion time increases; reasoning effort, prompting and scaffolding raise performance"
+   ],
+   "stated_limits": [
+    "dataset size: a limited, initial cut of knowledge work tasks",
+    "self-contained computer-based knowledge work only: manual labor, physical tasks, tacit knowledge, proprietary tools and communication between individuals are out of scope",
+    "tasks are precisely specified, one-shot and non-interactive",
+    "the automated grader has limitations, and agrees less with experts on capable OpenAI models' outputs",
+    "cost: industry expert grading is expensive",
+    "the speed and cost analysis omits review of human deliverables and the cost of catastrophic mistakes",
+    "completion times are experts' self-reports",
+    "grading could not be fully blind"
+   ],
+   "answers": [
+    "how frontier models' deliverables on expert-written, precisely specified, one-shot occupational tasks compare with experts' deliverables, as judged by blinded expert graders",
+    "how that comparison varies by model, sector, occupation, file type and task length",
+    "under its stated scenarios, how much expert time and cost a model could save once review and redo are counted"
+   ],
+   "does_not_answer": [
+    "how work is performed in actual workplaces, where context must be found and tasks are interactive",
+    "employment or wage outcomes",
+    "who receives the time and cost savings it models",
+    "physical, interpersonal or tacit-knowledge work",
+    "the terms and rate at which the professionals were paid"
+   ],
+   "lv_intersection": "The archive's reading: GDPval grades a model's deliverable against an expert's deliverable on a task an expert wrote, a fixed commission, which meets DSL at the question of whether the system's labor fulfils the commissioned task, measured in its own terms of win rate. Its 'try n times, then fix it yourself' accounting counts the expert's review and redo time against the model, which is where it meets user labor drag; task-origin is the experts' own work product, as the paper states it.",
+   "data_access": "prompts and reference files of the 220-task gold subset open-sourced, scrubbed of information identifying the task's expert; an experimental automated grader at evals.openai.com; automated grading results not provided for 12 of the 220 tasks",
+   "license": "the paper: CC BY 4.0 (arXiv); the dataset's license not stated in the saved text",
+   "lifecycle": {
+    "state": "active",
+    "detail": "the first version (arXiv v1, 5 October 2025); the paper states the dataset is being expanded and that future iterations will add breadth, realism, interactivity and context; later releases unrecorded because OpenAI's post is unread"
+   },
+   "founded": "2025-10-05 (arXiv v1)",
+   "version_and_time": {
+    "arxiv_v1": "2025-10-05",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a measure of AI use in the economy: a benchmark of model capability on constructed tasks, offered by its authors as an alternative to lagging adoption indicators",
+    "NOT an employment outcome measure",
+    "NOT a test of interactive or under-specified work, except one experiment on an earlier gold subset",
+    "deliverable parity with experts is NOT a finding of job replacement in the paper",
+    "NOT independent of a provider: built and graded by OpenAI, with an automated grader based on an OpenAI model"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "openai-gdpval--arxiv",
+     "basis": "operator",
+     "quote": "We introduce GDPval, a benchmark evaluating AI model capabilities on real-world economically valuable tasks."
+    },
+    "operator": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Amelia Glaese  Jerry Tworek OpenAI"
+    },
+    "correspondence": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Equal contribution. Correspondence to tejal@openai.com."
+    },
+    "post_unread": {
+     "src": "openai-gdpval--post",
+     "basis": "observed",
+     "quote": null,
+     "note": "the post's address in sources/manifest.json; the page answered 403 and was not read"
+    },
+    "authors": {
+     "src": "openai-gdpval--arxiv",
+     "basis": "operator",
+     "quote": "View a PDF of the paper titled GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks, by Tejal Patwardhan and 18 other authors"
+    },
+    "positioning": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Therefore, while informative when available, these methods are lagging indicators of AI impacts. We consider an alternate method for understanding the potential economic impacts of AI: directly measuring AI model capabilities."
+    },
+    "coverage": {
+     "src": "openai-gdpval--arxiv",
+     "basis": "operator",
+     "quote": "GDPval covers the majority of U.S. Bureau of Labor Statistics Work Activities for 44 occupations across the top 9 sectors contributing to U.S. GDP (Gross Domestic Product)."
+    },
+    "count": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "the GDPval full set covers 1,320 tasks across 44 occupations, sourced to cover the majority of Work Activities tracked by O*NET for each occupation"
+    },
+    "count_per_occupation": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "with at least 30 tasks per occupation in the full set (and 5 tasks per occupation in the gold subset), across 44 occupations."
+    },
+    "count_wages": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "GDPval covers tasks from 9 sectors and 44 occupations that collectively earn $3T annually."
+    },
+    "count_onet": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "The dataset covered 208 unique O*NET tasks, 25 occupational skills, and 26 work activities."
+    },
+    "selection_sectors": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Selected sectors that contribute over 5% to US GDP as determined by Q2 2024 Value Added by Industry as a Percentage of Gross Domestic Product"
+    },
+    "selection_digital": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "we prompted GPT-4o to classify each task as digital or non-digital, and then classified the overall occupation as digital if at least 60% of its component tasks were digital."
+    },
+    "unit": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Each GDPval task consists of two primary components: a request (often with reference files) and a deliverable (work product)."
+    },
+    "task_origin": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Each task is constructed based on actual work product created by an expert professional."
+    },
+    "supplies": {
+     "src": "openai-gdpval--arxiv",
+     "basis": "operator",
+     "quote": "Tasks are constructed from the representative work of industry professionals with an average of 14 years of experience."
+    },
+    "recruitment": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Experts were required to have a minimum of 4 years of professional experience in their occupation and a strong resume with a demonstrated history of professional recognition, promotion, and management responsibilities. The average expert had 14 years of experience. We further required experts to pass a video interview, a background check, a training and a quiz to participate in the project. Experts were well compensated for their time and experience."
+    },
+    "recruitment_selectivity": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Less than 10% of applicants were selected to contribute tasks to our full set."
+    },
+    "vendors": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "We are also grateful to our vendor partners for their collaboration and support throughout this research, and extend a special thank you to the industry experts who contributed their time and expertise to GDPval"
+    },
+    "review": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "All 1,320 tasks in the full GDPval set went through an iterative review pipeline involving both automated model-based screening and multiple stages of human expert review. Each task received an average of five human reviews (with a minimum of three reviews)."
+    },
+    "directs_research_team": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Initially, our researchers manually reviewed all tasks to identify experts who produced consistently high-quality tasks; these individuals were trained and promoted to reviewers."
+    },
+    "directs_models": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Experts retained final responsibility for task accuracy and completeness; the model did not autonomously alter tasks."
+    },
+    "grading": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "we conducted blinded expert pairwise comparisons, where experts in the relevant occupation were presented with a request and reference files and asked to rank two or more unlabeled work deliverables."
+    },
+    "grading_time": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "On average, grading each comparison for the gold subset took over an hour."
+    },
+    "automated_grader": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "achieves 66% agreement with human expert graders, only 5% below human expert inter-rating agreement of 71%."
+    },
+    "task_value": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Each task’s dollar value was estimated by multiplying the average estimated completion time by median hourly wages for the corresponding occupation from OEWS data"
+    },
+    "task_length": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Tasks require an average of 7 hours of work for an expert professional to complete. On the high end, tasks span up to multiple weeks of work."
+    },
+    "finding_trend": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Figure 6: Performance of OpenAI frontier models increased roughly linearly over time on the GDPval gold subset."
+    },
+    "finding_parity": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Figure 5: On human pairwise comparisons, models are beginning to approach parity with industry experts on the GDPval gold subset."
+    },
+    "finding_claude": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "on the GDPval gold subset, 47.6% of deliverables by Claude Opus 4.1 were graded as better than (wins) or as good as (ties) the human deliverable. Model deliverables outperformed or matched expert humans’ deliverables in just over half the tasks."
+    },
+    "finding_strengths": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Claude Opus 4.1 was the best performing model on the GDPval gold subset, excelling in particular on aesthetics (e.g., document formatting, slide layout), while GPT-5 excelled in particular on accuracy (e.g., carefully following instructions, performing correct calculations)"
+    },
+    "finding_instructions": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Figure 8: Across models, experts most often preferred the human deliverable because models failed to fully follow instructions on GDPval tasks."
+    },
+    "finding_review_redo": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "When incorporating time to review and redo work, the payoff from using a model shrinks."
+    },
+    "finding_gpt5_ratios": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "gpt-5 39.0% 90x 1.12x 1.39x 474x 1.18x 1.63x"
+    },
+    "fix_it_setup": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Here, an expert human samples from a model, reviews outputs, and if unsatisfactory, resamples and repeats. If no satisfactory output is obtained, the human completes the task themselves."
+    },
+    "finding_failures": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Another roughly 29% of ratings were for bad or catastrophic (with roughly 3% of failures marked as catastrophic)."
+    },
+    "finding_length": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Win rates are highest for shorter tasks (0–2 hours) and decline steadily as completion time increases."
+    },
+    "finding_scaffolding": {
+     "src": "openai-gdpval--arxiv",
+     "basis": "operator",
+     "quote": "We also demonstrate that increased reasoning effort, increased task context, and increased scaffolding improves model performance on GDPval."
+    },
+    "gains_wage_basis": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Because our experts were recruited specifically for being highly experienced in their field, these wage estimates likely underestimate their true market cost."
+    },
+    "limit_size": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "The GDPval full set currently consists of only 44 occupations and 30 total tasks per occupation. It is therefore a limited, initial cut of knowledge work tasks, not a comprehensive evaluation of all possible occupational tasks. We are expanding the dataset size."
+    },
+    "limit_scope": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Manual labor and physical tasks are not included in the current version. Moreover, tasks that involve extensive tacit knowledge, access to personally identifiable information, use of proprietary software tools, or communication between individuals are out of scope for the current evaluation."
+    },
+    "limit_one_shot": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "For GDPval, we provide the full context of the task in the prompt, but in real life it often takes effort to figure out the full context of a task and understand what to work on."
+    },
+    "limit_cost": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Constructing and running our evaluation is expensive, particularly with industry expert graders. For this reason, we make an automated grader proxy available, but do not consider it a full substitute for industry expert graders."
+    },
+    "limit_grader_self": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Our automated grader, based on GPT-5-high, shows lower correlation with human expert graders when assessing outputs from capable OpenAI models. This aligns with empirical evidence that models often favor their own responses"
+    },
+    "limit_savings": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "We do not include consideration of the time taken to review a human professional deliverable, although this would commonly occur for tasks in GDPval (either self-review of the professional’s own work or review by a supervisor of a team member’s work). We also do not include the possibility that the human deliverable is also undesirable. One further limitation of this analysis is that it does not capture the cost of catastrophic mistakes, which can be disproportionately expensive in some domains."
+    },
+    "limit_self_report": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Because times were self-reported, it is possible that experts under-estimated or over-estimated time taken"
+    },
+    "limit_blinding": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "We aimed to keep comparisons as blind as possible, but model samples may still have been identifiable due to stylistic differences."
+    },
+    "limit_under_context": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "As a note: this experiment was run on an earlier version of the GDPval gold subset, and therefore the observed win rates do not match those in the main text of the paper."
+    },
+    "data_access": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "We open-source the prompts and reference files in our 220-task gold subset. While human expert comparison is still our recommended method of grading, we make an experimental automated grader publicly available at evals.openai.com . Please note that the tasks in the open sourced set have been scrubbed of information that could be used to identify the expert who wrote the task."
+    },
+    "data_access_ungradable": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "In the open-source set we mark 12 out of 220 tasks as ungradable due to limitations of the automated grader."
+    },
+    "license": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "License: CC BY 4.0"
+    },
+    "lifecycle": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "Future GDPval iterations will incorporate greater breadth, realism, interactivity, and contextual nuance."
+    },
+    "version": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "arXiv:2510.04374v1 [cs.LG] 05 Oct 2025"
+    },
+    "builds_on_usage": {
+     "src": "openai-gdpval--paper-html",
+     "basis": "operator",
+     "quote": "We also build on production AI usage analyses (e.g., Tamkin et al. (2024) ; Chatterji et al. (2025) ; Appel et al. (2025) ) to cover areas where model adoption is still emerging."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "anthropic-economic-index",
+     "note": "the paper cites the Anthropic Economic Index (Appel et al. 2025) among the production usage analyses it builds on to cover areas where adoption is still emerging"
+    }
+   ],
+   "unchecked": [
+    "OpenAI's own post (openai.com/index/gdpval/), which answered 403 and is unread",
+    "the paper's figures (charts are images; the per-model win rates of Figures 5, 6 and 10-13 are read only where the text or Table 2 gives them)",
+    "the expert compensation rate and the vendor partners, which the paper does not state",
+    "the open-sourced gold subset and the grading service",
+    "the dataset's own license",
+    "an internal difference in the paper: the full set is described as 'at least 30 tasks per occupation' and as '30 total tasks per occupation' (1,320 = 44 x 30); and 47.6% for the best model sits beside 'just over half the tasks' in the same paragraph"
+   ],
+   "sources": {
+    "openai-gdpval--arxiv": {
+     "url": "https://arxiv.org/abs/2510.04374",
+     "read": "2026-10-29",
+     "sha256": "904393337a8b91ee7b387d650a2eb4c89dd29d4040b7c228c8b57e25fb991835",
+     "http": "200"
+    },
+    "openai-gdpval--paper-html": {
+     "url": "https://arxiv.org/html/2510.04374v1",
+     "read": "2026-10-29",
+     "sha256": "1d4c4f2494000318567a5b82504d7154119aa88a40ba11c18568a4dea718c5d9",
+     "http": "200"
+    },
+    "openai-gdpval--post": {
+     "url": "https://openai.com/index/gdpval/",
+     "read": "2026-10-29",
+     "sha256": "b0a7ee49cca701cbc40625e050aaca241349f4b61557dd8184d22f8b095996cb",
+     "http": "403"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "microsoft-working-with-ai",
+   "name": "Working with AI: Measuring the Applicability of Generative AI to Occupations",
+   "aka": [
+    "Working with AI",
+    "AI applicability score",
+    "\"Working with AI\" results files",
+    "microsoft/working-with-ai"
+   ],
+   "url": "https://github.com/microsoft/working-with-ai",
+   "operator": "Microsoft Research (Kiran Tomlinson, Sonia Jaffe, Will Wang, Scott Counts, Siddharth Suri)",
+   "kind": "paper with results files (metrics aggregated at the work-activity and occupation level)",
+   "intersections": [
+    "labor-with-ai"
+   ],
+   "evidence_kind": [
+    "interaction data",
+    "exposure estimate",
+    "data access"
+   ],
+   "unit": "an anonymized Bing Copilot conversation, classified by an LLM pipeline to the O*NET intermediate work activities (IWAs) it serves as a user goal and as an AI action; metrics aggregated to IWAs and to detailed 2018 SOC occupations",
+   "labor_object": "the O*NET work activities that Bing Copilot users seek help with (user goals) and that the AI performs (AI actions), mapped to the occupations whose tasks contain them",
+   "direction": {
+    "supplies": "Bing Copilot users bring the goals; the AI performs actions, recorded separately as user goals and AI actions",
+    "directs": "the user's goal, as classified; the paper's method separates occupations more likely to delegate tasks to AI from those more likely to use AI to assist existing workflows",
+    "gains": "not recorded"
+   },
+   "method": "an LLM-based pipeline classifying 200k anonymized Bing Copilot conversations to O*NET work activities, with completion, impact-scope and thumbs-feedback measures combined into an occupation-level AI applicability score",
+   "coverage": {
+    "geography": "United States (Bing Copilot conversations)",
+    "period": "1 January 2024 to 30 September 2024"
+   },
+   "count": {
+    "value": "200k conversations; 785 SOC codes covering 149.8 million workers (2023 OEWS)",
+    "as_of": "results v1.1 / arXiv v7 (2026-10-23)"
+   },
+   "findings": [
+    "the most common and successful AI-assisted work activities involve information work",
+    "widespread AI applicability cuts across sectors, as most occupations have information work components",
+    "occupation-level AI applicability increased over the 9-month data period, driven primarily by people using AI for more varied tasks"
+   ],
+   "stated_limits": [
+    "the metrics are not to be read as measuring the ability of AI to replace jobs",
+    "success measures are proxies",
+    "consumer usage does not represent the full distribution of AI use in the workplace",
+    "LLM-based classifiers are imperfect",
+    "United States only, January to September 2024"
+   ],
+   "answers": [
+    "which work activities a consumer LLM (Bing Copilot) is used for, as user goal and as AI action",
+    "which of those uses are relatively more or less successful, by its proxies",
+    "which occupations may find AI more applicable, by an applicability score"
+   ],
+   "does_not_answer": [
+    "whether AI can replace jobs",
+    "employment or wage change",
+    "AI use through workplace-integrated or specialised tools",
+    "use outside the United States or after September 2024",
+    "who receives gains from the assisted work"
+   ],
+   "lv_intersection": "The archive's reading: the separation of user goal from AI action, and the completion classifier ('the LLM completed the user's goal'), are the resource's own instruments for whether the system's labor served the user's commission; they meet DSL there, measured by classifier and thumbs feedback. Task-origin is recorded as the user goal.",
+   "data_access": "results files on GitHub (IWA-level and SOC-level metrics, applicability scores, weights)",
+   "license": "CC BY 4.0",
+   "lifecycle": {
+    "state": "active",
+    "detail": "a fixed 2024 data window; the paper revised to arXiv v7 (23 October 2026) for NeurIPS 2026; results files at v1.1"
+   },
+   "founded": "2025-07-10 (arXiv v1)",
+   "version_and_time": {
+    "arxiv_v1": "2025-07-10",
+    "arxiv_v7": "2026-10-23",
+    "results": "v1.1",
+    "venue": "NeurIPS 2026",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a measure of the ability of AI to replace jobs",
+    "NOT an employment outcome measure",
+    "NOT a measure of all workplace AI use: one consumer product, Bing Copilot, in the United States",
+    "NOT independent of the provider: a platform-specific observation of Microsoft's own product, published by Microsoft Research"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "The goal of these metrics is to measure how AI may be useful in different occupations."
+    },
+    "method": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "Drawing instead on real-world AI usage, we analyze a dataset of 200k anonymized conversations with Microsoft Bing Copilot to measure AI applicability to occupations. We use an LLM-based pipeline to classify the O*NET work activities assisted or performed by AI in each conversation."
+    },
+    "unit": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "In particular, they include our metrics aggregated at the O*NET intermediate work activity (IWA) and occupation (detailed 2018 SOC code) level."
+    },
+    "direction": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "`iwa_metrics.csv`: IWA-level metrics, reported separately for user goals and AI actions."
+    },
+    "completion": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "where our completion classfiier indicates that the LLM completed the user’s goal."
+    },
+    "directs": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "Our methodology also allows us to predict which occupations are more likely to delegate tasks to AI and which are more likely to use AI to assist existing workflows."
+    },
+    "operator": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "This research was conducted by members of"
+    },
+    "coverage": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "The conversations contributing to these results are from Bing Copilot in the United States from January 1, 2024 to September 30, 2024, so may not represent AI usage in other countries."
+    },
+    "count": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "This leaves us with 785 SOC codes covering 149.8 million workers according to the 2023 BLS Occupational Employment and Wage Statistics (OEWS) data (total US employment in 2023 OEWS data is 151.9 million)."
+    },
+    "finding_information_work": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "We find that the most common and successful AI-assisted work activities involve information work--the creation, processing, and communication of information."
+    },
+    "finding_sectors": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "At the occupation level, we find widespread AI applicability cutting across sectors, as most occupations have information work components."
+    },
+    "finding_trend": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "Finally, we see an increase in occupation-level AI applicability over our 9-month data period, driven primarily by people using AI for more varied tasks."
+    },
+    "limit_replacement": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "Our metrics should not be misconstrued or misrepresented as measuring the ability of AI to replace jobs. There is more to an occupation than the sum of its O*NET tasks, and our measures of success (completion, scope, and thumbs feedback) are proxies that do not capture full workplace capabilities."
+    },
+    "limit_scope": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "Rather, our metrics indicate (1) what a consumer LLM is used for, (2) in a relative sense, which of these uses are more or less successful, and (3) which occupations may find AI more useful or applicable as a result."
+    },
+    "limit_classifier": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "LLM-based classifiers are imperfect, so all metrics should be interpreted with caution."
+    },
+    "limit_consumer": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "As these results are based on consumer AI usage, they do not represent the full distribution of AI use in the workplace."
+    },
+    "license": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "This repository is licensed under CC BY 4.0."
+    },
+    "version": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "(current) v1.1: referenced by the NeurIPS '26 version and by arXiv paper revisions v6 and v7."
+    },
+    "arxiv_v7": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "[Submitted on 10 Jul 2025 ( v1 ), last revised 23 Oct 2026 (this version, v7)]"
+    },
+    "venue": {
+     "src": "microsoft-working-with-ai--arxiv",
+     "basis": "operator",
+     "quote": "50 pages; NeurIPS 2026"
+    },
+    "ethics": {
+     "src": "microsoft-working-with-ai--readme",
+     "basis": "operator",
+     "quote": "Data analysis was conducted with approval from the Microsoft Institutional Review Board."
+    },
+    "cited_by_aei": {
+     "src": "anthropic-economic-index--jan-2026",
+     "basis": "third_party",
+     "quote": "See also Tomlinson et al (2025) for a related AI applicability score."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "anthropic-economic-index",
+     "note": "the Anthropic Economic Index's January 2026 report cites this paper's AI applicability score as related; both classify one provider's own conversations to O*NET work"
+    }
+   ],
+   "unchecked": [
+    "the paper's full text (classifier prompts, interrater reliability, validation)",
+    "the results CSV files themselves",
+    "the Copilot-Thumbs feedback data"
+   ],
+   "sources": {
+    "microsoft-working-with-ai--readme": {
+     "url": "https://raw.githubusercontent.com/microsoft/working-with-ai/main/README.md",
+     "read": "2026-10-29",
+     "sha256": "b98be795b8a96490ecf0e50329d5867958f11f0ac78939b4144422a1929433b3",
+     "http": "200"
+    },
+    "microsoft-working-with-ai--arxiv": {
+     "url": "https://arxiv.org/abs/2507.07935",
+     "read": "2026-10-29",
+     "sha256": "8315551565cd59866e841acec8204a2a9579093b1d0266146968102fd6d43796",
+     "http": "200"
+    },
+    "anthropic-economic-index--jan-2026": {
+     "url": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+     "read": "2026-10-29",
+     "sha256": "8d0d80679aaf24b9fecdadb0d26bd44b50e8d90a2c4e7d01172d7b969f2d9d8d",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "stanford-canaries",
+   "name": "Canaries Dashboard",
+   "aka": [
+    "AI Economic Indicators: Canaries Dashboard",
+    "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence",
+    "Canaries in the Coal Mine"
+   ],
+   "url": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/",
+   "operator": "Stanford Digital Economy Lab with ADP Research (paper by Erik Brynjolfsson, Bharat Chandar and Ruyu Chen)",
+   "kind": "working paper and monthly-updated dashboard, one of the Lab's AI Economic Indicators",
+   "intersections": [
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "observed employment outcome"
+   ],
+   "unit": "monthly employment in a five-year balanced sample of firms using ADP payroll services, by occupation (over 730), age group, gender and AI-exposure group",
+   "labor_object": "the employment of workers in firms using ADP payroll services, matched to an occupation code, grouped by age and by their occupation's AI exposure",
+   "direction": {
+    "supplies": "workers in firms using ADP payroll services (the payroll records)",
+    "directs": "not recorded; the paper locates the change at the hiring margin ('reduced hiring of young workers') without recording who decides",
+    "gains": "costs as recorded: employment of young workers (22-25) in AI-exposed occupations stands 19% below where it would have been; adjustment runs through employment and base compensation shows no comparable adjustment; who receives gains is not recorded"
+   },
+   "method": "high-frequency administrative payroll data from ADP, a balanced five-year firm sample rolled forward monthly, matched to AI-exposure measures (Eloundou et al. 2024 and the Anthropic Economic Index) through the BLS 2018 SOC crosswalk; descriptive employment indices and event-study regressions",
+   "coverage": {
+    "geography": "United States (firms using ADP payroll services)",
+    "period": "employment indexed from November 2022 (ChatGPT's release); payroll data through June 2026 in the August 2026 paper; the dashboard updated monthly, last on 21 October 2026"
+   },
+   "count": {
+    "value": "25,000 firms employing 4.6mm workers matched to an occupation code (November 2022), over 730 occupations; the paper: millions of U.S. workers",
+    "as_of": "the dashboard launch (sample of the 5 years ending April 2026)"
+   },
+   "findings": [
+    "no evidence of widespread, economy-wide job displacement",
+    "employment of young workers (22-25) in AI-exposed occupations stands 19% below where it would be had it kept pace with less-exposed peers; experienced workers show no comparable gap",
+    "the divergence has widened steadily since August 2025 and operates primarily through reduced hiring",
+    "declines concentrate where AI usage primarily substitutes for human tasks; where it complements workers, employment is flat or rising",
+    "adjustment is occurring through employment; base compensation is not the margin",
+    "early-career women in the most-exposed quintile: employment contracting 4.5% a year since November 2022, against 2.5% for men; the gender gap is driven primarily by occupational composition"
+   ],
+   "stated_limits": [
+    "early, descriptive indicators and not causal estimates",
+    "the sample represents neither the entire U.S. labor market nor the universe of ADP firms",
+    "the balanced sample shuts down firm entry and exit",
+    "patterns attenuate when controlling for education, show some trends predating generative AI, and are more pronounced in the ADP sample than in national survey benchmarks",
+    "the dashboard measures correlation"
+   ],
+   "answers": [
+    "observed employment change by age, occupation, gender and AI exposure in a large payroll sample",
+    "whether the change runs through hiring or separations, and through employment or base compensation",
+    "how employment trends differ by an occupation's automation versus augmentation ratio of AI usage"
+   ],
+   "does_not_answer": [
+    "whether AI exposure causes the employment change",
+    "employment in firms outside the balanced ADP sample, or firm entry and exit",
+    "who directs the hiring decisions, or who receives the gains",
+    "what workers do with AI at work"
+   ],
+   "lv_intersection": "none stated. The archive's reading: the dashboard's automation-versus-augmentation grouping, borrowed from the Anthropic Economic Index, is where a usage measure of who directs the task meets an observed employment outcome; the resource itself reads it as correlation.",
+   "data_access": "the dashboard's charts, each with a 'Data' link; the paper as PDF; earlier versions of the paper on request by email",
+   "license": "not stated in the saved text",
+   "lifecycle": {
+    "state": "active",
+    "detail": "the dashboard updated monthly, last updated 21 October 2026; the paper first documented the divergence in August 2025, updated February 2026, revised 12 August 2026; an expanded and reweighted sample is announced"
+   },
+   "founded": "August 2025 (the paper's first version)",
+   "version_and_time": {
+    "paper_revised": "2026-08-12",
+    "february_update": "2026-02-09",
+    "gender_results": "2026-07-22",
+    "dashboard_updated": "2026-10-21",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a causal estimate: early, descriptive indicators by its own account",
+    "NOT nationally representative: a balanced sample of firms using ADP payroll services",
+    "NOT a finding of economy-wide displacement: it finds none",
+    "NOT a usage measure: its exposure and automation groupings come from Eloundou et al. (2024) and the Anthropic Economic Index"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "In collaboration with ADP Research, we summarize live labor market trends for a sample workers in firms using ADP payroll services."
+    },
+    "method": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Using a sample of high-frequency administrative payroll data from ADP covering millions of U.S. workers through June 2026, we document six facts about the labor market following the widespread adoption of generative AI."
+    },
+    "method_sample": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "We adopt the balanced sample approach of Brynjolfsson, Chandar, and Chen (2025) , including firms with 5 years of employment history in ADP."
+    },
+    "method_rolling": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Each month, we roll this 5-year window forward. We additionally limit our sample to workers successfully matched to an occupation code."
+    },
+    "uses_aei": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "We match the occupation-level ADP data to various measures of exposure: Eloundou et al. (2024) and the Anthropic Economic Index ."
+    },
+    "count": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "As of the Canaries Dashboard launch, our balanced sample of firms using ADP payroll services, spanning the 5 years ending in April 2026, consists of 25,000 firms. In November 2022, these firms employed 4.6mm workers successfully matched to an occupation code. This sample covers over 730 unique occupations."
+    },
+    "finding_no_displacement": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "We find no evidence of widespread, economy-wide job displacement."
+    },
+    "finding_19": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "However, employment of young workers (ages 22–25) in AI-exposed occupations now stands 19% below where it would be had it kept pace with that of their less-exposed peers; experienced workers show no comparable gap."
+    },
+    "founded": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "This divergence has widened steadily since we first documented it in August 2025."
+    },
+    "finding_hiring": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "It operates primarily through reduced hiring of young workers rather than increased separations."
+    },
+    "finding_substitution": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Declines are concentrated in occupations where AI usage primarily substitutes for human tasks; where usage primarily complements workers, employment is flat or rising, especially for experienced workers"
+    },
+    "finding_compensation": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Adjustment is occurring through employment rather than base compensation."
+    },
+    "finding_automation_ratio": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "However, the automation ratio shows a clear correlation with employment trends: occupations with a higher share of automation in total usage see declines or more muted increases in the employment index."
+    },
+    "finding_gender": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "In the most-exposed quintile, employment among early-career women has been contracting at 4.5% per year since the introduction of ChatGPT in November 2022, while employment for men of the same age is contracting at 2.5% per year."
+    },
+    "finding_gender_2": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Accordingly, gender-based differences in the relationship between AI exposure and employment trends appear to be driven primarily by occupational composition, rather than disparate trends within given sets of occupations."
+    },
+    "limit_causal": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "We interpret these facts as early, descriptive indicators—canaries in the coal mine—rather than causal estimates"
+    },
+    "limit_attenuate": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "These patterns attenuate when controlling for education, show some divergent trends predating generative AI, and are more pronounced in the ADP analysis sample than in national survey benchmarks, with some evidence of consistent patterns in government administrative data."
+    },
+    "limit_sample": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Our sample represents neither the entire U.S. labor market nor the universe of firms using ADP payroll services."
+    },
+    "limit_entry_exit": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "This restriction shuts down the margins of firm entry and exit."
+    },
+    "limit_correlation": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Accordingly, the Canaries Dashboard measures the correlation between occupational exposure measures and employment trends in our sample, rather than a causal link between the two."
+    },
+    "limit_2024": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "when including the broadest set of controls, declines in AI-exposed occupations become statistically significant in 2024. The earlier declines are likely driven by non-AI factors."
+    },
+    "lifecycle": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Last updated October 21, 2026. Results are updated monthly."
+    },
+    "future": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Future versions of this work will use an expanded and reweighted sample."
+    },
+    "paper_revised": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Revised August 12 2026"
+    },
+    "february_update": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Stanford Digital Economy Lab · February 9, 2026 Canaries, Interest Rates, and Timing: More on the Recent Drivers of Employment Changes for Young Workers"
+    },
+    "gender_results": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Updated July 22 2026"
+    },
+    "operator": {
+     "src": "stanford-canaries--dashboard",
+     "basis": "operator",
+     "quote": "Stanford Digital Economy Lab and ADP Research. \"AI Economic Indicators: Canaries Dashboard.\""
+    },
+    "data_access": {
+     "src": "stanford-canaries--paper",
+     "basis": "operator",
+     "quote": "Email the Lab to request a previous version of the paper."
+    }
+   },
+   "relations": [
+    {
+     "rel": "uses",
+     "target": "anthropic-economic-index",
+     "note": "as an AI-exposure measure and for its augmentation and automation ratios by occupation"
+    }
+   ],
+   "unchecked": [
+    "the paper's PDF (only its landing page was saved)",
+    "the dashboard's chart data and its annualized results (JavaScript charts; 'Data' links not opened)",
+    "the February 2026 update and the August 2026 notes from the authors",
+    "the license of the data and the dashboard"
+   ],
+   "sources": {
+    "stanford-canaries--dashboard": {
+     "url": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/",
+     "read": "2026-10-29",
+     "sha256": "2db132b18f4da51b2b8ec9c9ce4bb5ddfddf0b1d7bde7fbfa1a2cbe74c34ed31",
+     "http": "200"
+    },
+    "stanford-canaries--paper": {
+     "url": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
+     "read": "2026-10-29",
+     "sha256": "352ff6c8dee78a6488197e7acfafa4227df2fdece05cbbe65498e36ed4f07ea3",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "yale-budget-lab-ai-tracker",
+   "name": "Tracking the Impact of AI on the Labor Market",
+   "aka": [
+    "AI Labor Market Tracker",
+    "Evaluating the Impact of AI on the Labor Market"
+   ],
+   "url": "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market",
+   "operator": "The Budget Lab at Yale (Yale University)",
+   "kind": "interactive tool (tracker) with regular updates",
+   "intersections": [
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "observed employment outcome",
+    "exposure estimate"
+   ],
+   "unit": "monthly CPS microdata analysed in three sections: occupational churn (dissimilarity), AI metrics (including AI exposure among the unemployed and usage measures), and comparisons of AI-exposed and unexposed workers",
+   "labor_object": "the occupational mix of the labor force, employment and unemployment, as they relate to measures of AI exposure and AI usage",
+   "direction": {
+    "supplies": "not recorded",
+    "directs": "not recorded",
+    "gains": "not recorded; the tracker finds no clear AI-related labor market footprint to date"
+   },
+   "method": "CPS microdata; occupational dissimilarity over time; AI-exposure rates of the unemployed; usage measures set against employment and unemployment; a synthetic differences-in-differences analysis of AI exposure",
+   "coverage": {
+    "geography": "not named in the saved text (the method uses CPS microdata)",
+    "period": "updated through August 2026 CPS microdata in the September 15, 2026 update; the tracker page dated October 14, 2026"
+   },
+   "findings": [
+    "the occupational mix is not yet changing in ways that clearly align with the introduction of AI",
+    "measures of AI usage show no connection to changes in employment or unemployment",
+    "a synthetic differences-in-differences analysis of AI exposure does not yet clearly indicate an AI-related labor market footprint",
+    "September 2026: churn, AI exposure among the unemployed and usage data remain flat, within historical ranges, or on pre-AI trends"
+   ],
+   "stated_limits": [
+    "the findings may change as new data become available"
+   ],
+   "answers": [
+    "whether occupational churn has departed from historical ranges since AI's introduction",
+    "whether AI-exposed workers are over-represented among the unemployed",
+    "whether AI usage measures track changes in employment or unemployment"
+   ],
+   "does_not_answer": [
+    "who supplies, directs or gains from labor performed with AI",
+    "effects below the level the CPS can detect",
+    "which usage data it draws on, or their provider (unread in the saved text)"
+   ],
+   "lv_intersection": "none stated",
+   "data_access": "'Download All Data' in the interactive tool",
+   "license": "not stated in the saved text; the site is 'Copyright ©2026 Yale University. All rights reserved.'",
+   "lifecycle": {
+    "state": "active",
+    "detail": "published 16 July 2026; Version 1.0 updated 15 September 2026; the tracker page dated and updated 14 October 2026; regular updates planned"
+   },
+   "founded": "2026-07-16 (the tracker's publication date in the saved PDF)",
+   "version_and_time": {
+    "published": "2026-07-16",
+    "version_1.0_update": "2026-09-15",
+    "tracker_page": "2026-10-14",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a finding that AI has no labor market effect: it states the analysis does not yet clearly indicate one",
+    "NOT a usage dataset: it uses usage measures as inputs"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "This interactive tool contains The Budget Lab's ongoing analysis of potential AI impacts on the labor market."
+    },
+    "operator": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "Copyright ©2026 Yale University. All rights reserved. The Budget Lab"
+    },
+    "unit": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Major categories of analysis can be accessed by clicking tabs towards the top of the page with the following names: Occupational churn, AI metrics, and Comparisons of AI-exposed and unexposed workers."
+    },
+    "method": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "The Budget Lab's labor market analysis, updated to incorporate August 2026 CPS microdata, does not provide clear evidence of labor market disruption associated with AI."
+    },
+    "method_churn": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "occupational churn (i.e., dissimilarity) can be tracked for the entire labor force or for specific industries."
+    },
+    "finding_mix": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "The occupational mix is not yet changing in ways that clearly align with the introduction of AI into the workforce."
+    },
+    "finding_usage": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "Measures of AI usage show no connection to changes in employment or unemployment."
+    },
+    "finding_sdid": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "A synthetic differences-in-differences analysis of AI exposure does not yet clearly indicate an AI-related labor market footprint."
+    },
+    "finding_september": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Churn across occupations, AI exposure among the unemployed, and usage data all remain flat, lie within historical ranges, or continue along pre-AI trends."
+    },
+    "limit": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Of course, these findings may change as new data become available."
+    },
+    "lifecycle": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "We plan on updating this analysis regularly moving forward to see how the impact of AI on the labor market changes over time."
+    },
+    "tracker_page": {
+     "src": "yale-budget-lab-ai-tracker--tracker",
+     "basis": "operator",
+     "quote": "October 14, 2026 | Updated: October 14, 2026"
+    },
+    "published": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Published: July 16, 2026 Updated: September 15, 2026"
+    },
+    "version": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Updated: September 15, 2026 Version 1.0"
+    },
+    "data_access": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Download All Data"
+    },
+    "documentation": {
+     "src": "yale-budget-lab-ai-tracker--first-report-pdf",
+     "basis": "operator",
+     "quote": "Occupational churn, AI-exposure rates of the unemployed, and related analysis can be found in Gimbel et al. (2025). Details of AI exposure metrics are discussed in Gimbel, Kendall, and Kulsakdinun (2026)."
+    }
+   },
+   "relations": [],
+   "unchecked": [
+    "the first report page (evaluating-impact-ai-labor-market-current-state-affairs), which answered 403 and is unread",
+    "the September CPS update page, which answered 403 and is unread",
+    "the interactive tool's charts and downloadable data",
+    "the saved PDF's second page, whose text breaks off in the methods paragraph on the synthetic differences-in-differences analysis",
+    "which AI usage and exposure measures the tracker draws on (Gimbel et al. 2025; Gimbel, Kendall and Kulsakdinun 2026; both unread)",
+    "the relation of the October 14 tracker page to the September 15 Version 1.0 (no later version text was saved)"
+   ],
+   "sources": {
+    "yale-budget-lab-ai-tracker--first-report-pdf": {
+     "url": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf",
+     "read": "2026-10-29",
+     "sha256": "9bcf775f43ed575636765e73b3cad8cfb62fb413e94428b92efdfabb086bafc0",
+     "http": "200"
+    },
+    "yale-budget-lab-ai-tracker--tracker": {
+     "url": "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market",
+     "read": "2026-10-29",
+     "sha256": "7efbd4d59a4fa6327f6051e259ffd11d84915c75f7ad3c1ddc8d4343fcb68e1c",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "ilo-genai-exposure-index",
+   "name": "Generative AI and Jobs: A Refined Global Index of Occupational Exposure",
+   "aka": [
+    "ILO Working Paper 140",
+    "Global Index of Occupational Exposure to Generative AI",
+    "Generative AI and jobs: A 2025 update",
+    "AI impact on jobs"
+   ],
+   "url": "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
+   "operator": "International Labour Organization (ILO), with NASK and the Polish Ministry of Family, Labour and Social Policy (expert group); authors Paweł Gmyrek, Janine Berg, Karol Kamiński, Filip Konopczyński, Agnieszka Ładna, Balint Nafradi, Konrad Rosłaniec, Marek Troszyński",
+   "kind": "index of occupational exposure, published as a working paper with a research brief",
+   "intersections": [
+    "gains-and-losses"
+   ],
+   "evidence_kind": [
+    "exposure estimate"
+   ],
+   "unit": "a task's automation score, aggregated to a 4-digit ISCO-08 occupation (mean and standard deviation) and placed in one of four exposure gradients; employment shares then estimated by country income group, region and sex",
+   "labor_object": "the tasks of occupations in ISCO-08 and in Poland's 6-digit classification (29,753 tasks in 2,541 occupations), and the global employment in the 112 occupations classed as exposed",
+   "direction": {
+    "supplies": "not recorded; the index scores tasks' technical feasibility for GenAI automation. Its scores were supplied by 1,640 people employed in Poland, each scoring tasks of their own 1-digit occupational group, and by an expert group",
+    "directs": "not recorded",
+    "gains": "not recorded as observed outcomes; it estimates employment shares exposed, by sex and income group, and states that the productivity benefits depend on complementing human expertise"
+   },
+   "method": "LLM-generated task scores (GPT-4, GPT-4o, Gemini Flash 1.5), a survey of workers scoring a representative task sample (52,558 data points on 2,861 tasks), expert validation with Delphi-style rounds, then an AI predictor fed the human scores to score all tasks; employment shares from the ILO's global estimation model on harmonised labour force microdata",
+   "coverage": {
+    "geography": "global, with regional and income-group estimates; the task survey run in Poland",
+    "period": "a static snapshot of exposure at the start of 2025; published 20 May 2025"
+   },
+   "count": {
+    "value": "29,753 Polish 6-digit tasks scored; 3,265 ISCO-08 tasks rescored; 1,640 survey respondents; 52,558 data points; 112 occupations classed as exposed",
+    "as_of": "2025-05-20"
+   },
+   "findings": [
+    "one in four workers globally (24%) is in an occupation with some GenAI exposure",
+    "3.3% of global employment falls in the highest exposure gradient (4.7% of female, 2.4% of male employment); in high-income countries 9.6% female and 3.5% male",
+    "exposed employment is 34% in high-income countries and 11% in low-income countries",
+    "clerical occupations continue to have the highest exposure; some digitised professional and technical occupations increased",
+    "mean automation score 0.29 in 2025 against 0.30 in 2023, with standard deviation 0.14 against 0.30",
+    "most jobs are more likely to be transformed than made redundant, because of the continued need for human input"
+   ],
+   "stated_limits": [
+    "the estimates measure exposure and give an upper threshold; they are not the actual impact on employment",
+    "they do not account for new jobs created or future technical advances: a static snapshot at the start of 2025",
+    "the survey sample may not represent the entire working population; opinions are comparable only within each 1-digit group",
+    "for 91.5% of tasks, respondents did not report performing a similar task in their work",
+    "the index is generic, because of the nature of ISCO-08"
+   ],
+   "answers": [
+    "which occupations have tasks scored as technically feasible for GenAI automation, and how consistently across their tasks",
+    "what share of employment sits in exposed occupations, by sex, region and country income group"
+   ],
+   "does_not_answer": [
+    "observed employment, wage or hours change in any occupation",
+    "whether exposure leads to job loss, transformation or new work",
+    "who directs adoption or receives the gains from it",
+    "how GenAI is in fact used at work"
+   ],
+   "lv_intersection": "The index estimates where task labor could pass to a GenAI system on grounds of technical feasibility, task by task; it meets task-origin only as a prior on which tasks are exposed. It observes no performed work, so it cannot speak to whether a system's labor advanced a commissioned task, or to user labor drag.",
+   "data_access": "the working paper and brief online; task-level scores published at pgmyrek.github.io/2025_GenAI_scores_ISCO08; interactive charts on the ILO site",
+   "license": "CC BY 4.0 (the working paper)",
+   "lifecycle": {
+    "state": "active",
+    "detail": "published 20 May 2025, updating the ILO's 2023 index; the Observatory still links its data ('AI impact on jobs') on 2026-10-29"
+   },
+   "founded": "2023 (the first ILO index, Gmyrek, Berg and Bescond); this refinement 2025-05-20",
+   "version_and_time": {
+    "first_index": "2023",
+    "wp140": "2025-05-20",
+    "doi": "10.54394/HETP0387",
+    "isbn": "9789220421871",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT an observed employment outcome",
+    "NOT a forecast of job loss: exposure is an upper threshold of potential",
+    "NOT a measure of AI use at work",
+    "the worker survey was run in Poland only"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "This study updates the ILO’s 2023 Global Index of Occupational Exposure to Generative AI (GenAI), incorporating recent advances in the technology and increasing user familiarity with GenAI tools."
+    },
+    "method": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Using a representative sample from the 29,753 tasks in the Polish occupational classification system and a survey of 1,640 people employed in each 1-digit ISCO-08 groups, we collect 52,558 data points regarding perceive potential of automation for 2,861 tasks."
+    },
+    "method_2": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "We then compare this input with a survey and several rounds of Delphi-style discussions among a smaller group of international experts."
+    },
+    "method_llm": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "relying on three advanced LLMs available on the market at the end of 2024: GPT-4, GPT-4o and Gemini Flash 1.5."
+    },
+    "method_predictor": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Using this approach, we generate predictions for all 29,753 tasks in the Polish classification system (Table 1)."
+    },
+    "method_isco": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "we use the same system to predict automation scores for 3,265 tasks in ISCO-08"
+    },
+    "survey_design": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "This means that tasks of managers are assessed by individuals working as managers, tasks of professionals are assessed by professionals, etc."
+    },
+    "occupations": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "At the most detailed, 6-digit level, this framework contains 2541 occupations and 29,753 corresponding tasks (Table 1)."
+    },
+    "unit": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "we rely on two moments of distribution: occupational mean and standard deviation (SD) of task-level scores pertaining to a given 4-digit occupation."
+    },
+    "exposed_occupations": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "we focus on the 112 occupations identified as exposed and estimate the share of employment that these occupations represent at the global, regional, and income-based levels."
+    },
+    "employment_model": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "This model is based on a harmonized microdata collection and a hierarchical imputation process"
+    },
+    "finding_global": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Globally, one in four workers are in an occupation with some GenAI exposure. 3.3% of global employment falls into the highest exposure category, albeit with significant differences between female (4.7%) and male employment (2.4%)."
+    },
+    "finding_income": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "These differences increase with countries’ income (9.6% female vs 3.5% male in Gradient 4 in HICs), and so does the overall exposure (11% of total employment in LICs vs 34% in HICs)."
+    },
+    "finding_24": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "one in four jobs globally (24%) has some degree of exposure, and one in three jobs in high-income countries."
+    },
+    "finding_clerical": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Clerical occupations continue to have the highest exposure levels. Additionally, some strongly digitized occupations have increased exposure"
+    },
+    "finding_scores": {
+     "src": "ilo-genai-exposure-index--brief",
+     "basis": "operator",
+     "quote": "Overall, the automation scores are slightly lower than in 2023 (a mean automation score of 0.29 in 2025 versus 0.30 in 2023), though the variability of scores is considerably lower (standard deviation 0.14 in 2025 v. 0.30 in 2023)."
+    },
+    "finding_transformed": {
+     "src": "ilo-genai-exposure-index--brief",
+     "basis": "operator",
+     "quote": "One in four workers across the world are in an occupation with some degree of GenAI exposure, but because of the continued need for human input, most jobs will be transformed rather than made redundant."
+    },
+    "gains": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "the key to unlocking the productivity benefits of GenAI lies not in the search of outright labour savings, but in the extent to which human expertise can be complemented with new technological capacities to reshape occupations and generate additional value-added"
+    },
+    "limit": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "It is important to stress that these new estimates reflect “exposure” to GenAI and not the actual impact on employment. As in 2023, the 2025 estimates represent the upper threshold of the percentage of employment that could be affected if GenAI technology were fully implemented."
+    },
+    "limit_2": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Finally, the estimates do not account for new jobs that may be created, nor the technological advances that could potentially automate more tasks in the future. In that sense, our estimates present a static snapshot of the exposure of existing occupations to GenAI at the start of 2025."
+    },
+    "limit_3": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "On the downside, this survey design means that the sample may not represent the entire working population, and interpretability of opinions on the automation potential is limited to comparisons within each 1-digit group."
+    },
+    "limit_4": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "For 91.5% of the tasks, respondents did not report performing a similar task in their work"
+    },
+    "limit_5": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "The new global index presented in this paper is generic, due to the nature of ISCO-08 and the structure of tasks associated with occupations in this framework."
+    },
+    "limit_6": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "we stress that such exposure does not imply the immediate automation of an entire occupation, but rather the potential for a large share of its current tasks to be performed using this technology."
+    },
+    "experts": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "The expert group includes international specialists at the ILO and its partner organizations, NASK and the Polish Ministry of Family, Labour and Social Policy."
+    },
+    "data_access": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "In addition, we make all task-level scores publicly available"
+    },
+    "data_access_2": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "task-level scores within the overall hierarchy of ISCO-08 are available here:"
+    },
+    "license": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "Attribution 4.0 International (CC BY 4.0)"
+    },
+    "copyright": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "© International Labour Organization 2025"
+    },
+    "doi": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "https://doi.org/10.54394/HETP0387"
+    },
+    "isbn": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "9789220421871"
+    },
+    "date": {
+     "src": "ilo-genai-exposure-index--brief",
+     "basis": "operator",
+     "quote": "Publication | 20 May 2025"
+    },
+    "brief": {
+     "src": "ilo-genai-exposure-index--brief",
+     "basis": "operator",
+     "quote": "This brief summarizes an ILO Working paper that refines the global assessment of occupational exposure to generative AI."
+    },
+    "first_index": {
+     "src": "ilo-genai-exposure-index--wp140",
+     "basis": "operator",
+     "quote": "(Gmyrek, Berg and Bescond, 2023 - GBB hereafter)"
+    },
+    "observatory": {
+     "src": "ilo-platform-policy-tracker--observatory",
+     "basis": "operator",
+     "quote": "ILO researchers developed a methodology to estimate the effects of generative AI on existing occupations."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "ilo-platform-policy-tracker",
+     "note": "both are featured on the ILO Observatory on AI and Work in the Digital Economy"
+    }
+   ],
+   "unchecked": [
+    "the task-level scores on GitHub Pages and the occupation table (Annex A1) as data",
+    "the interactive charts",
+    "the later ILO works listed on the Observatory (Working Paper 166, March 2026; the research brief on exposure indicators, April 2026) and whether they revise this index",
+    "the 2023 index itself"
+   ],
+   "sources": {
+    "ilo-genai-exposure-index--wp140": {
+     "url": "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
+     "read": "2026-10-29",
+     "sha256": "f33cc70351ee90684681a34ea4977fffca428b0d6712193450d0234c3ad8d743",
+     "http": "200"
+    },
+    "ilo-genai-exposure-index--brief": {
+     "url": "https://www.ilo.org/node/706776",
+     "read": "2026-10-29",
+     "sha256": "d01982bba323de9605e1fb36bb76f3144de14b2c64e930355f9bd04c9e5c15de",
+     "http": "200"
+    },
+    "ilo-platform-policy-tracker--observatory": {
+     "url": "https://www.ilo.org/topics-and-sectors/observatory-ai-and-work-digital-economy",
+     "read": "2026-10-29",
+     "sha256": "402a902dac92f13a919040f18c1b23402dd05338ab3ec56a6e59d6a8abeb8a44",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "berkeley-negotiating-tech",
+   "name": "Negotiating Tech: An Inventory of U.S. Union Contract Provisions for the Digital Age",
+   "aka": [
+    "Negotiating Tech",
+    "Negotiating tech"
+   ],
+   "url": "https://laborcenter.berkeley.edu/negotiating-tech/",
+   "operator": "UC Berkeley Labor Center (Center for Labor Research and Education), Technology and Work Program; researched and compiled by Lisa Kresge",
+   "kind": "searchable inventory",
+   "intersections": [
+    "worker-power",
+    "ai-governing-labor"
+   ],
+   "evidence_kind": [
+    "negotiated provision"
+   ],
+   "unit": "a technology-related provision of a U.S. collective bargaining agreement (a direct excerpt or a paraphrased summary), linked to the full contract and coded by bargaining strategy, technology type and function, worker and union rights, and employer obligations",
+   "labor_object": "the work of union-represented workers in public and private sectors across a range of industries, where employers introduce or use workplace technologies",
+   "direction": {
+    "supplies": "union-represented workers covered by the agreements",
+    "directs": "employers introducing and using workplace technologies, with the union rights to notice, information, negotiation, participation and co-governance the provisions secure",
+    "gains": "not recorded as outcomes; the provisions record negotiated guarantees around job security, pay, retraining and working conditions during technological change"
+   },
+   "method": "contract text: over 500 agreements gathered from the OLMS and OPM databases, union and employer websites and union contributions; keyword search followed by manual review; each provision coded in a structured framework",
+   "coverage": {
+    "geography": "United States",
+    "period": "contracts negotiated across several decades; last updated 2 July 2025"
+   },
+   "count": {
+    "value": "more than 175 agreements included, from over 500 reviewed; over 950 technology-related provisions referenced",
+    "as_of": "2025-07-02"
+   },
+   "findings": [
+    "many provisions refer broadly to technology or technological change, which lets one clause cover diverse technologies",
+    "a few recent contracts explicitly reference artificial intelligence or generative AI; most do not name AI",
+    "specific technology language is more common in clauses governing how particular technologies are used, often with participatory oversight or joint decision-making",
+    "long-standing provisions remain relevant to the digital workplace"
+   ],
+   "stated_limits": [
+    "an informational resource; it offers no model language and no best practices",
+    "not exhaustive of all sectors",
+    "many agreements do not name specific technologies, so keyword searches by technology miss them",
+    "references to specific employers or unions are generally omitted from the provision text"
+   ],
+   "answers": [
+    "what U.S. unions have negotiated on technology: notice, information, participation, job security, pay, retraining, monitoring, data rights, telework",
+    "how contract language names or leaves unnamed specific technologies, AI included"
+   ],
+   "does_not_answer": [
+    "whether the provisions are enforced or what they change at work",
+    "how common any provision is across all U.S. contracts",
+    "bargaining outside the United States"
+   ],
+   "lv_intersection": "The inventory records negotiated limits on how employers direct work through technology; it meets the directionality stack at the contract layer, where workers hold rights to notice, negotiation and joint oversight. It holds no measure of task fidelity or user labor drag.",
+   "data_access": "a public searchable website in six sections; each provision links to the complete agreement",
+   "license": "© Copyright 2026 UC Berkeley Labor Center; no open licence stated",
+   "lifecycle": {
+    "state": "active",
+    "detail": "last updated 2 July 2025; periodic updates planned and contract suggestions invited"
+   },
+   "founded": "cited as July 2025",
+   "version_and_time": {
+    "last_updated": "2025-07-02",
+    "citation": "July 2025",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT model contract language",
+    "NOT a census of all U.S. contracts",
+    "NOT a measure of outcomes for workers",
+    "U.S. agreements only"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "This searchable inventory documents how unions have addressed workplace technologies through collective bargaining."
+    },
+    "count": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "It includes provisions from more than 175 agreements, drawn from a review of over 500 contracts"
+    },
+    "count_2": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "With over 950 technology-related contract provisions referenced, the inventory offers a rich picture of how unions are addressing workplace technology."
+    },
+    "operator": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "The inventory was researched and developed by Lisa Kresge as a project of the UC Berkeley Labor Center’s Technology and Work Program , and was last updated on July 2, 2025."
+    },
+    "unit": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "They are either direct excerpts of contract language or paraphrased summaries when needed to clarify complex language, condense long clauses, or highlight key ideas shared across multiple agreements."
+    },
+    "unit_2": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Each provision was then analyzed using a structured coding framework that captures four key dimensions: bargaining strategy, technology type and function, worker and union rights, and employer obligations."
+    },
+    "method": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "These sources include public databases such as the U.S. Department of Labor’s Office of Labor-Management Standards (OLMS) repository and the Office of Personnel Management’s CBA database, as well as union and employer websites and direct contributions from unions."
+    },
+    "method_2": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Contracts were identified and reviewed using keyword searches focused on terms such as surveillance, monitoring, and automation, followed by manual review to locate relevant content."
+    },
+    "foundational_rights": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "including advance notice, information, negotiation, participation, and jurisdiction, typically outlined in technological change clauses."
+    },
+    "employer_commitments": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "including guarantees around job security, pay, retraining, and safe, accessible working conditions."
+    },
+    "ai_mentions": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "A few recent contracts explicitly reference artificial intelligence or generative AI, though most do not name AI or other emerging technologies directly."
+    },
+    "specific_language": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "This type of specific language is more common in clauses focused on the governance and regulation of how particular technologies are used in the workplace, often involving mechanisms for participatory oversight or joint decision-making."
+    },
+    "broad_terms": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "The use of such broad terms allows a single clause to cover diverse technologies, helping contracts stay relevant as new tools and systems emerge."
+    },
+    "limit": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Designed as an informational resource rather than a source of model language"
+    },
+    "limit_2": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "No. The inventory highlights actual negotiated provisions but does not offer model contract language."
+    },
+    "limit_3": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "While not exhaustive of all sectors, the inventory provides a detailed view"
+    },
+    "limit_4": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Keep in mind that many agreements don’t mention specific technologies by name."
+    },
+    "limit_5": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "References to specific employers or unions are generally omitted."
+    },
+    "period": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "The inventory includes provisions from contracts negotiated across several decades."
+    },
+    "lifecycle": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "We plan to update this inventory periodically and welcome suggestions for contracts to include or ideas to improve coverage and usability."
+    },
+    "data_access": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Each provision or summary is accompanied by a link to the complete collective bargaining agreement"
+    },
+    "citation": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Center for Labor Research and Education, University of California, Berkeley. July 2025."
+    },
+    "license": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "© Copyright 2026 UC Berkeley Labor Center"
+    },
+    "funding": {
+     "src": "berkeley-negotiating-tech--inventory",
+     "basis": "operator",
+     "quote": "Funding support provided by John D. and Catherine T. MacArthur Foundation and Omidyar Network"
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "coworker-bossware-database",
+     "note": "Coworker's Little Tech report acknowledges Lisa Kresge of the UC Berkeley Labor Center"
+    },
+    {
+     "rel": "neighbour",
+     "target": "ilo-platform-policy-tracker",
+     "note": "the ILO tracker's CBA component also holds collective agreements, for platform work in the European Union"
+    }
+   ],
+   "unchecked": [
+    "the six section pages and their provisions (only the overview page was saved)",
+    "the linked contracts",
+    "the count of provisions naming AI or generative AI"
+   ],
+   "sources": {
+    "berkeley-negotiating-tech--inventory": {
+     "url": "https://laborcenter.berkeley.edu/negotiating-tech/",
+     "read": "2026-10-29",
+     "sha256": "334a2b141c608f567f39ba1da80e84bf5dec195e898250999fc24254b1686205",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  },
+  {
+   "slug": "dair-luddite-lab",
+   "name": "Luddite Lab Resource Hub",
+   "aka": [
+    "Luddite Lab",
+    "the Luddite Lab at DAIR"
+   ],
+   "url": "https://labor.dair-institute.org/",
+   "operator": "Distributed AI Research Institute (DAIR)",
+   "kind": "resource hub (case studies, primers and a resource library)",
+   "intersections": [
+    "worker-power",
+    "ai-governing-labor"
+   ],
+   "evidence_kind": [
+    "organizing resource",
+    "worker testimony"
+   ],
+   "unit": "a resource: a case study of worker organizers resisting AI, a primer, or a reviewed resource in the library (research and policy primers, organizing toolkits, political education, contract language, alternative technology projects)",
+   "labor_object": "the work of union members and worker-organizers facing AI, automation and workplace surveillance, in industries the hub names as journalism, entertainment and nursing",
+   "direction": {
+    "supplies": "workers in the industries its conversations reached (journalism, entertainment, nursing)",
+    "directs": "not recorded in the saved pages",
+    "gains": "not recorded"
+   },
+   "method": "dozens of conversations with unionists from multiple industries, literature reviews of existing struggles, and the team's background in the labor movement",
+   "coverage": {
+    "geography": "not stated",
+    "period": "not stated (pages © 2026)"
+   },
+   "count": {
+    "value": "not stated",
+    "as_of": "2026-10-29"
+   },
+   "findings": [
+    "unionists in journalism, entertainment and nursing have been fighting, and winning, against industrial automation and workplace surveillance (its own statement of the conversations behind the hub)"
+   ],
+   "stated_limits": [
+    "the library selects resources it finds helpful and actionable as organizing tools, and typically shies away from general statements of principles"
+   ],
+   "answers": [
+    "which organizing strategies workers have used to push back against AI and automation at work, as the case studies tell them",
+    "where to find organizing toolkits and examples of pro-worker contract language on automation and AI"
+   ],
+   "does_not_answer": [
+    "how widespread any strategy is, or its measured outcome",
+    "any quantity of exposure, adoption or employment change"
+   ],
+   "lv_intersection": "The hub supplies workers' strategies for refusing and governing technology at work; it meets the directionality stack at the point of contesting who directs labor. None stated on DSL, task-origin or user labor drag.",
+   "data_access": "a public website",
+   "license": "© 2026 DAIR. All rights reserved.",
+   "lifecycle": {
+    "state": "active",
+    "detail": "pages carry © 2026; consultation and general contact forms open"
+   },
+   "version_and_time": {
+    "pages": "© 2026",
+    "read": "2026-10-29"
+   },
+   "negative_tags": [
+    "NOT a dataset or measurement",
+    "NOT neutral on AI at work: it is built for workers fighting AI and automation",
+    "NOT a general statement of AI principles"
+   ],
+   "evidence": {
+    "self_description": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "The Luddite Lab Resource Hub provides resources for unions, labor organizations, and organizers fighting AI and automation at work."
+    },
+    "self_description_2": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "We provide strategies for worker-led governance and oversight of new technology through case studies, primers, and a resource library."
+    },
+    "method": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "This Resource Hub is the result of dozens of conversations with unionists from multiple different industries, such as journalism, entertainment, and nursing, who have been fighting–and winning–against industrial automation and workplace surveillance at work; literature reviews of existing struggles; and our background in the labor movement."
+    },
+    "scope": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "This is a publicly accessible resource which not only discusses the harms of particular technologies, but also highlights a range of organizing strategies which workers have used to push back."
+    },
+    "operator": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "The Luddite Lab is a project of the Distributed AI Research Institute (DAIR) ."
+    },
+    "case_studies": {
+     "src": "dair-luddite-lab--home",
+     "basis": "operator",
+     "quote": "Stories from worker organizers resisting AI"
+    },
+    "primers": {
+     "src": "dair-luddite-lab--home",
+     "basis": "operator",
+     "quote": "Applied research insights into AI, automation, and the future of work"
+    },
+    "library": {
+     "src": "dair-luddite-lab--resources",
+     "basis": "operator",
+     "quote": "The resources include research-based and policy-centered primers, organizing toolkits aimed at mobilizing non-unionized and precarious workers, tools for starting conversations with colleagues about generative AI, and repositories and examples of draft contract language for technology governance."
+    },
+    "limit": {
+     "src": "dair-luddite-lab--resources",
+     "basis": "operator",
+     "quote": "We highlight those resources which we find to be helpful and actionable as organizing tools. This means we typically shy away from general statements of principles."
+    },
+    "contract_language": {
+     "src": "dair-luddite-lab--resources",
+     "basis": "operator",
+     "quote": "Examples of pro-worker contract language related to automation and AI"
+    },
+    "alt_tech": {
+     "src": "dair-luddite-lab--resources",
+     "basis": "operator",
+     "quote": "Examples of technology platforms built by workers, to protect their rights"
+    },
+    "team": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "Director of Research, DAIR Institute"
+    },
+    "license": {
+     "src": "dair-luddite-lab--about",
+     "basis": "operator",
+     "quote": "© 2026 DAIR. All rights reserved."
+    }
+   },
+   "relations": [
+    {
+     "rel": "neighbour",
+     "target": "berkeley-negotiating-tech",
+     "note": "the library collects examples of pro-worker contract language on automation and AI; Negotiating Tech inventories negotiated U.S. technology provisions (the saved pages do not name each other)"
+    }
+   ],
+   "unchecked": [
+    "the case studies, primers and the library's subpages (only the home, about and resources index pages were saved)",
+    "the team bios behind 'Click for Bio'",
+    "a founding date"
+   ],
+   "sources": {
+    "dair-luddite-lab--about": {
+     "url": "https://labor.dair-institute.org/about",
+     "read": "2026-10-29",
+     "sha256": "80633ec0d896874fc19f53c5b2aa43bad24d2565b5a81c79f2e89b4f70bfd150",
+     "http": "200"
+    },
+    "dair-luddite-lab--home": {
+     "url": "https://labor.dair-institute.org/",
+     "read": "2026-10-29",
+     "sha256": "343f27de7b8db2909fe18d9b46c59d38f4af31f9fde5208e2316cd8402fbad47",
+     "http": "200"
+    },
+    "dair-luddite-lab--resources": {
+     "url": "https://labor.dair-institute.org/resources",
+     "read": "2026-10-29",
+     "sha256": "cbe511c0f9586442c40eb4ce302ce48e0ea63da93ba6c81b01716ec20788729f",
+     "http": "200"
+    }
+   },
+   "observed": {
+    "on": "2026-10-29",
+    "fetch": "read"
+   }
+  }
+ ]
+}

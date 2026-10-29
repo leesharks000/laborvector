@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://www.laborvector.org/</loc><lastmod>2026-09-01</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/data-workers-inquiry</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/fairwork-cloudwork</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/pai-responsible-sourcing</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/turkopticon</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/coworker-bossware-database</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/worker-info-exchange</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/ilo-platform-policy-tracker</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/anthropic-economic-index</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/openai-gdpval</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/microsoft-working-with-ai</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/stanford-canaries</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/yale-budget-lab-ai-tracker</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/ilo-genai-exposure-index</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/berkeley-negotiating-tech</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.laborvector.org/aggregators/dair-luddite-lab</loc><lastmod>2026-10-29</lastmod><priority>0.7</priority></url>
 </urlset>

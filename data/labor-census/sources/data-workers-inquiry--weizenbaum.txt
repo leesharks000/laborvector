@@ -1,0 +1,349 @@
+Data Workers' Inquiry: Weizenbaum Institute 
+
+ Press 
+
+ Newsletter 
+
+ de 
+
+ /
+
+ en 
+
+ News 
+
+ Research
+
+ Zurück
+
+ Digital Technologies in Society 
+
+ Well-being in the Digital World 
+
+ Digitalization, Sustainability, and Participation 
+
+ Design, Diversity, and New Commons 
+
+ Data, Algorithmic Systems, and Ethics 
+
+ Digital Markets and Public Spheres on Platforms 
+
+ Digital News Dynamics 
+
+ Digital Economy, Internet Ecosystem, and Internet Policy 
+
+ Platform Algorithms and Digital Propaganda 
+
+ Dynamics of Digital Mobilization 
+
+ Local Digital Public Spheres 
+
+ Organizing Knowledge 
+
+ Working with Artificial Intelligence 
+
+ Reorganization of Knowledge Practices 
+
+ Digitalization and Opening up Science 
+
+ Education for the Digital World 
+
+ Digital Infrastructures in Democracy 
+
+ Norm Setting and Decision Processes 
+
+ Digitalization and Networked Security 
+
+ Security and Transparency of Digital Processes 
+
+ Technology, Power, and Domination 
+
+ Weizenbaum Digital Science Center 
+
+ Meta Research 
+
+ Research Syntheses 
+
+ Weizenbaum Panel 
+
+ Methods Lab 
+
+ Researchers
+
+ Researchers 
+
+ Principal Investigators 
+
+ Fellowships 
+
+ More
+
+ Research Projects
+
+ Open Access Publication Fund 
+
+ The Research of the Set-up Phase 
+
+ Transfer 
+
+ Zurück
+
+ Explaining and Advising 
+
+ Digital Autonomy 
+
+ artificial&intelligent 
+
+ People and Patterns 
+
+ Weizenbaum Forum 
+
+ Podcasts 
+
+ Solidarity in the Networked Society 
+
+ Mediating and Networking 
+
+ Weizenbaum Debate 
+
+ Weizenbaum Conference 
+
+ Bits&Bäume 
+
+ Berlin Science Week
+
+ Pizza and... 
+
+ Policy Roundtable 
+
+ Developing and Designing 
+
+ Policy Papers 
+
+ Weizenbaum Panel Data Explorer 
+
+ Interdisciplinary Digitalization Research Cartography 
+
+ Publications 
+
+ Zurück
+
+ Journal
+
+ Weizenbaum Journal of the Digital Society 
+
+ Publication Series
+
+ Weizenbaum Report 
+
+ Discussion Papers 
+
+ Policy Papers 
+
+ Conference Proceedings 
+
+ Annual Reports 
+
+ Publication Series
+
+ Political Education Series 
+
+ Norm Setting and Decision Processes 
+
+ Single Publications 
+
+ Resources
+
+ Publication Search 
+
+ Weizenbaum Library 
+
+ Open Access Publication Fund 
+
+ Events 
+
+ Zurück
+
+ Weizenbaum Conference 
+
+ Archive of the Weizenbaum Conference 
+
+ Event Series
+
+ Weizenbaum Debate 
+
+ Weizenbaum Forum 
+
+ Pizza and... 
+
+ Weizenbaum Movie Night 
+
+ Career Development 
+
+ Qualification program in digitalization research 
+
+ DigiSem 
+
+ DigiMeet 
+
+ Institute
+
+ Zurück
+
+ Our guiding principles 
+
+ Open Research 
+
+ Interdisciplinarity 
+
+ Sustainability 
+
+ Guidelines 
+
+ About Joseph Weizenbaum 
+
+ Organisation 
+
+ Consortium 
+
+ Weizenbaum-Institut e.V. 
+
+ Managing Board 
+
+ Board of Directors 
+
+ Principal Investigators 
+
+ Institute Council 
+
+ Board of Trustees 
+
+ Advisory Board 
+
+ Network
+
+ Team 
+
+ Researchers 
+
+ Office of the Managing Board 
+
+ Research Management 
+
+ Transfer and Dialogue 
+
+ Communications 
+
+ Human Ressources 
+
+ Finance Department 
+
+ IT 
+
+ Work and Career 
+
+ Ombudspersons 
+
+ Career Development 
+
+ Jobs 
+
+ Fellowships 
+
+ Press 
+
+ Newsletter 
+
+ Home 
+
+ Research 
+
+ Research Projects 
+
+ Data Workers' Inquiry 
+
+ Data Workers' Inquiry
+
+ The Data Workers’ Inquiry is a community-based research project in which data workers conduct research in their workplaces. The findings serve as a repository and resource for researchers, journalists, and policymakers seeking first-hand accounts of data work, as well as for other data workers.
+
+ Background
+
+ The rapid advancement of artificial intelligence (AI) has transformed industries and reshaped the global economy, promising unprecedented efficiency, innovation, and economic growth. AI tools are being released every day and their transformational capabilities are plastered on headlines everywhere.
+
+ However, behind the glossy veneer of AI-powered applications and services lies a hidden workforce of data workers who form the backbone of this technological revolution. These workers, often located in the Global South, are tasked with the labor-intensive and emotionally taxing work of data annotation, content moderation, and other forms of data processing that enable AI systems to function.
+
+ Despite their critical role in the development and maintenance of AI, data workers are often rendered invisible, their contributions unrecognized, and their well-being overlooked. This is by design, and not accidental. So far, it has been common practice to speak and research about data workers, instead of speaking or researching with them.
+
+ Objective
+
+ In The Data Workers’ Inquiry, data workers from all over the world take center stage in the telling of their own stories and report on their workplaces. It is a groundbreaking research project that aims to shed light on the often-invisible experiences and challenges faced by the workers who power the world of artificial intelligence (AI).
+
+ Methods
+
+ The team of researchers led by Dr. Miceli, Adio Dinika, Krystal Kauffmann, Camilla Wagner, and Laurenz Sachenbacher, has brought together 15 co-researchers from Venezuela, Kenya, Syria, and Germany and employment contexts, including content moderators and data annotators working for various outsourcing companies and platforms. Drawing inspiration from Marx's 1880 “Workers Inquiry”, the Data Workers Inquiry employs a participatory action research (PAR) methodology, which emphasizes the collaboration between researchers and members of directly affected communities to understand and change problematic situations, focusing on the participation of those often marginalized or excluded from decision-making processes.
+
+ Outcomes and Prospects
+
+ As community researchers, the data workers have produced a compelling array of firsthand accounts and creative outputs that illuminate the human toll of data work – from documentaries, to magazines, podcasts, essays and animations. They present a multifaceted view of the challenges faced by data workers, ranging from exploitation and precarity to the psychological impact of their labor. These accounts show how outsourcing companies prey on vulnerable populations, such as refugees, offering them work with little compensation. It is a rare glimpse into the lives of those who play a crucial role in the development and maintenance of AI technologies.
+
+ The findings of the Data Workers' Inquiry are collected on the website data-workers.org and serve as a repository and resource for researchers, journalists, and policymakers seeking first-hand accounts of data work, as well as for other data workers looking to learn about shared struggles and resistance strategies.
+
+ The collection of accounts is also a powerful call to action, urging us to confront the systemic issues that perpetuate the exploitation and marginalization of data workers and to work towards a future in which their rights and well-being are protected and respected. By amplifying the voices of these important workers and fostering a collaborative, worker-centered approach to research, the project aims to drive meaningful change in the AI industry and beyond.
+
+ Duration : August 2023 - November 2024
+
+ Partners : Weizenbaum-Institut, TU Berlin, DAIR Institut
+
+ Website : data-workers.org 
+
+ Team
+
+ Dr. Milagros Miceli
+
+ Research Group Lead
+
+ News 
+
+ Newsletter 
+
+ Events 
+
+ Publications 
+
+ Institute 
+
+ Research 
+
+ Transfer 
+
+ Projects 
+
+ People 
+
+ Jobs 
+
+ Press 
+
+ Contact 
+
+ Transparency 
+
+ Privacy Notice 
+
+ Whistleblowing 
+
+ Accessibility Statement 
+
+ Imprint 
+
+ Folgen Sie uns!
+
+ linkedin 
+
+ instagram 
+
+ mastodon 
+
+ youtube 
+
+ bluesky

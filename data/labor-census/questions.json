@@ -1,0 +1,60 @@
+{
+ "name": "Labor Vector meta-aggregator: worked questions",
+ "compiled": "2026-10-29",
+ "editor": "Lee Sharks",
+ "note": "Each question is paired with the kind of evidence that can answer it and the census records that hold that evidence, by each record's own answers and does_not_answer fields. The gap is the part of the question no record in the census settles. The roles and gaps are readings.",
+ "questions": [
+  {"id": "negotiated-protections",
+   "question": "Where are actual negotiated protections against automated monitoring and discipline?",
+   "why": "A protection is evidence when it is written into an agreement or a rule. Contract text and policy instruments hold it; estimates and testimony do not.",
+   "resources": [
+    {"slug": "berkeley-negotiating-tech", "role": "U.S. union contract provisions on notice, information, monitoring, data rights and job security, each linked to its agreement"},
+    {"slug": "ilo-platform-policy-tracker", "role": "laws, policies and EU platform-work collective agreements, including rules on algorithmic management"},
+    {"slug": "dair-luddite-lab", "role": "organizing toolkits and examples of pro-worker contract language on automation and AI"}],
+   "gap": "None of the three records whether a provision is enforced or what it changes at work."},
+  {"id": "observed-or-estimated",
+   "question": "Which sources observe employment change, and which estimate exposure?",
+   "why": "An exposure estimate scores what AI could do to a task; an observed outcome counts what happened to jobs. They answer different questions and are often cited as if they answered the same one.",
+   "resources": [
+    {"slug": "stanford-canaries", "role": "observed: employment by age and AI exposure in ADP payroll records, monthly"},
+    {"slug": "yale-budget-lab-ai-tracker", "role": "observed: occupational churn and unemployment by exposure, from the CPS"},
+    {"slug": "ilo-genai-exposure-index", "role": "estimated: the technical feasibility of GenAI automation, task by task, for occupations worldwide"},
+    {"slug": "microsoft-working-with-ai", "role": "estimated from use: an applicability score built from Bing Copilot conversations"},
+    {"slug": "anthropic-economic-index", "role": "observed use on one provider's product: the share of O*NET tasks performed with Claude"}],
+   "gap": "No record establishes that exposure causes the employment change; the two observed trackers reach different readings of the same period."},
+  {"id": "who-makes-ai",
+   "question": "Who does the data work that trains AI, and on what terms?",
+   "why": "The labor inside training and evaluation is recorded by the workers themselves, by ratings against labor standards, and by guidance to the companies that buy it. Each holds a different part.",
+   "resources": [
+    {"slug": "data-workers-inquiry", "role": "inquiries written by data workers on their own workplaces, pay and organizing"},
+    {"slug": "fairwork-cloudwork", "role": "platforms rated against five fair-work principles, with a survey of 776 cloudworkers"},
+    {"slug": "turkopticon", "role": "workers' ratings of Mechanical Turk requesters on pay, fairness and communication"},
+    {"slug": "pai-responsible-sourcing", "role": "guidance to AI practitioners on paying and sourcing data enrichment workers"}],
+   "gap": "None gives wages or conditions at the scale of the industry, or how much of a given system's training data any reported work produced."},
+  {"id": "managed-by-software",
+   "question": "What does automated management of workers look like, and can a worker see the data it uses?",
+   "why": "The products, the rules that govern them and the data a worker can recover are three different records of the same direction of labor.",
+   "resources": [
+    {"slug": "coworker-bossware-database", "role": "an inventory of workplace technology products, 2020 to 2021, with their stated terms on consent and worker access to data"},
+    {"slug": "worker-info-exchange", "role": "data obtained for gig workers from platforms, on how work was allocated, paid and assessed"},
+    {"slug": "ilo-platform-policy-tracker", "role": "the rules that address algorithmic management on platforms"}],
+   "gap": "The product inventory is a 2021 snapshot, and no record measures how often or with what effect a product is used at a workplace."},
+  {"id": "working-with-ai",
+   "question": "How do people use AI systems in their own work, and how is that use recorded?",
+   "why": "A provider's record of its own users, a classification of one assistant's conversations, and a benchmark of constructed tasks each describe labor performed with AI from a different position.",
+   "resources": [
+    {"slug": "anthropic-economic-index", "role": "Claude conversations mapped to tasks and collaboration modes, with task success as Claude assesses it: one provider's own product"},
+    {"slug": "microsoft-working-with-ai", "role": "Bing Copilot conversations, 2024, classified as user goals and AI actions"},
+    {"slug": "openai-gdpval", "role": "frontier models' deliverables on tasks built from professionals' work, graded against experts'"}],
+   "gap": "None records, from the commissioning side, whether the system's labor advanced the task the user set, or who receives the time it saves. That is the question DSL measures."},
+  {"id": "who-gains",
+   "question": "Who receives the gains of labor performed with or for AI, and who bears the costs?",
+   "why": "The census's organizing question in its sharpest form. Its records hold costs more often than gains.",
+   "resources": [
+    {"slug": "stanford-canaries", "role": "costs as observed: employment of young workers in exposed occupations against its counterfactual"},
+    {"slug": "fairwork-cloudwork", "role": "pay and conditions on the platforms rated, against minimum standards"},
+    {"slug": "anthropic-economic-index", "role": "estimated time savings by task, without who captures them"},
+    {"slug": "yale-budget-lab-ai-tracker", "role": "no clear labor-market footprint yet, at the level the CPS can see"}],
+   "gap": "No record in the census measures the distribution of productivity gains between workers, employers, platforms and model providers."}
+ ]
+}

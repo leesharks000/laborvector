@@ -1,0 +1,315 @@
+Responsible Sourcing Across the Data Supply Line - Partnership on AI 
+
+ RESEARCH 
+
+ Research 
+
+ AI & Human Connection 
+
+ AI, Labor, and the Economy 
+
+ AI Safety 
+
+ Enterprise AI 
+
+ Public Policy 
+
+ Philanthropy 
+
+ European Steering Committee 
+
+ RESOURCES 
+
+ Blog 
+
+ Resource Library 
+
+ EVENTS 
+
+ ABOUT US 
+
+ About Us 
+
+ Expert Council 
+
+ ChangeMakers 
+
+ Team 
+
+ Funding 
+
+ Press 
+
+ Careers 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ RESEARCH 
+
+ Research 
+
+ AI & Human Connection 
+
+ AI, Labor, and the Economy 
+
+ AI Safety 
+
+ Enterprise AI 
+
+ Public Policy 
+
+ Philanthropy 
+
+ European Steering Committee 
+
+ RESOURCES 
+
+ Blog 
+
+ Resource Library 
+
+ EVENTS 
+
+ ABOUT US 
+
+ About Us 
+
+ Expert Council 
+
+ ChangeMakers 
+
+ Team 
+
+ Funding 
+
+ Press 
+
+ Careers 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ DONATE 
+
+ × 
+
+ SEARCH 
+
+ Workstreams / 
+
+ AI, Labor, and the Economy 
+
+ Responsible Sourcing Across the Data Supply Line
+
+ Stay Informed
+
+ First Name 
+
+ Please fill required field. 
+
+ Last Name 
+
+ Please fill required field. 
+
+ Email 
+
+ Please fill required field. 
+
+ Organization 
+
+ please write the name of your organization in full 
+
+ Please fill required field. 
+
+ Title 
+
+ Your Comment 
+
+ Use the field below to share any thoughts or questions you have on the initiative. If you would like to advise on this work or suggest someone we should reach out to, please say a few words about yourself or the person you’re suggesting.
+
+ Receive Workstream Alerts related to the Systemic Risk in Asset Management research project 
+
+ -->
+
+ Hidden Fields 
+
+ Program ID 
+
+ Subscription completed successfully. 
+
+ Validation error occurred, please confirm the fields and submit again. 
+
+ Oops, Sorry. Something is wrong. Please try again later. 
+
+ For any questions, email communications@partnershiponai.org. 
+
+ Overview 
+
+ Updates 
+
+ Background 
+
+ What Is Data Enrichment? 
+
+ Connect With PAI About This Work
+
+ Stay Informed 
+
+ Content Wrapper
+
+ Click here to start editing
+
+ --> 
+
+ Content Row
+
+ Click here to start editing
+
+ --> 
+
+ Overview
+
+ Data labelers, data cleaners, and others who contribute human judgment to artificial intelligence (AI) systems play a critical role in developing this technology. Drawing from a diverse range of perspectives, the Responsible Sourcing workstream aims to develop recommendations and actionable resources to improve the working conditions of these professionals.
+
+ Improving Conditions for Data Enrichment Workers 
+
+ Explore PAI’s library of resources for AI practitioners to improve the well-being of data enrichment workers around the world.
+
+ Explore the Library 
+
+ Updates
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Responsible AI Starts with the Data Supply Chain
+
+ Michael George, Eliza McCullough 
+ Apr 29, 2026 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ AI and Human Rights: Protecting Data Workers
+
+ Sonam Jindal 
+ May 01, 2025 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Protecting AI’s Essential Workers: Introducing our Vendor Engagement Guidance & Transparency Template
+
+ Sonam Jindal 
+ Aug 28, 2024 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Protecting AI’s Essential Workers: A Pathway to Responsible Data Enrichment Practices
+
+ Sonam Jindal 
+ Jul 30, 2024 
+
+ -->
+
+ Practical Tool 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Improving Conditions for Data Enrichment Workers
+
+ PAI Staff 
+ Nov 16, 2022 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ PAI and DeepMind Collaborate to Develop Tools for Sourcing Enriched Data Responsibly
+
+ Sonam Jindal, Hudson Hongo 
+ Nov 16, 2022 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Responsible Sourcing of Data Enrichment Services
+
+ Sonam Jindal 
+ Jun 16, 2021 
+
+ -->
+
+ Blog 
+
+ AI, Labor, and the Economy/Responsible Sourcing Across the Data Supply Line 
+ Developing Guidance for Responsible Data Enrichment Sourcing
+
+ B Cavello 
+ Dec 22, 2020 
+
+ -->
+
+ Background
+
+ With many businesses pursuing automation and personalization with their technology investments, AI applications are becoming an increasingly common feature of industry. Alongside this boom has been the expansion of data enrichment work.
+
+ Despite being an essential component of AI development, data enrichment work has for too long been both out of sight and out of mind for AI developers. Without knowledge of (and appreciation for) how it is produced, enriched data can be too easily treated as a simple commodity. This disconnect leads to a devaluing of data enrichment work, poor working conditions for data enrichment workers, and, often, worse outcomes for AI development itself.
+
+ Increasingly, AI practitioners are recognizing the importance of data enrichment work and the people behind this critical enabling step in the AI development process. Unfortunately, too many AI developers still aren’t aware of the ways they are precipitating harmful and precarious working conditions and those who are don’t know what they can do to help. From AI developers we’ve heard sentiments like “We feel we must care about the transparency of our supply chain. But there is no transparency in data labeling. Guidelines on how to navigate this would be very useful.” Similarly, data enrichment providers express that they “would love the buyers [of data labeling] to be more educated and have realistic expectations when they set the price and terms of tasks.”
+
+ The Responsible Sourcing workstream addresses these questions by working to provide actionable guidance for data scientists, AI engineers, and product managers, to empower these critical ecosystem players to do their part in ensuring healthy and fair working conditions across the data supply line.
+
+ What Is Data Enrichment?
+
+ The concepts of machine learning have been around for more than half a century, but most of the major advances have taken place in the last five to ten years. This is thanks to improvements in hardware performance and the affordability of computing power which have made it possible to collect and analyze data at an unprecedented scale. As Aaron Courville, Ian Goodfellow, and Yoshua Bengio wrote in their 2015 book Deep Learning, “The most important new development is that today we can provide these algorithms with the resources they need to succeed.” Those resources are data.
+
+ But today’s AI systems cannot be built with just any data. They require enriched data. Data enrichment is a broadly defined term that encapsulates various types of data preparation and cleaning as well as human-review processes. Enriched data is essential for the training and validation of supervised learning models, the dominant form of applied AI. Examples of data enrichment work include:
+
+ Data preparation and cleaning:
+
+ Data annotation
+
+ Intent recognition
+
+ Sentiment analysis
+
+ Image recognition
+
+ Speech to text validation
+
+ Human-review/human in the loop work, which may include:
+
+ Content moderation
+
+ Creating a continuous feedback loop
+
+ Validating algorithmic outputs and models
+
+ RESEARCH 
+
+ RESOURCES 
+
+ EVENTS 
+
+ ABOUT US 
+
+ PARTNERS 
+
+ SUPPORT US 
+
+ © 2026 Partnership on AI | All Rights Reserved
+
+ Transparency and Governance 
+
+ Privacy Policy

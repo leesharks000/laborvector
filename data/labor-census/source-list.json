@@ -1,0 +1,71 @@
+{
+ "data-workers-inquiry": {
+  "home": "https://data-workers.org/",
+  "press": "https://data-workers.org/press-release/",
+  "weizenbaum": "https://www.weizenbaum-institut.de/en/projects/data-workers-inquiry/"
+ },
+ "fairwork-cloudwork": {
+  "oii-ai": "https://fairwork.oii.ox.ac.uk/ai",
+  "oii-cloudwork-report": "https://fairwork.oii.ox.ac.uk/wp-content/uploads/sites/17/2025/05/Fairwork-Cloudwork-Report-2025-FINAL.pdf",
+  "oii-home": "https://fairwork.oii.ox.ac.uk/"
+ },
+ "pai-responsible-sourcing": {
+  "library": "https://partnershiponai.org/responsible-sourcing-library/",
+  "workstream": "https://partnershiponai.org/workstream/responsible-sourcing/"
+ },
+ "turkopticon": {
+  "home": "https://turkopticon.net/",
+  "faq": "https://turkopticon.net/faq/index.html",
+  "whats-next": "https://blog.turkopticon.net/?p=3600"
+ },
+ "coworker-bossware-database": {
+  "database": "https://home.coworker.org/?p=770",
+  "little-tech-report": "https://home.coworker.org/wp-content/uploads/2021/11/Little-Tech-Is-Coming-for-Workers.pdf"
+ },
+ "worker-info-exchange": {
+  "home": "https://www.workerinfoexchange.org/",
+  "about-us": "https://www.workerinfoexchange.org/about-us"
+ },
+ "ilo-platform-policy-tracker": {
+  "launch": "https://www.ilo.org/resource/news/ilo-launches-global-policy-tracker-digital-labour-platforms",
+  "cba-expansion": "https://www.ilo.org/resource/news/ilo-expands-digital-labour-platform-policy-tracker-include-collective",
+  "observatory": "https://www.ilo.org/topics-and-sectors/observatory-ai-and-work-digital-economy"
+ },
+ "ilo-genai-exposure-index": {
+  "wp140": "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
+  "brief": "https://www.ilo.org/node/706776"
+ },
+ "anthropic-economic-index": {
+  "home": "https://www.anthropic.com/economic-index",
+  "readme": "https://huggingface.co/datasets/Anthropic/EconomicIndex/raw/main/README.md",
+  "jan-2026": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
+  "jun-2026": "https://www.anthropic.com/research/economic-index-june-2026-report"
+ },
+ "openai-gdpval": {
+  "arxiv": "https://arxiv.org/abs/2510.04374",
+  "post": "https://openai.com/index/gdpval/",
+  "paper-html": "https://arxiv.org/html/2510.04374v1"
+ },
+ "microsoft-working-with-ai": {
+  "arxiv": "https://arxiv.org/abs/2507.07935",
+  "readme": "https://raw.githubusercontent.com/microsoft/working-with-ai/main/README.md"
+ },
+ "stanford-canaries": {
+  "paper": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
+  "dashboard": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/"
+ },
+ "yale-budget-lab-ai-tracker": {
+  "tracker": "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market",
+  "first-report": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
+  "first-report-pdf": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf",
+  "september-cps-update": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-september-cps-update"
+ },
+ "berkeley-negotiating-tech": {
+  "inventory": "https://laborcenter.berkeley.edu/negotiating-tech/"
+ },
+ "dair-luddite-lab": {
+  "home": "https://labor.dair-institute.org/",
+  "about": "https://labor.dair-institute.org/about",
+  "resources": "https://labor.dair-institute.org/resources"
+ }
+}

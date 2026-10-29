@@ -1,0 +1,596 @@
+Canaries Dashboard - Stanford Digital Economy Lab 
+
+ Skip to content 
+
+ Stanford University 
+
+ The Stanford Institute for Human-Centered AI 
+
+ The AI Economic Indicators 
+
+ Research
+
+ Economics of Transformative AI
+
+ Revolutionizing economics to harness the full potential of advanced AI. 
+
+ New Measures of the Economy
+
+ Inventing tools and metrics for an AI-driven economy that supports shared prosperity. 
+
+ Digital Platforms and Society
+
+ Building foundations for  pro-social human behavior and AI-empowered organizations. 
+
+ AI Agents
+
+ Developing agentic AI frameworks grounded in consumer-centric values for social science research and to advance human interests. 
+
+ Research overview → 
+
+ Explore all work → 
+
+ People 
+
+ News 
+
+ Events 
+
+ About 
+
+ Close
+
+ Search 
+
+ Search
+
+ Featured searches
+
+ machine learning how did we get here 
+
+ canaries in the coal mine 
+
+ transformative AI 
+
+ Digitalist Papers 
+
+ ← Research
+
+ ← All Work
+
+ ← The AI Economic Indicators
+
+ Canaries Dashboard
+
+ Jump to: 
+ Headline results 
+
+ Headline results 
+
+ Automation v. Augmentation 
+
+ Gender partition 
+
+ How we built the Canaries Dashboard 
+
+ Reading 
+
+ Video 
+
+ Research team 
+
+ In collaboration with ADP Research, we summarize live labor market trends for a sample workers in firms using ADP payroll services. Following 
+
+ Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence 
+ (Brynjolfsson, Chandar, and Chen, 2025) , we explore how recent employment changes vary with work experience and exposure to AI. 
+
+ Workers are differentially susceptible to AI-driven displacement or growth based on both their occupation and experience. Accordingly, specific segments of the labor market can provide a leading indicator of employment trends for the broader economy.
+
+ Brynjolfsson, Chandar, and Chen (2025) studied these emergent labor market impacts. In the Canaries dashboard, we now update and extend this work, presenting it alongside other labor market indicators.
+
+ The proliferation of generative artificial intelligence has sparked a global debate about its potential impact on the labor market. This discourse spans utopian predictions of enhanced productivity, dystopian fears of widespread job displacement, and skeptical views that AI will have minimal effects on employment or productivity. Historically, technologies have affected different tasks, occupations, and industries in different ways, replacing work in some, complementing others, and transforming still others. These heterogeneous effects suggest that there may be “canaries in the coal mine” which are harbingers of more widespread effects of AI.
+
+ See annualized results 
+
+ Employment Trends Following the Introduction of ChatGPT in November 2022
+
+ Employment Index in Canaries Sample by AI Exposure 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We group workers by their AI exposure score, comparing employment trends across these groups. We see modest differences between the five exposure groups, although employment growth is lowest for the most exposed occupations.
+
+ Data 
+
+ Employment Index in Canaries Sample by Age Group and AI Exposure 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We group employees by their age and AI exposure scores, comparing employment trends across these groups. You can select different age groups. For early-career workers (22-25), the two most exposed groups of occupations see noticeable declines since the introduction of ChatGPT, while the other three occupation groups see growth. These patterns become less stark, and ultimately disappear, as we consider older workers.
+
+ Data 
+
+ Employment Index in Canaries Sample by Age Group 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We contextualize the AI exposure results with aggregate employment trends by age group, pooling all occupations. Consistent with the pattern in the previous chart, early-career workers (22-25) and the next-youngest group (26-30) see modest gains or slight declines. Using data from our July 2026 release, workers ages 22-25 accounted for 7.4% of employment in November 2022.
+
+ Data 
+
+ Canaries Sample Composition by Age Group and AI Exposure 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We summarize the composition of the sample of workers in November 2022, corresponding to the release of ChatGPT. Using data from our July 2026 release, the most exposed 20% of occupations accounted for a disproportionate share (38.3%) of employment in our sample.
+
+ Data 
+
+ Software Developer Employment Index in Canaries Sample by Age Group 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ Software developers land in the most exposed occupations group. We see large declines for early-career workers (22-25), modest declines for the next-youngest groups, and expansion for the remaining age groups.
+
+ Data 
+
+ Customer Service Representative Employment Index in Canaries Sample by Age Group 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ Customer service representatives are also assigned to the highest exposure group, and they indeed see similar trends to software developers: noticeable declines for the first two age groups, with expansion for the remaining age groups.
+
+ Data 
+
+ Stock Clerk Employment Index in Canaries Sample by Age Group 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ In contrast to software developers and customer service representatives, stock clerks fall in the second least exposed occupation group. There is little relationship between age and employment trends.
+
+ Data 
+
+ Home Health Aide Employment Index in Canaries Sample by Age Group 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ In contrast to software developers and customer service representatives, the relational and physical work of home health aides is minimally exposed to AI under most exposure frameworks: this cluster of occupations spans the least and second least exposed groups. Early-career workers (22-25) now see larger employment gains than the other age groups.
+
+ Data 
+
+ Last updated October 21, 2026. Results are updated monthly.
+
+ The Canaries Dashboard relies on data provided by our relationship with ADP, the largest payroll provider in the United States. While preserving privacy, this employment data contains in-depth information about industries, roles, geographies, and more. As a result of this collaboration, the Lab’s insights are not just comprehensive, but current, reflecting employment trends with minimal lag between collection and deployment.
+
+ Notable findings from recent releases
+
+ Employment growth is slowest in the most AI-exposed occupations
+
+ Since the introduction of ChatGPT in November 2022, all exposure groups see employment growth, but the rate of expansion is slowest for the two most-exposed occupation groups. However, these differences remain modest.
+
+ Early-career workers show the strongest exposure-related divergence
+
+ Less-exposed occupations for early-career workers show growth, while the employment declines in exposed occupations not only persist, but deepen. This divergence is still concentrated among early-career workers, but we see muted evidence of similar patterns for workers up to age 34.
+
+ Employment changes are concentrated in specific occupations
+
+ For example, early-career software developers and customer service workers show substantial employment declines. On the other hand, home health aides, a less-exposed occupation, show employment increases for the youngest workers. Employment changes continue to be unevenly distributed throughout the labor market.
+
+ Occupations with heavy automation vs. complementarity usage show different trends
+
+ There is no clear monotonic relationship between the share of usage classified as complementarity and employment trends. However, the automation ratio shows a clear correlation with employment trends: occupations with a higher share of automation in total usage see declines or more muted increases in the employment index. Accordingly, the character of AI usage could shape the labor market effects of AI.
+
+ Automation vs. Complementarity
+
+ Canaries in the Coal Mine additionally studies how the type of AI usage correlates with employment trends. The Anthropic Economic Index summarizes total usage at the occupation level and further decomposes this usage into automation and augmentation patterns. Under automation, users fully delegate tasks, whereas augmentation usage features collaboration between humans and an AI system. These types of usage patterns could have very different implications for the labor market .
+
+ Canaries in the Coal Mine supports this prediction, finding declining employment in applications of AI that automate work, with muted changes for those where AI complements the work.
+
+ Employment Trends by Usage Pattern Following the Introduction of ChatGPT in November 2022
+
+ Employment Index in Canaries Sample by Age Group and Anthropic Augmentation/Automation Ratios 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We group employees by their age and their occupations’ Anthropic Economic Index augmentation and automation ratios. Among early-career workers, the automation ratio shows a noticeable relationship with employment trends: occupations with a higher automation ratio see declines or more muted increases in the employment index. In contrast, the augmentation ratio does not show a clear relationship with employment trends for early-career workers.
+
+ Data 
+
+ Canaries Sample Composition by Age Group and Anthropic Augmentation Ratio 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We summarize the composition of the sample of workers in November 2022 by age and the share of augmentation usage in total usage (augmentation ratio). We include a separate category for occupations with zero observed usage.
+
+ Data 
+
+ Canaries Sample Composition by Age Group and Anthropic Automation Ratio 
+
+ ? 
+ Results use a five-year balanced sample of firms using ADP payroll services and include all workers matched to an occupation code. 
+
+ We summarize the composition of the sample of workers in November 2022 by age and the share of automation usage in total usage (automation ratio). We include a separate category for occupations with zero observed usage.
+
+ Data 
+
+ Gender, Exposure Scores, and Employment Trends
+
+ We next partition the Canaries sample by gender and reproduce the primary results, filtering our sample to workers with a recorded gender. Differences in employment trends for each age group can be driven by two factors. First, men or women could disproportionately work in exposed occupations. Second, within an exposure group, men and women could face different employment trends.
+
+ Both forces are at play among early-career workers (ages 22 to 25), where women have experienced slower employment growth in our sample. However, the differences related to AI largely result from differences in the occupational mix of men and women, rather than disproportionate impact within the most-exposed occupations.
+
+ Updated July 22 2026 
+ Results summary
+
+ First, on composition, 43.8% and 21.2% of women work in occupations in the most- or second-most-exposed category, respectively. In contrast, 32.4% and 18.1% of men work in these groups. Accordingly, early-career women disproportionately work in more AI-exposed occupations.
+
+ Second, early-career women see lower employment growth in each exposure quintile. In the most-exposed quintile, employment among early-career women has been contracting at 4.5% per year since the introduction of ChatGPT in November 2022, while employment for men of the same age is contracting at 2.5% per year. In the least-exposed quintile, employment among early-career women is growing at 1.3% per year, and employment for men of the same age is growing at 2.7% per year.
+
+ In the past year, employment in the most-exposed quintile has been contracting by 5.4% for early-career women and contracting by 3.1% for early-career men. In the least-exposed quintile, employment has been contracting by 3.6% for women and growing by 1.1% for men. These gaps are slightly larger for the most- and second-most-exposed occupation categories, but ultimately the differences across quintiles are modest.
+
+ Accordingly, gender-based differences in the relationship between AI exposure and employment trends appear to be driven primarily by occupational composition, rather than disparate trends within given sets of occupations. However, there is some evidence that the employment growth gap between men and women is slightly higher for more exposed occupations.
+
+ Employment Trends by Gender Following the Introduction of ChatGPT in November 2022
+
+ Employment Index in Canaries Sample by Gender, Age, and AI Exposure 
+
+ We group employees by gender, age, and AI exposure, comparing employment trends across five exposure quintiles separately for women and men. Select an age group to compare how employment trends vary by exposure within each gender.
+
+ data 
+
+ Canaries Sample Composition by Gender, Age, and AI Exposure 
+
+ We summarize the composition of the Canaries sample in November 2022 by gender, age, and AI exposure. Select an age group to compare the share of women and men employed in each exposure quintile.
+
+ data 
+
+ Employment Index Comparisons by Gender Within Age and AI Exposure Groups 
+
+ We compare employment trends for women and men within each age group and AI exposure quintile, as well as across all occupations. Select an age group to view gender differences for each exposure group.
+
+ data 
+
+ Cite the Canaries Dashboard
+
+ Copy Citation 
+ Copied to clipboard 
+
+ Stanford Digital Economy Lab and ADP Research. "AI Economic Indicators: Canaries Dashboard." Accessed [access date]. https://digitaleconomy.stanford.edu/project/indicators/canaries/
+
+ Copy BibTeX 
+ Copied to clipboard 
+
+ @misc{stanford-indicators-canaries, 
+ author = {{Stanford Digital Economy Lab} and {ADP Research}}, 
+ title = {AI Economic Indicators: Canaries Dashboard}, 
+ year = {[access year]}, 
+ urldate = {[access-date]}, 
+ url = {https://digitaleconomy.stanford.edu/project/indicators/canaries/} 
+}
+
+ How we built the Canaries Dashboard
+
+ The Canaries dashboard sits among related efforts to measure the labor market impacts of AI. We use low-latency data on a large, but not necessarily representative, sample of firms. The data, provided by our collaboration with ADP Research, afford us occupational granularity and timely updates to our results.
+
+ Further, the Canaries Dashboard uses a balanced sample of firms, focusing on the evolution of employment within a large set of firms. This restriction shuts down the margins of firm entry and exit.
+
+ The occupational granularity and timeliness of our results afford an early signal of changes to the labor market, a canary in the coal mine. Accordingly, the Canaries Dashboard complements, rather than substitutes for, analyses that make use of nationally representative datasets.
+
+ We present employment trends in the Canaries sample as our primary results in this dashboard. Brynjolfsson, Chandar, and Chen (2025) include similarly constructed aggregates as well as event-study regressions which attempt to control for confounding factors.
+
+ The authors elaborate on these results in their February 2026 update where they find that, when including the broadest set of controls, declines in AI-exposed occupations become statistically significant in 2024. The earlier declines are likely driven by non-AI factors.
+
+ Accordingly, the Canaries Dashboard measures the correlation between occupational exposure measures and employment trends in our sample, rather than a causal link between the two.
+
+ Methodology
+
+ We adopt the balanced sample approach of Brynjolfsson, Chandar, and Chen (2025) , including firms with 5 years of employment history in ADP. This sampling strategy mitigates the influence of the changing composition of ADP firms, but it also limits the extent to which our analysis reflects reallocation of employment between firms, entry and exit of firms, and firms that change their payroll provider. Each month, we roll this 5-year window forward. We additionally limit our sample to workers successfully matched to an occupation code. These two sampling restrictions depart from the methodology ADP Research uses in their National Employment Report . Our sample represents neither the entire U.S. labor market nor the universe of firms using ADP payroll services. 
+
+ As of the Canaries Dashboard launch, our balanced sample of firms using ADP payroll services, spanning the 5 years ending in April 2026, consists of 25,000 firms. In November 2022, these firms employed 4.6mm workers successfully matched to an occupation code. This sample covers over 730 unique occupations.
+
+ We match occupations across various occupational classification systems using the Bureau of Labor Statistics 2018 SOC Crosswalk . We match the occupation-level ADP data to various measures of exposure: Eloundou et al. (2024) and the Anthropic Economic Index . When grouping occupations by exposure metrics, we weight all occupations equally, rather than by employment counts. We additionally group workers by age.
+
+ Employment is not distributed evenly by exposure. In November 2022, the least exposed quintile—according to Eloundou et al. (2024) —accounts for 6.4% of employment in our sample, while the most exposed quintile accounts for 38.3%. The middle three quintiles constitute 13.7%, 13.9%, and 27.7%, respectively. 
+
+ Future versions of this work will use an expanded and reweighted sample.
+
+ Our work with ADP Research
+
+ The Canaries Dashboard uses data from ADP, a global leader in HR and payroll solutions. ADP is the largest payroll processing firm in America: the company provides payroll services for firms employing over 26 million workers in the U.S. We largely follow the methodology of Brynjolfsson, Chandar, and Chen (2025) to construct the Canaries Dashboard.
+
+ The sampling approach for the Canaries Dashboard differs from the methodology ADP Research uses in their National Employment Report . Our sample represents neither the entire U.S. labor market nor the universe of firms using ADP payroll services. Further, w hile the ADP data include millions of workers in each month, the distribution of firms using ADP services does not exactly match the distribution of firms across the broader US economy.
+
+ In all, our collaboration with ADP Research provides low-latency data on employment trends for a large sample of firms with a high degree of occupational granularity: we track employment for over 730 occupations. Accordingly, our analysis is a complement to other studies that use representative datasets that might have less occupational granularity or are released with a lag.
+
+ Erik Brynjolfsson 
+ Jerry Yang and Akiko Yamazaki Professor 
+
+ We are now transitioning out of this investment phase into a harvest phase where those earlier efforts begin to manifest as measurable output.
+
+ No Widespread Displacement, but the AI Employment Gap for Young Workers Has Widened to 19% 
+
+ In August 2026, the authors of "Canaries in the Coal Mine?" published a revised version of their paper, with a larger set of data granting a fuller view of AI's impact on employment.
+
+ Researchers: 
+ Erik Brynjolfsson , Bharat Chandar , Ruyu Chen 
+
+ Insights
+
+ Economics of transformative ai
+
+ Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence 
+
+ Authors: 
+ Erik Brynjolfsson , Bharat Chandar , Ruyu Chen 
+
+ publication
+
+ Economics of transformative ai
+
+ New measures of the economy
+
+ Canaries, Interest Rates, and Timing: More on the Recent Drivers of Employment Changes for Young Workers 
+
+ In February 2026, the authors of "Canaries in the Coal Mine?" published an update addressing the response to their paper.
+
+ Researchers: 
+ Erik Brynjolfsson , Bharat Chandar , Ruyu Chen 
+
+ Insights
+
+ Economics of transformative ai
+
+ Video
+
+ DEL Research Team
+
+ Erik Brynjolfsson
+
+ Jerry Yang and Akiko Yamazaki Professor 
+
+ Connect 
+
+ LinkedIn 
+
+ Google Scholar 
+
+ Erik Brynjolfsson is one of the world’s leading experts on the economics of technology and artificial intelligence. He is the Jerry Yang and Akiko Yamazaki Professor and Senior Fellow at the  Stanford Institute for Human-Centered AI (HAI) , and Director of the  Stanford Digital Economy Lab . He also is the Ralph Landau Senior Fellow at the  Stanford Institute for Economic Policy Research (SIEPR) , Professor by Courtesy at the  Stanford Graduate School of Business  and Stanford Department of Economics, and a Research Associate at the  National Bureau of Economic Research (NBER) .
+
+ One of the most-cited authors on the economics of information, Brynjolfsson was among the first researchers to measure productivity contributions of IT and the complementary role of organizational capital and other intangibles.
+
+ Read more 
+
+ Bharat Chandar
+
+ Research Scholar 
+
+ Connect 
+
+ LinkedIn 
+
+ Google Scholar 
+
+ Personal Website 
+
+ Bharat Chandar is a labor economist working on understanding AI’s impact on work. His recent projects include work with Erik Brynjolfsson and Ruyu Chen tracking “canaries in the coal mine” for entry-level employment changes in jobs exposed to AI. He also recently surveyed the state of knowledge about AI and labor markets.
+
+ His ongoing work has focused on three areas. The first asks, how will workers adjust if we see AI-driven changes in hiring? Which workers will have an easier or more challenging time if displaced, and where should we target support? The second asks, how can we use AI to make it easier for people to learn new things and pursue new forms of work? Third, how will impacts of AI differ across the world?
+
+ Read more 
+
+ Ruyu Chen
+
+ Research Scientist 
+
+ Connect 
+
+ Personal Website 
+
+ Ruyu Chen is a research scientist at the Digital Economy Lab and the Stanford Institute for Human-Centered Artificial Intelligence (HAI). Her research lies at the intersection of the economics of innovation, information systems, and business strategy.
+
+ She focuses on two main areas:  information technology adoption and firm performance , where she examines the drivers of IT adoption within firms and its impact on innovation and market performance; and  AI and the future of work , where she leverages large-scale payroll data to study how emerging technologies, particularly generative AI, are reshaping employment, wages, skill demands, and organizational structures. Her work has been published in leading academic journals, including the Strategic Management Journal.
+
+ Read more 
+
+ Connacher Murphy
+
+ Research Affiliate 
+
+ Connect 
+
+ LinkedIn 
+
+ Personal Website 
+
+ Connacher Murphy is a research manager at DEL, where he works with lab scholars to turn their research on the economic impacts of AI into low-latency, regularly updated measures of the economic impacts of AI. He also pursues new research partnerships for this work. These efforts are housed under the forthcoming Stanford AI Economics Observatory.
+
+ Connacher is interested in the economic and social impacts of AI, both for their relevance to policy and as strong proxies for capabilities.
+
+ Read more 
+
+ Andrew Wang
+
+ Research Scientist 
+
+ Andrew Wang is a research scientist at the Stanford Digital Economy Lab.
+
+ He is interested in technology, innovation, productivity, and the workforce. His prior work experience includes program evaluation and R&D project management in federal government at the National Institute of Standards and Technology, and in public-private partnership programs for early-stage R&D, where he interacted with both start-ups and large corporate R&D centers.
+
+ Andrew received a BA in history and economics from the University of California, Berkeley, and a PhD in economics from Harvard University.
+
+ Read more 
+
+ Natania Wong
+
+ Pre-doctoral Researcher 
+
+ Connect 
+
+ LinkedIn 
+
+ Personal Website 
+
+ Natania is a pre-doctoral research fellow who studies how the rapid adoption of generative AI technologies is reshaping the labor market––from shifts in skill demand and changes in employment and earnings, to the evolving nature of where and how people work. Her research focuses on identifying who benefits, who is left behind, and how policy can support workers during periods of technological change. 
+
+ Read more 
+
+ ADP Research Team
+
+ Nela Richardson
+
+ Chief Economist, ADP 
+
+ Dr. Nela Richardson is ADP’s Chief Economist and ESG Officer. Nela is the head of the ADP Research Institute (ADPRI), where she leads economic research and provides reliable and timely analysis for the public, global and local businesses, and policymakers. Her background and expertise cross many industries, including finance, technology, housing and labor.
+
+ Canaries in the wild
+
+ New Tracker Traces AI’s Real-Time Impact on Work 
+
+ Researcher: 
+ Nela Richardson 
+
+ News
+
+ A New Stanford Analysis Reveals Who’s Losing Jobs to AI 
+
+ Researchers: 
+ Erik Brynjolfsson , Bharat Chandar , Ruyu Chen 
+
+ News
+
+ ADP Research Institute® Collaborates with the Stanford Digital Economy Lab to Advance Labor Market Analysis 
+
+ Researchers: 
+ Erik Brynjolfsson , Nela Richardson 
+
+ News
+
+ Economics of transformative ai
+
+ Why AI is making it harder for young people to to land their first job 
+
+ Researcher: 
+ Bharat Chandar 
+
+ News
+
+ AI and Labor Markets: What We Know and Don't Know 
+
+ We face enormous uncertainty about how AI will shape labor markets. People have questions about what we have learned, what the future might look like, and what we should do about it. The excellent Jasmine Sun suggested I write a post summarizing the state of knowledge. This is my assessment of what we know and don’t know about AI and labor.
+
+ Researcher: 
+ Bharat Chandar 
+
+ Insights
+
+ Economics of transformative ai
+
+ More of our work with ADP
+
+ National Employment Report (ADP) 
+
+ Researchers: 
+ Erik Brynjolfsson , Sarah Bana , J. Frank Li , Andrew Wang , Ruyu Chen 
+
+ project
+
+ New measures of the economy
+
+ Labor Market Dynamism (ADP) 
+
+ Researchers: 
+ Erik Brynjolfsson , Sarah Bana , J. Frank Li , Andrew Wang 
+
+ project
+
+ Economics of transformative ai
+
+ New measures of the economy
+
+ Explore the rest of the Indicators
+
+ The AI Economic Indicators
+
+ Transformation Tracker 
+
+ Macroeconomic signals associated with advances in AI capabilities and broader economic change.
+
+ project
+
+ Adoption Monitor 
+
+ Adoption trends for generative AI tools among individuals and firms across available surveys and datasets.
+
+ project
+
+ GDP-B: Surplus Observer 
+
+ We track consumer surplus from generative AI tools over time, allowing us to understand the dynamics and components of the consumer welfare contributions of AI.
+
+ project
+
+ 353 Jane Stanford Way
+
+Stanford University
+
+Stanford, CA 94305
+
+ digitaleconomylab@stanford.edu 
+
+ Get Involved
+
+ Courses & Education 
+
+ Opportunities 
+
+ Support 
+
+ Corporate Affiliates 
+
+ Subscribe to our newsletter to stay updated
+
+ Submit email → 
+
+ Your subscription is subject to our  Privacy Policy .
+
+ Stay in touch
+
+ LinkedIn → 
+
+ X (Twitter) → 
+
+ YouTube → 
+
+ Stanford Home 
+
+ Stanford HAI 
+
+ Maps & Directions 
+
+ Search Stanford 
+
+ Emergency Info 
+
+ Terms of Use 
+
+ Privacy 
+
+ Copyright 
+
+ Trademarks 
+
+ Non-Discrimination 
+
+ Accessibility 
+
+ © Stanford University. Stanford, California 94305.

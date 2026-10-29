@@ -1,0 +1,2281 @@
+Fairwork
+Cloudwork
+Ratings 2025
+ADVANCING STANDARDS IN
+DIGITAL LABOUR AND AI
+SUPPLY CHAIN GOVERNANCE
+CONTENTS
+
+Executive summary								3
+
+Key findings										                               4
+
+Introduction										                               6
+
+Fairwork Cloudwork Ratings 2025					                 11
+
+How platforms performed on the five principles		     12
+
+Platform in Focus: Elharefa and Translated			        17
+
+Theme in Focus: From internal to external platform
+governance to secure fairer labour standards 		      19
+
+Workers’ stories 									                           24
+
+Impact and next steps
+Platform changes									                            30
+
+Pathways of change 								                          34
+
+The Fairwork Pledge 								                         36
+
+Appendix I - Fairwork scoring system 				            38
+
+Appendix II – Platform comments 					                43
+
+Endnotes										                                   44
+
+Credits and funding 								                         46
+
+
+
+
+                             2
+Executive Summary
+The Fairwork Cloudwork Ratings 2025 assesses and scores
+basic standards of fairness in working arrangements on 16
+cloudwork digital labour platforms according to the five
+Fairwork Cloudwork Principles: fair pay, conditions, contracts,
+management, and representation.
+The platforms studied in this report were selected based       and did not require workers to waive their rights to
+on their global reach (such as Upwork, Amazon Mechanical       reasonable legal recourse, and that platforms engaged
+Turk, Freelancer, Fiverr and Remotasks), their position        with freely chosen workers’ bodies, such as unions and
+as regional market leaders (such as ComeUp, Terawork           associations.
+and SoyFreelancer), and companies focused on specific
+segments, for instance, academic research or translation       The study has shed light on the limits of internal
+(Translated, Prolific and Creative Words).                     governance mechanisms adopted by platforms to ensure
+                                                               fair labour standards, while acknowledging improvements
+This year’s scores show that platforms are still far from      in a few cases. Recognising the insufficiencies of self-
+safeguarding the basic standards of fair work expressed        regulated private governance, the Theme in Focus
+in our five principles, but with notable improvements          section highlights how external and state-led governance
+compared to the previous report1. Three platforms scored       initiatives are growing, both at national, regional and
+8, and two platforms scored 7 out of 10 points. One            international levels. However, these initiatives only partially
+platform scored 5, one 4, and one 3 out of 10 points. For      include cloudwork platforms within their scope.
+the remaining nine platforms, the final scores did not
+surpass 2 out of 10 points. For three platforms, we could      Although there is a long way to go before platforms fully
+not find any evidence that they met any of the ten points.     comply with minimum standards of fair work, some
+                                                               platforms have been adopting changes to improve working
+In some cases, we found evidence that platforms met            conditions in dialogue with the Fairwork cloudwork
+Fairwork’s minimum thresholds with regard to ensuring          research and scoring process. This year, a record number
+mitigating precarity and labour oversupply (threshold 2.1,     of 56 changes were adopted since the last report launched
+nine platforms), providing communication channels and          in July 2023, the highest for a Fairwork report. In the last
+due process and appeals channels for punitive actions,         report, 17 changes were adopted by the platforms scored.
+such as deactivation (threshold 4.1, eight platforms),         Some platforms have taken action to ensure health and
+ensuring workers were paid for completed work (threshold       safety remedies, minimum wage policies, fairer contracts,
+1.1, seven platforms), and monitoring and addressing           enhanced appeal channels and procedures, and freedom
+health and safety risks (threshold 2.2., seven platforms).     of association acknowledgement. We estimate that these
+                                                               changes will impact around two million workers worldwide.
+On the other hand, for the majority of the platforms studied
+in this report, we were unable to find evidence of policies
+to ensure that all workers earned at least their local
+minimum wage, that contracts were fair and transparent,
+
+
+
+
+                                                         3
+Key findings
+The platforms we scored remain far from safeguarding the
+basic standards of fair work expressed in our five principles.
+Three platforms scored 8, and two platforms scored 7 out of
+10 points. One platform scored 5, one 4, and one 3 out of 10
+points. For the remaining eight platforms, the final scores did
+not surpass 2 out of 10 points. For three platforms, we could
+not find any evidence that they met any of the ten points.
+
+
+           FAIR PAY
+           For seven platforms (ComeUp, Clickworker, Elharefa, Prolific, SoyFreelancer, Terawork and
+           Translated), we found evidence that they had systems in place to ensure that workers were paid
+           in a timely manner for all the work they completed.
+
+           The point for threshold 1.2, which states that the majority of workers should earn at least
+           the local minimum wage, was awarded to four platforms: ComeUp, Translated, Elharefa, and
+           Terawork. The latter two platforms implemented or strengthened their minimum wage policies.
+
+
+
+
+           FAIR CONDITIONS
+           Nine platforms (Appen, ComeUp, Creative Words, Elharefa, Fiverr, Prolific, Remotasks, Terawork
+           and Translated) were awarded a point for the first threshold because we found evidence
+           of measures to manage the supply and demand of work and avoid unreasonable levels of
+           competition between workers and overwork.
+
+           Out of the nine platforms that were awarded a point for 2.1, seven received
+           an additional point for 2.2 (health and safety risks are mitigated): Appen,
+           ComeUp, Creative Words, Elharefa, Prolific, Remotasks, and Translated.
+
+
+
+
+                                               4
+FAIR CONTRACTS
+Our research found evidence that seven platforms (ComeUp, Creative Words, Elharefa, Prolific,
+SoyFreelancer, Terawork, and Translated) met all the criteria for 3.1 relating to the availability
+of clear terms and conditions. Of these platforms, six (Creative Words, Elharefa, Prolific,
+SoyFreelancer, Terawork, and Translated) received a further point for threshold 3.2 (contracts
+are consistent with the workers’ terms of engagement on the platform).
+
+
+
+
+FAIR MANAGEMENT
+We were able to find evidence that eight platforms (ComeUp, Creative Words, Elharefa, Fiverr,
+PeoplePerHour, Soyfreelancer, Terawork, and Translated) met all our criteria for threshold 4.1
+(there is a process for decisions affecting workers).
+
+We were able to award a point for threshold 4.2 to three platforms this year (there is equity in
+the management process): ComeUp, Creative Words and Terawork.
+
+
+
+
+FAIR REPRESENTATION
+Six platforms (Appen, ComeUp, Creative Words, Elharefa, Translated and Upwork) were
+awarded a point for fair representation related to the recognition of and engagement with
+collective workers’ bodies. We were unable to award the second point (there is collective
+governance or bargaining) to any of the platforms evaluated this year.
+
+
+
+
+                                  5
+Introduction
+Cloudwork (online remote work) platforms have gained
+momentum in recent years as alternatives for workers,
+especially those who are marginalised in formal labour
+markets due to geography, discrimination, disability, care
+responsibilities, and other factors.2
+Multiple factors have contributed to the expansion of            who are also located in the Global North, while the vast
+cloudwork, including expanding global connectivity, the          majority of the available workforce is located in the
+declining ability of formal waged workers to meet rising         Global South.8 These work arrangements tend to be
+living costs, the growth of data-intensive industries, and       characterised by uncertain relations, including problems
+the demand for data commodities.                                 of low and non-payment, fierce competition resulting
+                                                                 from an oversupply of labour, long working hours, risks
+A growing body of research has noted the increasing              and harm resulting from dangerous tasks (for example,
+prominence of this new global labour market, although            tasks involving exposure to distressing and/or violent
+measuring it can be challenging. A report from the World         content), lack of transparency in management systems
+Bank estimated that there are between 154 million and            (usually operated by automated, algorithmic means), and
+435 million online workers3. Previous research estimated         difficult dispute resolution processes, which often shift
+the online workforce in 2020 to be around 163 million,           the balance of power towards clients.
+although this number could be higher due to the limits of
+current measurement efforts.4                                    The Fairwork project evaluates basic standards
+                                                                 of fairness in working arrangements on digital
+The ILO mapped 283 web-based platforms in its 2021               labour platforms according to five principles of fair
+Work Employment Outlook,5 comprising 181 freelance               work, concerning payment, conditions, contracts,
+platforms, 46 dedicated to microtasks, 37 based on               management, and representation. In this report, we
+content creation and circulation, and 19 focused on              present an evaluation of sixteen prominent cloudwork
+competitive programming.                                         platforms, which were scored on a scale from 1 to 10.
+                                                                 This year, we added two translation platforms — Creative
+Because much of the labour on cloudwork platforms can
+                                                                 Words and Translated — to the league table, which were
+be performed by workers anywhere in the world, as long
+                                                                 scored previously in the Translation and Transcription
+as they have access to the internet, cloudwork platforms
+                                                                 ratings, also conducted by the Fairwork team.
+effectively create what has been called a planetary
+labour market.6 However, despite operating at a                  The results show that the road towards fairness in
+planetary scale, this market is shaped by geographically         cloudwork is still long. For a significant portion of
+contingent features like language, time zone, and                platforms scored, we could not get evidence of basic
+internet access – and as such, a key feature of cloudwork        standards of fairness, such as guaranteeing a minimum
+is the uneven geographies and regional inequalities that         compensation for workers (proportional to a minimum
+permeate these new work arrangements.                            wage), ensuring that risks and harms are flagged and
+                                                                 avoided, providing transparent contracts, respecting
+There is a high level of concentration in cloudwork,
+                                                                 workers’ rights to legal resources, taking effective
+with a few powerful companies dominating the market,
+                                                                 measures against discrimination, recognising workers’
+mostly located in global centres of power – especially
+                                                                 free association, and more.
+the United States.7 Most of the demand is from clients
+
+
+
+                                                             6
+This year’s platforms in focus are Elharefa and Translated.    Both cloudwork and geographically-tethered platform
+Elharefa is an Egypt-based platform that coordinates a         work are often characterised by the organisation of
+wide range of services targeting workers and requesters        work into short-term, on-demand tasks mediated by
+from the Middle East and North Africa (MENA) region.           the platform. Platform workers are usually paid per task
+The company jumped from a score of 1 in the previous           (known as piece-rate pay), as opposed to receiving an
+report to an 8 in this report after it updated its Terms of    hourly wage or salary. So, cloudwork is platform work
+Service to include 14 changes aligned with the Fairwork        that can be performed from anywhere on the planet with
+Cloudwork Principles. Translated is a translation platform     an internet connection, and cloudworkers are generally
+based in Italy that offers services internationally. The       classified as self-employed or independent workers on
+company maintained its score from the last report (8)          paid piece rates.
+and adopted new changes to improve its practices and
+processes.                                                     Cloudwork can be further categorised based on the
+                                                               duration of the task typically performed on a platform.
+Defining cloudwork                                             Some cloudwork platforms facilitate work, such as
+Digital labour platforms mediate the supply and demand         data labelling and processing, AI training, and image
+of labour power (as opposed to allowing users to rent an       categorisation. Such tasks can take a matter of seconds
+asset or sell a product) through an online interface. Not      or minutes to complete and are often referred to as
+all work intermediated by digital labour platforms can be      microwork. By contrast, the second category of cloudwork
+performed remotely over the internet — indeed, digital         platforms facilitate tasks (sometimes called freelance)
+labour platforms are prominent in the taxi industry, like      that are longer in duration and that usually require a higher
+Uber, Bolt, and DiDi, the food and last-mile delivery sector   level of specialist training. These can include translation,
+like Deliveroo, Glovo, and Postmates, and in personal          design, illustration, web development, and writing.
+shopping, home cleaning, beauty services, and more.
+We call this category of location-specific platform work
+“geographically tethered work”. By contrast, work that can
+be performed remotely through a digital labour platform,
+we call cloudwork.9
+
+
+
+
+                                                          7
+The Fairwork
+Project
+The Fairwork project studies working conditions on digital
+labour platforms and rates individual platforms based on
+their fairness to workers.
+Its goal is to highlight the best and worst practices in         The principles are periodically updated through a
+the platform economy and to show that better and fairer          democratic process of revision within the Fairwork
+platform jobs are possible. Fairwork, at its essence, is a       network to ensure they remain attuned to the key
+way of imagining a different and fairer platform economy         challenges facing platform workers. The latest renewal
+than the one we have today. By evaluating platforms              processes occurred in 2024, resulting in updated
+against measures of fairness, we hope to not just show           standards for this year’s report. Further details on the
+what the platform economy is, but also what it can be.           thresholds for each principle and the criteria used to
+                                                                 assess the evidence we collect to score platforms can be
+The project is based at the Oxford Internet Institute,           found in the Appendix.
+University of Oxford in the United Kingdom, and at the
+WZB Berlin Social Science Center in Germany, and                 Methods
+is financed by, among others, the German Federal                 The Fairwork project uses three approaches to
+Ministry for Economic Cooperation and Development                effectively measure the fairness of working conditions
+(BMZ), commissioned by the Deutsche Gesellschaft für             at digital labour platforms: desk research, worker
+Internationale Zusammenarbeit (GIZ).                             interviews and surveys, and interviews with platform
+                                                                 management. Through these three methods, we seek
+Fairwork has developed a set of five principles of fair
+                                                                 evidence on whether platforms act in accordance with
+platform work coalescing around the pillars of fair pay,
+                                                                 the five Fairwork principles.
+fair conditions, fair contracts, fair management, and
+fair representation. The five principles were initially          We recognise that not all platforms use a business model
+developed in 2018 at a multi-stakeholder workshop at             that allows them to impose certain contractual terms on
+the International Labour Organisation.                           service users and/or workers in such a way that meets
+                                                                 the thresholds of the Fairwork principles. However, all
+The Fairwork framework                                           platforms have the ability to influence the way users
+The project has developed slightly different benchmarks          interact on the platform. Therefore, for platforms that
+of fairness criteria for geographically tethered work and        do not set the terms on which workers are retained
+cloudwork, in acknowledgement of small variations                by service users, we look at a number of other factors
+in the risks and harms facing workers in these two               including published policies and/or procedures, public
+categories of work. The cloudwork principles were                statements, and website/app functionality to establish
+developed in 2020 and submitted to a process of further          whether the platform has taken appropriate steps to
+consultation with stakeholders, including platform               ensure they meet the criteria for a point to be awarded
+workers, trade union representatives, and researchers.           against the relevant principle.
+
+
+
+
+                                                             8
+Desk research
+The team scrapes publicly available information to            Survey participation was limited to workers with a
+establish the range and types of platforms that will be       reasonable amount of experience, or time on the
+rated. Platforms are selected on the basis of several         platform, with the threshold being set at one month. We
+different criteria, but we prioritise platforms that a) are   aimed to sample a range of experience and skill types
+especially large or prominent, and/or b) have made            where possible. Depending on the time spent completing
+public commitments to voluntary regulation mechanisms         the survey, all respondents were compensated at a rate
+or claims about fair treatment of workers. We also aim        that at least matched and usually exceeded the United
+to include some geographical diversity in our platform        Kingdom’s minimum wage.
+sample. While we have not included every prominent
+cloudwork platform in this second cloudwork league
+table, we intend to expand our selection further in the       BY EVALUATING PLATFORMS AGAINST
+ratings we release over the coming years. Desk research
+also serves to identify any public information that could
+                                                              MEASURES OF FAIRNESS, WE HOPE TO
+be used to score a platform, for instance, documented         NOT JUST SHOW WHAT THE PLATFORM
+platform policies, the provision of particular services to    ECONOMY IS, BUT ALSO WHAT IT CAN BE.
+workers, or ongoing disputes. Through desk research,
+we also review all available contractual terms between
+platforms and workers that most platforms host on their       For 11 platforms, we recruited all participants through
+interfaces.                                                   the platform interface, implementing measures to ensure
+                                                              the confidentiality of participants’ responses. For three
+Platform manager evidence                                     platforms, we recruited workers in social media groups
+The second method involves approaching platforms              or official workers’ forums. For one platform, we used
+for evidence. Platform managers are contacted and             a mix of on-platform recruitment and survey invitation
+interviewed and evidence is requested for each of the         messages circulated by management. In this case,
+Fairwork principles. For this report, a questionnaire was     an oversample technique ensured that the platform
+sent requesting evidence for each standard part of each       could not know whose answers were included. On one
+threshold. This step provides insights into the operation     platform, the platform collaborated by providing lists
+and business models of the platforms and opens                of anonymised workers to be contacted directly by the
+up a dialogue through which platforms can agree to            research team.
+implement changes. In cases where platform managers
+do not agree to engage with Fairwork, scoring is limited      These surveys do not aim to build a representative set
+to evidence obtained through desk research and worker         of experiences but instead seek to understand the work
+surveys.                                                      processes and how they are carried out and managed,
+                                                              as well as to identify and probe key emerging themes for
+Worker surveys                                                digital labour platform research. The survey responses
+The third method involves platform workers completing         allow the project team to understand the recurring
+an online survey. For this third report, we present data      challenges faced by workers, identify patterns and
+collected between February 2024 and January 2025. For         common experiences, and verify the platform policies
+the global platforms, we sampled up to 70 workers per         and practices that are in place.
+platform, with a relatively even distribution of workers
+by continent. For the regional platforms, we sampled
+at least 30 workers per platform from that region. After
+cleaning the data, we were left with responses from 776
+workers in 100 countries. These responses constituted
+part of the evidence for the findings presented in this
+report.
+
+
+
+
+                                                         9
+Putting it all together                                     How we score
+This threefold approach to our research provides a way      Each Fairwork principle is broken down into two points: a
+to cross-check the claims made by platforms, while          first and a second point. The second can only be awarded
+also providing the opportunity to collect evidence from     if the first point has been fulfilled. Every platform
+multiple sources.                                           receives a score out of 10. Platforms are only given a
+                                                            point if we have reliable evidence that they meet our
+Final fairness scores were decided collectively by the      principles. Failing to achieve a point does not necessarily
+core Fairwork team and based on all three forms of          mean that a platform does not comply with the principle
+evidence. The scores were then peer-reviewed by three       in question; it simply means that the research team did
+members of the wider Fairwork team at the University of     not find any evidence and/or they were unable to prove
+Oxford and two reviewers from Fairwork’s country teams.     its compliance. When we cannot find any evidence that a
+This provides consistency and rigour to the scoring         platform meets one of the 10 thresholds, this is signalled
+process. Points are only awarded if clear evidence exists   with a dash (–).
+for each threshold examined.
+
+
+
+
+                                                          10
+Fairwork Cloudwork
+Ratings 2025                      Minimum standards
+                                         of fair work
+
+ComeUp                   8
+Elharefa                 8
+Translated               8
+Creative Words           7
+Terawork                 7
+Prolific                 5
+SoyFreelancer            4
+Appen                    3
+Fiverr                   2
+Remotasks                2
+Clickworker              1
+PeoplePerHour            1
+Upwork                   1
+Amazon Mechanical Turk   0
+Freelancer               0
+Microworkers             0
+
+                             11
+How platforms
+performed on the
+five principles
+As this report’s league table shows, the platforms we scored
+remain far from safeguarding the basic standards of fair work
+expressed in our five principles. Three platforms (ComeUp,
+Elharefa, and Translated) scored 8, two platforms scored 7
+(Creative Words and Terawork), one scored 5 (Prolific), one
+scored 4 (SoyFreelancer), and one scored 3 (Appen). The other
+eight platforms scored no more than 2 points, and for three
+of them, we were unable to find sufficient evidence that these
+companies meet any of our 10 thresholds.
+
+
+
+
+Threshold 1.1 – Workers are paid on time and for all completed work (one point)
+Threshold 1.1 — which assesses whether systems are in place to ensure workers are paid for all completed work —
+was one of the most commonly met, with seven platforms receiving a point: ComeUp, Clickworker, Elharefa, Prolific,
+SoyFreelancer, Terawork, and Translated. The mechanisms assessed included systems and rules to guard against
+unfair rejections of work by clients, as well as other instances of non-payment. The seven platforms adopted escrow
+explain systems10 in which requesters need to make a deposit before the job begins, which can increase protection for
+workers. Examples of changes11 related to mechanisms to ensure workers are paid were Appen’s update of its pre-
+jobs tests policy and reduction in the amount of unpaid assessments, and Elharefa’s and Terawork’s adoption of rules
+ensuring the right to redo jobs at least once if the result is rejected by requesters.
+
+
+
+
+                                                        12
+Threshold 1.2 – Workers are paid at least the local minimum wage (one
+additional point)
+This point was awarded to four platforms: ComeUp, Elharefa, Terawork and Translated. As a result of their engagement
+with our team, ComeUpe, Elharefa and Terawork adopted minimum wage policies. Terawork implemented a rule
+granting workers the right to report clients who offer fees below the local minimum wage, and established penalties for
+requesters who try to pay below the local minimum wage. It will also conduct educational actions with requesters and
+workers to clarify this policy. Translated provided enough evidence that workers receive at least their local minimum
+wage. Appen also provided evidence about a minimum wage policy, but we could not award the point since 1.1 was
+not awarded.
+
+
+
+
+Threshold 2.1 – Precarity and overwork are mitigated (one point)
+Nine platforms were awarded points in this threshold concerning measures to avoid unreasonable levels of
+competition between workers, overwork, and unpaid labour. This was the threshold for which the most platforms
+scored a point in this year’s league table.
+
+Remotasks implemented the highest number of changes related to this threshold, including compensation for time
+spent loading and reviewing tasks before annotation begins (to avoid unpaid labour), a limit on how many tasks a
+worker can claim (allowing unclaimed tasks to be quickly redistributed to others), and monitoring the number of
+active workers to better manage work supply. Terawork introduced a “smart advisory feature that guides freelancers
+during the application process”, aimed at reducing time spent searching for jobs. Similarly, Prolific has added new job
+search methods such as email messages and browser extensions. Appen created an incentive programme to support
+workers in developing new skills.
+
+Threshold 2.2 – Health and safety risks are mitigated (one additional point)
+Out of the nine platforms awarded 2.1, seven received an additional point for threshold 2.2, which includes measures
+to mitigate health and safety risks, and ethical data management practices. This is a significant increase compared
+with the previous report, when only two companies got this point.
+
+Prolific has updated its guidelines on health and safety to expand them to more situations, amplifying the coverage of
+these protection measures. Remotasks and ComeUp added to their policies the provision of punitive consequences
+for users who jeopardise the health and safety of workers. Terawork introduced a monitoring system for jobs and
+content circulating on the platform. According to the company, job posts undergo a “thorough review process
+before being approved to ensure they meet our community guidelines and maintain a psychologically safe space for
+freelancers.”
+
+
+
+
+                                                       13
+Threshold 3.1 – Clear terms and conditions are available (one point)
+Seven platforms (ComeUp, Creative Words, Elharefa, Prolific, SoyFreelancer, Terawork, and Translated) were
+awarded a point for this threshold. We found that contracts (including terms of use and other policies) were mostly
+understandable and available to workers and, in most cases, were published on the platform’s website. Remotasks,
+SoyFreelancer and Terawork edited their policies to ensure that changes are notified 30 days in advance.
+
+However, for most platforms, we were unable to find evidence of contract-related standards, such as advance
+notification of contract changes. In addition, for the majority of platforms studied, we were unable to get evidence
+that their terms and conditions are free of wording that requires workers to waive their right to reasonable legal
+recourse against the platform, such as extensive limitations of the platforms’ liability or class action waivers. To
+address this issue partially, Remotasks improved its terms to lower the barriers for workers to exercise their legal
+rights against the platform.
+
+Threshold 3.2 – Contracts are consistent with the workers’ terms of
+engagement on the platform (one additional point)
+Of the seven platforms that received a point for threshold 3.1, six platforms were awarded an additional point
+(Creative Words, Elharefa, Prolific, SoyFreelancer, Terawork, and Translated). We were able to verify that they met
+all the criteria for this threshold, including not imposing non-compete clauses on workers, encouraging clients to
+give workers information about how their work will be used, and ensuring that workers can refuse tasks without
+consequences for their standing or reputation on the platform.
+
+Remotasks and SoyFreelancer added to their policies guidance that states that workers will not be punished for
+not accepting tasks. Terawork implemented a cancellation policy where workers can drop out of a job in specific
+situations, such as emergencies or unforeseen circumstances.
+
+
+
+
+Threshold 4.1 – There is due process for decisions affecting workers (one point)
+We were able to get evidence that eight platforms met all our criteria for principle threshold 4.1. ComeUp, Creative
+Words, Elharefa, Fiverr, PeoplePerHour, Soyfreelancer, Terawork, and Translated had policies governing disciplinary
+actions against their workers, including how these actions can be contested and appealed. These platforms also had
+channels whereby workers can communicate with a human representative of the platform. For instance, Fiverr’s
+terms present the customer support channel and explain in multiple sections (orders, disputes and resolution) how
+work rejections can be appealed. Terawork and SoyFreelancer edited the Terms of Service to explain the appeal
+processes made available to workers.
+
+
+
+
+                                                         14
+Threshold 4.2 – There is equity in the management process
+(one additional point)
+Of the eight platforms that were awarded with point 4.1, three also got 4.2: ComeUp, Creative Words and Terawork.
+This result was a slight improvement, considering that in the last Cloudwork Ratings, no platform was awarded this
+point. We were able to find evidence of anti-discrimination policies for these companies, but also for other platforms
+which were not awarded the point, as a result of not meeting other criteria (for instance, Appen, Fiverr, Prolific, and
+Upwork).
+
+For the three platforms awarded this point, we could also find evidence of the provision of information available to
+workers about how work is allocated, including when algorithms are used. Remotasks and Translated clarified their
+methods to allocate work in their communication channels, including the use of automated systems.
+
+Another aspect assessed by this threshold was if platforms consult workers before substantive changes are made to
+the methods for allocating work. ComeUp made a commitment to always consult workers for important changes and
+documented how workers can follow and take part in the companies’ changes. Additionally, the platform has adopted
+multiple channels and forums to engage and gather feedback from workers about the work allocation methods.
+
+
+
+
+Threshold 5.1 – Workers have access to representation, and freedom of
+association (one point)
+We found evidence of recognition of freedom of association or the adoption of dispute resolution mechanisms in six
+platforms (Appen, ComeUp, Creative Words, Elharefa, Translated and Upwork). This number has increased compared
+to the last report, when this point was awarded only to two platforms.
+
+The growing number of platforms acknowledging freedom of association was a result of Fairwork’s engagement.
+Three platforms added sections to their policies or published statements recognising workers’ fundamental rights
+to organise and create their representation bodies: ComeUp, Elharefa and Translated. Creative Words published a
+similar statement for the previous report. Appen and Upwork have Modern Slavery policies acknowledging freedom
+of association.
+
+Threshold 5.2 – There is collective governance or bargaining
+(one additional point)
+We were unable to award this point to any platform in our study this year. We were unable to find any evidence of
+platforms engaging with workers’ collective bodies, informing workers of their existence, and bargaining with them.
+
+
+
+
+                                                       15
+Scores per threshold
+                 Principle 1:   Principle 2:   Principle 3:   Principle 4: Principle 5:
+                     Fair           Fair           Fair           Fair         Fair
+                     Pay        Conditions      Contracts     Management Representation
+
+                  1.1    1.2     2.1    2.2     3.1    3.2     4.1   4.2   5.1   5.2      Total
+
+AMT                                                                                         0
+
+Appen                                                                                       3
+
+Clickworker                                                                                 1
+
+ComeUp                                                                                      8
+
+Creative Words                                                                              7
+
+Elharefa                                                                                    8
+
+Fiverr                                                                                      2
+
+Freelancer                                                                                  0
+
+Microworkers                                                                                0
+
+PeoplePerHour                                                                               1
+
+Prolific                                                                                    5
+
+Remotasks                                                                                   2
+
+SoyFreelancer                                                                               4
+
+Terawork                                                                                    7
+
+Translated                                                                                  8
+
+Upwork                                                                                      1
+
+
+
+                                           16
+PLATFORM IN FOCUS
+
+Elharefa
+Elharefa is an Egyptian-based cloudwork platform                and onboarding processes are actively managed “to
+that was founded in 2019. It coordinates a wide range           ensure fair access to work opportunities while preventing
+of services, including content creation, technology             excessive unpaid labour or unsustainable workloads.”
+development and support, audiovisual production,
+translation, marketing, and sales. The company has              New rules were introduced to tackle health and safety
+expanded its operations to seven countries in the Middle        risks. A new guideline was introduced in the Terms stating
+East, North Africa, and Asia: Egypt, Saudi Arabia, the UAE,     that Elharefa will identify and mitigate “any potential
+Jordan, Palestine, Kuwait, and Pakistan.                        health and safety risks associated with freelance work.”
+                                                                Moreover, the Terms were amended to rule that “any
+Currently, over 40,000 workers are registered on the            Client or User found to be jeopardising the health or safety
+platform, with an additional 20,000 able to access              of Freelancers, or of any other user, may be subject to
+services through a social media group managed by the            disciplinary actions.”
+company. Similar to other traditional freelance platforms,
+Elharefa allows workers to advertise their services and         For Principle 3, Fair Contracts, the company added
+enables requesters to post jobs for workers to bid on. The      to the Terms that workers “will be notified of any
+platform also hosts an active Facebook forum with tens of       proposed changes to these Terms and Conditions
+thousands of participants. This year, Elharefa achieved a       within a reasonable timeframe” of 30 days prior to their
+score of 8, a significant improvement on its previous score     implementation. Following threshold 3.2, a requirement
+of 1.                                                           for requesters was added to the Terms to describe in job
+                                                                proposals the purpose of the project so workers know
+This progress is largely attributed to the revision of the      how their work will be used.
+company’s terms and policies after engaging intensively
+with the Fairwork Cloudwork team. Additionally, Elharefa’s      For Principle 4, Fair Management, an appeal process was
+managers joined the Fairwork Cloudwork Initiative to            added to the Terms, including the provision of reasons
+collaborate with other platform managers for knowledge          when a disciplinary action is taken. An anti-discrimination
+exchange and capacity building. During the policy renewal       policy was also implemented, as well as regular “audits of
+process, Elharefa adopted 14 changes.                           its job matching and rating algorithms to prevent biases
+                                                                that could unfairly impact freelancers’ visibility or job
+As part of addressing the first Fairwork Cloudwork              opportunities.” A commitment to consult workers before
+Principle, Fair Pay, the company implemented a rule under       substantive changes was also published.
+threshold 1.1 to ensure that workers are guaranteed
+payment. In cases where work is rejected, a dispute             For Principle 5, the platform has added to its Terms a
+resolution system has been established that includes            statement acknowledging freedom of association and the
+mediation conducted by the company’s team.                      right of workers to organise and create representation
+                                                                structures. The review of policies was conducted
+Additionally, the right to redo rejected jobs was also          in regular conversation with the Fairwork team to
+granted. In line with threshold 1.2, a minimum wage             explore how the cloudwork labour standards could be
+policy was implemented to ensure that rates are at least        incorporated into the terms. Since these revisions are
+above the local minimum wage. Another aspect included           recent, it is crucial to monitor and verify how these new
+in the Terms was the requirement of a time estimate by          rules and policies are concretely implemented and if they
+requesters, so workers can calculate if the fee offered is in   will benefit workers in practice.
+accordance with the local minimum wage floors.
+
+Regarding Principle 2, Fair Conditions, a guideline was
+included on the new Terms saying that job distribution
+
+
+
+                                                          17
+PLATFORM IN FOCUS
+
+Translated
+Translated is a translation platform based in Italy.          including how their contributions will be utilized.
+Founded in 1999, the company has been in business             Importantly, refusing job assignments does not impact
+for over 20 years and has accumulated a network of            workers’ ratings or reputations.
+more than 350,000 translators from over 200 countries.
+Throughout this period, 373,000 clients have utilized         Regarding management practices, the terms clearly
+their services, with around 20,000 active clients each        outline acceptable and unacceptable behaviours (in
+year. In 2017, the platform was recognized by the             line with Principle 4). Workers have the right to appeal
+Financial Times as one of Europe’s fastest-growing            punitive actions through channels such as email. The
+companies.                                                    appeal process is documented in the company policies,
+                                                              and deactivated workers can access this information.
+In addition to traditional translation services, Translated
+offers technology and AI-based translation and                The company also maintains an anti-discrimination
+localization services. Their first AI model was launched in   policy and provides reporting channels for workers who
+2001. The company states that it employs a combination        experience discrimination. Translated’s work allocation
+of human and automated systems, utilizing AI tools such       methods include the use of automated systems,
+as Matecat and ModernMT, alongside an algorithm called        particularly an algorithm known as T-Rank. A significant
+T-Rank for job allocation.                                    change implemented this year was the enhancement
+                                                              of the information provided to workers about how this
+In 2023, Translated received a score of 8 in Fairwork’s       system operates.
+latest Translation and Transcription report, ranking
+second that year, just behind Creative Words, which           Additionally, a statement affirming the freedom
+achieved a perfect score of 10. The company maintained        of association and a commitment to respecting
+its score this year by upholding its policies and processes   collective bargaining agreements was introduced.
+while implementing changes aligned with Fairwork’s            New specifications for additional independent dispute
+Cloudwork Principles and labour standards.                    resolution mechanisms were also added to the
+                                                              company’s institutional communication channels.
+Translated has developed a system for revisions and
+quality control, featuring mediation teams that handle
+corrections while ensuring fair compensation for
+workers. Although the company does not have a formal
+minimum wage policy, it provided evidence that the
+majority of its workers earn above their local minimum
+wage. Additionally, Translated has taken steps to reduce
+instances of overwork and unpaid labour by removing
+references to voluntary work from its Frequently Asked
+Questions section. The company has established
+commitments and mechanisms to ensure a safe working
+environment, including channels for reporting any
+actions that could expose workers to hazards.
+
+The translated terms have been evaluated and found to
+be consistent with Principle 3, which includes providing
+advance notifications before any changes take effect.
+Workers receive clear explanations about projects,
+
+
+
+
+                                                           18
+THEME IN FOCUS
+
+From internal to
+external platform
+governance to
+secure fairer labour
+standards
+Platform governance has become an increasingly prominent
+topic in both academic circles and public discussions. It concerns
+how services provided by platforms are organised, the rules,
+policies and mechanisms in place to structure the activities and
+transactions mediated by those platforms, and the responses to
+the associated challenges and risks.
+Platform governance involves various layers of              In the context of digital labour platforms, governance
+relationships and processes among the different parties     policies and mechanisms play a crucial role in how
+involved in the activities organised by these platforms.    these platforms operate. This includes their terms
+Governance systems include the policies and methods         and conditions, which set rules for registration, profile
+implemented by the companies themselves and by              management, job access and allocation, acceptable
+external actors, including government bodies.12 The         and prohibited conduct, bidding and hiring processes,
+governance literature has evolved towards different         work quality requirements and assessments, dispute
+perspectives, emphasising more or less state-centric        resolution, payment procedures, and additional
+approaches.13                                               standards.
+
+Platform governance includes both governance by             For instance, cloudwork platforms set rules to facilitate
+platforms (internal) and of platforms (external)14.         the buying and selling of labour power, which involves
+Platform governance involves establishing rules,            vast pools of workers dispersed across a global labour
+including terms and conditions, content and data            market. Payment systems may involve escrow services
+management policies, and community guidelines.              and digital wallet platforms to disburse workers’ funds.
+These rules help platforms define the requirements          Quality control is conducted through various assessment
+for registration and participation, outline acceptable      and rating systems.
+behaviour within their interfaces, and establish terms of
+engagement, reputation and ratings systems, as well as
+revenue models.
+
+
+                                                       19
+The Fairwork project has highlighted the internal               Moreover, workers face non-payment and late payment.
+governance structures and practices of digital labour           Of the pool of survey respondents, 31.2% reported
+platforms. The Fairwork Cloudwork Ratings have                  experiencing non-payment situations and 38% reported
+demonstrated that the governance processes of                   experiencing late-payment situations, with 10% flagging
+these companies often fall short of ensuring minimum            this as a constant problem. “I have experienced late
+standards for fair work. This is typically represented by a     payments, ups and downs in cash flow, and a lack of
+score of 10 out of 10, but none of the assessed platforms       long-term stability”, commented a translator from Italy
+achieved this score this year. Only one platform has ever       registered on Creative Words.
+achieved this score (once)—Creative Words in 2023.
+                                                                As a result of these problems, only 35% of workers
+In this report, we show that the platform’s governance          surveyed reported feeling secure about their earnings
+rules and mechanisms are insufficient to address the            from cloudwork platforms, all or most of the time.
+significant challenges workers encounter. The survey            Workers from the Global South also experience
+conducted as part of this study included 776 workers            discrimination and distrust when competing with
+across 100 countries, painting a broad picture of their         workers from other regions. “I see a lack of trust in
+experiences. This is particularly noteworthy given that         Africans due to factors such as the accent in certain
+58% of the surveyed workers reported that cloudwork is          departments that need to take calls”, says a cloudworker
+their primary source of income.                                 from Benin registered on ComeUp.
+
+The lack of minimum fair rules and mechanisms in                These findings suggest that the governance mechanisms
+internal platform governance stimulates a “race to the          to ensure workers are paid are not in place or are not
+bottom” dynamic, in which platforms feel pressured not          functioning appropriately. In some cases, these rules
+to improve labour standards. The intense competition            were implemented, but the survey indicated significant
+at the international level is one main obstacle for             levels of payment-related problems, flagging weakness
+workers to accessing jobs, despite more than half of the        in their effectiveness. This scenario, combined with
+platforms scored in this report providing evidence of           the lack of governance rules securing at least the
+governance mechanisms to promote job availability or            local minimum wage for cloudworkers, is a warning
+balance the supply and demand of workers. However,              of how governance initiatives adopted by platforms
+these initiatives are still limited to addressing the fierce    themselves are insufficient in most cases to ensure basic
+competition, especially in the largest international            compensation rights to those workers.
+cloudwork platforms.
+
+In many cases, the lack of appropriate governance
+processes and practices to promote job availability
+results in workers feeling pressured to accept lower
+fees and worse conditions (e.g., tighter deadlines) to
+access the available jobs. This situation is even worse for
+newcomers or less experienced workers. One example
+was a female worker from Australia registered on Fiverr,
+who reported that the main challenge she encounters is
+the “high competition driving down rates”.
+
+In addition to the race to the bottom exerting a
+downward pressure on fees, payment rules and
+mechanisms mean that workers sometimes do not even
+receive monetary compensation. “I wish I could get
+my money in my bank account rather than gift cards”,
+said a cloudworker from Nigeria registered on Amazon
+Mechanical Turk.
+
+
+
+
+                                                               20
+The internal governance structures adopted by                 This set of services has been incorporated into their
+platforms rely, generally, on management models that          governance structures and processes. In some cases,
+are supported by automated systems. Platform work             new governance rules were created as AI data services
+studies have highlighted how algorithmic management           streams were launched (e.g. Prolific).
+accentuates opacity in decisions affecting workers.
+Additionally, ratings systems undermine workers’
+bargaining power with requesters and platforms                 ONLY 35% OF WORKERS SURVEYED
+themselves. “The automated system is, many times,
+                                                               REPORTED FEELING SECURE ABOUT
+cruel,” says a cloudworker from Brazil registered on
+Appen.                                                         THEIR EARNINGS FROM CLOUDWORK
+                                                               PLATFORMS, ALL OR MOST OF THE TIME.
+When subject to unfair or questionable decisions
+and disputes with requesters, the main governance              WORKERS FROM THE GLOBAL SOUTH
+mechanism workers need to rely on is the appeal                ALSO EXPERIENCE DISCRIMINATION
+process. This study found that more than half of the
+platforms scored provide these resources to workers,
+                                                               AND DISTRUST WHEN COMPETING WITH
+usually via help or support channels. However, the survey      WORKERS FROM OTHER REGIONS.
+also revealed that 40% of workers were not aware of
+appeal processes, which shows how this key resource to
+ensure dispute resolution and avoid unfair disciplinary       The survey indicated how the governance mechanisms
+actions must be made more visible by platforms.               in place, or the lack of them, also cause additional
+                                                              problems to those outlined above, which are related to
+Data work                                                     the nature of AI data work. This is an example of how
+                                                              platform governance intertwines with AI governance.
+One growing and increasingly notable sector of
+                                                              In the latter field, a key concern is how the rules and
+cloudwork is data services for artificial intelligence
+                                                              practices can deal with risks and harms.
+development in international supply chains. These
+services were initially seen as “microwork”15, defined
+                                                              One problem found in the survey was the lack of
+as “small tasks performed on cloudwork platforms”.16
+                                                              transparency in the purposes of projects (one of the
+These services are becoming increasingly complex,
+                                                              labour standards listed in Fairwork Cloudwork Principle
+being referred to recently as “data work”17 and, in AI
+                                                              3). “Sometimes I record videos of myself performing
+supply chains, “AI data work”.18
+                                                              some gestures for the webcam, but I don’t know if the
+                                                              applicant will actually use it to train an AI to identify
+Those platforms offer multiple services, such as data
+                                                              gestures”, says a data worker registered on Amazon
+annotation, labelling, mining and validation, image
+                                                              Mechanical Turk from Brazil.
+tagging, sentiment analysis, model evaluation, video
+scoring, and content moderation, among others. Among
+                                                              Workers also expressed ethical concerns about the
+the clients requesting this work are the world’s leading
+                                                              purpose of the AI system they are training. “Sometimes
+AI companies, such as Amazon, Google, Microsoft, and
+                                                              I worry about how the AI will be used”, said a data
+Nvidia.
+                                                              worker from the U.S. registered on Clickworker. “I am
+                                                              concerned that visual recognition projects to train a tool
+In addition to the platforms traditionally known
+                                                              with artificial intelligence, for example, in which I have
+for microwork and data work — such as Amazon
+                                                              to send videos or photos of myself, will be used for other
+Mechanical Turk, Appen, and Clickworker — conventional
+                                                              purposes than those mentioned in the platform”, added
+freelancing platforms like Upwork, Freelancer.com,
+                                                              another data worker registered on Clickworker, based in
+and Fiverr have also begun offering data services for AI
+                                                              Colombia.
+development. Those companies are a key outsourcing
+option for AI-led firms, together with Business Process
+Outsourcing companies (BPO) spread across the globe.
+
+
+
+
+                                                         21
+A data worker from Sri Lanka registered on Microworkers            and data governance, reducing the asymmetry of power
+suggested that ethical concerns should be subject                  between workers and platforms.
+to clearer standards and policies. “Platforms should
+establish clear policies and guidelines outlining ethical          At the international level, the International Labour
+standards for tasks and projects on the platform. Ensure           Organisation will discuss at its 2025 conference the
+that workers understand their rights and responsibilities,         proposal for a convention on platform workers’ rights.
+as well as the platform’s commitment to ethical conduct.”          This initiative is fundamental for two reasons. First, the
+                                                                   convention can serve as guidance for future national
+From internal to external governance                               and regional regulatory debates. Second, it can address
+The gaps in governance policies and mechanisms to                  the fact that a significant part of the problems faced by
+address these and other problems highlighted above                 cloudworkers reside in these companies’ multinational
+have attracted the attention of multiple stakeholders. The         nature, and how they explore the differences between
+Fairwork project has been showing how some platforms               their and workers’ jurisdictions to undermine workers’
+can improve their internal governance practices, as seen           access to labour rights and social protection.
+in the significant number of changes discussed in this
+report. However, the league table also shows how this
+is far from being a widespread reality, with none of the           WE ASKED WORKERS WHICH RIGHTS THEY
+platforms assessed achieving 10 out of 10, and only five           CONSIDER MOST IMPORTANT. AMONG THE
+out of 16 platforms getting scores above 5.
+                                                                   448 RESPONDENTS, THE TOP PRIORITIES
+The limitations of the ability of platforms to ensure more         WERE: RECEIVING AT LEAST THE LOCAL
+rights-based governance models have motivated the rise
+                                                                   MINIMUM WAGE (33.3%), ENSURING
+of external and state-led regulatory responses. These
+reactions by governments and international organisations           PAYMENT FOR ALL COMPLETED WORK
+have followed what authors call a “policy turn”19 in               (18.3%), IMPLEMENTING MEASURES
+platform governance initiated in the 2010s. In the case of
+digital labour platforms, this process ignited especially in
+                                                                   TO REDUCE UNPAID LABOUR (10%),
+the last five years.                                               ACCESS TO SOCIAL SECURITY (8.7%), AND
+                                                                   LIMITING WORKING HOURS ON THE
+That said, the efforts have mainly targeted on-location
+platforms, such as the case of laws passed in Spain and            PLATFORM (7.14%)
+Chile, with cloudwork platforms being a much less visible
+topic for regulation debates. The EU Directive on Platform         At the beginning of 2025, the ILO published a new report
+Work,20 passed in 2024, is a notable exception, covering           on platform work to inform the convention discussions,
+both on-location and cloudwork platforms and ensuring              titled the “Yellow Report”. 22 The document brings
+rights not only when an employment relationship is                 recommendations for the convention to be discussed
+acknowledged, but also to what was called Persons                  in 2025. It includes cloudwork in the definition of
+Performing Platform Work. Among the rights assured are             platform work, as “performance of work by a person
+transparency in automated decision-making systems and              for remuneration, regardless of whether that work is
+data rights.21                                                     performed online or in a geographic location.”
+
+In 2025, countries in the European Union began the                 Platform workers are acknowledged “regardless of
+transposition of the directive. During the process of              their status in employment or whether they are in the
+translating the guidelines into concrete local legislation,        formal or informal economy”, meaning that the rights to
+it is crucial that European policymakers include                   be included in the convention are not only for platform
+cloudworkers’ rights in their legal frameworks. For                workers classified as employees. Those workers should
+example, transparency and data protection rights are               be covered by international labour Conventions and
+key to addressing problems that the Fairwork cloudwork             Recommendations, “unless otherwise provided”.
+assessments have found in platforms’ management                    However, the document suggests that rules can exclude
+
+
+
+
+                                                              22
+“limited categories of workers and platforms”, which can     the global governance of AI linked to the United Nations’
+be used as an open door to take cloud workers out of the     Global Digital Compact. Effective global governance
+guidelines’ scope.                                           of artificial intelligence is essential for fostering
+                                                             international cooperation and addressing the risks
+One of the main challenges faced by cloudworkers is          associated with AI systems. A key human rights concern
+the conflict of jurisdictions between the platform and       is the exploitation of workers across the AI supply chain,
+workers in resolving disputes. In this regard, the report    particularly those involved in data enrichment. Initiatives
+states that the terms and conditions of employment           such as the proposed scientific panel and the Global
+or engagement of digital platform workers should be          Dialogue on AI Governance are critical to leading these
+governed by the laws and regulations of the country          coordinated international efforts.
+where the work is performed, “unless otherwise
+provided for in relevant international instruments or        The recommendations from UN AI expert panel
+multilateral or bilateral agreements.”                       included a scientific panel and a global dialogue on AI
+                                                             governance.23 The Fairwork team has taken part in the
+In addition to the fundamental rights and those ensured      consultations about these proposals and highlighted the
+by international conventions that apply to platform          need to include measures to ensure fairness in AI
+workers, the document reinforces rights such as freedom      supply chains.
+of association, responsibilities to take appropriate
+steps to “prevent occupational accidents, occupational       As stated in Fairwork’s contribution submitted to a
+diseases and any other injuries to health arising out        UN consultation on the topic, the Global Dialogue
+of, linked with, or occurring in the course of work” and     on AI Governance should be a forum for continuous
+protect “against violence and harassment in the world of     engagement among Member States, the private
+work, including gender-based violence and harassment”.       sector, civil society, academia, and experts seeking to
+                                                             develop shared principles and strategies for governing
+The report suggests the obligation to inform workers         AI responsibly. Its discussions would address topics
+and their representatives about the use of automated         such as safeguarding human rights, instituting ethical
+systems (e.g., algorithms) “to monitor or evaluate           standards, and preventing the erosion of labour
+work, or to generate decisions relating to work” and         protections in digitally mediated contexts.
+how these systems impact working conditions and
+access to work. Decisions taken by automated systems         The Dialogue could generate policy recommendations,
+must be explained and be subject to human review.            voluntary guidelines, and declarations that assist
+The document also addresses platform workers’ data           countries in navigating AI’s transformative impacts.
+protection, with safeguards for the collection and           Global norms and principles would serve as essential
+processing of personal data.                                 guidance tools to promote international cooperation.
+
+The proposals bring a highly relevant set of standards,      These initiatives highlight a growing recognition among
+many of which are in line with recommendations from          governments, workers, and companies of the importance
+previous ILO documents and external initiatives, such as     of international public governance in addressing the
+the Fairwork Principles.                                     risks and harms posed by digital platforms and artificial
+                                                             intelligence. Such efforts are especially critical for
+Our survey highlights key areas where progress can           workers, who often face greater vulnerability within the
+be made to meet cloud workers’ demands. We asked             unequal power structures of these production networks.
+workers which rights they consider most important.           The frameworks developed by the International Labour
+Among the 448 respondents, the top priorities were:          Organisation (ILO) and the United Nations offer a
+receiving at least the local minimum wage (33.3%),           valuable opportunity to advance governance models that
+ensuring payment for all completed work (18.3%),             promote fairer labour standards across digital work and
+implementing measures to reduce unpaid labour (10%),         AI supply chains. The evidence presented in this report
+access to social security (8.7%), and limiting working       builds on existing research and reinforces the pressing
+hours on the platform (7.14%).Regarding AI supply            need for coordinated action at the national, regional, and
+chains, another key front is the recent discussions on       global levels.
+
+
+
+                                                        23
+WORKERS IN FOCUS
+
+Workers’ Stories:
+The labour process on cloudwork platforms can often be
+depersonalised and hidden. When a worker is on the other side
+of the world and represented only by a profile on a platform
+interface, their stories and experiences become obscured.
+The labour process on cloudwork platforms can often           deadlines and professional commitments, helping him to
+be depersonalised and hidden. When a worker is on the         develop strong organisational skills.
+other side of the world and represented only by a profile
+on a platform interface, their stories and experiences        Abdi believes that online work platforms offer numerous
+become obscured.                                              advantages. One of the most significant benefits is
+                                                              flexibility. Freelancers can work from anywhere in the
+Abdi*, Kenya.                                                 world and set their own schedules, which allows for
+Freelancer, Fiverr.                                           a better work–life balance. This flexibility is seen as
+* Names have been changed to ensure anonymity.                especially valuable for students like himself who need
+                                                              to balance academic responsibilities with earning
+Abdi has lived in Kenya for the majority of his life. He      opportunities.
+graduated with a degree in a Technology-related career,
+having spent some time at a French university, which          Abdi said that his journey so far has been rewarding.
+has broadened his academic and cultural horizons. His         Working on various online platforms has not only
+professional interests lie in automation, energy systems,     provided financial support but also helped him to
+and digital technologies. In 2021, when he was at             develop key skills such as communication, client
+university, a professor shared a story about students         relations, and time management. It has also taught
+who were using online gigs, such as coding, to support        him how to adapt to the fast-changing technological
+themselves financially during their studies. Inspired by      landscape. As some tasks and markets phase out, new
+this, he decided to explore online platforms as a way to      ones emerge, and he has learned to stay relevant by
+fund his education and cover living expenses.                 quickly shifting focus. The flexibility to work remotely
+                                                              has also allowed him to experience different cultures,
+After receiving an educational loan, he purchased a           interact with a global client base, and expand his
+laptop and began his journey with online work. He             professional network.
+started with Remotasks, later joined Gotranscript,
+Upwork, and finally Fiverr. His primary motivation was        However, this has not come without problems and
+financial independence, along with the flexibility to work    obstacles. He commented that freelancers (or “sellers”)
+remotely, which allowed him to earn while studying.           on Fiverr face several systemic challenges that create
+                                                              an unequal and often precarious working environment.
+Currently, online platforms serve as his primary source       The platform’s oversaturated marketplace makes it
+of income. He uses Fiverr, Upwork, Gotranscript, and          extremely difficult for new workers to compete, as the
+others, depending on available opportunities. Managing        algorithm favours established freelancers with existing
+multiple jobs alongside his studies has honed his             reviews and ratings, leaving newcomers struggling for
+time management skills. He has become proficient at           visibility.
+prioritising tasks and balancing education with freelance
+work. This experience has taught him how to structure         Payment structures present another major hurdle,
+his workload to ensure that he meets both academic            with Fiverr holding earnings for 14 days after order
+
+
+
+                                                             24
+completion and taking a 20% commission on all               inaccessible to many. The Kenyan worker highlights
+transactions, while offering sellers little protection      that while these changes show responsiveness, core
+against unreasonable client demands like endless            issues like the 14-day payment hold, high commissions,
+revisions or unjustified cancellations. The platform’s      and arbitrary account suspensions remain unresolved.
+opaque policies frequently result in sudden account         Geographic disparities and pricing pressures also persist,
+suspensions or gig removals without clear explanations,     leaving structural imbalances largely unaddressed.
+leaving freelancers without income or recourse.
+                                                            While online platforms offer many benefits, there are
+Additionally, Fiverr’s rating system, despite recent        still areas for improvement. One key change Abdi would
+updates, remains vulnerable to abuse through unfair         like to see is enhancement of the dispute resolution
+negative reviews that can significantly impact a seller’s   process. Although Fiverr has an escrow system, the
+visibility and earning potential. Geographic disparities    communication and resolution process can sometimes
+further compound these issues, as freelancers from          be slow and impersonal. A more transparent and timely
+developing countries often find themselves pressured to     dispute resolution system would help reduce frustration
+offer lower rates to remain competitive. These structural   and ensure fair outcomes for both freelancers and
+challenges create a power imbalance where sellers           clients.
+assume most of the financial and operational risks while
+having limited ability to influence platform policies or    Another improvement would be to make the requester’s
+dispute resolutions.                                        requirements more precise and more structured.
+                                                            Sometimes, project expectations can be ambiguous,
+Abdi listed measures implemented by Fiverr to address       which leads to misunderstandings or unsatisfied clients.
+workers’ concerns, though with mixed effectiveness.         A clearer and more detailed job description process
+The platform introduced a two-year ratings window to        could help both parties set accurate expectations from
+prevent outdated reviews from penalising sellers. The       the beginning.
+so-called “Seller Protection Program” aims to prevent
+unfair cancellations, and Fast Pay reduces payment          Finally, he believes that more detailed analytics would be
+delays, but charges a fee for that.                         beneficial for freelancers. This would allow them to track
+                                                            metrics such as conversion rates, client satisfaction,
+The Resolution Centre is a formal dispute mediation         and job success rates, providing better insights to help
+mechanism, though Abdi says that workers often report       improve our services and strategies.
+bias in favour of requesters. The “Seller Plus” paid
+option ($29/month) grants priority support but remains
+
+
+
+
+                                                       25
+Alejandra*, Peru.                                              Sometimes, there weren’t any tasks all day until 5 p.m.,
+                                                               and the available ones would appear at 6 p.m., when she
+Data worker, Appen.
+                                                               finished the hours dedicated to Appen. This made her
+* Names have been changed to ensure anonymity.                 check her phone several times a day, which caused her
+                                                               stress and anxiety. Since her income was increasing and
+Alejandra lives in Peru, has a degree in social sciences
+                                                               she was paid on time, she reported feeling the need to
+and has worked in social media, marketing, and content
+                                                               take advantage of her job at Appen.
+creation since graduating from university, including for
+institutions as a freelancer and consultant for small          However, in August 2024, the Appen platform migrated
+businesses and cultural events. Before COVID-19, she           to a new one called CrowdGen. Since then, Alejandra has
+worked on a cultural project related to the performing         commented that the entire experience has got worse.
+arts as a social media content creator, video editor,          Until then, she had no issues with delays. However, since
+and designer. Many cultural projects were cancelled,           the migration, the platform started to have issues. She
+including the one she was working on.                          couldn’t check the reports to see her earnings or the
+                                                               quality of her own work. These actions helped her stay
+Back then, she struggled to find a related or at least
+                                                               motivated and keep working and improving.
+similar job, because she loves culture and felt great
+working in her old job. She didn’t want a 9-to-5 office        However, the new CrowdGen wasn’t working well;
+job, so she was looking for an online job to help her pay      payments were delayed, not just for her, but for all the
+the bills. While searching for opportunities on LinkedIn,      workers, or “judges”, as the platform team calls them.
+she found the platform Appen. After several steps —            She submitted many support tickets only to receive
+application, registration, opening a Payoneer account,         automated emails stating they were receiving many
+training, and selection/qualification — she got a position.    tickets and that it would take some time to respond,
+                                                               but she was assured that the payment issue was being
+When she started, this was her primary source of
+                                                               resolved. She decided to wait, hoping they would send
+income, but she also kept other small jobs and worked
+                                                               the payments soon. Two weeks later, the payment finally
+at her own food business once a week From Monday to
+                                                               arrived.
+Friday, she worked between 6 and 9 hours on Appen,
+including training and qualifications, which were unpaid.
+Sometimes, she received alerts that tasks were available
+on weekends, so to avoid missing out, she worked similar
+hours on weekends. She says that, since the platform’s
+slogans were “First come, first served” and “Work as
+hard as you can,” she made herself available for tasks
+whenever they appeared.
+
+At first, she saw the experience as exciting. She was
+paid promptly and had the opportunity to apply for
+other projects within the platform, which increased
+the chances of earning more money. Even when she
+was able to stop and rest between work hours, she
+sometimes found herself working until midnight or after
+2 a.m. “It wasn’t great for me, but I was doing my best,
+and I also had to take advantage of having several tasks
+available to work with”, she says.
+
+
+
+
+                                                              26
+Regarding competition, she always felt anxious and           address my concerns. In September 2024, after a day in
+stressed. “Sometimes I would receive alerts indicating       which I earned US$30 (the limit they had allocated for
+that there were hitapps available, but when I accessed       me for a day), I woke up to the news that my account [in
+the platform from my computer, there were none; they         an Appen’s client platform] had been deactivated”, she
+would disappear, and that was because so many people         reports.
+were competing for that opportunity”, Alejandra says.
+Sometimes, she had to work late into the night to earn at    She submitted a support request, but since they were
+least some daily earnings.                                   still fixing the platform, she received an automated
+                                                             email informing her that they had the right to suspend
+Her goal was to earn between $10 and $15 a day               her account if she worked from another country, used a
+(working 6 to 9 hours a day), but sometimes she only         VPN, or produced poor quality work. She says that she
+earned $1 or $3 a day. It was as if she had to be on her     was already aware of all this and hadn’t committed any
+computer all day just to get the available jobs, and that    violations. The work quality was between 90% and 95%,
+was impossible because she had things to do at home:         down from 100%; and she didn’t use a VPN or work from
+taking care of her pet, spending time with family and        abroad. “They didn’t help me understand. So I couldn’t
+friends, or relaxing.                                        continue working for them.”
+
+                                                             She submitted several support tickets with no response.
+AS FOR THE CONDITIONS AND RISKS, SHE                         She requested that monthly reports be emailed to
+                                                             her because she couldn’t access the client’s platform
+SAYS IT WAS CERTAINLY NOT HEALTHY FOR                        account to check them, but the platform didn’t respond.
+HER OR ANYONE ELSE TO SPEND A LOT OF                         Then her account went from deactivated to suspended.
+
+TIME IN FRONT OF THE COMPUTER. SHE                           After two months, they responded to the ticket, stating
+                                                             that the account was under investigation and that the
+REPORTS SUFFERING FROM BACK PAIN                             process would take some time. After four months, she
+AND EYE STRAIN. IN APRIL 2023, SHE                           still hadn’t received a response to that investigation or
+                                                             the real reason for her account suspension.
+SUFFERED A RETINAL TEAR AND HAD TO
+UNDERGO LASER RETINAL SURGERY.                               She reports discovering that many people working for
+                                                             Appen were facing the same issues. She joined a closed
+                                                             Facebook group where people said they hadn’t received
+As for the conditions and risks, she says it was certainly   their salaries since the platform migrated to CrowdGen
+not healthy for her or anyone else to spend a lot of time    or that they had been kicked off a project without
+in front of the computer. She reports suffering from back    warning or reason. There were people from Venezuela,
+pain and eye strain. In April 2023, she suffered a retinal   Colombia, Brazil, Indonesia, Sri Lanka, Nigeria, and the
+tear and had to undergo laser retinal surgery, which cost    Middle East. She faced problems sharing her experiences
+US$300 (almost the basic salary of a worker in Peru).        on the platform’s chat, or even publicly on social media
+                                                             or Reddit. She says she commented in that closed
+She could only afford one session, and her parents           Facebook group only because she wanted to understand
+helped her with the two additional sessions she needed.      what had happened. Now, Alejandra says she doesn’t
+After that, she had to rest and couldn’t work for two        expect anything from them and is more focused on
+months, so she didn’t earn anything, which increased her     getting her information removed from the platform.
+worry about the bills she had to pay.
+
+She mentioned always receiving a response and
+resolution to support requests, but after the migration
+to the new platform, things got complicated. “They
+were unresponsive to my requests and took too long to
+
+
+
+
+                                                        27
+Mahmoud*, Egypt.                                              The competition is intense, especially on global
+                                                              platforms where freelancers from different countries bid
+Freelancer, Elharefa.
+                                                              for the same jobs. This often leads to price undercutting,
+* Names have been changed to ensure anonymity.                making charging fair rates for quality work difficult.
+
+Mahmoud is a university student from Egypt in a               Mahmoud says that some job postings lack clear
+technology career. In addition to his studies, he works       terms regarding deadlines, revisions, and payment
+with website translation and programming, having              terms. This ambiguity can lead to misunderstandings
+acquired experience translating content from Arabic to        between freelancers and clients. Additionally, not all
+English and vice versa, and on various web development        clients communicate their expectations clearly, and
+projects.                                                     some platforms, such as Elharefa, do not offer effective
+                                                              dispute resolution processes, leaving freelancers with
+He started working on online platforms to gain financial
+                                                              little recourse if conflicts arise. Unlike traditional jobs,
+independence and professional experience. As a student,
+                                                              freelancers do not have unions or formal channels to
+he wanted a flexible job that would allow him to earn an
+                                                              collectively voice their concerns. This makes it difficult to
+income while continuing his studies. In his view, online
+                                                              push for better working conditions and fairer policies.
+platforms provided an ideal solution, as they allowed him
+to work remotely, choose the projects, and develop skills     While some platforms provide tools to mitigate these
+that align with his field of study.                           challenges, improvements are still needed. Some
+                                                              platforms offer escrow services to ensure payments are
+Another key motivation was the opportunity to connect
+                                                              secured before work begins, but not all clients use them.
+with international clients. “Working on global freelancing
+                                                              Rating and review systems help filter out unreliable
+platforms has given me exposure to different work
+                                                              clients, but they are not full proof. More robust policies
+cultures and allowed me to build a diverse portfolio,
+                                                              on fair wages, contract clarity, and dispute resolution
+which will be beneficial for my career in the long run”, he
+                                                              would significantly improve the freelancer experience.
+says.
+                                                              While Mahmoud highlights the positive aspects of doing
+Currently, online work is his primary source of income,
+                                                              cloudwork, including flexibility, the opportunities to work
+but he considers it a stepping stone rather than a
+                                                              with international clients, the learning experiences and
+permanent career path. While freelancing provides
+                                                              the possibility of building a reputation, he also believes
+financial stability, he aims to gain corporate experience
+                                                              that there is much room for improvement on these
+after graduating, to develop his expertise further. He
+                                                              platforms.
+has been trying to coordinate his schedule effectively
+and manage online work and his University studies             He believes platforms should implement stricter
+by prioritising high-value projects and setting clear         payment security measures to prevent non-payment
+deadlines.                                                    and late payments. Companies should adopt better job
+                                                              matching systems, with algorithms prioritising skilled
+Overall, he considers the experience positive. “Online
+                                                              workers over low-cost bidders to ensure quality work is
+work has allowed me to work with clients from
+                                                              valued.
+different parts of the world, which has broadened my
+understanding of various industries and improved my           He also thinks platforms should require job postings to
+communication skills.”                                        include specific details regarding deadlines, revision
+                                                              policies, and payment terms to reduce disputes.
+However, his work on Elharefa and other cloudwork
+                                                              Moreover, he argues that these companies should adopt
+platforms he has been active on, has not come without
+                                                              more structured support systems, including legal advice,
+its challenges. Regarding payment, one of the biggest
+                                                              mental health resources, and community forums.
+concerns is delayed payments or, in some cases, non-
+payment for completed tasks. Some clients disappear
+without paying, and while platforms have dispute
+resolution mechanisms, they are not always efficient.
+
+
+
+
+                                                            28
+Worker resources:
+Useful tools
+and links
+While work on cloudwork platforms is often characterised as
+isolated and anonymous, cloudworkers have found ways to
+collaborate with one another and, in some instances, organise to
+improve their earnings and conditions.
+In fact, we are seeing a growing number of unions and        exploitative practices by employers, as well as an activist
+workers’ associations, especially for freelance work, such   group advocating for better working conditions on the
+as the Freelancers Union in the United States. Still, the    platform.
+most common way for cloudworkers to collaborate is
+through online forums and communities, either hosted         Fair crowdwork27
+by the platform or by workers themselves. Cloudworkers       This website provides ratings of working conditions on
+and advocacy organisations have developed a series of        different cloudwork platforms based on a 2017 survey
+worker support tools.                                        with workers.
+
+Gigpedia24                                                   Campaign for Trade Union Freedom28
+Gigpedia provides an overview of available information       The campaign promotes actions to defend trade unionism
+about the global platform economy, including on existing     and disseminates information about platform workers’
+legislation, court cases, and ratings of labour standards    organisations.
+for specific platforms.
+                                                             Crowdsource wage pledge29
+Wage indicator        25
+                                                             The project lets crowdsourcing requesters publicly
+The WageIndicator Foundation is a global non-profit          commit to paying at least a certain wage level and lets
+organisation working with other organisations to gather      workers inquire about issues they have had completing
+and disclose information on actual wages, minimum            tasks posted by requesters who have signed the pledge.
+wages, living wages, labour laws, gig and platform work,
+and collective agreements. The organisation provides         Crowdsourcing Code of Conduct –
+labour market information for 206 countries through          Ombuds Office30
+more than 200 websites in more than 50 languages.            The code of conduct is a voluntary guideline for
+                                                             cloudwork companies that sets minimum standards with
+Turkopticon26                                                respect to working conditions and relations between
+Perhaps the most notable example of worker-led               workers, clients, and platforms. Workers on platforms
+organising in the cloudwork economy, Turkopticon is a        that have signed the Crowdsourcing Code of Conduct
+plugin that allows Amazon Mechanical Turk workers to         (including Clickworker in this study) have access to
+rate their relationships with employers, helping other       independent representation and dispute mediation
+workers to avoid negative experiences. Turkopticon           through an Ombuds office provided by the initiative.
+operates as a mutual aid tool by which workers can report
+
+                                                       29
+IMPACT AND NEXT STEPS
+
+Platform changes
+Since Fairwork started to score and engage with cloudwork
+platforms in 2020, some important changes have been promoted
+by these companies to improve working conditions and
+strengthen working standards.
+In this report, a record number of 56 changes were          • The provision of a time estimate to complete the
+implemented by eight platforms; the highest number            job was added to the Terms as a requirement for
+for a Fairwork report. The changes were diverse,              requesters.
+spanning from minimum wage policies to statements
+                                                            2.1
+acknowledging freedom of association. A number of
+platforms have employed new methods to manage more          • The company added to the Terms a clause stating that
+fairly the supply and demand of work and promote job          work allocation is managed to guarantee fair access to
+availability, adopted measures to mitigate risks and          work opportunities.
+hazards, and documented and strengthened their appeal       2.2
+process, among many other pro-worker policies and
+                                                            • Elharefa committed to identifying and mitigating
+processes.
+                                                              potential health and safety risks associated with
+Elharefa adopted 14 changes, Remotasks 11 changes,            cloudwork.
+Terawork nine changes, ComeUp seven changes, Prolific       • Users jeopardising the health and safety of workers are
+five changes, Translated and SoyFreelancer four changes,      now subject to punitive measures.
+and Appen two changes. Adding the number of workers
+                                                            3.1
+registered on these platforms, we estimate these
+changes to affect over two million workers globally.        • A 30-day notice period for contract changes was added
+                                                              to the Terms.
+Elharefa
+                                                            3.2
+1.1
+                                                            • Terms have been amended to require clients to add
+• The platform has stated in the Terms that they are
+                                                              “detailed descriptions, requirements, deadlines and
+  committed to ensuring that freelancers receive full
+                                                              intended purpose of the project” to projects.
+  payment for completed work within the agreed
+  timeframe. A dispute resolution process was added in      4.1
+  case requesters are not satisfied with the job.           • An appeal process for platform decisions was added
+• Workers were granted via a new Terms clause the “right      to the Terms. This section includes a rule stating that
+  to revise or redo the delivered work at least once upon     workers “will be notified of the reason for such action
+  the Client’s request.”                                      via email or through their account dashboard” in the
+                                                              case of disciplinary actions.
+1.2
+                                                            4.2
+• A minimum wage policy was introduced. Additionally,
+  the company informed the Fairwork Clouwork team           • Elharefa adopted a non-discrimination policy.
+  that payment structures will be “transparently            • The company announced audits in the work allocation
+  communicated to all users”.                                 automated systems to assess the existence of bias and
+                                                              other exclusionary outcomes.
+
+
+                                                         30
+• The company registered in the Terms the commitment         3.2
+  “to consulting freelancers before making significant
+                                                             • Remotasks added to its Community Guidelines a new
+  changes to contract terms that may impact their work
+                                                               item explaining that “task participation is voluntary,
+  conditions or earnings.”
+                                                               and declining a task will not negatively impact ratings
+5.1                                                            or reputation.”
+
+• Elharefa added a public statement acknowledging            4.1
+  freedom of association and collective bargaining to the
+                                                             • The company implemented “Account Deactivation
+  company’s Terms.
+                                                               Support”, which explains how workers can get further
+                                                               explanations and appeal disciplinary decisions.
+Remotasks
+2.1                                                          4.2
+
+• The company implemented what they called                   • Discriminatory behaviour was added as a prohibited
+  “Secondary Assignments” to increase work Access.             conduct that will lead to punitive actions.
+  Workers who finish work on a primary project can be        • Remotasks has added information about the methods
+  automatically assigned to a secondary project if work        to allocate work to the FAQ, including the automated
+  is unavailable on their primary assignment. According        systems employed to this end.
+  to the company, this prevents contributors from idling
+  unpaid due to project fluctuations.
+
+• The company implemented a “max claim time”,
+                                                              A RECORD NUMBER OF 56 CHANGES WERE
+  ensuring tasks are returned to the queue and remain         IMPLEMENTED BY EIGHT PLATFORMS;
+  available to active workers. According to the company,      THE HIGHEST NUMBER FOR A
+  the aim was to reduce “unproductive claim periods”.
+                                                              FAIRWORK REPORT.
+• Remotasks’ algorithms include a base payout per
+  task, which “compensates for the time spent loading
+  and reviewing a task before annotation begins”, which      Terawork
+  according to the company “ensures that contributors        1.1
+  are not performing unpaid labour during task setup.”
+                                                             • The company added a rule prohibiting the use of
+• The platform informed the Fairwork Cloudwork team            rejected work. A guideline has been introduced
+  that they continuously track workers’ activity to            granting workers the right to request a revision of
+  maintain an accurate measure of active workers, which        rejected work at least once.
+  helps “assess job availability to maintain a fair and
+                                                             1.2
+  balanced work distribution.”
+                                                             • The minimum wage policy was improved by adding an
+2.2
+                                                               explicit enforcement rule granting workers the right to
+• The Community Guidelines were updated with                   report and establishing penalties for requesters who
+  new rules making explicit the punitive actions for           try to pay below the local minimum wage.
+  harassment and other problematic conduct.
+                                                             • The company informed us that their management
+3.1                                                            will enhance freelancer education on their minimum
+• The Community Guidelines were amended to provide             wage policy. Among the educational actions will be
+  workers with a 30-day notice period for contract             clarification materials.
+  changes.                                                   2.1
+• Remotasks updated the platform’s Indemnification           • Terawork introduced “a smart advisory feature that
+  section on their Terms to lower the barriers for workers     guides freelancers during the application process,
+  to take legal action against the platform.                   informing them if they may not be the best fit for
+                                                               a particular job. This helps reduce time spent on
+
+
+
+
+                                                       31
+  unsuccessful applications, allowing freelancers                it was reinforced to users that workers can report any
+  to focus on higher-probability opportunities and               health and safety risks.
+  improving overall efficiency on the platform.”
+                                                             • The company adopted a policy that is GDPR compliant
+2.2                                                            and meets the standards outlined in the Fairwork
+                                                               Cloudwork Principles.
+• The company adopted a “Content moderation and
+  profanity content blocking”. According to managers,        4.2
+  the platform “actively filters and blocks inappropriate
+                                                             • The company has adopted different ways to consult
+  language and harmful content across all chats and job
+                                                               workers about different aspects of the platform,
+  posts”.
+                                                               including the methods to allocate work, including
+3.1                                                            social media and other platforms where workers can
+                                                               provide feedback directly and in groups.
+• The company rectified the Terms of Use to ensure
+  that prior notification of contract changes applies to     • The company added an FAQ article explaining how
+  all changes, not only significant ones. The rule also        workers can participate in consultations and follow
+  includes a reasonable timeframe of 30 days.                  changes. ComeUp made a commitment to always
+                                                               consult workers for important changes.
+3.2
+                                                             5.1
+• A cancellation policy in line with Cloudwork principles
+  was added to the Terms, allowing “cancellations due        • The company has added to the Terms of Service
+  to emergency, unforeseen circumstances, or mutual            a section (10) in line with the Fairwork Cloudwork
+  agreement with the client” to not result in penalties.       Principle 5, acknowledging workers’ rights to organise
+  Valid reasons include “illness, problematic client           themselves freely.
+  behavior, or other reasonable causes.”
+                                                             Prolific
+4.1
+                                                             2.1
+• Terawork edited the Terms of Service to explain the
+                                                             • Prolific’s team has adopted multiple notification and
+  appeal processes made available to workers, and the
+                                                               recruitment methods, lowering the search time spent
+  managers also added a dispute resolution section. The
+                                                               by workers. Among them are email messages, browser
+  clause “Appealing Disciplinary Decisions” explains that
+                                                               extensions and on-platform messaging services.
+  workers can appeal any disciplinary decision taken by
+  the platform.                                              • Participants are remunerated for pre-screening
+                                                               assessments, ensuring that assessments do not
+ComeUp                                                         involve unpaid labour.
+2.1
+                                                             2.2
+• ComeUp has updated the homepage and improved
+                                                             • Prolific updated the guidance on health and safety
+  the user interface aimed at “increasing the number
+                                                               extending it to all studies and all workers.
+  of orders on the website and creating more work
+  opportunities for workers.” The homepage was
+  redesigned to make it “easier for clients to navigate      4.1
+  and find services.”                                        • The platform edited the disciplinary actions’ rules,
+2.2                                                            explaining to workers the reasons that can lead to
+                                                               disciplinary action.
+• The company made changes to their Terms of Use,
+  clearly stating that users should not jeopardise the       • The appeal process was made more visible and better
+  health and safety of workers.                                explained through a specific Help Centre article.
+                                                               Additionally, appeals can now be initiated through
+• The company added to their FAQ that any unethical or
+                                                               the contact form or via a support chatbot in the Help
+  abusive behaviour will be investigated. Additionally,
+                                                               Centre.
+
+
+
+
+                                                            32
+Translated
+2.1                                                           5.1
+
+• Translated excluded a mention of voluntary work             • The platform added a statement to the Terms and
+  in their Frequently Asked Questions section on the            Conditions acknowledging freedom of association
+  company’s website. This change was consistent with            and mentioning the support workers need to organise
+  the 2.1 threshold standard of avoiding unpaid work.           collectively.
+
+4.2                                                           Appen
+• The company edited the FAQ to specify better the            1.1
+  automated methods to allocate work, using an                • Appen has informed the Fairwork Cloudwork team
+  algorithm they call T-Rank.                                   that it is changing its qualifications model. Instead of
+5.1                                                             designing qualification assessments for each individual
+                                                                project, the company is moving toward pre-qualifying
+• The company published a new statement
+                                                                contributors based on levels of task complexity.
+  acknowledging freedom of association and collective
+                                                                According to the company, this will reduce the number
+  bargaining. “Translated respects all national
+                                                                of unpaid assessments that contributors are expected
+  agreements about collective bargaining through
+                                                                to complete.
+  trade unions for more favourable working conditions.
+  Translated does not inhibit the freedom of association      2.1
+  and supports access to worker representation through        • The company is implementing an “incentive program”
+  unions and associations.”                                     to support workers in developing new skills. Workers
+• The company published on their FAQ new dispute                already “pre-qualified at a certain complexity level”
+  resolution mechanisms linked to the mediation system          but struggling to find work will be able to make use of
+  of the firm’s headquarters (Italy).                           upskilling materials and simulators as well as receive
+                                                                compensation for these training practices.
+SoyFreelancer
+3.2
+
+• SoyFreelancer documented in the Terms and
+  Conditions that workers will not be punished for not
+  accepting jobs (section 6.1.1).
+
+4.1
+
+• A section was added to the Terms and Conditions
+  explaining the appeal process (6.1).
+
+• Information about the support channel and the appeal
+  process was provided in the company’s newsletter to
+  give more visibility to this resource.
+
+
+
+
+                                                         33
+MOVING FORWARD
+
+Pathways of change
+For workers, cloudwork in general has lower barriers to
+entry than conventional employment. For clients, it is usually
+less expensive to use a cloudwork platform than to hire a
+geographically proximate worker or contractor.
+
+With a staggering range of tasks and services now             The Fairwork Cloudwork Ratings 2025 provide a
+available through cloudwork platforms, and the                resource for workers, consumers and policymakers
+increasing normalisation of remote and online working         to do just that. They establish benchmark standards
+enabled by technological infrastructure, the cloudwork        of fairness in cloudwork, which we can collectively
+economy will continue to grow. However, on most               advocate for and strive towards. They also detail where
+cloudwork platforms, costs are externalised and risks         and how prominent platforms are falling short of
+transferred to workers — saving clients money but             these benchmarks and set out a roadmap for positive
+leaving workers vulnerable.                                   change to be implemented. Finally, and importantly,
+                                                              they highlight where platforms are in fact stepping up
+As more and more workers from a large variety of              to their responsibilities to workers, meeting standards
+sectors and professions become absorbed into the              of fairness, and taking steps to improve workers’
+planetary labour market, it is becoming increasingly          experiences.
+difficult to apply and enforce national labour protections
+that include workers’ right to a minimum wage, to             This finding is a powerful reminder that precarity and
+collective voice and representation, to protection from       insecurity aren’t an inevitable outcome of technological
+discrimination and unfair dismissal, and to health and        advancement, nor a necessary trade-off for flexible
+safety at work. Our scores show that unfair and insecure      work. Some of the platforms in our study have chosen
+work is the norm on most cloudwork platforms — a              to provide fairer work. When platforms are not meeting
+situation that calls for regulatory responses at national     minimum standards of fairness, this is also a choice.
+and international levels.
+                                                              Fairwork reached out to every platform in this study,
+Some national and regional policy proposals, including        and suggested clear changes they could make in order
+legislation on cloudwork and global supply chains, may        to improve working conditions on their platforms.
+provide a point of regulatory leverage to consider and        Following constructive dialogue with our researchers,
+improve cloudworkers’ pay and conditions. One notable         eight platforms implemented a total of 56 pro-worker
+recent example is the European Union Directive passed         changes. In turn, these actions strengthened their
+in 2024 (see Theme in Focus). Another example is the          Fairwork score, an outcome that will help to differentiate
+law on due diligence passed by Germany to enforce the         these platforms to clients and workers, as examples of
+protection of human rights and environmental standards        better practice in the cloudwork economy. The changes
+along global supply chains.31 However, there remains          represent a step towards a more equitable balance
+a mismatch between globally operating cloudwork               of power between workers and platforms. They give
+platforms — like the platforms included in our study —        workers bases on which to hold platforms to account.
+and comprehensive global policy responses to this new         Both smaller and larger platforms implemented changes.
+digital world of work.
+
+
+
+
+                                                             34
+Since the last report, the Fairwork Cloudwork team has     We find fault with the common characterisation of
+made significant progress in its engagement strategies.    platforms as disruptors of the status quo, due in part
+In 2024, a working group was established, consisting       to the fact that precarious piece-rate work has a long
+of seven cloudwork platform managers who gathered          legacy and is not especially innovative or historically
+to exchange knowledge and explore the adoption of          distinct. However, one hopeful takeaway is platforms’
+best practices aligned with the Fairwork Principles. The   willingness to listen to feedback and improve, and to
+participating platforms include Appen, ComeUp, Creative    recognise that we are still in a moment of possibility
+Words, Elharefa, Prolific, Terawork, and Translated.       in the development of the cloudwork economy; these
+                                                           institutions are not yet characterised by high levels
+Named the Fairwork Cloudwork Initiative, the               of inertia and path dependency. Just as cloudwork
+discussions held by this group aim to influence internal   platforms can nimbly enter and exit markets, and can
+conversations within the platforms, with the hope          nimbly evade regulations, they can also do better.
+of enacting concrete changes that benefit workers
+and address the challenges they face in their day-         It will take a broad coalition of actors, including
+to-day experiences on the platforms. Furthermore,          platforms, workers, and legislators, to bring about a
+the approaches developed by this working group can         fairer future of platform work, but the actions taken by
+serve as guidelines and examples for other cloudwork       platforms in response to Fairwork scoring show that it
+platforms. The success of this initiative can be seen in   remains within reach. We commend those companies
+the record number of changes adopted by platforms this     who are choosing to step up to their moral obligations
+year.                                                      to their workers. However, the low scores in our study
+                                                           also demonstrate what happens when an industry is left
+                                                           to regulate itself, and underscore the urgent need for
+                                                           governments to step in to find ways to protect workers in
+                                                           the planetary labour market.
+
+
+
+
+                                                      35
+The Fairwork
+Pledge
+As part of this process of change, we have introduced
+the Fairwork Pledge. This pledge leverages the power of
+organisations’ procurement, investment, and partnership
+policies to support fairer platform work. Organisations like
+universities, schools, businesses, and charities who make use of
+platform labour can make a difference by supporting the best
+labour practices, guided by our five principles of fair work.
+
+                                                             MORE INFORMATION ON THE
+The pledge constitutes two levels. This first is as an
+official Fairwork Supporter, which entails publicly
+demonstrating support for fairer platform work, and
+making resources available to staff and members to
+                                                             PLEDGE, AND HOW TO SIGN UP,
+help them in deciding which platforms to engage with.        IS AVAILABLE HERE:
+A second level of the pledge entails organisations
+committing to concrete and meaningful changes in their
+own practices as official Fairwork Partners, for example
+by committing to using better-rated platforms where
+                                                             FAIR.WORK/PLEDGE
+there is a choice.
+
+A diverse range of stakeholders can promote actions
+to support the Fairwork Pledge. NGOs and charities
+can help committing to only using platforms scoring at
+least 7 out of 10 in the most recent applicable Fairwork
+ratings or other platforms that comply with the Fairwork
+principles. Government and administrative bodies
+can create policies that favour well-rated platforms
+in public funding or licensing agreements. Companies
+can make Fairwork principles and ratings a criterion
+when contracting services (for example, translation,
+transcription or data entry and cleaning services) through
+digital platforms. For academic institutions, research
+ethics bodies, in particular, may increasingly be involved
+in decisions around research involving cloudworkers.
+
+
+
+
+                                                           36
+Certification
+In addition to the Pledge, Fairwork is encouraging              • Discovery & Risk Assessment. The process starts
+AI lead firms to embed Fairwork standards into their              with collaboration between Fairwork and the lead
+supplier agreements and procurement policies, and                 firm to align supplier agreements, contracts, codes of
+is offering a certification scheme. As AI spreads                 conduct, and audit procedures. We map the supply
+across industries, businesses increasingly rely on data           chain to identify data-enrichment locations, conduct
+enrichment, annotation, and other business process                worker interviews and document reviews to detect
+outsourcing (BPO) services to power their systems.                risks, and carry out a comprehensive audit based on
+These essential AI services often depend on dispersed,            the Fairwork Principles.
+opaque workforces located in regions with weak
+regulatory oversight, making labour rights violations           • Action Planning. Once risks are identified, Fairwork
+difficult to detect and address. However, regulators              helps companies prioritise them by severity and
+and policymakers are paying attention. New measures               impact. Together, we develop tailored remediation
+like the EU’s Corporate Sustainability Due Diligence              plans, establish clear metrics for tracking progress,
+Directive (CS3D) demand greater transparency and                  and ensure accountability. To date, our work has led
+accountability—not only in agriculture or manufacturing           to over 300 positive changes in company practices
+but also in digital and AI-driven supply chains.                  across 40 countries, significantly improving working
+                                                                  conditions.
+No matter the sector, if their operations depend on data,
+their supply chain must be fair. Fairwork offers an AI          • Implementation & Training. Companies deploy ethical
+supply chain audit. Why is this important?                        sourcing and labour protection strategies at this stage.
+                                                                  Fairwork facilitates training for suppliers and internal
+• Regulatory Preparedness: Proactively align with                 teams, embedding effective due diligence practices
+  emerging labour laws and global standards to mitigate           into operational and procurement processes.
+  legal and ethical risks before they impact compliance
+  or reputation.                                                • Monitoring & Reporting. Fairwork works closely with
+                                                                  companies to track initiatives and evaluate progress.
+• Transparency and Trust: Demonstrate responsible                 Follow-up audits, conducted 1-2 years after initial
+  labour practices, building credibility with customers,          implementation, assess adherence to Fairwork
+  investors, and regulators, and positioning your                 Principles and effectiveness of remediation measures.
+  organisation as a leader in ethical AI.                         Transparent, research-backed reports document
+                                                                  outcomes, supporting regulatory compliance and
+• Resilient Workforce: Ensure fair wages, job security,           accountability.
+  and decent working conditions to attract and retain
+  skilled data workers, creating a stable and productive
+  AI supply chain.
+                                                                Certification
+• Sustainable Commitment: Adopt Fairwork’s flexible,            Companies pursuing Fairwork Certification commit to
+  continuous-improvement model to embed lasting fair            all four evaluation phases, unlike the audit-only option,
+  labour standards in your organisation.                        which covers just Discovery & Risk Assessment and
+                                                                Action Planning. Lead firms earn the Fairwork Onboard
+                                                                certification during Discovery & Risk Assessment,
+Fairwork’s evaluation model                                     indicating their initial commitment to fair labour
+                                                                practices. By meeting expectations in follow-up audits,
+Fairwork’s structured, four-phase evaluation model helps
+                                                                firms maintain their Fairwork affiliation and achieve
+companies identify risks, implement improvements,
+                                                                the Fairwork Endorsed certification, recognising their
+and embed fair labour practices throughout their AI
+                                                                sustained commitment to fair and responsible supply
+supply chains. We offer both audit-only assessments
+                                                                chains.
+and certification pathways tailored to your organisational
+goals and desired level of engagement.
+
+
+                                                           37
+APPENDIX I
+
+Fairwork
+Scoring System
+The five Principles of Fairwork were developed through an
+extensive literature review of published research on job quality,
+stakeholder meetings at UNCTAD (United Nations Conference
+on Trade and Development) and the ILO (International
+Labour Organisation) in Geneva (involving platform operators,
+policymakers, trade unions, and academics), and in-
+country stakeholder meetings held in India (Bangalore and
+Ahmedabad), South Africa (Cape Town and Johannesburg) and
+Germany (Berlin).
+These principles have been adapted to the realities           The second point under each principle can only be
+of Cloudwork and fine-tuned through a process of              awarded if the first point for that principle has been
+further consultation with stakeholders including worker       awarded. The thresholds specify the evidence required
+representatives, researchers, and labour lawyers. The         for a platform to receive a given point. Where no
+criteria for each principle were voted on and finalised by    verifiable evidence is available that meets a given
+the Fairwork team.                                            threshold, the platform is not awarded that point. For this
+                                                              year, platforms were scored against an updated set of
+This document explains the Fairwork scoring system for        the Fairwork Cloudwork Principles.
+Cloudwork Platforms. Each Fairwork principle is divided
+into two thresholds. Accordingly, for each principle, the
+scoring system allows one first point to be awarded
+corresponding to the first threshold, and an additional
+second point to be awarded corresponding to the second
+threshold (see Table 1).
+
+
+
+
+                                                             38
+Table 1 Fairwork: Scoring System
+
+Principle                          First point                      Second point                    Total
+
+
+                                          Ensures workers earn at         Ensures workers earn
+         Principle 1:
+         Fair Pay
+                                          least the local minimum         at least a local living    2
+                                          wage after costs                wage after costs
+
+
+
+
+         Principle 2:                     Mitigates task-specific         Provides a safety net
+
+         Fair Conditions                  risks
+                                                                                                     2
+
+
+
+                                          Provides clear and              Ensures that no
+        Principle 3:
+        Fair Contracts
+                                          transparent terms and           unfair contract terms      2
+                                          conditions                      are imposed
+
+
+
+                                          Provides due process
+         Principle 4:                                                     Provides equity in the
+         Fair Management
+                                          for decisions affecting
+                                                                          management process
+                                                                                                     2
+                                          workers
+
+
+                                         Assures freedom of
+         Principle 5: Fair               association and the              Supports democratic
+         Representation                  expression of collective         governance
+                                                                                                     2
+                                         worker voice
+
+
+
+
+                              Maximum possible Fairwork Score
+                                                                                            10
+
+
+
+
+                                                    39
+Principle 1: Fair Pay                                        with a lot of other workers. This can include sending
+                                                             credentials to prospective clients, or developing pitches.
+Threshold 1.1 – Workers are paid on time and for             This constitutes working time, but it is time that the
+all completed work (one point)                               worker is not being paid for. In order to reduce this
+Workers must have full confidence that they will be          unpaid working time, platforms should ensure that jobs
+paid for the work they do. Workers can sometimes             are available to workers on the platform, and there is not
+face the risk of a client not paying for work that has       an unmitigated oversupply of labour.
+been completed. To achieve this point platforms must
+guarantee that this is not possible. Where a client          The platform must satisfy the following:
+considers that work is not completed satisfactorily, there
+                                                             • The allocation of work and/or supply of new workers is
+must be a clear and reasonable process for rejection
+                                                               managed to promote job availability, and reduce unpaid
+decisions. Additionally, timeliness and regularity of
+                                                               work and overwork.34
+payment are crucial to evidencing fair pay.
+
+                                                             Threshold 2.2 – Healthy and safety risks are
+The platform must satisfy ALL of the following:
+                                                             mitigated (one additional point)
+• Non-payment is not an option for clients and there are
+                                                             Health and safety risks to workers can include, amongst
+  mechanisms to ensure workers are paid.32
+                                                             other things, exposure to psychologically harmful
+                                                             material, financial scams, and breaches of data privacy
+• Payments are made within an agreed timeframe.
+                                                             and security. To achieve this point the platform must
+                                                             demonstrate policies and processes that minimise risks
+• Workers can choose to be paid in a recognised national
+                                                             to workers.
+  currency.
+
+                                                             The platform must satisfy ALL of the following:
+• Workers can request funds from their account on a
+  regular basis with reasonable withdrawal thresholds.       • There are policies to protect workers from risks that
+                                                               arise from the processes of work.
+Threshold 1.2 – Workers are paid at least the local
+minimum wage (one additional point)                          • There are processes for job-related health and safety
+                                                               risks (including psychological risks) to be identified and
+The rate of pay after costs (like platform fees) must meet
+                                                               addressed.
+the minimum legal threshold in the place where the
+worker works, regardless of whether the worker earns an
+                                                             • Risks related to a specific job are flagged to workers
+hourly wage, or engages in piece-rate work.
+                                                               before they accept the job (such as indicating that they
+The platform must satisfy EITHER 1) or 2)                      might be exposed to violent content).
+depending on their payment model:
+                                                             • There are clear reporting channels and documented
+1. For hourly-paid work, workers earn at least their
+                                                               penalties for clients who jeopardise workers’ health
+   local minimum wage after costs. For piece-rate work:
+                                                               and safety.
+   The vast majority of workers earn at least their local
+   minimum wage after costs,33 and                           • There are adequate and ethical data privacy and
+                                                               security measures applicable to workers, laid out in a
+2. A reasonable estimate of the time it takes to complete
+                                                               documented policy.35
+   each task is provided to each worker before they
+   accept the work.
+                                                             Principle 3: Fair Contracts
+Principle 2: Fair Conditions                                 Threshold 3.1 – Clear terms and conditions are
+                                                             available (one point)
+Threshold 2.1 – Precarity and overwork are
+                                                             The terms and conditions governing platform work
+mitigated (one point)
+                                                             are not always clear and accessible to workers. To
+Workers may spend a significant amount of their working      achieve this point the platform must demonstrate that
+day applying for jobs, especially if they are competing      workers are able to understand, agree to, and access
+
+
+
+
+                                                            40
+the conditions of their work, and that they have legal          • When workers choose not to accept tasks, this does
+recourse if the platform breaches those conditions.               not punitively impact their rating or reputation.37
+
+The platform must satisfy ALL of the following:                 Principle 4: Fair management
+• The contract is written in clear and comprehensible           Threshold 4.1 – There is due process for decisions
+  language that the worker could be expected to                 affecting workers (one point)
+  understand.                                                   Platform workers can experience deactivation; being
+                                                                barred from accessing the platform, sometimes without
+• The contract is available for workers to access at all        due process, and losing their income. Workers may be
+  times.                                                        subject to other penalties or disciplinary decisions without
+                                                                the ability to contact the platform to challenge or appeal
+• Workers are notified of proposed changes in a                 them if they believe they are unfair. To achieve this point,
+  reasonable timeframe before changes come into effect.         platforms must demonstrate an ability for workers to
+                                                                meaningfully appeal disciplinary actions.
+• Changes should not reverse existing accrued benefits
+  and reasonable expectations on which workers have             The platform must satisfy ALL of the following:
+  relied.                                                       • There is a channel for workers to communicate with
+                                                                  a human representative of the platform. This channel
+• The contract does not require workers to waive rights to
+                                                                  is documented in policies that are easily accessible to
+  reasonable legal recourse against the platform.
+                                                                  workers, and communications are responded to within a
+                                                                  reasonable timeframe.
+Threshold 3.2 – Contracts are consistent with the
+workers’ terms of engagement on the platform
+                                                                • There is documentation of things the worker isn’t
+(one additional point)
+                                                                  allowed to do, and workers receive an explanation for
+Platforms mediate the contact and the transaction
+                                                                  all punitive actions, including reductions in their rating/
+between workers and clients. Therefore, they have a
+                                                                  platform standing, non-payment, work rejections,
+responsibility for oversight of the relationship between
+                                                                  penalties, account blocks, deactivation and any other
+workers and clients, and to protect workers’ interests.
+                                                                  disciplinary actions.
+This also includes a duty of care in ensuring that direct
+contracts (such as NDAs) raised between clients and
+                                                                • Explanations for actions and work rejections include
+workers do not unfairly disadvantage the worker or reduce
+                                                                  information on how they can be appealed.
+the worker’s labour market prospects. Additionally, where
+workers are self-employed, contracts should allow for
+                                                                • The process for workers to appeal actions and work
+freedom to choose their own working schedules, and the
+jobs they accept or refuse on the platform.                       rejections is non-arduous, documented in the contract,
+                                                                  and available to workers who no longer have access to
+The platform must satisfy ALL of the following:                   the platform.
+
+• Clients are encouraged to inform workers about how
+                                                                Threshold 4.2 – There is equity in the
+  their work will be used.
+                                                                management process (one additional point)
+• The worker is not subject to non-compete clauses.             The majority of platforms do not actively discriminate
+                                                                against particular groups of workers. However, they may
+                                                                inadvertently exacerbate already existing inequalities
+EXCEPT, in cases where the worker is in a
+                                                                through their design and management. To achieve this
+standard employment relationship the platform
+                                                                point, platforms must show that they have policies against
+makes clear to workers that:
+                                                                discrimination that can occur between different user
+• Working schedules cannot be imposed upon workers.36           groups, and that workers are assured that they will not be
+                                                                disadvantaged through management processes.
+• The worker retains the freedom to choose which tasks
+  to accept or refuse.
+
+
+
+
+                                                           41
+The platform must satisfy ALL of the following:                   • Freedom of association is not inhibited and groups
+                                                                    of workers are not disadvantaged in any way for
+• There is a policy which guarantees that the platform
+                                                                    communicating their concerns, demands and wishes to
+  will not discriminate against persons on the grounds
+                                                                    management.
+  of racial, ethnic, social or minority background, caste,
+  religion or belief, political or any other opinion, language,
+                                                                  Threshold 5.2 – There is collective governance or
+  gender, gender identity, sex, sexual orientation,
+                                                                  bargaining (one additional point)
+  disability, age, geographical location, or any other
+                                                                  The ability for workers to organise and collectively express
+  status.
+                                                                  their voice is an important prerequisite for fair working
+                                                                  conditions. Workers must be able to assert their demands
+• There are mechanisms to reduce the risk of clients
+                                                                  through a representational body which is free from any
+  discriminating against workers on any basis listed
+                                                                  influence by platform management. Where such a body
+  above.
+                                                                  does not exist, it is incumbent on platforms to ensure
+                                                                  workers’ voices can be represented by encouraging its
+• The platform specifies the methods used to manage
+                                                                  formation.
+  and allocate work (including when algorithms are used).
+  Substantive changes to methods of managing and
+                                                                  The platform must satisfy EITHER 1), 2) or 3):
+  allocating work are preceded by a worker consultation.
+                                                                  1. It is democratically governed by workers.
+
+                                                                  2. It formally engages with an independent collective
+Principle 5: Fair representation                                     body of workers, an elected works council or trade
+                                                                     union, and has not refused to engage with collective
+Threshold 5.1 – Workers have access to
+representation, and freedom of association (one                      bodies who seek representation and/or bargaining.
+point)                                                               New workers are advised of the existence of these
+                                                                     bodies.
+To observe workers’ right to fair representation, platforms
+must ensure that workers have information about
+                                                                  3. If such a body does not exist, or such bodies have not
+their options for representation in a dispute, as well as
+ensuring they have access to an independent advocate.                requested recognition by the platform, the platform
+Platforms must also guarantee that workers have freedom              has engaged in a formal process of dialogue with
+of association, as enshrined in the constitution of the              local and/or international representative bodies of
+International Labour Organisation and the Universal                  workers to discuss what structures and processes of
+Declaration of Human Rights.                                         representation could look like for platform workers.
+
+The platform must satisfy ALL of the following:
+• The platform commits to a dispute resolution
+  process in which workers can access an independent
+  representative freely chosen by them or an unbiased,
+  independent, and accessible dispute resolution system.
+  38, 39
+        .
+
+
+
+
+                                                              42
+APPENDIX II
+
+Platform Comments
+This year, the Fairwork Cloudwork Ratings 2025 opened         While we appreciate that some of these changes are
+space for the platforms assessed to provide a comment         recognized in the report, the score does not capture
+about their score. All platforms rated were contacted         the full scope of our progress. On the platform side, we
+and invited to share this comment. The comments below         rolled out secondary project assignments, task timers,
+were kept as sent by the platform managers.                   and base payouts to improve access to work and reduce
+                                                              unpaid time. On the community side, we updated our
+ComeUp                                                        Community Guidelines and expanded contributor
+Thank you to the Fairwork team for helping us continue        support systems. We remain committed to ongoing
+to improve ComeUp and recognising our changes.                improvements and believe future evaluations should
+Raising our score from 5 to 8 this year confirms we’re        better reflect the work we’ve done—and continue to do.
+heading in the right direction. We still have work to do to
+make our platform the ideal freelance marketplace for         Translated
+people to use.                                                We thank Fairwork for guiding us in solidifying our fair
+                                                              approach to the community of freelancers we work with
+Our goal has always been to build a platform that offers      every day. Our commitment to Fairwork’s principles is
+genuine solutions to freelancers. A fair and transparent      reflected both in the best practices that were recognized
+platform that empowers them to deliver their best             and in the changes we made following Fairwork’s
+work. This year’s rating reflects the work we’ve put into     recommendations, particularly in clarifying our positions
+making the experience better for everyone on ComeUp,          on our public FAQs. For example, our website previously
+and we’re proud of what our team and community have           encouraged recent graduates to gain experience by
+achieved together. We look forward to continuing to           volunteering. While we saw this as a way to develop
+work with Fairwork. Their research and help is a valuable     skills through solidarity-based work, Fairwork helped us
+resource in helping us shape ComeUp’s future.                 understand how such a message could be interpreted
+                                                              as an invitation to accept unpaid work, something we
+Scale/Remotasks                                               strongly oppose.
+At Scale, we deeply value the global community of
+contributors who power Remotasks. We’ve made                  We are also proud to have affirmed our commitment to
+meaningful investments to improve the contributor             industry standards and to the freedom of association for
+experience—while the report acknowledges several of           freelancers. We acknowledge that there is still work to be
+these improvements, we believe the evaluation remains         done, and we fully recognize our role in building healthy
+overly subjective in key areas.                               relationships between the company and freelancers,
+                                                              both individually and as part of collective bargaining
+• Fair Contracts (Principle 3)-- We updated our Terms         bodies. Transparency remains a cornerstone of our
+  to provide 30-day advance notice of contract changes        approach, and we strive to ensure that freelancers have
+  and clarified that task participation is voluntary and      visibility into the criteria and data points used for project
+  does not impact contributor ratings.                        assignment: availability, capacity, quality, performance,
+                                                              rate, and expertise. We also encourage all collaborators
+• Fair Management (Principle 4)-- We introduced
+                                                              to contact us directly if they wish to better understand
+  Account Deactivation Support for clearer explanations
+                                                              how specific project assignments are made.
+  and appeals, added an anonymous contributor hotline,
+  and increased transparency around automated work
+  allocation.
+
+
+
+
+                                                         43
+ENDNOTES
+1.   Fairwork. 2023. Work in the Planetary Labour Market: Fairwork             17. Miceli, M., & Posada, J. 2022. The data-production dispositif.
+     Cloudwork Ratings 2023. Oxford, United Kingdom. Retrieved April 7,            Proceedings of the ACM on human-computer interaction, 6(CSCW2),
+     https://fair.work/wp-content/uploads/sites/17/2023/07/Fairwork-               1-37.
+     Cloudwork-Ratings-2023-Red.pdf.
+                                                                               18. Muldoon, J., Cant, C., Wu, B., & Graham, M. 2024. A typology of artificial
+2.   Woodcock, Jamie and Mark Graham. 2020. The Gig Economy: A Critical            intelligence data work. Big data & society, 11(1), 20539517241232632.
+     Introduction. Polity Press.
+                                                                               19. Flew, T., & Gillett, R. 2021. Platform policy: Evaluating different
+3.   Datta, N. et al. 2023. “Working without Borders: The Promise and Peril        responses to the challenges of platform power. Journal of Digital Media
+     of Online Gig Work.” World Bank, Washington, DC.                              & Policy, 12(2), 231-246.
+
+4.   Kässi, Otto., Lehdonvirta, Vili., and Fabian Stephany. 2021. How Many     20. Council of the European Union. 2024. EU rules on platform work.
+     Online Workers Are There in the World? A Data-Driven Assessment.              Available: https://www.consilium.europa.eu/en/policies/platform-work-
+     Retrieved 3 April, 2025 from https://open-research-europe.ec.europa.          eu/. Accessed: 12 Apr. 2025.
+     eu/articles/1-53.
+                                                                               21. Rainone S. and Aloisi A. 2024. The EU Platform Work Directive: what’s
+5.   Rani, Uma., Kumar Kumar Dhir, and Maria Furrer. 2021. World                   new, what’s missing, what’s next?, Policy Brief 2024.6, ETUI.
+     Employment and Social Outlook: The Role of Digital Labour Platforms
+     in Transforming the World of Work. Geneva: International Labour           22. International Labour Organisation. 2025. Realizing decent work in the
+     Organisation. Retrieved 2 April, 2025 from https://www.ilo.org/global/        platform economy, Geneva: International Labour Office.
+     research/global-reports/weso/2021/WCMS_771749/lang--en/index.
+     htm.
+                                                                               23. United Nations AI Advisory Board. 2024. Governing AI for Humanity:
+                                                                                   Final Report. UN Global Digital Compact.
+6.   Fairwork. 2021. Work in the Planetary Labour Market: Fairwork
+     Cloudwork Ratings 2021. Retrieved 5 April, 2025 from https://fair.work/
+                                                                               24. Gigpedia. 2025. Website Homepage. Retrieved April 8, 2025, from
+     en/fw/publications/work-in-the-planetary-labour-market-fairwork-
+                                                                                   https://gigpedia.org/.
+     cloudwork-ratings-2021/.
+
+                                                                               25. Wage Indicator. 2025. Website Homepage. Retrieved April 8, 2025, from
+7.   Rani et al. (2021).
+                                                                                   https://wageindicator.org/.
+
+8.   Graham, Mark and Mohammad Amir Anwar. 2019. The Global Gig
+                                                                               26. Turkopticon. 2025. Website Homepage. Retrieved April 8, 2025, from
+     Economy: Towards a Planetary Labour Market? First Monday 24(4).
+                                                                                   https://turkopticon.ucsd.edu.
+
+9.   It is also known inter alia (among other things) as cloud sourcing,
+                                                                               27. Fair Crowd Work 2025. Website Homepage. Retrieved April 8, 2025,
+     crowdwork, crowdsourcing, clickwork, virtual labour, microwork
+                                                                                   from https://appjobber.com/en/initiatives/fair-crowd-work.
+     and online work; see: Heeks, Richard. 2017. Digital Economy and
+     Digital Labour Terminology: Making Sense of the ‘Gig Economy’,
+     ’Online Labour’, ’Crowd Work’, ’Microwork’, ’Platform Labour’, etc.       28. Campaign for Trade Union Freedom. Retrieved April 12, 2025,
+     Development Informatics Working Paper 70. Retrieved 3 April, 2025             fromhttps://www.tradeunionfreedom.co.uk/.
+     from https://hummedia.manchester.ac.uk/institutes/gdi/publications/
+     workingpapers/di/di_wp70.pdf.                                             29. Crowdsource Wage Pledge. Website Homepage. Retrieved April 8, 2025,
+                                                                                   from https://wagepledge.org/.
+10. In the escrow (legal holding account for funds or assets) system,
+    requesters need to make a deposit before the job begins.                   30. Crowdsourcing Code of Conduct – Ombudsstelle. Website Homepage.
+                                                                                   Retrieved April 8, 2025 https://ombudsstelle.crowdwork-igmetall.de/
+11. The changes highlighted in this report include policies, mechanisms and        en.html.
+    pro-worker measures implemented since the last report, launched in
+    July 2023.                                                                 31. Solomon, Erika. 2021. German Cabinet Backs Law to Protect Human
+                                                                                   Rights in Global Supply Chain. The Financial Times. https://www.ft.com/
+12. Gorwa, R. 2019. What is platform governance?. Information,                     content/2b969d2c-ad1e-48c2-b318-2dd20bb1662f.
+    communication & society, 22(6), 854-871.
+                                                                               32. As a guideline for ensuring non-payment is not an option, see criteria
+13. Paul, R., Bora, A., Mölders, M., Huber, M., & Münte, P. (Eds.). (2017).        developed by Harmon and Silberman 2018, in their Rating Working
+    Society, regulation and governance: new modes of shaping social                Conditions on Digital Labour Platforms:
+    change?. Edward Elgar Publishing.
+                                                                                   In cases where rejection mechanisms exist for delivered work:
+14. Gillespie, T. 2017. Governance of and by platforms. SAGE handbook of
+                                                                                   • Workers should be able to contest rejection decisions.
+    social media, 254-278.
+                                                                                   • Workers receive a clear and reasonable explanation for any rejections.
+                                                                                   • Workers may attempt to redo rejected work at least once.
+15. Irani, Lilly. 2015. The Cultural Work of Microwork. New Media & Society
+    17(5). Tubaro, Paola and Antonio Casilli. 2019. Micro-Work, Artificial         If the worker contests the rejection decision, the case is reviewed (a
+    Intelligence and the Automotive Industry. Journal of Industrial and            second time) by a neutral third party, who makes a binding decision; the
+    Business Economics 46.                                                         platform agrees not to punish the worker in any way if the third party
+                                                                                   decides, in favour of the worker.
+16. Morris, Meredith, Jeffrey Bigham and Robin Brewer. 2017.                       If the work is rejected, it is not able to be used, by the client.
+    “Subcontracting Microwork”. Paper presented at the proceedings of the
+    2017 CHI Conference on Human Factors in Computing Systems, New
+    York.
+
+
+
+
+                                                                              44
+33. This can be evidenced either through a policy, or by provision of
+    aggregated earnings data. The vast majority of workers is understood
+    as 85% or more of all workers, engaged on the platform. This is in
+    recognition of the fact that all the time between when a worker starts,
+    and submits a task, may not necessarily be working time. We compare
+    worker’s piece-work earnings against minimum wages, based on United
+    Kingdom government guidelines. The calculation is as follows:
+
+    Number of tasks of a given kind, completed by workers on average per
+    hour = A.
+    This number is divided by 1.2 to calculate A*, an estimated average
+    number of tasks completed per hour, that accounts for the disadvantage
+    that relatively inexperienced workers face.
+    Therefore, A* = 0.83A.
+    Local minimum hourly wage = M.
+    This figure varies across jurisdictions.
+    Where a jurisdiction’s laws do not specify a minimum wage, a
+    reasonable alternative can be used.
+    Fair piece rate corresponding to the minimum wage = F = (M ÷ 0.83A).
+    This calculation must be repeated across task types. To receive this
+    point, platforms operating on a piece-work model must demonstrate
+    that 85% or more of workers on their platform, earn more than F per
+    hour, in each task type.
+
+34. This could include regular guaranteed hours, managed supply and
+    demand, or minimum and maximum hours.
+
+35. To fulfil this criterion, platforms must have clear policies about what
+    kind of data is collected from workers, when it is collected, how long it
+    is kept, and how it is processed. They must take responsibility of data
+    handling, storing and management processes, and ensure that personal
+    data is kept safe, and secure, and is not sold or shared with third parties,
+    without workers’ specific consent.
+
+36. The platform shall encourage clients to adopt working time
+    arrangements, that are consistent with the contractual terms of
+    the worker–client relationship. While workers may be required to
+    meet project deadlines, or to attend meetings, in the absence of an
+    employment relationship. The platform shall discourage clients from
+    unreasonably interfering with a worker’s ability, to choose their own
+    working time schedule.
+
+37. When a worker drops out from an ongoing job, this does not punitively
+    impact their rating or reputation if it is for a reasonable cause, or if the
+    worker leaves the job before it started and if the requester has been
+    given sufficient notice. Platforms might choose to categorise, filter and
+    order inactive profiles without directly changing their reputation score or
+    rating on the platform.
+
+38. The platform publicly commits to support any effort by its workers to
+    collectively organise or form a trade union. This could be done by, for
+    instance, adding the following text in their contracts: “[company] will
+    support any effort by its workers to collectively organise or form a trade
+    union. Collective bargaining through trade unions can often bring about
+    more favourable working conditions”. Platforms are also required to
+    provide a directory of international labour unions and confederations
+    and advocates to workers on request.
+
+39. An example is the German Trade Union IG Metall’s Ombuds Office, that
+    arbitrates disputes between workers and platforms, that have signed up
+    to the Crowdsourcing Code of Conduct.
+
+
+
+
+                                                                            45
+Credits and Funding
+Fairwork is a project run out of the Oxford Internet Institute, University of Oxford, and the Berlin Social Science Centre, and
+draws on the expertise and experience of staff at Access to Knowledge for Development Center (A2K4D) at the American
+University in Cairo’s School of Business, Audencia Business School, Centre for Labour Research, Chinese University of Hong
+Kong’s Centre for Social Innovation Studies, CIPECC, De La Salle University, FLACSO-Ecuador, Humboldt University of Berlin,
+International Institute of Information Technology Bangalore (IIITB), iSocial, KU Leuven, Lagos Business School, Public Policy
+Research Center (CENTAR), Qhala, REPOA, Sapienza University of Rome, Solidarity Center, Technical University of Berlin,
+TEDIC, TU Wien, Universidad Adolfo Ibáñez, Universidad Complutense de Madrid, Universidad del Rosario, Universidade
+do Vale do Rio dos Sinos (Unisinos), Universitas Gadjah Mada’s Center for Digital Society, University of California’s Hastings
+College of the Law, University of Cape Town, University of Ghana Business School, University of Manchester, University of the
+Western Cape, Weizenbaum Institut, and XU Exponential University.
+
+
+Authors:                                                           Apaza, Elisa Errico, Elvisa Drishti, Eloísa González, Farah
+Jonas C.L. Valente and Mark Graham                                 Galal, Federico Rosenbaum Carli, Felipe Moda, Francesca
+                                                                   Pasqualone, Francisco Ibáñez, Francisco José Fernández-
+Data collection and processing support:                            Trujillo, Francisca Gutiérrez Crocco, Frederick Pobee,
+Zeynep Karlidag and Shilpa Joseph                                  Gabriela Salomao, Giulia Varaschin, Ha Do, Hayford
+                                                                   Amegbe, Henry Chavez, Hilda Mwakatumbula, Huynh Thi
+External scoring reviewers:                                        Ngoc Tuyet, Iftikhar Ahmad, Ilma Kurtović, Jack Linchuan
+Pía Garavaglia, Patrick Feuerstein, Tanja Jakobi                   Qiu, Jackeline Gameleira, James Dunn-Willimason, Jana
+                                                                   Ababneh, Janaki Srinivasan, Jamal Msami, Jing Wang,
+Editing:                                                           Joe Buckley, Jonas Valente, Jorge Leyton, Joshua Baru,
+David Sutcliffe and Simone Kadurira                                Julice Salvagni, Karol Muszyński, Katie J. Wells, Kemi
+                                                                   Ogunyemi, Khadiga Hassan, Khatia Dzamukashvili, Kiko
+Communications and typesetting:                                    Tovar, Lara Hartley, Ladin Bayurgil, Laureano Martínez,
+Creative Mouse.                                                    Laura Clemencia Mantilla León, Luis Jorge Hernández
+                                                                   Flores, Luis Pablo Alonzo, Luisa De Vita, Luke Troynar,
+Fairwork team:                                                     Mabel Rocío Hernández Díaz, Maja Kovac, Manzer Imam,
+Aditya Singh, Ahmad Awad, Ainan Tajrian, Alessio                   Marcos Aragão, Maren Borkert, Mar Maira, María Arnal,
+Bertolini, Alejandra S. Y. Dinegro Martínez, Alberto               María Belen Albornoz, María Inés Martínez Penadés,
+Riesco-Sanz, Alvaro Briales, Amela Kurta, Ambreen Riaz,            Maria Catherine, Maria Laura Birgillito, Maricarmen
+Ana Chkareuli, Ana Flavia Marques, Ana Negro, Ananya               Sequera, Marta D’Onofrio, Martin Krzywdzinski, Massimo
+Raihan, Andrea Ciarini, Andreansyah Dhani Darmawan,                De Minicis, Matías Dodel, Meghashree Balaraj, Milena
+Annmercy Wairimu, Antonio Corasaniti, Antonio Ramírez,             Franke, Mitchelle Ogolla, Moisés K. Rojas Ramos, Morad
+Arturo Arriagada, Arturo Lahera-Sánchez, Arabella                  Kutkut, Mounika Neerukonda, Mubassira Tabassum
+Wang, Athar Jameel, Batoul ElMehdar, Beatriz Motta,                Hossain, Nabila Salwa Fitri, Nadine Weheba, Nagla Rizk,
+Beka Natsvlishvili, Bilahari M, Bonnita Nyamwire, Branka           Natalia Muniz, Neema Iyer, Nermin Oruc, Nur Huda, Oğuz
+Andjelkovic, Bresena Dema Kopliku, Brikena Kapisyzi                Alyanak, Olayinka David-West, Oscar Javier Maldonado,
+Dionizi, Caroline A Omware, Carolina Pérez, Chana Garcia,          Pamela Custodio, Pablo Aguera Reneses, Pablo Egaña,
+Chau Nguyen Thi Minh, Cheryll Ruth Soriano, Chris King             Pablo Meseguer, Patrick Feuerstein, Pia Garavaglia,
+Chi Chan, Christian Nedu Osakwe, Claudia Marà, Claudia             Rafael Grohmann, Raiyaan Mahbub, Razan Ayesha, Revin
+Nociolini Rebechi, Cosmin Popan, Dana Elbashbishy,                 Muhammad Alsidais, Revaz Karanadze, Richard Heeks,
+Daniel Vizuete, Daviti Omsarashvili, Debarun Dutta, Derly          Rodrigo Carelli, Roseli Figaro, Rusudan Moseshvili, Sami
+Yohanna Sánchez Vargas, Didem Özkiziltan Wagenführer,              Atallah, Sami Zoughaib, Sandra Fredman, Seemab Haider,
+Dinh Thi Chien, Eduard Carrillo, Eisha Afifi, Eiser Carnero
+
+
+
+                                                               46
+Shamarukh Alam, Shanza Sohail, Shikoh Gitau, Shilpa         Conflict of interest statement: None of
+Joseph, Sidra Nizambuddin, Simone Kadurira, Slobodan        the researchers have any connection with any of the
+Golusin, Sopo Japaridze, Tasmeena Tahir, Tanja Jakobi,      platforms and the work undertaken received no funding
+Tat Chor Au-Yeung, Tariq Ahmed, Tobias Kuttler, Tony        or support in kind from any platform or any other
+Mathew, Valeria Pulignano, Veena Dubal, Victor Manuel       company, and we declare that there is no conflict of
+Hernandez Lopez, Victor Riesgo, Virgel Binghay, Wasel Bin   interest.
+Shadat, Wassim Maktabi, Wesley Rosslyn-Smith, Wirawan
+Agahari, Zeynep Karlidağ, Zuzanna Kowalik.
+
+Please cite as:
+Fairwork (2025). Fairwork Cloudwork Ratings 2025:
+Advancing Standards in Digital Labour and AI Supply
+Chain Governance.
+
+Please note that this report contains sections in common
+with other Fairwork reports, notably the Fairwork
+Framework, parts of the Impact and Pathway to Change
+section, and the Appendix.
+
+Images:
+The images in this report were sourced from
+cloudworkers in the study.
+
+Funders:
+The Fairwork Project has received funding from
+the Federal Ministry for Economic Cooperation and
+Development (BMZ), commissioned by the Deutsche
+Gesellschaft für Internationale Zusammenarbeit (GIZ).
+
+Special thanks to:
+Funda Ustek-Spilda, Patrick Feuerstein, Katia
+Padvalkava, Duncan Passey, Maisy Gills, Sara Spinks,
+Lucy Hennings, Isabelle Malcolm, Ornella Sciuto,
+Caroline Hampshire, and David Sutcliffe at the University
+of Oxford for their extensive administrative support
+for the project since its inception. The project team is
+deeply grateful to Maren Bernloehr, Shakhlo Kakharova,
+Lukas Sonnenberg and Miriam Oliver, at the GIZ for their
+continuing support and guidance as we take our work
+to the next stage. The project would additionally like to
+thank Valerio De Stefano, Kristy Milland, Janine Berg,
+Uma Rani, Six Silberman, Anna Mowbray, and Mariya
+Vyalykh for their feedback on a draft version of the
+cloudwork principles, and the Fairwork Asia Network
+for their assistance with research facilitation. Finally,
+our special thanks go to the survey respondents who
+provided insights into their experiences, in order to
+contribute to a fairer future of cloudwork.
+
+
+
+
+                                                      47
+Find out more
+ fair.work
+
+ info@fair.work
+
+ @TowardsFairWork
+
+ @TowardsFairWork
+

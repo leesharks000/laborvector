@@ -1,0 +1,98 @@
+                                   The Budget Lab | Tracking the Impact of AI on the Labor Market
+
+
+
+
+         Tracking the Impact of AI on the Labor
+                        Market
+                                      Published: July 16, 2026 Updated: September 15, 2026
+
+
+
+
+                                                          Key Takeaways
+
+
+
+
+                             The occupational mix is not yet changing in ways that clearly align with the introduction
+           1                 of AI into the workforce.
+
+
+
+
+           2                 Measures of AI usage show no connection to changes in employment or unemployment.
+
+
+
+
+                             A synthetic differences-in-differences analysis of AI exposure does not yet clearly
+           3                 indicate an AI-related labor market footprint.
+
+
+
+                             We plan on updating this analysis regularly moving forward to see how the impact of AI
+           4                 on the labor market changes over time.
+
+
+
+
+https://budgetlab.yale.edu/node/1419/pdf                                                                                 1 of 2
+                                    The Budget Lab | Tracking the Impact of AI on the Labor Market
+
+
+
+
+          AI Labor Market Tracker
+
+            Current Update                                                                                               ▾
+
+
+
+
+             Use the tabs above to move between the Tracker's three analytic sections. Within each tab, the list below
+             selects which chart to view, and toggles (when present) switch between views of the same data.
+
+
+             Updated: September 15, 2026
+             Version 1.0
+
+
+                                                           Download All Data
+
+
+
+
+              Current Update
+              September 15, 2026
+
+
+              The Budget Lab's labor market analysis, updated to incorporate August 2026 CPS
+              microdata, does not provide clear evidence of labor market disruption associated with
+              AI. Churn across occupations, AI exposure among the unemployed, and usage data all
+              remain flat, lie within historical ranges, or continue along pre-AI trends.
+
+              Of course, these findings may change as new data become available. The Budget Lab
+              plans to continue monitoring AI-relevant trends to assess how job impacts might
+              change.
+
+
+
+
+              Introduction
+              This interactive tool contains The Budget Lab's ongoing analysis of potential AI
+              impacts on the labor market. Major categories of analysis can be accessed by clicking
+              tabs towards the top of the page with the following names: Occupational churn, AI
+              metrics, and Comparisons of AI-exposed and unexposed workers. After selecting one
+              of those tabs, users should note the options listed on the left-hand sidebar. Those
+              options generate different views of the data: for example, occupational churn (i.e.,
+              dissimilarity) can be tracked for the entire labor force or for specific industries.
+
+              Detailed descriptions of the analysis can be found in the Budget Lab documents that
+              introduce each. Occupational churn, AI-exposure rates of the unemployed, and related
+              analysis can be found in Gimbel et al. (2025). Details of AI exposure metrics are
+              discussed in Gimbel, Kendall, and Kulsakdinun (2026). The synthetic differences-in-
+              diff              l   i   f AI          d    d             d      k     i i      d     d i Gi b l
+
+https://budgetlab.yale.edu/node/1419/pdf                                                                                     2 of 2
+
