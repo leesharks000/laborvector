@@ -6,7 +6,7 @@ row(slug="microsoft-working-with-ai", name="Working with AI: Measuring the Appli
     unit="an anonymized Bing Copilot conversation, classified by an LLM pipeline to the O*NET intermediate work activities (IWAs) it serves as a user goal and as an AI action; metrics aggregated to IWAs and to detailed 2018 SOC occupations",
     labor_object="the O*NET work activities that Bing Copilot users seek help with (user goals) and that the AI performs (AI actions), mapped to the occupations whose tasks contain them",
     direction={"supplies": "Bing Copilot users bring the goals; the AI performs actions, recorded separately as user goals and AI actions",
-               "directs": "the user's goal, as classified; the paper's method separates occupations more likely to delegate tasks to AI from those more likely to use AI to assist existing workflows",
+               "directs": "the user's goal, as classified; the paper states its methodology allows it to predict which occupations are more likely to delegate tasks to AI and which are more likely to use AI to assist existing workflows",
                "gains": "not recorded"},
     method="an LLM-based pipeline classifying 200k anonymized Bing Copilot conversations to O*NET work activities, with completion, impact-scope and thumbs-feedback measures combined into an occupation-level AI applicability score",
     coverage={"geography": "United States (Bing Copilot conversations)", "period": "1 January 2024 to 30 September 2024"},
@@ -17,9 +17,9 @@ row(slug="microsoft-working-with-ai", name="Working with AI: Measuring the Appli
     does_not_answer=["whether AI can replace jobs", "employment or wage change", "AI use through workplace-integrated or specialised tools", "use outside the United States or after September 2024", "who receives gains from the assisted work"],
     lv_intersection="The archive's reading: the separation of user goal from AI action, and the completion classifier ('the LLM completed the user's goal'), are the resource's own instruments for whether the system's labor served the user's commission; they meet DSL there, measured by classifier and thumbs feedback. Task-origin is recorded as the user goal.",
     data_access="results files on GitHub (IWA-level and SOC-level metrics, applicability scores, weights)", license="CC BY 4.0",
-    lifecycle={"state": "active", "detail": "a fixed 2024 data window; the paper revised to arXiv v7 (23 October 2026) for NeurIPS 2026; results files at v1.1"},
+    lifecycle={"state": "active", "detail": "a fixed 2024 data window; the paper revised to arXiv v7 (23 October 2026) for NeurIPS 2026; results files at v1.1; the operator's publication page at Microsoft Research still dates the work July 2025 and shows the abstract of the July 2025 version (applicability scores by occupation group), and links a Microsoft Research note, 'Applicability vs. job displacement: further notes on our recent research on AI and occupations'"},
     founded="2025-07-10 (arXiv v1)",
-    version_and_time={"arxiv_v1": "2025-07-10", "arxiv_v7": "2026-10-23", "results": "v1.1", "venue": "NeurIPS 2026", "read": "2026-10-29"},
+    version_and_time={"arxiv_v1": "2025-07-10", "msr_publication_page": "July 2025 (the page's date and abstract, read 2026-10-29)", "arxiv_v7": "2026-10-23", "results": "v1.1", "venue": "NeurIPS 2026", "read": "2026-10-29"},
     negative_tags=["NOT a measure of the ability of AI to replace jobs", "NOT an employment outcome measure", "NOT a measure of all workplace AI use: one consumer product, Bing Copilot, in the United States", "NOT independent of the provider: a platform-specific observation of Microsoft's own product, published by Microsoft Research"],
     evidence={
       "self_description": Q("microsoft-working-with-ai--readme", "The goal of these metrics is to measure how AI may be useful in different occupations."),
@@ -28,7 +28,10 @@ row(slug="microsoft-working-with-ai", name="Working with AI: Measuring the Appli
       "direction": Q("microsoft-working-with-ai--readme", "`iwa_metrics.csv`: IWA-level metrics, reported separately for user goals and AI actions."),
       "completion": Q("microsoft-working-with-ai--readme", "where our completion classfiier indicates that the LLM completed the user’s goal."),
       "directs": Q("microsoft-working-with-ai--arxiv", "Our methodology also allows us to predict which occupations are more likely to delegate tasks to AI and which are more likely to use AI to assist existing workflows."),
-      "operator": Q("microsoft-working-with-ai--readme", "This research was conducted by members of"),
+      "operator": Q("microsoft-working-with-ai--readme", "This research was conducted by members of [Microsoft Research](https://www.microsoft.com/en-us/research/)."),
+      "msr_page_date": Q("microsoft-working-with-ai--msr-publication", "Kiran Tomlinson , Sonia Jaffe , Will Wang , Scott Counts , Siddharth Suri July 2025 Download BibTex"),
+      "msr_page_abstract": Q("microsoft-working-with-ai--msr-publication", "We find the highest AI applicability scores for knowledge work occupation groups such as computer and mathematical, and office and administrative support, as well as occupations such as sales whose work activities involve providing and communicating information."),
+      "msr_page_note": Q("microsoft-working-with-ai--msr-publication", "Blog & Podcasts Applicability vs. job displacement: further notes on our recent research on AI and occupations"),
       "coverage": Q("microsoft-working-with-ai--readme", "The conversations contributing to these results are from Bing Copilot in the United States from January 1, 2024 to September 30, 2024, so may not represent AI usage in other countries."),
       "count": Q("microsoft-working-with-ai--readme", "This leaves us with 785 SOC codes covering 149.8 million workers according to the 2023 BLS Occupational Employment and Wage Statistics (OEWS) data (total US employment in 2023 OEWS data is 151.9 million)."),
       "finding_information_work": Q("microsoft-working-with-ai--arxiv", "We find that the most common and successful AI-assisted work activities involve information work--the creation, processing, and communication of information."),
@@ -46,4 +49,4 @@ row(slug="microsoft-working-with-ai", name="Working with AI: Measuring the Appli
       "cited_by_aei": Q("anthropic-economic-index--jan-2026", "See also Tomlinson et al (2025) for a related AI applicability score.", basis="third_party"),
     },
     relations=[{"rel": "neighbour", "target": "anthropic-economic-index", "note": "the Anthropic Economic Index's January 2026 report cites this paper's AI applicability score as related; both classify one provider's own conversations to O*NET work"}],
-    unchecked=["the paper's full text (classifier prompts, interrater reliability, validation)", "the results CSV files themselves", "the Copilot-Thumbs feedback data"])
+    unchecked=["the paper's full text (classifier prompts, interrater reliability, validation)", "the Microsoft Research note 'Applicability vs. job displacement: further notes on our recent research on AI and occupations', linked from the publication page and not fetched", "the results CSV files themselves", "the Copilot-Thumbs feedback data"])

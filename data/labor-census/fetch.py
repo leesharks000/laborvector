@@ -10,7 +10,10 @@ def text_of(b, ctype, path):
         r = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True)
         return r.stdout.decode("utf-8", "replace")
     t = b.decode("utf-8", "replace")
-    if "<html" not in t[:2000].lower() and "<!doctype" not in t[:200].lower():
+    # HTML by its content type, or by its markup near the head (repair 2026-10-29: the ILO paper's page opens with a <script>
+    # block, so "<html" was not in its first 2,000 characters and its saved text was the raw HTML)
+    head = t[:20000].lower()
+    if "html" not in (ctype or "").lower() and not any(m in head for m in ("<html", "<!doctype", "<head", "<body", "<script")):
         return t
     t = re.sub(r"(?is)<(script|style|noscript|svg)\b.*?</\1>", " ", t)
     t = re.sub(r"(?i)<br\s*/?>|</(p|div|li|h[1-6]|tr|td|th|section|article|blockquote|dd|dt)>", "\n", t)

@@ -1,0 +1,132 @@
+Data Workers' Inquiry | DAIR
+
+Skip to main content
+
+Meet DAIR
+
+Our Work
+
+Media
+
+Support
+
+Careers
+
+Projects
+>
+Data Workers' Inquiry
+
+Data Workers' Inquiry
+
+The Data Workers' Inquiry is a global, radically participatory research initiative spanning nine countries across five continents. Learn more at data-workers.org.
+
+Data for ChangeLaborData Workers
+
+The Data Workers' Inquiry
+
+The Data Workers' Inquiry is a global, radically participatory research initiative spanning nine countries across five continents. Here, data workers themselves become community researchers, identifying urgent issues, formulating their own questions, and choosing the formats that best tell their stories: zines, documentaries, comics, essays, podcasts, and animations can be downloaded from the project repository.
+
+Go to website
+
+Lived Realities of Workers Behind AI
+
+The project brings to light the lived realities of workers in content moderation, data annotation, and other essential yet precarious roles that keep AI systems running. In Kenya, documentaries, visual zines, comics, and reports document trauma, surveillance, and the urgent need for mental health care and solidarity. In Lebanon, Syrian refugee workers explore the economic precarity, psychological toll, and logistical barriers of annotation work. In Germany, migrant workers use podcasts and essays to expose exploitation, showing that AI’s hidden labor struggles extend far beyond the Global South.
+
+Workers’ Inquiry as a Research Methodology
+
+Across the board, the project channels Marx’s 1880 Workers’ Inquiry, reframing data work under AI as a capital-laden terrain of exploitation, struggle, and possibility, one that is ripe for solidarity, collective organizing, and structured resistance. This project utilized the methodology we designed and termed Workers’ Inquiry as a Research Methodology (WIRM), which moves beyond documentation toward a participatory, worker-led process that centers workers’ epistemic authority, fosters self-expression, and strengthens organizing capacity. It turns hidden and precarious labor into a shared, politicized site for knowledge-making, public engagement, and tangible change.
+
+"I didn’t want to speak for or about data workers anymore. I wanted to build a space where they could tell their own stories, and where research was a form of collective thinking and organizing, not extraction."
+
+Milagros MiceliResearch Lead
+
+The Inquiries
+
+Through the Data Workers Inquiry, data workers from Venezuela, Kenya, Syria, Brazil, Germany, and more have shed light on labor conditions in the global AI industry. In Kenya, workers from Sama, CloudFactory, and Remotasks are organizing to demand fair treatment and better conditions. Syrian and refugee data workers in Lebanon describe the struggles of precarious work through reports and vlogs. In Latin America, workers share experiences of exploitation under platform-mediated data jobs through written accounts and animated videos. Meanwhile, content moderators in Germany speak out via podcasts and videos, highlighting widespread grievances across Europe. Together, these inquiries reveal the shared challenges and organizing efforts of data workers worldwide.
+
+View inquiries
+
+More Work
+
+Methodology, process, events series, and invited pieces from the Data Workers' Inquiry.
+
+How We Made Data Workers' Inquiry
+
+DAIR Research Lead Dr. Milagros Miceli wrote this blog post discussing the process of developing DWI and some of the impact and success stories we’ve had so far.
+
+Workers’ Inquiry as a Research Methodology
+
+Our paper detailing the Workers’ Inquiry as a Research Methodology or WIRM methodology we designed that underpins the DWI was accepted to AIES. Pre-print of the paper
+
+Friedrich Ebert Stiftung Series
+
+In a 5-post series on the Friedrich Ebert Stiftung, Mila and Adio begin by establishing the project's theoretical and practical framework, then Camilla Salim Wagner examines the methodological approaches and implementation challenges while Krystal Kauffman explores the complexities of being both data worker and researcher. The final contributions by Yasser Alrayes and Fasica Berhane present personal narratives of data workers facing job insecurity, low wages, and workplace struggles.
+
+DWI Online Event Series
+
+In 2024, we had an online event series featuring the community researchers and their work in seven thematic panels. Check out more info on the events series, the recordings, and the DWI launch event recording.
+
+DWI in Barcelona
+
+We organized an event in Barcelona to meet with local content moderators after 2000 of them were fired from Telus International. Mila held a talk about DWI (recording) and then we had a round table with data workers.
+
+Invited Pieces
+
+Beyond the inquiries, we have a repository of invited pieces in which artists, translators, writers, and internet users discuss how they, too, are forced into data work, and how they organize to fight power concentration and exploitation in the tech industry.
+
+"The glossy veneer of the tech industry conceals a raw, human reality that spans the globe. The stories of these workers are often a tapestry of trauma, exploitation and resilience, ones that reveal the true cost of our AI-driven future."
+
+Adio Adet-DinikaResearch Fellow
+
+Our Impact
+
+Our work has already started changing policy, winning awards, and raising funds and awareness for data workers around the globe. Read some of these success stories in the carousel below.
+
+European Parliament Testimony
+
+A panel of data workers organized by us in collaboration with MEPs testified at the European Parliament on February 22, 2024. Their input directly influenced the negotiations leading to the adoption of the Platform Workers’ Directive, with their specific demands reflected in subsequent public outreach efforts and official documentation.
+
+True Story Award
+
+DWI community researcher Fasica Berhane Gebrekidan got shortlisted for the True Story Award. Her DWI report about content moderation and mental health stood out among over 1000 submissions from around the world, placing in the top 3%.
+
+Data Labelers Association
+
+We supported the Data Labelers Association's creation and launch. Our collaboration is ongoing with regular meetings facilitated by Krystal.
+
+Mental Health Intervention
+
+The mental health intervention for data workers created by Kauna Malgwi in collaboration with DWI got funded, and its pilot is about to be launched. The project aims to provide 20-50 data workers with different forms of therapy, thus constituting a much-needed intervention for a workforce for which mental health harms are an occupational hazard.
+
+Nairobi Workers Fund
+
+Bothlokwa Ranta, with our support and in collaboration with Superrr Lab, managed to raise funds to enable 11 workers stranded in Nairobi to be able to pay debts owed to landlords and buy tickets to go back to their respective countries
+
+Time 100 Most Influential People in AI
+
+Three of our community researchers, Richard Mathenge Mophat Okinyi, and Kauna Malgwi went on to be named in the TIME 100 most influential people in AI.
+
+Contact us
+
+Press requests
+[email protected]
+
+Other inquiries
+[email protected]
+
+1440 Broadway Ste #200, Oakland, CA, 94612.
+
+Contact us
+
+Press requests
+[email protected]
+
+Other inquiries
+[email protected]
+
+1440 Broadway Ste #200, Oakland, CA, 94612.
+
+Subscribe to our newsletter for updates
+Email address
+
+© 2025. All Rights Reserved. DAIR Institute.

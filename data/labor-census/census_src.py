@@ -43,6 +43,32 @@ for slug in ORDER:
     if p.exists():
         exec(compile(p.read_text(encoding="utf-8"), str(p), "exec"), {"row": row, "Q": Q})
 
+# ---------------------------------------------------------------- the archive's records of each entity (2026-10-29)
+# its capture (the composition layer's account at its common name, seated in the Capture Registry with its dimensional PER)
+# and its /non article, linked both ways (the /non pages link back by datasets/negative-of-the-negative/v2/panel/lv-records.json)
+CAPTURE = {"data-workers-inquiry": "Data Workers' Inquiry", "fairwork-cloudwork": "Fairwork Cloudwork Ratings",
+           "pai-responsible-sourcing": "Partnership on AI Responsible Sourcing", "turkopticon": "Turkopticon",
+           "coworker-bossware-database": "Bossware and Employment Tech Database", "worker-info-exchange": "Worker Info Exchange",
+           "ilo-platform-policy-tracker": "ILO Digital Labour Platform Policy Tracker", "anthropic-economic-index": "Anthropic Economic Index",
+           "openai-gdpval": "GDPval", "microsoft-working-with-ai": "Microsoft Working with AI", "stanford-canaries": "Canaries in the Coal Mine",
+           "yale-budget-lab-ai-tracker": "Yale Budget Lab AI labor market", "ilo-genai-exposure-index": "ILO Generative AI and Jobs index",
+           "berkeley-negotiating-tech": "Negotiating Tech", "dair-luddite-lab": "Luddite Lab"}
+HOMONYM = {"microsoft-working-with-ai": "Microsoft's own AI products and workforce", "stanford-canaries": "the idiom",
+           "berkeley-negotiating-tech": "salary negotiation"}
+for r in ROWS:
+    q = CAPTURE.get(r["slug"])
+    if not q:
+        continue
+    cslug = re.sub(r"[^a-z0-9]+", "-", q.lower()).strip("-") + "-aio-20261029"
+    note = "the composition layer's account of the entity at its common name, signed out, seated in the Capture Registry with its dimensional PER"
+    if r["slug"] in HOMONYM:
+        note += f"; at this name the composition gives {HOMONYM[r['slug']]}, with the entity's own page as its first card"
+    r.setdefault("relations", []).extend([
+        {"rel": "capture", "url": f"https://www.alexanarch.org/captures/{cslug}/", "label": f"«{q}» on Google AI Overview, 2026-10-29",
+         "note": note, "dates": {"observed": "2026-10-29"}},
+        {"rel": "non_row", "url": f"https://www.alexanarch.org/non/{r['slug']}/", "label": "its /non article (EA-NEGONT-02 v0.9, equal case)",
+         "note": "composed 2026-10-29 against its own pages, Wikipedia (no article), the capture's cards and the archive"}])
+
 # ---------------------------------------------------------------- write
 def norm(s): return re.sub(r"\s+", " ", s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')).strip()
 problems = []

@@ -1,0 +1,317 @@
+Responsible Sourcing Across the Data Supply Line Archives - Partnership on AI
+
+RESEARCH
+
+Research
+
+AI & Human Connection
+
+AI, Labor, and the Economy
+
+AI Safety
+
+Enterprise AI
+
+Public Policy
+
+Philanthropy
+
+European Steering Committee
+
+RESOURCES
+
+Blog
+
+Resource Library
+
+EVENTS
+
+ABOUT US
+
+About Us
+
+Expert Council
+
+ChangeMakers
+
+Team
+
+Funding
+
+Press
+
+Careers
+
+PARTNERS
+
+SUPPORT US
+
+RESEARCH
+
+Research
+
+AI & Human Connection
+
+AI, Labor, and the Economy
+
+AI Safety
+
+Enterprise AI
+
+Public Policy
+
+Philanthropy
+
+European Steering Committee
+
+RESOURCES
+
+Blog
+
+Resource Library
+
+EVENTS
+
+ABOUT US
+
+About Us
+
+Expert Council
+
+ChangeMakers
+
+Team
+
+Funding
+
+Press
+
+Careers
+
+PARTNERS
+
+SUPPORT US
+
+DONATE
+
+×
+
+SEARCH
+
+Workstream: Responsible Sourcing Across the Data Supply Line
+
+Responsible AI Starts with the Data Supply Chain
+
+Thalia Khan
+
+April 29, 2026
+
+AI and Human Rights: Protecting Data Workers
+
+Thalia Khan
+
+May 1, 2025
+
+Public Comment: Vendor Engagement Guidance & Transparency Template
+
+Penelope Sosa
+
+September 5, 2024
+
+Protecting AI’s Essential Workers: Introducing our Vendor Engagement Guidance & Transparency Template
+
+Thalia Khan
+
+August 28, 2024
+
+Protecting AI’s Essential Workers: A Pathway to Responsible Data Enrichment Practices
+
+Thalia Khan
+
+July 30, 2024
+
+Improving Conditions for Data Enrichment Workers
+
+Penelope Sosa
+
+November 16, 2022
+
+PAI and DeepMind Collaborate to Develop Tools for Sourcing Enriched Data Responsibly
+
+Penelope Sosa
+
+November 16, 2022
+
+Share
+
+Implementing Responsible Data Enrichment Practices at DeepMind
+
+Sonam Jindal
+
+November 16, 2022
+
+Download the Case Study
+
+Loading...
+
+Executive Summary
+
+Executive Summary
+
+As demand for AI services grows, so, too, does the need for the enriched data used to train and validate machine learning (ML) models. While these datasets can only be prepared by humans, the data enrichment workers who do so (performing tasks like data annotation, data cleaning, and human review of algorithmic outputs) are an often-overlooked part of the development lifecycle, frequently working in poor conditions continents away from AI-developing companies and their customers.
+
+Workers
+
+For the purposes of this white paper we refer to individuals completing data enrichment as “workers.” In doing so, we recognize the variety of employment statuses that can exist in the data enrichment industry, including independent contractors on self-service crowdsourcing platforms, subcontractors of data enrichment providers, and full-time employees.
+
+Last year, the Partnership on AI (PAI) published “Responsible Sourcing of Data Enrichment Services,” a white paper exploring how the choices made by AI practitioners could improve the working conditions of these data enrichment professionals. This case study documents an effort to put that paper’s recommendations into practice at one AI developer: DeepMind, a PAI Partner.
+
+In addition to creating guidance for responsible AI development and deployment, PAI’s Theory of Change includes collaborating with Partners and others to implement our recommendations in practice. From these collaborations, PAI collects findings which help us further develop our curriculum of responsible AI resources. This case study serves as one such resource, offering a detailed account of DeepMind’s process and learnings for other organizations interested in improving their data enrichment sourcing practices.
+
+Sourcing enriched data
+
+Sourcing data enrichment work is a process that requires a number of steps including, but not limited to, defining the enrichment goal, choosing the enrichment provider, defining the enrichment tools, defining the technical requirements, writing instructions, ensuring that instructions make sense, setting worker hours, determining time spent on a particular task, communicating with enrichment workers, rejecting or accepting work, defining a project budget, determining workers’ payment, checking work quality, and providing performance feedback.
+
+After assessing DeepMind’s existing practices and identifying what was needed to consistently source enriched data responsibly, PAI and DeepMind worked together to prototype the necessary policies and resources. The Responsible Data Enrichment Implementation Team (which consisted of PAI and members of DeepMind’s Responsible Development and Innovation team, which we will refer to as “the implementation team” in this case study) then collected multiple rounds of feedback, testing the following outputs and changes with smaller teams before they were rolled out organization-wide:
+
+A two-page document offering fundamental guidelines for responsible data enrichment sourcing
+
+An updated ethics review process
+
+A checklist detailing what constitutes “good instructions” for data enrichment workers
+
+A table to easily compare the salient features of various data enrichment platforms and vendors
+
+A spreadsheet listing the living wages in areas where data enrichment workers commonly live
+
+Versions of these resources have been added to PAI’s responsible data enrichment sourcing library and are now available for any organization that wishes to improve its data enrichment sourcing practices.
+
+Ultimately, DeepMind’s multidisciplinary teams developing AI research, including applied AI researchers (or “researchers” for the purposes of this case study, though this term might be defined differently elsewhere) said that these new processes felt efficient and helped them think more deeply about the impact of their work on data enrichment workers. They also expressed gratitude for centralized guidance that had been developed through a rigorous process, removing the burden for them to individually figure out how to set up data enrichment projects.
+
+Data Enrichment
+
+Data enrichment is curation of data for the purposes of machine learning model development that requires human judgment and intelligence. This can include data preparation, cleaning, labeling, and human review of algorithmic outputs, sometimes performed in real time.
+
+Examples of data enrichment work:
+
+Data preparation, annotation, cleaning, and validation:
+
+Intent recognition, Sentiment tagging, Image labeling
+
+Human review (sometimes referred to as “human in the loop”):
+
+Content moderation, Validating low confidence algorithmic predictions, Speech-to-text error correction
+
+While organizations hoping to adopt these resources may want to similarly engage with their teams to make sure their unique use cases are accounted for, we hope these tested resources will provide a better starting point to incorporate responsible data enrichment practices into their own workflows. Furthermore, to identify where the implemented changes fall short of ideal, we plan to continue developing this work through engagement and convenings. To stay informed, sign up for updates on PAI’s Responsible Sourcing Across the Data Supply Line Workstream page.
+
+This case study details the process by which DeepMind adopted responsible data enrichment sourcing recommendations as organization-wide practice, how challenges that arose during this process were addressed, and the impact on the organization of adopting these recommendations. By sharing this account of how DeepMind did it and why they chose to invest time to do so, we intend to inspire other organizations developing AI to undertake similar efforts. It is our hope that this case study and these resources will empower champions within AI organizations to create positive change.
+
+Implementing Responsible Data Enrichment Practices at DeepMind
+
+Executive Summary
+
+Background
+
+Importance of Data Enrichment Workers and Pathways to Improve Working Conditions
+
+Case Study as a Method of Increasing Transparency and Sharing Actionable Guidance
+
+Background on DeepMind’s Motivations
+
+Process and Outcomes of the DeepMind and PAI Collaboration
+
+Changes and Resources Introduced to Support Adoption of Recommendations
+
+Two-Page Data Enrichment Sourcing Guidelines Document
+
+Adapted Review Process
+
+Good Instructions Checklist
+
+Vendor and Platform Feature Comparison Table
+
+Living Wages Spreadsheet
+
+Addressing Practical Complexities That Arose While Finalizing Changes
+
+Assessing Clarity of Guidelines and Rolling Out Changes Organization-Wide
+
+Reactions, Impact, and Next Steps
+
+Response from Research and Development Teams
+
+Key Stakeholders/Leadership Reflections and Motivations
+
+Continued Work for DeepMind
+
+Limitations of Case Study Applicability
+
+Conclusion
+
+Acknowledgements
+
+Appendix A: Initial Discovery Process and Getting Reactions to PAI Responsible Sourcing Recommendations
+
+Sources Cited
+
+Geiger, R. Stuart, et al. “Garbage in, garbage out? Do machine learning application papers in social computing report where human-labeled training data comes from?.” Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 2020
+
+Denton, Emily, et al. “On the genealogy of machine learning datasets: A critical history of ImageNet.” Big Data u0026amp; Society 8.2 (2021): 20539517211035955.
+
+Hutchinson, Ben, et al. “Towards accountability for machine learning datasets: Practices from software engineering and infrastructure.” Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency. 2021
+
+Gray, Mary L., and Siddharth Suri. Ghost work: How to stop Silicon Valley from building a new global underclass. Eamon Dolan Books, 2019
+
+Geiger, R. Stuart, et al. “Garbage in, garbage out? Do machine learning application papers in social computing report where human-labeled training data comes from?.” Proceedings of the 2020 Conference on Fairness, Accountability, and Transparency. 2020
+
+Table of Contents
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+What AI Orgs Can Do for Data Enrichment Workers
+
+Penelope Sosa
+
+November 10, 2022
+
+Hidden Labor Powering AI
+
+Penelope Sosa
+
+October 7, 2021
+
+Posts navigation
+
+Older posts
+
+RESEARCH
+
+RESOURCES
+
+EVENTS
+
+ABOUT US
+
+PARTNERS
+
+SUPPORT US
+
+© 2026 Partnership on AI | All Rights Reserved
+
+Transparency and Governance
+
+Privacy Policy

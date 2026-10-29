@@ -1,0 +1,242 @@
+Working with AI: Measuring the Applicability of Generative AI to Occupations - Microsoft Research
+
+Research
+
+Publications
+Code, datasets and models
+
+Artificial intelligence
+Audio & acoustics
+Computer vision
+Graphics & multimedia
+Human-computer interaction
+Human language technologies
+Search & information retrieval
+
+Data platforms and analytics
+Hardware & devices
+Programming languages & software engineering
+Quantum computing
+Security, privacy & cryptography
+Systems & networking
+
+Algorithms
+Mathematics
+
+Ecology & environment
+Economics
+Medical, health & genomics
+Social sciences
+Technology for emerging markets
+
+Academic programs
+Events & academic conferences
+Microsoft Research Forum
+
+Microsoft Research Blog
+Microsoft Research Podcast
+Microsoft Research Stories
+
+About Microsoft Research
+Careers & internships
+People
+News & awards
+
+AI for Science
+Asia-Pacific
+Cambridge
+Catalyst Lab
+India
+Montreal
+New England
+New York City
+Redmond
+Other research groups
+
+Register: Research Forum
+
+Microsoft Security
+Azure
+Dynamics 365
+Microsoft 365
+Microsoft Teams
+Windows 365
+
+Microsoft AI
+Azure Space
+Mixed reality
+Microsoft HoloLens
+Microsoft Viva
+Quantum computing
+Sustainability
+
+Education
+Automotive
+Financial services
+Government
+Healthcare
+Manufacturing
+Retail
+
+Find a partner
+Become a partner
+Partner Network
+Microsoft Marketplace
+Software companies
+
+Blog
+Microsoft Advertising
+Developer Center
+Documentation
+Events
+Licensing
+Microsoft Learn
+Microsoft Research
+
+View Sitemap
+
+Working with AI: Measuring the Applicability of Generative AI to Occupations
+
+Kiran Tomlinson
+
+,
+
+Sonia Jaffe
+
+,
+
+Will Wang
+,
+
+Scott Counts
+
+,
+
+Siddharth Suri
+
+July 2025
+
+Download BibTex
+
+Given the rapid adoption of generative AI and its potential to impact a wide range of tasks, understanding the effects of AI on the economy is one of society’s most important questions. In this work, we take a step toward that goal by analyzing the work activities people do with AI, how successfully and broadly those activities are done, and combine that with data on what occupations do those activities. We analyze a dataset of 200k anonymized and privacy-scrubbed conversations between users and Microsoft Bing Copilot, a publicly available generative AI system. We find the most common work activities people seek AI assistance for involve gathering information and writing, while the most common activities that AI itself is performing are providing information and assistance, writing, teaching, and advising. Combining these activity classifications with measurements of task success and scope of impact, we compute an AI applicability score for each occupation. We find the highest AI applicability scores for knowledge work occupation groups such as computer and mathematical, and office and administrative support, as well as occupations such as sales whose work activities involve providing and communicating information. Additionally, we characterize the types of work activities performed most successfully, how wage and education correlate with AI applicability, and how real-world usage compares to predictions of occupational AI impact.
+
+Opens in a new tab
+
+GitHub
+
+Preprint
+
+Blog & Podcasts
+
+Applicability vs. job displacement: further notes on our recent research on AI and occupations
+
+Groups
+
+AI Interaction and Learning
+
+Economics and Computation
+
+AI Economy Institute
+
+IDEAS Research
+
+Research Areas
+
+Artificial intelligence
+
+Economics
+
+Research Labs
+
+Microsoft Research Redmond
+
+Follow us:
+
+Follow on X
+
+Like on Facebook
+
+Follow on LinkedIn
+
+Subscribe on Youtube
+
+Follow on Instagram
+
+Subscribe to our RSS feed
+
+Share this page:
+
+Share on X
+
+Share on Facebook
+
+Share on LinkedIn
+
+Share on Reddit
+
+Surface Laptop Ultra
+Surface Pro
+Surface Laptop
+Surface RTX Spark Dev Box
+Explore Copilot
+Explore Microsoft products
+Windows 11 apps
+
+Account profile
+Download Center
+Microsoft Store support
+Returns
+Order tracking
+Certified Refurbished
+Why buy from Microsoft Store
+Flexible Payments
+
+Microsoft in education
+Devices for education
+Microsoft Teams for Education
+Microsoft 365 Education
+How to buy for your school
+Educator training and development
+Deals for students and parents
+AI for education
+
+Microsoft AI
+Microsoft Security
+Dynamics 365
+Microsoft 365
+Microsoft Power Platform
+Microsoft Teams
+Microsoft Copilot
+Small Business
+
+Azure
+Microsoft Developer
+Microsoft Learn
+Support for AI marketplace apps
+Microsoft Tech Community
+Microsoft Marketplace
+Software companies
+Visual Studio
+
+Careers
+About Microsoft
+Company news
+Privacy at Microsoft
+Investors
+Diversity and inclusion
+Accessibility
+Sustainability
+
+Your Privacy Choices
+
+Consumer Health Privacy
+
+Sitemap
+Contact Microsoft
+Privacy
+Manage cookies
+Terms of use
+Trademarks
+Safety & eco
+Recycling
+About our ads

@@ -1,0 +1,56 @@
+ILO-NASK Indeks 
+ Index Institute Contact 
+ en 
+ Menu 
+
+ Index Show all 
+ Institute Show all 
+ Report an Incident 
+
+ Contact Career en 
+
+ How will generative AI affect the labour market?
+ Check which professions will see the biggest changes and what it means for the labour market.
+ Download report 
+ Check index 
+
+ What tasks will AI automate?
+ Search for a profession
+
+ Search 
+
+ How We Built the ILO–NASK Index
+
+ The ILO–NASK Index was developed to better understand how generative AI may affect work at the task level. Building on the ILO’s 2023 Global Index of Occupational Exposure to Generative AI, we updated the methodology to reflect recent advances in AI technologies and the growing familiarity of workers with GenAI tools.
+ The index combines several sources of evidence. First, we analysed a representative sample of tasks from the Polish occupational classification system and collected detailed assessments of their automation potential through a large-scale survey of workers across all major occupational groups. We then compared these results with expert input, including survey responses and multiple rounds of Delphi-style discussions with an international panel of specialists.
+ This process allowed us to create a robust knowledge base on how individual tasks may be transformed by generative AI, going beyond country-specific context. Using this foundation, we developed an AI-assisted approach to estimate exposure scores for tasks described in the ISCO-08 classification.
+ The purpose of the ILO–NASK Index is not to predict the disappearance of jobs, but to identify where work is most likely to change. By linking the index with labour market data, researchers and policymakers can better assess which occupations are most exposed to GenAI and design informed responses to support workers through this transition.
+
+ Want to explore the full picture?
+ Dive into the analysis, discover the data, and see how the ILO–NASK Index was built.
+ Download Report 
+ Download the full dataset (csv) 
+
+ Authors Who prepared the report?
+
+ NASK Analysis and Research Office
+ The NASK Analysis and Research Office primarily conducts social research on the impact of technology on society. It also examines the implications of digital transformation for the economy and the labour market, and develops analytical reports, forecasts, and evidence-based tools to support public decision-making. Learn more Learn more 
+
+ International Labour Organization (ILO)
+ The International Labour Organization is a specialized agency of the United Nations dedicated to advancing decent work and social justice worldwide. For over a century, it has promoted international labour standards and social dialogue, and it played an active role in the preparation of this report. Learn more 
+
+ NASK PIB
+ NASK is a state research institute focused on cybersecurity, emerging technologies, and digital education. It supports public institutions, businesses, and citizens in addressing the opportunities and challenges of digital transformation. Learn more 
+
+ Keeping the Internet Safe
+
+ Contact : nask@nask.pl 
+ tel. 22 380 82 00 
+
+ Address : Kolska 12, 01-045 Warszawa
+
+ Institute Scientific Council For You For Science For Business For Institutions 
+ Contact Career 
+
+ © 2026 NASK. All rights reserved.
+ Privacy Policy Accessibility Declaration Public Information Bulletin

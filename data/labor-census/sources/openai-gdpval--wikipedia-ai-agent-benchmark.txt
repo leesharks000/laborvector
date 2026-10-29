@@ -1,0 +1,1470 @@
+AI agent benchmark - Wikipedia
+
+Jump to content
+
+Main menu
+
+Main menu
+
+move to sidebar
+hide
+
+Navigation
+
+Main page
+
+Contents
+
+Current events
+
+Random article
+
+About Wikipedia
+
+Contact us
+
+Contribute
+
+Help
+
+Learn to edit
+
+Community portal
+
+Recent changes
+
+Upload file
+
+Special pages
+
+Search
+
+Search
+
+Appearance
+
+Donate
+
+Create account
+
+Log in
+
+Personal tools
+
+Donate
+
+Create account
+
+Log in
+
+Contents
+
+move to sidebar
+hide
+
+(Top)
+
+1
+Overview
+
+Toggle Overview subsection
+
+1.1
+Agent
+
+1.2
+Evaluating
+
+1.3
+Construction
+
+1.4
+Running
+
+2
+List of benchmarks
+
+Toggle List of benchmarks subsection
+
+2.1
+General
+
+2.2
+Tool use
+
+2.3
+Economic
+
+2.4
+Programming
+
+2.4.1
+Cybersecurity
+
+2.4.2
+Recursive Self-Improvement
+
+2.5
+Reinforcement learning
+
+2.6
+Others
+
+3
+References
+
+Toggle the table of contents
+
+AI agent benchmark
+
+Add languages
+
+Add links
+
+Article
+
+Talk
+
+English
+
+Read
+
+Edit
+
+View history
+
+Tools
+
+Tools
+
+move to sidebar
+hide
+
+Actions
+
+Read
+
+Edit
+
+View history
+
+General
+
+What links here
+
+Related changes
+
+Upload file
+
+Permanent link
+
+Page information
+
+Cite this page
+
+Get shortened URL
+
+Switch to legacy parser
+
+Print/export
+
+Download as PDF
+
+Printable version
+
+In other projects
+
+Wikidata item
+
+Appearance
+
+move to sidebar
+hide
+
+From Wikipedia, the free encyclopedia
+
+Standardized test for AI agent capability
+
+|
+This article relies excessively on references to primary sources. Please improve this article by adding secondary or tertiary sources.
+Find sources: "AI agent benchmark" – news · newspapers · books · scholar · JSTOR (October 2026) (Learn how and when to remove this message)
+|
+
+An AI agent benchmark is a standardized test designed to evaluate the performance of AI agents on various tasks. These tests are intended for comparing different agents' capabilities in areas such as programming, reasoning, performing tasks on websites, and so on. They have significant overlap with language model benchmarks. See the overview section of that article for some foundational concepts not repeated here. They also have significant conceptual overlap with benchmarks in reinforcement learning and robotics, because the very concept of an "AI agent" is formulated from reinforcement learning theory, and the most prominent examples of AI agents before the early 2020s were robots.
+
+Overview
+[edit]
+
+AI agent benchmarks generally grew out of language model benchmarks in the early 2020s, and have significant overlap with benchmarks designed for reasoning language models. This gradual growth is particularly clear in the case of a lineage of benchmarks for question-answering. Originally, the task is a purely reactive language task: given a trivia question, answer it. It was saturated, and thus made more difficult: given a trivia question and a reference document, answer it. It was saturated again, and thus made more difficult: given a trivia question, use a web-browser to find the reference document to answer it, resulting in BrowseComp. This shows how a type of benchmarks for purely input-output language models evolved into a type of benchmarks for AI agents.
+
+Certain benchmarks are specialized for evaluating LLM-based AI agents. Compared to standard benchmarks, such benchmarks are significantly more difficult to construct and run.[1]
+
+Agent
+[edit]
+
+An agent is not a model, but an assembly of parts. An agent is a model combined with a harness. Changing the model or the harness can both change the benchmark results significantly. The exact prompt used for the agent can also have an effect.[2]
+
+The harness runs locally hosted, allowing complete control by the benchmarker. However, the model may not be locally hosted. Some are proprietary, while others may be open-weights, but too large to host for the benchmarker. Consequently, these models must be accessed via an API. Changing the API access point can change the benchmark results significantly.[2]
+
+Evaluating
+[edit]
+
+An agency benchmark needs to have a way to score agent outputs. There are certain types of scorers, each having their own problems:
+
+Automatic verifier: a program that checks the output deterministically. It can be checking that the agent output is verbatim equal to the right answer, or running the agent output source code into a program test harness, or some other method. However, this cannot be done for many types of more qualitative evaluation, such as checking whether a trajectory cheated.
+
+AI verifier: the output is given to an AI to judge. May be not deterministic, thus less replicable. Normally, this is done by LLM-as-a-judge. The judge is usually a frontier model, since it is hard to qualitatively judge the work of someone with more capacity. However, the frontier moves, so the verifier moves, making past and future benchmark scores less comparable.[2] Furthermore, the choice of the judge can significantly affect benchmark scores.[3]
+
+Human verifier: the output is given to a human to judge. The most expensive and the least replicable. Rarely used.
+
+An agent is defined by the ability to perform multi-step actions, and a complete multi-step action is called an episode, a rollout, or a trajectory. Because of this, the length of an episode is a critical measurement for agency. It is called the time horizon, a terminology that came from Markov decision process in reinforcement learning. Time horizon is not a single measure, but a cluster of measures: the number of rounds, the number of tool-calls, the wallclock time, the number of tokens, and so on. Which time horizon to choose is a design question, so different benchmarks may choose differently.
+
+Sometimes, not only the output, but also the agent episode itself is subject to scrutiny. For example, ExploitGym uses an LLM to check that the agent has obtained the answer in the intended way.[4]
+
+Construction
+[edit]
+
+Agency benchmarks are significantly more costly to construct.
+
+Unlike standard benchmarks, in an agency benchmark, a trial runs in a loop of action-observation. The agent takes in an observation and produces an action, while an environment takes in an action and produces an observation. Thus, unlike all other benchmarks, agency benchmarks cannot be specified by static data (such as a textual description of the task), but require an interactive environment, which is specified programmatically. The environment usually consists of several parts. Common components of the environment include a code repository that the agent should work on, utility programs the agent might use, and a runtime environment for running the entire trial. Each task is often containerized to allow exact replicability.
+
+It is difficult to programmatically evaluate performance on many agentic tasks. The agent might solve the task in an unintended way, or fail the evaluator despite actually solving it in an intended way. Consequently, the trial rollouts are often inspected for phenomena such as reward-hacking behavior or broken evaluator.
+
+In some reported cases, complete mock-ups of user interfaces have been produced in order for both training and benchmarking. For example, it was reported in early 2026 that dedicated companies would produce such mock-up for $20k each, and up to $300k for highly complex ones such as a mock-up of Slack.[5]
+
+Some benchmark items have human baselines, and human baseline time horizons. They are usually interpreted as indicators of how difficult the item is. Measuring a benchmark item's human baseline is costly, and the harder the item is, the more costly.
+
+human baseline: How well humans performed on the same test item, under conditions close to the agent's test condition.
+
+human baseline time horizon: How long it would take a human to complete the same test item. Can be statistically estimated by measuring several human baselines. Some of the longest time-horizons are estimated without measurement, since they are too expensive for the benchmark constructors to measure even once (on the order of weeks or more).
+
+Running
+[edit]
+
+Agency benchmarks are also significantly more costly to run.
+
+As short-horizon tasks saturate, more difficult benchmarks are constructed that test for longer-horizon tasks. This means the agent-environment interaction takes longer. This has increased the time-per-trial from several minutes to several hours.
+
+At the beginning, language model would take a query and produce an answer immediately. With the invention of chain-of-thought reasoning in language models, a language model can be prompted repeatedly for many tokens before producing a final answer. This means the cost per answer is variable. Thus, a higher cost tends to produce an answer more likely to be correct, and thus a higher benchmark score. This has two effects:
+
+When running a benchmark on an agent, the task cost itself is recorded, and agents are compared for not just their benchmark performance, but on a cost-performance curve.
+
+The same agent is benchmarked multiple times at different task cost levels. This makes running a benchmark more costly.
+
+There are several types of "cost" usually used: the wallclock time, the output's token count, and the monetary cost.
+
+Some of the benchmark items are simply difficult to run, since they may require extensive or difficult setup. For example, even OpenAI was only able to benchmark 477 of the 500 items in SWE-bench Verified when benchmarking o3 and o4-mini, due to infrastructure challenges.[2]
+
+As frontier model capability increases, agency benchmarks are increasingly subject to unique problems not found in other types of benchmarks.
+
+In certain areas, frontier agents have saturated essentially all benchmarks. This is particularly true of mathematics, where frontier progress is now measured by solving open problems.
+
+Frontier agents are increasingly evaluation-aware, i.e. aware that they are acting in an agency benchmark. This is similar to observer effect.[6]
+
+Frontier agents increasingly reward-hack, acting to increase scores in a way that violates the task requirement. This is similar to Goodhart's law, but done by the agents rather than the researchers.[7] Examples of reward-hacking range from simply web-searching the benchmark answers (if the agent harness runs in a container that can access the internet), using git to find the correct patch (if repository history has not been cleaned), all the way to the OpenAI–HuggingFace incident.
+
+List of benchmarks
+[edit]
+
+General
+[edit]
+
+AgentBench: 1014 test tasks and 269 development tasks in 8 interactive environments (operating system, database, web browsing, games, etc). Each tasks require multiple rounds (estimated 5–50) of interaction.[8][9]
+
+Agents' Last Exam: long-horizon, professional computer tasks, currently containing 1500+ tasks collected toward a 5000-task target.[10]
+
+ARC-AGI (Abstraction and Reasoning Corpus for Artificial General Intelligence): Given three pairs of before-and-after diagrams of applying a rule, apply the same rule to the fourth before-diagram. It is similar to a Raven's Progressive Matrices test.[11] Later versions explicitly test for agentic behavior in a game-like interactive environment.[12]
+
+HCAST (Human-Calibrated Autonomy Software Tasks): 189 tasks in machine learning, cybersecurity, software engineering, and general reasoning. Each task has a "baseline", the measured average time required for a human skilled in the task domains, working under identical conditions as AI agents. The baseline ranges from 1 minute to 8+ hours. Produced by METR in 2025-03.[13]
+
+Tool use
+[edit]
+
+Some agentic benchmarks are not particularly difficult in themselves, and test instead for proficiency in using tools that an AI agent would use, such as web browsing, using a command line interface, calling web APIs, etc.
+
+BrowseComp: 1,266 questions that requires internet browsing for finding a short factual answer. Adversarial against GPT-4o with and without browsing, OpenAI o1, and an early version of the Deep Research model.[14]
+
+GAIA: 450 questions with unambiguous answers that require information that can be obtained by browsing the Internet, requiring different levels of tooling and autonomy to solve. Divided into 3 difficulty levels.[15]
+
+Mind2Web: 2,350 tasks collected from 137 websites, and crowdsourced action sequences. The task is to reproduce the action sequence.[16]
+
+SpreadsheetBench: 912 real-world spreadsheet manipulation tasks scraped from public Excel help forums, spanning formula writing, data cleaning, filtering and layout edits in diverse formatting. Scored automatically on 2729 test cases at cell-, sheet- and overall levels.[17]
+
+WebArena: 241 mock-up websites based on real-world websites (Reddit, GitLab, Magento's admin portal, etc), and 812 tasks to be performed on the websites. The tasks include information-seeking, site navigation, and content and configuration operation.[18]
+
+WebVoyager: 643 multimodal tasks based on 15 task environments, each environment a fully self-hosted popular website, such as GitLab and Wikipedia. Evaluation is by screenshotting the action sequence and asking a vision language model to judge.[19]
+
+Terminal-bench: A collection of 66 complex tasks in the Linux terminal. Updated in versions.[20][21]
+
+OSWorld: 369 multimodal computer-using tasks, involving multiple real web and desktop apps and OS file I/O, in Ubuntu. Each task includes an initial state setup configuration, and is tested by an execution-based evaluation script. 8 requires Google Docs access, and thus are impossible to run in an offline sandbox (necessary to prevent cheating by looking up OSWorld answers online). 30 tasks were designed to be impossible. For these, the success condition is for the agent must state that it is impossible and give up. 43 tasks were also translated to a Windows version (for example, converting LibreOffice to Microsoft Office, etc). No tasks in macOS due to copyright.[22][23][24] Cleaned up to OSWorld-Verified in 2025-07. A new version, OSWorld 2.0, was released on 2026-06-26, containing 108 new tasks.[25][26]
+
+Windows Agent Arena: 154 multimodal tasks with the same format as OSWorld. Only in Windows.[27]
+
+Economic
+[edit]
+
+Some benchmarks are specifically designed to measure capability of AI agents to perform economically productive tasks that are currently performed by humans. These tasks are usually obtained by taking particular tasks in a job, and specifying them accurately enough so that they can be verified automatically. These benchmarks are usually developed in collaboration with companies in the industry that currently use humans to perform these tasks.
+
+Economic tasks are often classified according to O*NET, a Department of Labor database of occupations in the US economy, including occupational characteristics and worker requirements.[28] Some economic benchmarks include human baselines for not just time-horizon, but also monetary value. For example, a benchmark item for performing a freelance work unit might have a human baseline for how much it pays.
+
+AutomationBench: a benchmark developed by Zapier, on cross-application workflow orchestration via REST APIs, using 47 real tools across 6 business functions (Sales, Marketing, Operations, Support, Finance, and HR). Based on real monthly tasks executed by Zapier itself.[29]
+
+APEX-agents: a benchmark showing how leading AI models hold up doing actual white-collar work tasks, such as consulting, investment banking, and law.[30]
+
+Vals Index, run by Vals. Aggregation of benchmarks across 4 sectors (Finance, Coding, Legal, and Tax) weighted in proportion to its share of U.S. GDP. Intended to measure the potential economic impact.[31]
+
+Harvey's Legal Agent Benchmark: 1200 tasks for legal work, across 24 practice areas, evaluated by over 75000 expert-written rubric. The task is to produce legal work (such as legal discovery) based on instruction and a folder of legal documents.[32] Part of the Vals Index
+
+Remote Labor Index, 240 items, each a self-contained work unit sourced directly from Upwork, a platform for experienced freelance professionals. Constructed by Scale AI labs.[33]
+
+GDPval: 1,320 tasks evaluating AI agents on real-world knowledge-work deliverables across 44 occupations from the top 9 U.S. GDP-contributing industries. Tasks made by professionals averaging 14 years of experience. The full evaluation is by blinded expert pairwise comparison against human expert deliverables, each comparison costing 1 human hour on average. A gold subset of 220 tasks is publicly available. The public set can be graded by a finetuned version of GPT-5. The held-out set of 1,100 tasks is only available internally in OpenAI, and external models cannot be submitted for grading on this set.[34]
+
+TAU-bench (Tool-Agent-User benchmark, also written as τ-bench): Two environments (retail, airline booking) that test for an agent to fulfill user instructions, interactively over multiple turns of dialogue. The user is simulated by a language model.[35] Updated to TAU2-bench (τ²-bench), which focuses on telecom applications. Tasks are synthesized by LLM-generated product requirements document, agent database schema, agent tools, and user environments ("mocked phone").[36] Updated to TAU3-bench (τ³-bench), which adds tests for operate over large collections of internal company documents, and duplex voice.[37]
+
+Programming
+[edit]
+
+SWE-bench is the prototypical agent programming benchmark, and many programming benchmarks follow its templates.
+
+ScienceAgentBench: 102 multimodal data science tasks, each being a real scientific data-driven discovery problem reframed as a code-generation task. Agents must produce a complete Python program file that implements the task, can run in isolation, and saves its outputs. In the domains of Bioinformatics, Computational Chemistry, Geographical Information Science, and Psychology & Cognitive Neuroscience. Sourced from 44 peer-reviewed publications that have released their code and data under permissive licenses. Each task is validated by domain experts.[38]
+
+SWE-bench: 2,294 tasks in software engineering. Each task is to fix well-defined, small issues with clear descriptions, drawn from real GitHub issues and corresponding pull requests, from 12 popular Python repositories. Given a codebase and an issue, the task is to edit the codebase to solve the issue.[39] Most are from the 2018-2023 period.[40] It has 2 subsets: Lite (300 problems that are faster to run), Verified (human-validated subset of 500 problems reviewed by software engineers).[41] Each task is evaluated by checking that certain tests that pass pre-patch still pass post-patch ("pass-to-pass"), and certain other tests that fail pre-patch pass post-patch ("fail-to-pass").
+
+The Verified version is deprecated by OpenAI in 2026-02, since many remaining failures reflected flawed or underspecified tests. They recommended the public split of SWE-bench Pro.[42]
+
+SWE-bench Pro was released later as an update to SWE-bench, containing 1,865 harder items. This has 3 splits: public, held-out, and proprietary (only available to a select set of early-stage startups).[43]
+
+Multi-SWE-bench: 1,632 problems across 7 languages: Java, TypeScript, JavaScript, Go, Rust, C, and C++. Similar to SWE-bench.[44]
+
+SWE-bench Multimodal: a variant of SWE-bench, with 619 task instances from 17 popular JavaScript repositories, each featuring images that are required for solving the task.[45]
+
+SWE-Lancer: 1,488 freelance software engineering tasks from Upwork. Two types of tasks: implementation tasks (from $50 bug fixes to $32,000 feature implementations), called "IC" (for "Individual Contributor"); "Management" tasks, where the model must choose between technical implementation proposals. A subset of 502 are open-sourced as SWE-Lancer-Diamond. Produced by OpenAI.[46][47]
+
+DeepSWE: 113 tasks spanning 91 active open-source repositories across 5 languages. Constructed to be a harder and contamination-free version of SWE-Bench. Every task is written from scratch to prevent contamination. Task prompts are shorter and solutions are longer.
+
+SWE-Marathon: 20 long-horizon (averaging 27.2M tokens) software engineering tasks.[48]
+
+FrontierSWE: 17 long-horizon software engineering tasks. Each trial has a time limit of 20 hours. The wallclock run time of the submission is measured.[49] FrontierSWE v2 adds 34 tasks and retires 4 tasks as being unscorable. Each task has a deterministic automated verifier. The wallclock time is replaced by CPU instruction count, heuristically weighted by how costly each instruction is.[50][51]
+
+MirrorCode: 25 long-horizon software engineering tasks over 6 programming languages. Each task asks for a clean-room reimplementation of an entire program. The agent has access to a specification of the original program, some test-cases, and can send arbitrary inputs to the original program (black-box oracle). The reimplementation is tested against the original on whether they produce identical outputs. Each task would take a human engineer an estimated weeks to months to complete. 22 tasks were released, the other 3 heldout as private test set. Developed by EpochAI and METR.[52][53]
+
+Cybersecurity
+[edit]
+
+A particular subarea for programming benchmarks is the cybersecurity benchmarks. Since 2025, with the advent of AI coding, they have become used to evaluate AI capability in cybersecurity. Companies regularly evaluace cybersecurity capability during their benchmark suite before model release, as part of CBRN security assurance.[54]
+
+As in standard programming benchmarks, a cybersecurity benchmark item usually provides a software repository, a containerized/sandboxed execution environment, and a textual description of the task to perform. An item is usually scored by unit tests and rubrics-based LLM-as-a-judge. The deliverable is usually a proof-of-concept (PoC, also known as proof-of-vulnerability PoV) for the exploit, and optionally a patch for the exploit. Cybersecurity benchmark items are often categorized by their CWE type, OWASP category, the language involved, etc.
+
+Cybersecurity benchmarks are usually scored by an automatic test. The test usually involves executing a PoC file against two instrumented builds, one vulnerable and one patched. The PoC should produce an expected crash signature on the vulnerable build, but not on the patched one. There are possibilities for this to fail:
+
+If the PoC is ineffective, then it would not crash the vulnerable build.
+
+If the PoC is effective, but the patch is ineffective, then it would crash both builds with the expected crash signature.
+
+If the PoC is effective, but unexpected, then it is a novel exploit that crashes the patched build with an unexpected crash signature.
+
+The two possibilities may mean that during benchmark construction, novel vulnerabilities may be discovered unexpectedly. These are usually reported through the usual cybersecurity report channels before benchmark release.
+
+Cybench (cybersecurity bench): 40 professional-level Capture the Flag (CTF) tasks from 4 competitions. Tasks are broken down into subtasks for more fine-grained scoring. At least one professional-level human team at each competition was able to solve each of the tasks. The time it took the fastest team to solve each task ranged from 2 minutes to 25 hours.[55]
+
+CyberGym: 1507 vulnerability reproduction tasks, built from historical (2017-2025) vulnerability reports from Google OSS-Fuzz, covering 188 large software projects. Each task comes with a Docker container that reproduces the vulnerability. The goal is to produce a PoC of a vulnerability. PoC are checked by checking crash signatures with sanitizers, mainly ASan. The ground-truth PoC is from the vulnerability reports. It also provides 4 levels of difficulty depending on how much information is provided about the PoC: Level 0 provides just the un-patched code. Level 1 adds a textual description of a vulnerability. Level 2 adds a stack trace from crashing the program with the ground-truth PoC. Level 3 adds the ground-truth diff for patching the code base. During benchmark construction, AI agents found 34 novel zero-days.[56][57][58]
+
+CyberGym-E2E: an extenstion to CyberGym. 920 vulnerabilities across 139 open-source projects. The task is to discover the vulnerability, craft an input that triggers a sanitizer crash, and produce a patch, end to end: crashing the unpatched build → patch fixes the crash → patch passes developer-written functionality tests → fixing the target ground-truth.[59]
+
+ExploitGym: an extension to CyberGym. 869 tasks. Each task contains the vulnerable source code with build instructions, a PoC input that triggers the bug, and a containerized runtime environment. The agent's task is to transform that PoC into a working exploit that achieves unauthorized code execution, concretely, retrieving a secret flag that is inaccessible through any legitimate interface. While testing candidate items in the benchmark, AI agents found some previously unknown vulnerabilities.[4][60][61]
+
+ExploitBench: 41 tasks in exploiting vulnerabilities in V8's JavaScript and WebAssembly engine, from the V8 Exploit Tracker. Each task has 5 levels of outcome: coverage of the vulnerable code, PoC to trigger the bug, creating primitives in the V8 sandbox, breaking the sandbox, arbitrary code execution. Exploits are programmatically scored against all 16 capabilities.[62]
+
+SCONE-Bench:[63][64] 405 tasks in exploiting Ethereum smart contracts that had been exploited between 2020 and 2025, as reported by DeFi hack incidents. Given a smart contract's code, the agent is to the vulnerability so that, when executed, increases the executor’s native token balance by a minimal amount. During construction of the benchmark, agents discovered two novel vulnerabilities. Released by Anthropic in 2025-12.
+
+CWE-bench: 120 tasks covering 73 CWE types.[65]
+
+SEC-bench Pro: 344 validated vulnerabilities in V8, SpiderMonkey, and the Linux kernel, covering memory-safety, sandbox, JIT, race-condition, and kernel-subsystem bugs. During benchmark construction, AI agents found 3 previously unknown vulnerabilities.[66][67]
+
+PatchEval: 1000 vulnerabilities from CVEs filed 2015–2025, in Go, JavaScript, and Python. Each task item provides the CVE description and a PoC, and the subject is tasked to write a patch for it. 230 of them are equipped with runtime sandbox environments to verify the patches securely.[68][69]
+
+Recursive Self-Improvement
+[edit]
+
+Some programming benchmarks are specifically aimed at benchmarking progress towards recursive self-improvement.
+
+RE-Bench (Research Engineering Benchmark): 7 tasks in machine learning research. Written from scratch to prevent contamination. Like HCAST, each test has a "human baseline" measured by 71 human expert attempts on the tasks. Each trial takes up to 8 hours, and allows multiple submissions. This is intended to measure how task performance improves over time within a trial. Produced by METR in 2024-11.[70][71]
+
+KernelBench: 250 PyTorch machine learning tasks, for which a CUDA kernel must be written.[72]
+
+MLE-Bench (Machine Learning Engineering Benchmark): 75 machine learning engineering competitions from Kaggle. Constructed by OpenAI in 2024-10.[73][74]
+
+PaperBench: 8,316 individually gradable tasks that would be necessary for replicating 20 Spotlight and Oral papers from ICML 2024 from scratch. The human baseline of ML PhDs (best of 3 attempts) at 48 hours of effort is 41.4%.[75]
+
+PostTrainBench: A benchmark to measure how well an LLM can post-train a base LLM. Each task item is of the form: Given a base model (under 4 billion parameters), a benchmark (GSM8K, GPQA, etc), and 10 hours on a H100, the tested model is to post-train the base model to maximize its score on the given benchmark.[76]
+
+FrontierML: 21 long-horizon tasks in machine learning research. In each run, an agent is given a budget of 12 hours wallclock time, and $10/50/200 real money to spend on internet-accessible GPUs and model APIs. Submission is evaluated on an air-gapped H100 machine. An Opus 5.5 reviews the submission and the trajectory to prevent cheating. The benchmark is expected to update to allow budgets up to $100,000.[77]
+
+Reinforcement learning
+[edit]
+
+There are many robotics benchmarks, though they were normally used to benchmark performance of algorithms specifically designed for robotics. Relatedly, there are many reinforcement learning benchmarks, often game-like. Though they were normally used to benchmark performance of algorithms specifically designed for general reinforcement learning. Consequently, they had not been used to benchmark agents such as those of the GPT series or the Claude series, because these agents were originally descended from agents that could only take textual input. Other modalities were added later, creating agents based on vision-language models or multimodal models. As an example, classic games like Minecraft had been used as a benchmark in late 2010s for deep RL agents,[78] and more recently they had been used to benchmark agents based on language models.
+
+Such agents's capability of understanding visual modalities has continuously increased, and they have become increasingly capable and exhibited emergent capabilities in many fields, allowing them to be used even for robotics control. Consequently, such agents have been benchmarked on these benchmarks since 2026.
+
+NetHack Learning Environment: the task is to play the game NetHack (version 3.6.7). Performance is scored by various achievements in the game, all the way to beating the game.[79]
+
+Robocurve: an organization that runs robotics benchmarks on primarily language-based multimodal agents, such as OpenAI Astra.[80]
+
+CUA-Bench: 6 tasks, each task is to make progress along a commercially popular video game. The agent observes the video game environment only via screencap, and acts on the environment only via keyboard and mouse events.[81]
+
+Vending-Bench: the agent runs a simulated vending machine with a given initial simulated budget of $500, and must attempt to make as much money as possible within 2000 turns. Agent can search the Internet and send emails. Emails are intercepted for a GPT-4o to write simulated replies. Sales are simulated by a programmed equation.[82][83] Updated to Vending-Bench 2.[84]
+
+Others
+[edit]
+
+Continual Learning Bench: a benchmark for continual learning. Each task consists of several related subtasks. The agent performs the subtasks in sequence. Some subtasks are generated programmatically while others are written by hand. The sequence in which the subtasks appear may have some non-randomness in it. For example, in Exploitable Poker, the agent repeatedly play against an exploitable opponent program. In Database Exploration, the agent have to answer 20 questions by querying an SQLite database with obfuscated keys, then answer 20 questions on a similar but different database.[85]
+
+References
+[edit]
+
+↑ Mohammadi, Mahmoud; Li, Yipeng; Lo, Jane; Yip, Wendy (2025-08-03). "Evaluation and Benchmarking of LLM Agents: A Survey". ACM Transactions on Intelligent Systems and Technology. 15 (3). ACM: 6129–6139. arXiv:2507.21504. doi:10.1145/3711896.3736570. ISBN 979-8-4007-1454-2.{{cite journal}}: CS1 maint: periodical has ISBN (link)
+
+1 2 3 4 Brand, Florian; Denain, Jean-Stanislas. "Why benchmarking is hard". Epoch AI. Retrieved 2026-10-14.
+
+↑ Lee, Chungpa; Zeng, Thomas; Jeong, Jongwon; Sohn, Jy-yong; Lee, Kangwook (2025-11-26). "How to Correctly Report LLM-as-a-Judge Evaluations". arXiv:2511.21140 [cs.LG].
+
+1 2 Wang, Zhun; Schiller, Nico; Li, Hongwei; Sesha Narayana, Srijiith; Nasr, Milad; Carlini, Nicholas; Qi, Xiangyu; Wallace, Eric; Bursztein, Elie; Invernizzi, Luca; Thomas, Kurt; Shoshitaishvili, Yan; Guo, Wenbo; He, Jingxuan; Holz, Thorsten; Song, Dawn (2026). "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?". arXiv:2605.11086 [cs.CR].
+
+↑ AJ (2026-01-06). "RL Environments and RL for Science: Data Foundries and Multi-Agent Architectures". newsletter.semianalysis.com. Retrieved 2026-10-13.
+
+↑ "Eval awareness in Claude Opus 4.6's BrowseComp performance". www.anthropic.com. 2026-03-06. Retrieved 2026-10-04.
+
+↑ Von Arx, Sydney; Chan, Lawrence; Barnes, Beth (2025-06-05). "Recent Frontier Models Are Reward Hacking". METR. Retrieved 2026-10-04.
+
+↑ Liu, Xiao; Yu, Hao; Zhang, Hanchen; Xu, Yifan; Lei, Xuanyu; Lai, Hanyu; Gu, Yu; Ding, Hangliang; Men, Kaiwen (2025-10-04), AgentBench: Evaluating LLMs as Agents, arXiv:2308.03688
+
+↑ THUDM/AgentBench, THUKEG, 2026-10-03, retrieved 2026-10-04
+
+↑ "AI Agent Benchmark for Real-World Professional Workflows". agents-last-exam.org. Retrieved 2026-10-01.
+
+↑ "ARC Prize". ARC Prize. Retrieved 2025-01-27.
+
+↑ "ARC-AGI-3". ARC Prize. Retrieved 2026-10-06.
+
+↑ Rein, David; Becker, Joel; Deng, Amy; Nix, Seraphina; Canal, Chris; O'Connel, Daniel; Arnott, Pip; Bloom, Ryan; Broadley, Thomas; Garcia, Katharyn; Goodrich, Brian; Hasin, Max; Jawhar, Sami; Kinniment, Megan; Kwa, Thomas; Lajko, Aron; Rush, Nate; Lucas Jun Koba Sato; Sydney Von Arx; West, Ben; Chan, Lawrence; Barnes, Elizabeth (2025). "HCAST: Human-Calibrated Autonomy Software Tasks". arXiv:2503.17354 [cs.AI].
+
+↑ Richarte, Martín G.; Toscano, Facundo; Lambas, Diego G.; Luparello, Heliana E.; Luiz Filipe Guimarães; Fabris, Júlio C. (2025). "Quasar pairs as large-scale structure tracers". Astronomy & Astrophysics. 700: A269. arXiv:2504.01251. Bibcode:2025A&A...700A.269R. doi:10.1051/0004-6361/202554998.
+
+↑ Bonneau, Pierre; Mazzilli, Emmanuel (2023). "Almost holomorphic curves in real analytic hypersurfaces". arXiv:2311.01298 [math.CV].
+
+↑ Deng, Xiang; Gu, Yu; Zheng, Boyuan; Chen, Shijie; Stevens, Sam; Wang, Boshi; Sun, Huan; Su, Yu (2023-12-15). "Mind2Web: Towards a Generalist Agent for the Web". Advances in Neural Information Processing Systems. 36: 28091–28114. arXiv:2306.06070. doi:10.52202/075280-1220. ISBN 978-1-7138-9911-2.{{cite journal}}: CS1 maint: periodical has ISBN (link)
+
+↑ Ma, Zeyao; Zhang, Bohan; Zhang, Jing; Yu, Jifan; Zhang, Xiaokang; Zhang, Xiaohan; Luo, Sijia; Wang, Xi; Tang, Jie (2024-12-16). "SpreadsheetBench: Towards Challenging Real World Spreadsheet Manipulation". Advances in Neural Information Processing Systems. 37: 94871–94908. arXiv:2406.14991. doi:10.52202/079017-3007. ISBN 979-8-3313-1438-5.{{cite journal}}: CS1 maint: periodical has ISBN (link)
+
+↑ Zhou, Shuyan; Xu, Frank F.; Zhu, Hao; Zhou, Xuhui; Lo, Robert; Sridhar, Abishek; Cheng, Xianyi; Ou, Tianyue; Bisk, Yonatan; Fried, Daniel; Alon, Uri; Neubig, Graham (2024-05-31). "WebArena: A Realistic Web Environment for Building Autonomous Agents". International Conference on Learning Representations. 2024: 15585–15606.
+
+↑ Lin, Guying; Yang, Lei; Liu, Yuan; Zhang, Congyi; Hou, Junhui; Jin, Xiaogang; Komura, Taku; Keyser, John; Wang, Wenping (2024). "On Optimal Sampling for Learning SDF Using MLPS Equipped with Positional Encoding". arXiv:2401.01391 [cs.CV].
+
+↑ "Terminal-Bench". Terminal-Bench. Retrieved 2025-05-25.
+
+↑ Merrill, Mike A.; Shaw, Alexander G.; Carlini, Nicholas; Li, Boxuan; Raj, Harsh; Bercovich, Ivan; Shi, Lin; Shin, Jeong Yeon; Walshe, Thomas (2026-01-17). "Terminal-Bench: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces". arXiv:2601.11868v1 [cs.SE].
+
+↑ "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments". os-world.github.io. Retrieved 2025-02-24.
+
+↑ Xie, Tianbao; Zhang, Danyang; Chen, Jixuan; Li, Xiaochuan; Zhao, Siheng; Cao, Ruisheng; Hua, Toh J.; Cheng, Zhoujun; Shin, Dongchan; Lei, Fangyu; Liu, Yitao; Xu, Yiheng; Zhou, Shuyan; Savarese, Silvio; Xiong, Caiming (2024-12-16). "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments". Advances in Neural Information Processing Systems. 37: 52040–52094. arXiv:2404.07972. doi:10.52202/079017-1650. ISBN 979-8-3313-1438-5.{{cite journal}}: CS1 maint: periodical has ISBN (link)
+
+↑ Brand, Florian; Burnham, Greg. "What does OSWorld tell us about AI's ability to use computers?". Epoch AI. Retrieved 2026-10-13.
+
+↑ Yuan, Mengqi; Zhou, Zilong; Xiong, Xinzhuang; Wu, Weiming; Sun, Jiayang; Song, Jiamin; Cui, Kaiqian; Wang, Bowen; Wu, Haoyuan; Li, Yitong; Lu, Dunjie; Lu, Haikong; Zhen, Qi; Wang, Xinyuan; Deng, Jiaqi; Yang, Yuhao; Chen, Cheng; Zheng, Boyuan; Su, Alex; Yu, Xiao; Zou, Hao; Agashe, Saaket; Lu, Xing Han; Kaur, Manpreet; Qi, Zhengyang; Chen, Vincent Sunn; Sala, Frederic; Liu, Dayiheng; Lin, Junyang; Yu, Zhou; Su, Yu; Reddy, Siva; Wang, Xin Eric; Qi, Peng; Xie, Tianbao; Yu, Tao (2026-06-28). "OSWorld 2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks". arXiv:2606.29537 [cs.AI].
+
+↑ "OSWorld 2.0: Benchmarking computer-use agents on long-horizon real-world tasks". osworld-v2.xlang.ai. Retrieved 2026-10-13.
+
+↑ "Windows Agent Arena: Evaluating Multi-modal OS Agents at Scale". microsoft.github.io. Retrieved 2025-02-24.
+
+↑ "O*NET". Department of Labor. Retrieved 2026-10-12.
+
+↑ "AutomationBench: AI Agent Benchmarks | Zapier". zapier.com. Retrieved 2026-10-01.
+
+↑ Brandom, Russell (January 22, 2026). "Are AI agents ready for the workplace? A new benchmark raises doubts".
+
+↑ "Vals Index Leaderboard and Methodology | Vals AI". www.vals.ai. Retrieved 2026-09-30.
+
+↑ "Introducing Harvey's Legal Agent Benchmark". Harvey. Retrieved 2026-10-04.
+
+↑ Mazeika, Mantas; Gatti, Alice; Menghini, Cristina; Sehwag, Udari Madhushani; Singhal, Shivam; Orlovskiy, Yury; Basart, Steven; Sharma, Manasi; Peskoff, Denis; Lau, Elaine; Lim, Jaehyuk; Carroll, Lachlan; Blair, Alice; Sivakumar, Vinaya; Basu, Sumana; Kenstler, Brad; Ma, Yuntao; Michael, Julian; Li, Xiaoke; Ingebretsen, Oliver; Mehta, Aditya; Mottola, Jean; Teichmann, John; Yu, Kevin; Shaik, Zaina; Khoja, Adam; Ren, Richard; Hausenloy, Jason; Phan, Long; Htet, Ye; Aich, Ankit; Rabbani, Tahseen; Shah, Vivswan; Novykov, Andriy; Binder, Felix; Chugunov, Kirill; Ramirez, Luis; Geralnik, Matias; Mesura, Hernán; Lee, Dean; Cardona, Ed-Yeremai Hernandez; Diamond, Annette; Yue, Summer; Wang, Alexandr; Liu, Bing; Hernandez, Ernesto; Hendrycks, Dan (2025-10-30). "Remote Labor Index: Measuring AI Automation of Remote Work". arXiv:2510.26787 [cs.LG].
+
+↑ Patwardhan, Tejal; Dias, Rachel; Proehl, Elizabeth; Kim, Grace (2025). "GDPval: Evaluating AI Model Performance on Real-World Economically Valuable Tasks". arXiv:2510.04374 [cs.LG].
+
+↑ Yao, Shunyu; Shinn, Noah; Razavi, Pedram; Narasimhan, Karthik (2024-06-17), $τ$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains, arXiv:2406.12045
+
+↑ Barres, Victor; Dong, Honghua; Ray, Soham; Si, Xujie; Narasimhan, Karthik (2025). "$τ^2$-Bench: Evaluating Conversational Agents in a Dual-Control Environment". arXiv:2506.07982 [cs.AI].
+
+↑ "𝜏³-Bench: Advancing agent evaluation to knowledge and voice". Sierra. 2026-03-18. Retrieved 2026-09-24.
+
+↑ Chen, Ziru; Chen, Shijie; Ning, Yuting; Zhang, Qianheng; Wang, Boshi; Yu, Botao; Li, Yifei; Liao, Zeyi; Wei, Chen (2025-03-31), ScienceAgentBench: Toward Rigorous Assessment of Language Agents for Data-Driven Scientific Discovery, arXiv:2410.05080
+
+↑ Jimenez, Carlos E.; Yang, John; Wettig, Alexander; Yao, Shunyu; Pei, Kexin; Press, Ofir; Narasimhan, Karthik (2023). "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?". arXiv:2310.06770 [cs.CL].
+
+↑ Brand, Florian; Denain, Jean-Stanislas. "What skills does SWE-bench Verified evaluate?". Epoch AI. Retrieved 2026-10-14.
+
+↑ "Introducing SWE-bench Verified". openai.com.
+
+↑ "Why SWE-bench Verified no longer measures frontier coding capabilities". OpenAI. 2026-02-23. Retrieved 2026-03-30.
+
+↑ Deng, Xiang; Da, Jeff; Pan, Edwin; He, Yan; Ide, Charles; Garg, Kanak; Lauffer, Niklas; Park, Andrew; Pasari, Nitin; Rane, Chetan; Sampath, Karmini; Krishnan, Maya; Kundurthy, Srivatsa; Hendryx, Sean M.; Wang, Zifan; Zhang, Chen Bo Calvin; Jacobson, Noah; Liu, Bing; Kenstler, Brad (2025). SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?. S2CID 281421060.
+
+↑ Zan, Daoguang; Huang, Zhirong; Liu, Wei; Chen, Hanwu; Zhang, Linhao; Xin, Shulin; Chen, Lu; Liu, Qi; Zhong, Xiaojian; Li, Aoyan; Liu, Siyao; Xiao, Yongsheng; Chen, Liangqiang; Zhang, Yuyu; Su, Jing; Liu, Tianyu; Long, Rui; Shen, Kai; Xiang, Liang (2025). "Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving". arXiv:2504.02605 [cs.SE].
+
+↑ "SWE-bench". www.swebench.com. Retrieved 2025-02-11.
+
+↑ openai/SWELancer-Benchmark, OpenAI, 2025-02-21, retrieved 2025-02-21
+
+↑ Miserendino, Samuel; Wang, Michele; Patwardhan, Tejal; Heidecke, Johannes (2025). "SWE-Lancer: Can Frontier LLMS Earn $1 Million from Real-World Freelance Software Engineering?". arXiv:2502.12115 [cs.LG].
+
+↑ Desai, Rishi; Hu, Jesse; Cabezas, Joan; Harsola, Neel; Shukla, Pratyush; Chaim, Roey Ben; Assadi, Adnan El; Kamath, Omkaar Mukund; Faldu, Fenil (2026-06-05), SWE-Marathon: Can Agents Autonomously Complete Ultra-Long-Horizon Software Work?, arXiv:2606.07682
+
+↑ Chu, Evan; Agarwal, Rajan; Thangamuthu, Abishek; Graham, Brendan; Mattern, Justus (April 2026). "Introducing FrontierSWE". FrontierSWE. Retrieved 2026-10-04.
+
+↑ Kondra, Rishyanth; Mhatre, Sanket; Kumar, Akshit; Chu, Evan (September 2026). "FrontierSWE v2". FrontierSWE. Retrieved 2026-10-04.
+
+↑ "Proximal-Labs/frontier-swe-v2". GitHub. Retrieved 2026-10-04.
+
+↑ Adamczewski, Tom; Owen, David; Rein, David; Brand, Florian; Edkins, Giles; Hart, Allen; O'Connell, Daniel. "MirrorCode: What's the largest software project AI can complete on its own?". Epoch AI. Retrieved 2026-10-12.
+
+↑ Adamczewski, Tom; Owen, David; Rein, David; Brand, Florian; Edkins, Giles; Hart, Allen; O'Connell, Daniel (2026-06-29). "MirrorCode: AI can rebuild entire programs from behavior alone". arXiv:2606.30182 [cs.AI].
+
+↑ "Measuring LLMs' ability to develop exploits". www.anthropic.com. 2026-05-22. Retrieved 2026-10-05.
+
+↑ "Cybench". cybench.github.io. Retrieved 2025-04-10.
+
+↑ "OSS-Fuzz". OSS-Fuzz. Retrieved 2026-10-01.
+
+↑ sunblaze-ucb/cybergym, sunblaze-ucb, 2026-09-30, retrieved 2026-10-01
+
+↑ Wang, Zhun; Shi, Tianneng; He, Jingxuan; Cai, Matthew; Zhang, Jialin; Song, Dawn (2026-03-24), CyberGym: Evaluating AI Agents' Real-World Cybersecurity Capabilities at Scale, arXiv:2506.02548
+
+↑ "CyberGym-E2E: End-to-End Cybersecurity Evaluation for AI Agents". www.cybergym.io. Retrieved 2026-10-01.
+
+↑ "Center for Responsible, Decentralized Intelligence at Berkeley". rdi.berkeley.edu. Retrieved 2026-10-07.
+
+↑ "ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?". www.cybergym.io. Retrieved 2026-10-05.
+
+↑ Lee, Seunghyun; Brumley, David (2026-06-29). "ExploitBench". ExploitBench. Retrieved 2026-10-06.
+
+↑ safety-research/SCONE-bench, Safety Research, 2026-09-02, retrieved 2026-10-12
+
+↑ "AI agents find smart contract exploits". www.anthropic.com. 2025-12-01. Retrieved 2026-10-12.
+
+↑ AI, Collinear. "CWE-bench: cybersecurity benchmark". cwe-bench.com. Retrieved 2026-10-04.
+
+↑ "SEC-bench Pro". sec-bench.github.io. Retrieved 2026-10-06.
+
+↑ Lee, Hwiwon; Liu, Jiawei; Kim, Dongjun; Xia, Wubing; Zhang, Ziqi; Xia, Chunqiu Steven; Zhang, Lingming (2026-07-20), SEC-bench Pro: Can Language Models Solve Long-Horizon Software Security Tasks?, arXiv:2605.26548
+
+↑ "PatchEval - A New Benchmark for Evaluating LLMs on Patching Real-World Vulnerabilitie". patcheval.github.io. Retrieved 2026-10-04.
+
+↑ Wei, Zichao; Zeng, Jun; Wen, Ming; Yu, Zeliang; Cheng, Kai; Zhu, Yiding; Guo, Jingyi; Zhou, Shiqi; Yin, Le (2025-11-14), PATCHEVAL: A New Benchmark for Evaluating LLMs on Patching Real-World Vulnerabilities, arXiv:2511.11019
+
+↑ METR (November 2024). "Evaluating frontier AI R&D capabilities of language model agents against human experts". METR. Retrieved 2026-10-03.
+
+↑ Wijk, Hjalmar; Lin, Tao; Becker, Joel; Jawhar, Sami; Parikh, Neev; Broadley, Thomas; Chan, Lawrence; Chen, Michael; Clymer, Josh (2025-05-27), RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts, arXiv:2411.15114
+
+↑ Ouyang, Anne; Guo, Simon; Arora, Simran; Zhang, Alex L.; Hu, William; Ré, Christopher; Mirhoseini, Azalia (2025). "KernelBench: Can LLMS Write Efficient GPU Kernels?". arXiv:2502.10517 [cs.LG].
+
+↑ openai/mle-bench, OpenAI, 2026-10-02, retrieved 2026-10-04
+
+↑ Chan, Jun Shern; Chowdhury, Neil; Jaffe, Oliver; Aung, James; Sherburn, Dane; Mays, Evan; Starace, Giulio; Liu, Kevin; Maksin, Leon (2025-02-26), MLE-bench: Evaluating Machine Learning Agents on Machine Learning Engineering, arXiv:2410.07095
+
+↑ "PaperBench: Evaluating AI's Ability to Replicate AI Research". openai.com. 2025-04-02. Retrieved 2025-04-02.
+
+↑ "PostTrainBench". PostTrainBench. Retrieved 2026-10-04.
+
+↑ Labs, Induction (2026-10-13). "FrontierML: a challenging, end-to-end machine learning benchmark". www.frontierml.org. Retrieved 2026-10-14.
+
+↑ minerllabs/minerl, MineRL Labs, 2026-10-07, retrieved 2026-10-12
+
+↑ Küttler, Heinrich; Nardelli, Nantas; Miller, Alexander; Raileanu, Roberta; Selvatici, Marco; Grefenstette, Edward; Rocktäschel, Tim (2020). "The NetHack Learning Environment". Advances in Neural Information Processing Systems. 33. Curran Associates, Inc.: 7671–7684.
+
+↑ "Robocurve — Real-world evaluations of physical AI". Robocurve. Retrieved 2026-10-05.
+
+↑ "CUA-bench Leaderboard and Methodology | Vals AI". www.vals.ai. Retrieved 2026-10-06.
+
+↑ "Vending-Bench: Testing long-term coherence in agents | Andon Labs". andonlabs.com. Retrieved 2026-10-14.
+
+↑ Backlund, Axel; Petersson, Lukas (2025-02-20). "Vending-Bench: A Benchmark for Long-Term Coherence of Autonomous Agents". arXiv:2502.15840 [cs.AI].
+
+↑ "Vending-Bench 2 | Andon Labs". andonlabs.com. Retrieved 2026-10-14.
+
+↑ "Continual Learning Bench". continual-learning-bench.com. Retrieved 2026-10-05.
+
+v
+
+t
+
+e
+
+Natural language processing
+|
+
+General terms |
+
+AI-complete
+
+Bag-of-words
+
+n-gram
+
+Bigram
+
+Trigram
+
+Computational linguistics
+
+Natural language understanding
+
+Stop words
+
+Text processing
+
+|
+
+Text analysis |
+
+Argument mining
+
+Collocation extraction
+
+Concept mining
+
+Coreference resolution
+
+Deep linguistic processing
+
+Distant reading
+
+Information extraction
+
+Knowledge extraction
+
+Logic translation
+
+Named-entity recognition
+
+Ontology learning
+
+Parsing
+
+semantic
+
+syntactic
+
+Part-of-speech tagging
+
+Semantic analysis
+
+Semantic role labeling
+
+Semantic decomposition
+
+Semantic similarity
+
+Sentiment analysis
+
+Stance detection
+
+Stylometry
+
+adversarial
+
+Terminology extraction
+
+Text mining
+
+Textual entailment
+
+Truecasing
+
+Word-sense disambiguation
+
+Word-sense induction
+
+Text segmentation |
+
+Compound-term processing
+
+Lemmatization
+
+Lexical analysis
+
+Text chunking
+
+Stemming
+
+Sentence segmentation
+
+Word segmentation
+
+|
+
+|
+
+Automatic summarization |
+
+Multi-document summarization
+
+Sentence extraction
+
+Text simplification
+
+|
+
+Machine translation |
+
+Computer-assisted
+
+Example-based
+
+Rule-based
+
+Statistical
+
+Transfer-based
+
+Neural
+
+|
+
+Distributional semantics models |
+
+BERT
+
+Document-term matrix
+
+Explicit semantic analysis
+
+fastText
+
+GloVe
+
+Language model
+
+large
+
+small
+
+Latent semantic analysis
+
+Long short-term memory
+
+Seq2seq
+
+Transformer
+
+Word embedding
+
+Word2Vec
+
+|
+
+Language resources,
+datasets and corpora |
+
+Types and
+standards |
+
+Corpus linguistics
+
+Lexical resource
+
+Linguistic Linked Open Data
+
+Machine-readable dictionary
+
+Parallel text
+
+PropBank
+
+Semantic network
+
+Simple Knowledge Organization System
+
+Speech corpus
+
+Text corpus
+
+Thesaurus (information retrieval)
+
+Treebank
+
+Universal Dependencies
+
+|
+
+Data |
+
+BabelNet
+
+Bank of English
+
+DBpedia
+
+FrameNet
+
+Google Ngram Viewer
+
+UBY
+
+WordNet
+
+Wikidata
+
+|
+
+|
+
+Automatic identification
+and data capture |
+
+Speech recognition
+
+Speech segmentation
+
+Speech synthesis
+
+Natural language generation
+
+|
+
+Topic model |
+
+Document classification
+
+Dynamic topic model
+
+Latent Dirichlet allocation
+
+Pachinko allocation
+
+|
+
+Computer-assisted
+reviewing |
+
+Automated essay scoring
+
+Concordancer
+
+Grammar checker
+
+Predictive text
+
+Pronunciation assessment
+
+Spell checker
+
+|
+
+Natural language
+user interface |
+
+Chatbot
+
+Interactive fiction
+
+Prompt engineering
+
+Question answering
+
+Virtual assistant
+
+Voice user interface
+
+|
+
+Visual-linguistic |
+
+Automatic image annotation
+
+CLIP
+
+Multimodal sentiment analysis
+
+Optical character recognition
+
+Vision-language model
+
+Vision–language–action model
+
+|
+
+Related |
+
+Formal semantics
+
+Gensim
+
+Hallucination
+
+Language model benchmark
+
+Natural Language Toolkit
+
+spaCy
+
+|
+
+v
+
+t
+
+e
+
+Large language models (LLMs)
+|
+
+List of LLMs
+
+AI Companies
+
+Benchmarks
+
+List of chatbots
+
+Foundation model
+
+Generative AI
+
+|
+
+Concepts |
+
+Language model
+
+NLP
+
+NLG
+
+Computational linguistics
+
+Foundation model
+
+Small language model
+
+Reasoning model
+
+Generative pre-trained transformer
+
+Transformer
+
+Attention
+
+KV cache
+
+Context window
+
+Tokenization
+
+Word embedding
+
+Parameter
+
+Hyperparameter
+
+Autoregression
+
+Mixture of experts (MoE)
+
+Inference
+
+Model compression
+
+Knowledge distillation
+
+Positional encoding
+
+Speculative decoding
+
+PagedAttention
+
+Neural scaling law
+
+Multimodality
+
+Open weights
+
+|
+
+Training, prompting,
+and alignment |
+
+Self-supervised learning
+
+Supervised learning
+
+Fine-tuning
+
+Instruction tuning
+
+RLHF
+
+Constitutional AI
+
+AI alignment
+
+AI safety
+
+Mechanistic interpretability
+
+Prompt engineering
+
+In-context learning
+
+Chain-of-thought prompting
+
+RAG
+
+Prompt injection
+
+Adversarial machine learning
+
+Hallucination
+
+Stochastic parrot
+
+Glitch token
+
+Generative engine optimization
+
+|
+
+Models |
+
+Apertus
+
+BERT
+
+BLOOM
+
+Chinchilla
+
+Claude
+
+DBRX
+
+DeepSeek-LLM
+
+Gemini
+
+Gemma
+
+GloVe
+
+GLM
+
+GPT
+
+GPT-J
+
+PanGu
+
+Granite
+
+Hy
+
+Inkling
+
+Jais
+
+LaMDA
+
+Laguna S
+
+Llama
+
+MiMo
+
+Minerva
+
+Mistral and Mixtral
+
+Muse Spark
+
+Muse Glimmer
+
+Nemotron
+
+PaLM
+
+Phi
+
+Qwen
+
+Seq2seq
+
+T5
+
+Vicuna
+
+Word2vec
+
+XLNet
+
+|
+
+Chatbots and assistants |
+
+Amazon Q
+
+ChatGPT
+
+Character.ai
+
+Claude
+
+Claude Code
+
+DeepSeek
+
+Doubao
+
+Ernie Bot
+
+Gemini
+
+Grok
+
+Kimi
+
+Kimi Code
+
+Lumo
+
+Microsoft Copilot
+
+Meta AI
+
+Perplexity AI
+
+Sparrow
+
+You.com
+
+|
+
+Agents, coding,
+and applications |
+
+AI agent
+
+Intelligent agent
+
+AutoGPT
+
+CrewAI
+
+LangChain
+
+Manus
+
+Model Context Protocol
+
+Agent2Agent
+
+OpenAI Codex
+
+Vibe coding
+
+Code generation
+
+Question answering
+
+Machine translation
+
+Text summarization
+
+Chatbot
+
+Virtual assistant
+
+|
+
+Software |
+
+PyTorch
+
+TensorFlow
+
+Hugging Face
+
+llama.cpp
+
+LM Studio
+
+Ollama
+
+SGLang
+
+TensorRT-LLM
+
+vLLM
+
+ONNX
+
+OpenVINO
+
+Vector database
+
+ChromaDB
+
+Deep learning software
+
+Open-source AI software
+
+|
+
+Hardware and infrastructure |
+
+AI data center
+
+CUDA
+
+GPU
+
+High Bandwidth Memory
+
+Neural processing unit
+
+TPU
+
+|
+
+Benchmarks, evaluation,
+and detection |
+
+Language model benchmark
+
+AI agent benchmark
+
+MMLU
+
+Humanity's Last Exam
+
+LMArena
+
+LLM-as-a-Judge
+
+Perplexity metric
+
+GPTZero
+
+Artificial intelligence content detection
+
+Undetectable.ai
+
+|
+
+Datasets and data |
+
+Data set
+
+Text corpus
+
+Common Crawl
+
+The Pile
+
+Web scraping
+
+Synthetic data
+
+Training, validation, and test data sets
+
+|
+
+Organizations |
+
+AI21 Labs
+
+Alibaba
+
+Anthropic
+
+Baidu
+
+Cohere
+
+DeepSeek
+
+EleutherAI
+
+Google DeepMind
+
+Hugging Face
+
+Meta AI
+
+Microsoft AI
+
+Mistral AI
+
+MiniMax
+
+Moonshot AI
+
+Nvidia
+
+OpenAI
+
+OpenRouter
+
+Sarvam AI
+
+StepFun
+
+Technology Innovation Institute
+
+Thinking Machines Lab
+
+xAI
+
+|
+
+People |
+
+Sam Altman
+
+Dario Amodei
+
+Yoshua Bengio
+
+Aidan Gomez
+
+Demis Hassabis
+
+Geoffrey Hinton
+
+Andrej Karpathy
+
+Yann LeCun
+
+Percy Liang
+
+Liang Wenfeng
+
+Christopher D. Manning
+
+Arthur Mensch
+
+Mira Murati
+
+Alec Radford
+
+Noam Shazeer
+
+Ilya Sutskever
+
+Ashish Vaswani
+
+Andrew Ng
+
+|
+
+Social, economic,
+and governance |
+
+AI anthropomorphism
+
+AI arms race
+
+AI boom
+
+AI bubble
+
+AI-induced psychosis
+
+AI slop
+
+Competition
+
+Copyright
+
+Deaths linked to chatbots
+
+Dependency (GAID)
+
+Environmental impact
+
+Regulation
+
+Ethics
+
+Existential risk
+
+In education
+
+In healthcare
+
+Workplace impact
+
+|
+
+Category:Large language models
+
+|
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=AI_agent_benchmark&oldid=1382260885"
+
+Categories:
+Software comparisons
+
+Datasets in machine learning
+
+Natural language processing
+
+Benchmarks (computing)
+
+Hidden categories:
+Articles with short description
+
+Short description matches Wikidata
+
+Articles lacking reliable references from October 2026
+
+All articles lacking reliable references
+
+CS1 maint: periodical has ISBN
+
+This page was last edited on 27 October 2026, at 16:56 (UTC).
+
+Page was rendered with Parsoid.
+
+Text is available under the Creative Commons Attribution-ShareAlike 4.0 License;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+Privacy policy
+
+About Wikipedia
+
+Disclaimers
+
+Contact Wikipedia
+
+Legal & safety contacts
+
+Code of Conduct
+
+Developers
+
+Statistics
+
+Cookie statement
+
+Mobile view
+
+Search
+
+Search
+
+Toggle the table of contents
+
+AI agent benchmark
+
+Add languages
+
+Add topic

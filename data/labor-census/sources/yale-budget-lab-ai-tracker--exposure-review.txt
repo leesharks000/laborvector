@@ -1,0 +1,133 @@
+Labor Market AI Exposure: What Do We Know? | The Budget Lab
+Skip to main content
+Main Menu
+Our Work
+Interactives
+Topics
+Artificial Intelligence
+Budget Reconciliation
+Children and Families
+Economic Risks
+State of the Economy
+Taxes
+Trade
+Methodology and Documentation
+News
+Commentary
+Press
+Updates
+Events
+People
+Staff
+Advisory Board
+Dogs
+About
+Contact Us
+Artificial Intelligence
+Labor Market AI Exposure: What Do We Know?
+Martha Gimbel
+, Joshua Kendall
+and Ryan Kulsakdinun
+February 19, 2026
+Download the data
+Printable PDF
+Key Takeaways
+AI exposure metrics broadly agree with each other, but that they disagree with each other more on highly exposed occupations.
+The key point of disagreement between different AI exposure metrics is in the magnitude of exposure, not whether an occupation is exposed.
+Occupational exposure to AI is not indicative of a jobs AI will automate out of existence. Rather, it indicates places in the labor market where AI could have an impact.
+There is substantial interest in which categories of workers may be affected (positively or negatively) by AI. Many analysts—including those at The Budget Lab—utilize Eloundou et al.’s exposure metrics, which measure Generative AI’s (GenAI) ability to speed up work task completion. But these are not the only available exposure metrics; there are other measures which consider occupations from different angles. In this piece, we examine how these seven measures compare to one another and calculate how much they agree on what jobs are exposed. In other words…can we predict which jobs are exposed to AI? We also look not only at whether these measures agree for a given occupation, but how the extent of agreement varies by exposure. In other words, we ask: does everyone agree who is affected, or do they only agree on who is not affected by AI?
+Where do they agree and disagree?
+The metrics we consider come from academic studies attempting to measure how AI could affect work tasks and the occupations that perform them. The metrics focus primarily on GenAI, though some take a wider view of the AI landscape. We explain each metric in more detail in the appendix, along with an in-depth discussion of our methodology, but include a brief description below.
+To find out how much and where these metrics agree, we calculate each occupation’s exposure and the variance across the various scores. In this setting, variance is a good proxy for agreement. When it’s low, the metrics agree on an occupation’s exposure. When it’s high, they have differing opinions. Below, we plot the results of regressing the two together.
+What this shows is a clear upward trend in variance with exposure. The metrics disagree more about the highly exposed occupations. This disagreement is driven more by how much an occupation is exposed more than whether it is exposed.
+To demonstrate this, consider plumbers and computer scientists. All metrics agree strongly on the relative exposure to AI of plumbers. For this occupation, the variance of scores is near zero and its average score is close to the bottom. Conversely, computer programmers rank near the top for scores and have a variance around .5, which ranks in the 88th percentile of variances. The metrics appear to agree that plumbers face minimal AI exposure, but disagree on just how exposed computer programmers are. Take two of the metrics we consider: the GenAI Total metric has computer programmers in the 99th percentile of exposed occupations, but the AI Applicability Score metric has computer programmers only in the 88th percentile of exposed occupations. There is even more disagreement about how exposed web and digital interface designers are.
+As the occupations labeled in the above figure imply, there is a pattern across occupational categories:
+Occupations focused on computational, text based, or administrative work tend to have both higher variance and higher average exposure. Conversely, metrics both agree more and have lower scores for manual fields like construction and maintenance. Since disagreement increases with exposure across occupations, it follows that the low exposure agreement / high exposure disagreement pattern applies across broader occupational categories as well.
+As observers have pointed out, AI technology is best-suited for job tasks that currently command high compensation. Examining our data by salary affirms that suggestion.
+The U-shape with higher disagreement at both extremes stems from two causes. Since much of GenAI’s potential impact is concentrated in high-earning computer-based occupations, and disagreement tends to move along with high exposure, it follows that the salaries would show a similar pattern. For the low salary end, disagreement likely comes from low-earning office administration jobs, which the previous chart indicates are highly exposed but are rated differently across metrics. There is also a clear linear upward trend for the average exposure scores with salary.
+Finally, not all occupations have the same distribution of workers by gender. Some are male- or female-dominated while others have a more even split. Other studies have examined a gender split in AI exposure to see if men and women experience AI differently in the workplace. Testing how much the metrics agree along this axis may better inform how we talk about this potential impact.
+This shows that disagreement is highest for occupations with female shares in the middle of the distribution~(30-50%). The fields with the lowest exposure (maintenance, construction, etc.) are male-dominated, and so occupations with the lowest share of women are the least exposed. Occupations that are moderately to overwhelmingly majority-women tend to be in office administration or healthcare. While office jobs are quite exposed (and have more disagreement) healthcare work tends to have lower exposure.
+Where do we go from here?
+What these results show is that the various scores are only interchangeable to a point. All of them agree that occupations in manual fields have very low exposure. While they all appear to agree that high earning, technical, and administrative jobs are highly exposed, there is more disagreement on just how exposed they are. One metric might put web designers at the most risk, while another would suggest that policymakers should put telemarketers at the top of their priorities.
+This analysis is a reminder to be humble about how much we know about where AI disruption to the labor market could be going. It is important that we not be overly confident about where this could hit, how hard, and when.
+Appendix
+Measures
+This piece echoes earlier work by Frank et al. (2025), who also found disagreement between AI exposure scores. They encourage a hybridized approach instead of utilizing a single score, as “using only one AI exposure score will misrepresent AI's impact on the future of work.” This piece utilizes some of the same exposure metrics as Frank et al. but includes others in its analysis.
+Acemoglu et al. (2022) also consider several metrics in their work on labor markets, including some of the ones used in this analysis (Felten et al. and Webb). They highlight how each of the three metrics attempts to measure a different aspect of AI, and they note that their methods select for different forms of AI exposure. “The Felten et al. measure, for example, is particularly high for managers, professionals, and office and administrative staff and is very low for service, production, and construction workers, capturing the fact that these occupations involve various manual tasks that cannot currently be performed by algorithms. The Webb measure is not particularly high in sales occupations and shows a strong positive relationship with occupational wage percentiles.”
+Each metric utilizes a different occupational categorization, ranging from SOC codes to altered 1990 CPS codes. To render them comparable, we crosswalk from each starting point to eventually arrive at the SOC 2018 occupational codes.
+This leaves us with 867 occupations with at least one exposure score, and 710 occupations for which every metric provides a score.
+We follow Goldschlag and Eckhardt’s crosswalking method to render the disparate measures comparable. We detail each metric and its associated crosswalk below.
+Felten et al. (2021) created the AIOE metric based on surveys collected from Amazon’s Mechanical Turk workers. They were asked about several AI applications’ capacity in abilities from the O*NET ability database, and Felten et al. condensed these responses into scores for the various SOC 2010 codes to which the abilities belonged.
+The crosswalk here is from SOC 2010 codes to SOC 2018 codes. For cases where multiple codes in one classification map to a single code, the abilities associated with each occupation are weighted by level of importance to the occupation as reported in the database. For cases in which an ability appears in one period and not another, its weighted importance score is filled with a zero, following the assumption that its absence indicates its unimportance. These weights are then used to calculate a similarity score between the occupations’ SOC 2010 and SOC 2018 codes, calculated by normalizing the ability scores to a unit vector and then calculating the dot product between the linked occupations. This similarity score scales the occupation’s exposure metric from one code scheme to the other, with a score of 1 indicating they are identical and a score of 0 indicating no overlap.
+Eloundou et al. (2024) created the dv_rating_beta and human_rating_beta metrics, which assess whether GPTs and technologies built on top of them can speed up the time in which workers complete O*NET tasks. The human rating was generated by human annotators while the dv_rating was annotated by GPT-4. These measures are reported at the SOC 2019 level, which is a more detailed version of the SOC 2018 codes. We reduce the codes to their less detailed SOC 2018 codes and aggregate to the broader occupational category where appropriate (i.e., Chief Executives and Chief Sustainability Officers are collapsed into Chief Executives).
+Eisfeldt et al. (2023) created the genaiexp_estz_total and genaiexp_estz_core metrics. The authors build on Eloundou et al.’s work, applying their own rubric assessing generative AI’s capacity to improve productivity for O*NET tasks. The “total” metric examines all O*NET tasks while the “core” metric considers only tasks labeled as such for their associated occupation. Both metrics were annotated using GPT-4. Like the AIOE scores, these exist at the SOC 2010 level and follow the same crosswalking procedure.
+Webb (2020) created the pct_ai metric, which follows a method distinct from the others. He links patent filings with O*NET occupations and tasks by finding overlap between their descriptions. He then links these matches to associated occ1990dd classification codes developed by Dorn (2009) and refined by Deming (2017). This yields a score indicating that jobs exposure to patented AI technologies. Going from the occ1990dd occupation codes requires an involved crosswalk. First, they are mapped to the 1990 Census occupation codes. Then, they are translated to 2018 Census codes, with occupations that are either collapsed or expanded being weighted by their relative presences in distinct time periods. Finally, the 2018 Census codes are mapped to the corresponding SOC 2018 codes.
+Microsoft researchers Tomlinson et al. (2025) created the ai_applicability_score. Their methods closely align with both Eloundou et al. and Eisfeldt et al. in their use of O*NET tasks. They distinguish their work from other researchers by looking at individual conversations with Microsoft’s Copilot AI. They categorize conversations by the user goals, type of use, and success of that model in completing O*NET tasks, the results of which are then aggregated to the SOC 2018 level. Since this data already exists at the SOC 2018 level, there is no need to crosswalk.
+Method
+Below we describe our data processing in detail.
+Data Preparation
+Following crosswalking, we are left with 867 occupations covered by at least one metric, 710 covered by all metrics, and 779 covered by all but Pct AI. Given that every metric is on a different scale, they are all normalized to z-scores so that we can weight subsequent analysis using PCA weights. Z-score standardization puts every metric on the same scale so that they have a mean of zero and a standard deviation of 1.
+PCA weights refer to Principal Component Analysis, so that when calculating scores, each is weighted according to how much it contributes to overall variance. We use PCA weighted z-scores instead of ranks because it doesn’t flatten the difference between occupations. While two occupations could be next to each other using ranks, that is not a strong indication of the magnitude of the difference between them. Z-scores provide information on the magnitude of a difference instead of just ordering.
+Including Webb, the PCA weights are as follows:
+Webb’s Pct AI is a meaningful outlier, being 10 times smaller than the other 6, which are all clustered together. This indicates that Webb’s measure accounts for something quite different from the other metrics. Given how little it will contribute to the overall PCA-weighted analysis, and the fact that excluding it lets us include an additional 69 fully covered occupations in our dataset, we drop Pct AI from subsequent tests. Re-calculating the PCA weights without Pct AI yields the following:
+Which is not identical to but is very close to the previous weights.
+A simple regression, excluding Webb and adding the additional occupations, of the weighted score against the variance yields the following figures. We also considered two specifications for all of our tests. One tests the variance against the PCA weighted score. In the other, we test normalized DV Rating Beta (the metric we use in our other published analysis) against the variance of the scores excluding DV Rating Beta. Both have a statistically significant positive effect.
+We also drop an outlier with significant leverage. After dropping that occupation, there are no other observations with problematic leverage. The following plots depict the leverage and standardized residuals for both model configurations with and without the leverage point.
+Utilizing the 778 no Pct AI dataset, we add the following occupation-wise metrics:
+The PCA weighted score across all measures
+The variance across all measures
+The variance across all measures excluding DV Rating Beta
+We also add the following external metrics:
+Occupation mean salary (and log)
+Occupation share of workers that are women
+Occupation’s major occupational category
+These data are taken from 2024 OEWS reports (the most current release) and the CPS. For cells where occupations lack information on their share of women or average salary, they are filled with the corresponding values from their major occupational category.
+Missing Data
+Since the datasets with and without Webb drop some occupations that lack full coverage across metrics, it is worth testing whether the omitted occupations differ significantly in rank from the included ones. We perform Mann-Whitney tests both including and excluding Webb. The results indicate that there is a statistically significant difference between included and excluded occupations both with and without Webb. The excluded occupations tend to have a slightly lower exposure scores than the occupations included. As results indicate above, this is not an overly problematic finding.
+Additional Tests
+Beyond the figures we show in the main body, we perform several other tests to better understand our results.
+Simple Univariate Regressions
+This simple test compares the ranks of DV Rating Beta against each of the other metrics. Across metrics, the trend is linear with high correlation (.7-.9). The highest correlation is with Human Rating Beta, which is unsurprising since both come from the same Eloundou et al. paper. The slope is significant for all of them, and the R-squared is between .47 and .78 for all of them, with most being at the high end of that range.
+Overall, univariate regressions indicate general agreement when compared to DV Rating Beta.
+K Density Plots
+In these plots, we compare the K density of the normalized z-scores against DV Rating Beta and against the PCA weighted score of all measures.
+For the plots comparing the measures against DV Rating Beta, there is a significant difference in distribution between each metric, apart from Human Rating Beta. AIOE has an even central distribution with very long tails, indicating that it has more occupations with very high and very low ratings. Both DV Rating Beta and Human Rating are peaked at the low end and moderately high end of exposure.  The GenAI metrics both have heavy right skew with long tails, showing that most occupations are centrally scored but with a meaningful and widespread amount of highly exposed occupations. AI Applicability has a high single peak centered around -1.
+Comparing the metrics to the PCA weighted score, we see a very different picture. We also standardize the PCA score to render it comparable to the individual metrics. First, the PCA weighted score (blue) inherits the two peaks from the AIOE and Beta metrics. There is still some right skew from the GenAI metrics. The less frequent overlap on the right tail goes towards the theory that there is more variance on the high end of the distribution.
+Multivariate Regressions
+The regressions included in the main text are multivariate regressions of the variance of the measures against the PCA weighted score across those same metrics while controlling for share of occupation’s workers that are women, the log of salary, and the occupation’s major occupation category. This tests whether the variance (understood here at the disagreement on scores between metrics) varies with the scores themselves. We also test both model specifications.
+This lets us answer two different questions. In specification 1, we test whether the metrics agree across all levels of exposure. In specification 2, we test whether DV Rating Beta is a good predictor of the disagreement in other metrics.
+The key independent variables are highly significant for both model specifications. As with the simple univariate test, variance increases as exposure gets higher. This is a statistically significant change, with the coefficient indicating that a 1 unit increase in PCA score leads to a 0.0617 increase in variance, which suggests the increase in disagreement is real but only moderate. While the effects of the controls are statistically insignificant, the results for the main independent variables are robust to the inclusion of the controls.
+Returning to our earlier example, all metrics agree strongly on plumbers. Their variance across metrics is near zero (.03) and nearly all metrics place them near the bottom of exposure rankings (weighted score of -2.34). Conversely, computer programmers have a variance of .48 and a score of 5.21. The metrics appear to agree that plumbers face minimal AI exposure but disagree substantially on just how exposed computer programmers are.
+Footer Menu
+Our Work
+Interactives
+Topics
+Artificial Intelligence
+Budget Reconciliation
+Children and Families
+Economic Risks
+State of the Economy
+Taxes
+Trade
+Methodology and Documentation
+People
+About
+Events
+News
+Commentary
+Press
+Updates
+Careers
+Contact Us
+Corporate Menu
+Yale University
+Copyright ©2026 Yale University. All rights reserved.
+The Budget Lab
+127 Wall Street, New Haven, CT 06511
+budgetlab@yale.edu
+Social Menu
+Subscribe to receive updates.
+Email
+First Name
+Last Name
+Yale University

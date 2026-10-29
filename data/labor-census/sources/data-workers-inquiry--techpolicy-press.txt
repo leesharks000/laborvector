@@ -1,0 +1,292 @@
+Data Workers, In Their Own Voices | TechPolicy.Press
+
+Home
+
+Topics
+
+Newsletter
+
+Podcast
+
+Series
+
+Contributors
+
+About
+
+Donate
+
+Data Workers, In Their Own Voices
+Rebecca Rand, Justin Hendrix / Jul 28, 2024
+
+Audio of this conversation is available via your favorite podcast service.
+
+Republish
+
+Share
+
+The Distributed AI Research Institute, or DAIR—which seeks to conduct community-rooted AI research that is independent from the technology industry—has launched a new project called the Data Workers' Inquiry to invite data workers to create their own research and recount their experiences. The project is supported by DAIR, the Weizenbaum Institute, and TU Berlin. For this episode, journalist and audio producer Rebecca Rand parsed some of the ideas and experiences discussed at a virtual launch event for the inquiry that took place earlier this month.
+
+What follows is a lightly edited transcript of this discussion.
+
+Justin Hendrix:
+
+Good morning. I'm Justin Hendrix, editor of Tech Policy Press, a nonprofit media venture intended to promote new ideas, debate and discussion at the intersection of technology and democracy.
+
+On this podcast, we've come back again and again to the problems of content moderation and data work. We've heard from folks working as moderators around the world. There's been a substantial amount of research over the years on this subject, including from academics such as UCLA professor Sarah Roberts. But with the rise of artificial intelligence and the need to train models and moderate outputs, disturbing stories continue to emerge about the plight of data workers and the harms they suffer from the essential work they do, often for little pay and no recognition.
+
+Now, the Distributed AI Research Institute, or DAIR, which seeks to conduct community-rooted AI research that is independent from the technology industry, has launched a new project to invite the workers themselves to create their own research recounting their direct experiences. The project is supported by DAIR, the Weizenbaum Institute, and TU Berlin. In today's episode, I'm going to turn the mic over to Rebecca Rand, a journalist and audio producer you've likely heard on this show before.
+
+Rebecca Rand:
+
+Hey y'all, it's Rebecca Rand. This week I want to bring you in on a really fascinating talk from earlier this month. It's the launch of this project, the Data Workers' Inquiry, which is looking into the experiences of people in the data labor force. And that data labor force is made up of data workers. If you don't know already, data workers are the people all around the globe who do the meticulous work of labeling and sorting data that tech companies can use for a lot of things. But a big one is to feed their AI models.
+
+One of the first versions of this was Amazon Mechanical Turk, a platform where you could do short computer tasks and earn a few cents for each one. I definitely gave that a try after graduating college before finding work. And the tasks were stuff like click on all the pictures with motorcycles. But in the years since then, because of social media and the AI boom, demand for this work has gone way, way up. And the kinds of tasks we're asking people to do are more intense.
+
+This can be really grueling work and it's often contracted out to low paid workers overseas, places like Venezuela, Bulgaria, India, Mexico, Kenya, the Philippines. It's work that people in wealthy countries like me benefit from every day, but it's also ripe for exploitation. That's what this project that's being launched, the Data Workers' Inquiry, is actually looking into that project, comes out of the Distributed AI Research Institute or DAIR, and their researchers have developed this unique methodology for exploring this issue.
+
+Dr. Mila Miceli who helped develop this project calls it a community-based research project. And this is her speaking at the virtual launch of the Data Workers' Inquiry.
+
+Milagros Miceli:
+
+I think the idea of the Data Workers' Inquiry is to provide a platform in which the workers speak for themselves. They create the research questions, they design the research questions, they design the investigation that they want to conduct in their workplaces with their co-workers.
+
+Rebecca Rand:
+
+Mila has written extensively about how precarious these jobs are, and she said that the workers are basically treated like machines. Don't understand the instructions for the task? You're fired. Not fast enough? Fired. Look away from the screen for too long? Fired. You could spend seven hours working on a task, and if the client doesn't think you did a good enough job, you won't get fully paid.
+
+Not surprisingly, the main focus with this Data Workers' Inquiry is labor. How are these workers being exploited and what can they do to protect themselves? A lot of the conversation from this launch is about that. And one thing that came across in all this dialogue is how remarkable it is that this conversation is happening at all because it's risky for data workers to talk. One person who captured this really well was Dr. Adio Dinika, whose a research fellow at DAIR.
+
+Adio Dinika:
+
+One of them most important things to note about this work is that this is dangerous work, particularly for the workers because some of the workers that are involved in this project are actually still working in these companies and there'll be consequences for them because this exploitation of workers that we are talking about here is not accidental. There's a method to the madness, so to speak.
+
+Rebecca Rand:
+
+One of the things multiple researchers have brought up is that data workers are bound by non-disclosure agreements, which makes it especially risky for them to speak out.
+
+Adio Dinika:
+
+It's because these workers are invisible, no one knows about them. I think that was the most important thing where we found out how many are they because these are thousands of workers we're talking about here, not just a few. And so, when I traveled to Nairobi, Kenya and to make some of the workers that you are going to see later here, whatever I thought I understood about the exploitation going on was a drop in the ocean of what I actually understood when I go to the ground. Because when you then travel to the places where the workers come from. I'm an African, so there's this whole thing that, "Be a man, don't cry, men should not cry." But I had people crying as I spoke to them, men. And for me, that vulnerability where someone is talking to you and expressing this vulnerability, I think it broke me.
+
+Rebecca Rand:
+
+When Adio returned from his research trip in Kenya, he reported back to his colleagues, Mila Miceli, who we heard at the top of the show, and Dr. Timnit Gebru.
+
+Adio Dinika:
+
+I remember when I was talking to Mila about my experiences, and she was like, "Are you okay?" And I spoke to Timnit about my experience. She was like, "Are you okay?" And I was like, "Why are they asking me if I'm okay? I was not the one going through this." But only after I noticed certain changes in certain patterns. For example, my sleep was literally messed up. I was having nightmares dreaming that I was the one doing the work. For me, the most important thing is if I felt this, what about the workers who went through this?
+
+Rebecca Rand:
+
+At this point you might be like, "Whoa, what kind of research even is this?" I want to talk a little bit about the idea of a worker's inquiry because that's what this is, the Data Workers' Inquiry. The idea of a worker's inquiry goes back to 1880 actually with Karl Marx. And it's basically a way of turning to a labor force and asking, "What's going on here for you? What's this like for you?"
+
+And in the years since lots of people have used this model and built on it to investigate labor issues. Now Marx's original inquiry was basically just a survey of 100 questions for workers about the nuts and bolts of their jobs, wages, cost of living, contracts, and so on. But then there's question number 99 all the way, almost at the end. And it asks, "What are the general, physical, intellectual, and moral conditions of life of the working men and women employed in your trade?"
+
+And just for a second, can you imagine answering 98 questions from some survey and the second to last one is like, "Oh, by the way, can you try to capture your whole existence, your inner and outer world and those of your community in just a few sentences?" Well anyway, this question, the 99th question is what I want to focus on today with the Data Workers' Inquiry because what Adio Dinika found in the course of its research was just scratching the surface of this theme of trauma, psychological injury and moral injury that data workers are facing. It's a thread that runs through the whole story.
+
+And to start, I think it's important to think about where these workers come from. All over the world, data work is actually a really attractive job for refugees. So a lot of data workers are not strangers to violence in their own lives. And this was the subject of one report by former data worker, Fasica Gebrekidan, who interviewed her former colleagues working for Samasource, which is this really big data work contractor in Nairobi. And that contractor, which people just call Sama for short, is one of the companies Meta has hired to moderate content on their platform.
+
+Fasica Gebrekidan:
+
+My name is Fasica. I'm from Ethiopia. I worked for Samasource for two years as a content moderator. My reports delves into the lives of the Tigray content moderators who were working for Samasource. As you may imagine, it was very overwhelming to do content moderation during the Tigray genocide. Even though it's very traumatizing to read those stories I think it might show what it really looks like to be in that position.
+
+Rebecca Rand:
+
+And it's a tough position to be in. Here's what Mila said about this report.
+
+Milagros Miceli:
+
+Fasica's report is a prime example of someone escaping war and genocide, going to a new country, feeling safe for the first time in a while, and then finding this new job, being excited about the job and then finding themselves moderating content that is related to the war in itself, the war and the genocide, they just escaped. Then we had people in Syria labeling satellite imagery of zones that could be the places that have been just affected by war and conflict and probably to train automated surveillance, either weapons or drones or technologies. Those things really not surprise me, but shocked me in a way.
+
+Rebecca Rand:
+
+One thing that becomes clear when you read through these reports is that data work is something that's available to people when traditional work is not. Maybe there's just a general job shortage in the region, maybe you're disabled, maybe the jobs available are things you just can't do or you don't have a work permit. This makes the data workforce really dependent and vulnerable, and that's something another co-researcher talked about.
+
+Richard Mathenge:
+
+Hi, everyone. My name is Richard Mathenge from Nairobi, Kenya. I am a co-researcher in the Data Workers' Inquiry. My project is a documentary. And my role was to provide local context within the AI space just to show how these individuals are actually recruited from the informal settlements and how things are actually dictated to them once they're recruited into these organizations.
+
+Rebecca Rand:
+
+This researcher, Richard, was actually a content moderator for the same company, Sama. And he was one of the people behind training OpenAI's ChatGPT to basically not say horrible stuff.
+
+Richard Mathenge:
+
+You receive these bulk assignments from OpenAI. Then once you receive them, you're supposed to train the chatbot on how to work with toxic pieces of messages so that once the people who are going to interact with the platform in future will not have a hard time interacting with the platform. For me and my counterparts, our responsibility was basically to be like a watchman, standing on the gate to prevent gangsters or outsiders from having an unsafe experience with the platform. Basically, in a nutshell, that was our assignments in as far as that is concerned. The toxic pieces of text messages were very traumatizing and very disturbing, such that you could not walk around in the streets and have peace of mind.
+
+Rebecca Rand:
+
+When I think about traumatized content moderators, because I've read about this on the news before, I think I typically assume they're dealing with pictures and video, which they definitely do. But as the founder of the African Content Moderators Union, Richard knows that even written content, just words on a screen could be deeply disturbing. For his report, he actually did a video documentary and he talked to a man named Mophat, who's a union chair and works with Richard. And he talked to him about how he got started labeling potentially offensive or illegal content.
+
+Mophat Okinyi:
+
+My name is Mophat Okinyi. I'm a Kenyan. I live here in Nairobi. I have been into tech for three to four years now. The first project that came in was purely texts, but along the way there were some pictures that were coming in. The target of the work was to label text. Some of the texts were really traumatizing, like if you read a text about someone raping a child.
+
+When you read these texts and you come out of work, they stick into your mind to an extent that you find difficulty in sleeping. Before you go to bed, you'll see a graphic picture of what you are reading during work. And you get scared and then you might have difficulties in sleeping. And if you get a chance to sleep, you actually had very crazy nightmares. And when you have these nightmares, you can wake up at night and shout during the fact that you are reading text about rape, violently raping people in some who are being killed.
+
+It hit me so much as a person, as an individual. By that time I was married to a young, beautiful lady. After working on these texts, my behavior started changing and screaming at night, waking up, not sleeping. She started questioning my behavior.
+
+Rebecca Rand:
+
+But Mophat says that in Kenyan culture it's really hard to try to figure out how to explain to someone that you're traumatized from looking at sexual abuse material all day. They might look at you sideways like you are the one doing something illegal. They might not get it.
+
+Mophat Okinyi:
+
+I kept this to myself and my wife could not cope up with my changing behavior and she decided to go. During the fact that my wife left, it's really something that is stressing me. And I haven't also changed much better in terms of behavior from the time I worked on that kind of content till now I still see the effects.
+
+Our content delivered to your inbox.
+
+Join our newsletter on issues and ideas at the intersection of tech & democracy
+
+Subscribe
+
+Loading...
+
+Thank you!
+
+You have successfully joined our subscriber list.
+
+Rebecca Rand:
+
+He knows he wasn't the only one because his phone would go off in the middle of the night with other workers calling in sick the next day because they couldn't sleep.
+
+Mophat Okinyi:
+
+Everyone who worked on the project experienced this kind of mental challenges, especially sexual content, can really affect someone's emotions and how you think and how you see people.
+
+Rebecca Rand:
+
+Richard talked to another man at Sama who felt like doing content moderation for Meta has warped his entire worldview.
+
+Kings:
+
+My name is Kings. I got into this kind of work in November 2021. It was traumatic. Yeah, so a lot of things, they were redefining the very realm of a human being. Yeah. It tells the veil of human what makes it be human. Yeah. Such things they turned my whole life. First of all, it comes with this paranoia. They are haunting shadows. Yeah. Also at night you cannot sleep. At the end of the day, what it has done to you is much more than what you expected.
+
+Mophat Okinyi:
+
+During training we had a chance to talk to a counselor who told us some very basic things about how dangerous that work was. When we started working on this kind of work, we really expected some kind of psychological support. We expected that when we went to production doing the real work and submitting the client, we thought we would get daily counseling sessions.
+
+But when we started working, we started expressing some kind of strange behaviors in ourselves. And we told the managers that, "This work, it's not a normal work, it's still affecting our mental health and we need some kind of psychiatric support." But the feedback we got from our managers was that there is no time for counseling because the targets we were given were very high and we had to meet those targets before the end of the day.
+
+But in the second week of work, we were privileged to have one session with one of the counselors. And during that session we came to realize that the person was very unprofessional and he didn't have any knowledge about what we were going through. And he didn't have knowledge on how to counsel those who are doing content moderation, such kind of work.
+
+That's the only session we had. It was only one session and then the effects were becoming more severe and we pushed harder for last one of these sessions. And then when the company saw that we were pushing them so hard, they decided to send us to work from home so that we don't bother them anymore.
+
+Rebecca Rand:
+
+One thing that came up again and again in these reports is that the people who do this labor don't get any credit for helping build these powerful platforms and tools. Oftentimes they aren't even told who they're working for. That's a question Adio Dinika had for Richard.
+
+Adio Dinika:
+
+And by this time when you were working on ChatGPT, it had not yet blown to be the poster child of AI that it is today.
+
+Richard Mathenge:
+
+Not at all. Not at all. And it is what it is right now because of the commitment and the efforts that these young individuals from Nairobi had to render, waking up early in the morning, leaving late at night just to ensure that the platform can work with toxic pieces of text messages so that the people who interact with the platform right now or today can have some peace of mind in terms of their space with the platform.
+
+Adio Dinika:
+
+Interesting. I'm intrigued by that. Which leads me to my next question to both Mophat and Krystal, in that when you are working doing this data work, are you also aware of what you are making? I understand sometimes you just get a little piece of information then which you have to annotate or label. Are you aware of what the bigger picture is in terms of what you're doing at that particular moment? Maybe Morphat, you can go first.
+
+Mophat Okinyi:
+
+Okay. There is lots of transparency now I think globally because the people bring this work on the ground. For instance, the work that was brought by OpenAI to Kenya, they really didn't want to identify themselves as the owners of that work. And the reason why they do this is to run away from possibilities. The way we've seen in cases of matter in Kenya with workers, they don't want to identify themselves as the employer of those workers. In almost all of the projects that I've worked on, we really don't know the client. And that's also a very big concern because we cannot even hold them accountable when they violate our own rights, so there's not that transparency.
+
+Rebecca Rand:
+
+Another one of the researchers on this project, her name is Krystal Kauffman. She had a similar experience doing data work in the US on that platform I was talking about earlier, Amazon Mechanical Turk.
+
+Krystal Kauffman:
+
+Actually, it's very, very similar, working on Amazon Mechanical Turk. Sometimes you would know what the company was. For instance, Google was pretty transparent about putting their name on things. But the system is set up such that a requester or the person who is requesting work to be done, the company's individuals can use whatever name they want. They can use whatever email they want. So it's, you can't identify.
+
+There are some accounts, there's 26 of the same account name. And so you don't know. And you can figure it out sometimes by the context, if you're asked to repeat phrases and ask certain people, let's say questions, Alexa, Siri, things like that, you can figure it out. But like Mophat said, there's a serious lack of transparency.
+
+One of the things that I've spoken about a lot and will continue to is I was looking at satellite imagery and aerial photographs one day and I was asked to identify border crossings. And not your traditional drive-through big structures, all of that. They were looking for footpaths and individual tire tracks where individuals were crossing the border. And I stopped and I thought about it and I thought, are they sending help to these people? I didn't know where it was. Are they helping these people? Are these people going to be detained, imprisoned? Why am I doing this? And so I stopped because I didn't want to be responsible for anything bad coming to anybody.
+
+There are tasks out there, it's like, "Please take a picture of your foot," with no explanation. And it's just things like that and you wonder what you're working on. Are you contributing to something that's going to harm somebody? This is an aspect of data work that is so overlooked. And I think it is an important conversation that we need to have.
+
+I think what needs to happen is there needs to be some sort of mental health support because some of this content that is outsourced is horrific. People are exposed to awful things and we all know because maybe you've been exposed, we've done the work, we've read the reports. And so we see the effects that this has on people. And I believe these companies have a responsibility if they're going to outsource this work, A, to be completely transparent about what they are doing and that this work is going to be difficult. And then B, offer some type of support, mental health support. And not like we've heard in some projects where a company has said, "Yes, we have counselors for you." And then they weren't even real counselors.
+
+Rebecca Rand:
+
+Mophat says that the "counselors" that content moderators get at Sama for instance, are technically just low paid wellness coaches, whatever that is.
+
+Mophat Okinyi:
+
+We have wellness coaches. And wellness coaches, they're being paid some kind of little cash and professionals would be paid much more work. And these people, they don't have any idea about what is supposed to be done to people who are having mental health challenges.
+
+Rebecca Rand:
+
+Something that's interesting about what Mophat and the other data workers say in these reports is that a lot of the work they do believe it's important. Mophat says that without workers like him, we would not have the online experience that we're used to. It would be a much scarier place.
+
+Mophat Okinyi:
+
+I will always say that content moderation work, it's very important because without content moderators then we'll not even have TikTok. We will not have ChatGPT, we will not have Facebook. In every profession there need to be some kind of precautions that are being taken to do that work. We have soldiers who protect our country, and if you're a soldier, you risk your own life. We also as content moderators, we risk our own mental health to ensure that the general public are able to use these tools without any harm. Yeah.
+
+Rebecca Rand:
+
+And he's not blind to some of the flaws of the technologies he's helping to build. But Mophat actually attributes those flaws to the poor working conditions of the human beings perfecting those data sets.
+
+Mophat Okinyi:
+
+As someone who worked on ChatGPT, I will say I will look at it this way. Some of these language models, they hallucinate a lot, but the hallucination is also connected to our workers are being treated. I was a quality analyst. And I was looking at the quality of data that the agents were working on. And based on the frustration that these people were going through, they were not labeling those data accurately.
+
+Rebecca Rand:
+
+There are some horrible, grueling jobs out there that you look at and you think, "Why are we even making people do this? We even need the product that this is generating." But while some data work is serving questionable interests, it seems to me that a lot of it is really essential. I almost feel like it belongs on the show Dirty Jobs because they look at this stuff and process this information so that we don't have to. To that point, I want to bring in something that one of the junior researchers on the Workers' Inquiry said.
+
+Camilla Salim Wagner:
+
+My name is Camilla Salim Wagner. I am a political scientist and a student wrapping up my master's degree. I mean, honestly, I'm a very junior researcher and this has been the second big research project I have been a part of. I don't have Mila's background. But what I did learn throughout the process was that one of the points that eventually gets brought up by every single data worker is how they would like to feel more respected for their work, for their expertise, for their contributions to building AI systems.
+
+Rebecca Rand:
+
+And the data worker, Krystal, said much the same about her experience doing data work in the United States.
+
+Krystal Kauffman:
+
+Yeah, absolutely. I myself started working on the Amazon Mechanical Turk platform back when I ran into some health issues and I had to work, but I couldn't be outside of the home. And through that, I had to go through so many different trainings and learn so many different skills. And upon talking to other data workers from other platforms, they do the same. I can't stress how much people think that data workers are unskilled or that this is very easy work. And sometimes you do get something that might be a little bit easy, but honestly, a lot goes into learning this stuff. And it should be recognized and it should be transferable.
+
+Rebecca Rand:
+
+something we're not going to get into today, but I definitely recommend you check out, is what all these folks are actually doing about the issue. There's already a labor or workers movement in data work. And the people you've heard today, like Krystal and Mophat and Richard, they're all involved in either efforts to unionize data work, or at least just build solidarity and support for data workers.
+
+As a community research project, one thing that was really cool about this inquiry is that the data workers that were invited to be researchers on this project could work in any medium they wanted to. Some of them tried to make a podcast, some of them made a documentary, some of them made a graphic novel or comic strip, one of them made a zine. If you're interested in learning more about anything you heard today or you want to attend one of their upcoming talks on either August 26th or September 9th, you can check those out on data-workers.org. That's all for now.
+
+Support Tech Policy Press
+
+If you've found our work helpful, consider supporting us.
+
+Donate
+
+Authors
+
+Rebecca Rand
+Rebecca Rand is a journalist and audio producer. She received her Master's degree from CUNY's Craig Newmark Graduate School of Journalism in June 2024. In the summer of 2023, she was an audio and reporting intern at Tech Policy Press.
+
+Justin Hendrix
+Justin Hendrix is CEO and Editor of Tech Policy Press, a nonprofit media venture concerned with the intersection of technology and democracy. Previously, he was Executive Director of NYC Media Lab. He spent over a decade at The Economist in roles including Vice President of Business Development & In...
+
+Topics
+
+Home
+
+A nonprofit media and community venture intended to provoke new ideas, debate and discussion at the intersection of technology and democracy.
+LinkedInBlueSkyInstagramTPP RSS feedEmail TPP
+Tech Policy Press © 2026 — a 501(c)(3) organization
+
+About
+
+Privacy Policy
+
+Donate
+
+Fellowships
+
+Contributor Guidelines
+
+Subscribe to newsletter
+
+Collaborations

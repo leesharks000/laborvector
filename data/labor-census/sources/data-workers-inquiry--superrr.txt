@@ -1,0 +1,201 @@
+Data Work: A Year in RRReview - Superrr
+
+Superrr
+
+Superrr
+
+RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+
+Donate
+
+DE
+
+High-contrast mode
+
+About
+
+Our Work
+
+Our Strategy
+
+Blog
+
+Pressroom
+
+Data Work: A Year in RRReview
+
+21.01.2026
+
+There are many reviews and opinion pieces on tech and AI out there, repeating the old and new narratives of Big Tech that limits our imagination and alternative visions of the future.
+
+This review is different.
+
+This post is brought to you by Rim Melake, fellow at SUPERRR.
+
+I want to focus on what we achieved this year at SUPERRR and how we carried on with our mission to support data workers' fights for recognition, build international solidarity, and strengthen partnerships with organizations and communities.
+
+This review is the story of how we amplify the voices of data workers and why we don’t do this alone: we collaborate with partner organizations, support initiatives and invest time and care in building and nurturing our community.
+
+I joined SUPERRR more than a year ago, first as a fellow, then as a consultant to support the data work project. It has been such a rewarding experience, full of learnings and growth: collaborating closely with data workers who keep pushing for fair working conditions and recognition, joining forces with others to develop and share new visions for inclusive digital futures, and supporting initiatives of partner organizations and community members.
+
+In our SUPERRRexplained series we break down what data work is, how AI systems perpetuate systems of colonial exploitation, and why fighting back matters, you can find it here.
+
+1. Supporting data workers fight for recognition and better working conditions
+
+For the past years, SUPERRR has been working and supporting efforts around content moderation, data workers’ rights, organizing, and collective action. At SUPERRR, we see our role as a bridge builder: establishing global networks, strengthening community work, and connecting data workers, civil society organizations, unions’ and supporters with each other.
+
+JANUARY – KICKING OFF THE YEAR WITH A POLICY ROUNDTABLE
+
+2025 opened with the policy roundtable: “ Building a Safe and Fair Future for Data Work: Insights from Kenya and Germany”
+
+We organized, together with our partner organization Siasa Place from Kenya and GIZ, a policy roundtable to present the jointly developed demands by Kenyan and German data workers and discuss how to improve working conditions in both countries. The policy roundtable brought together data workers, policymakers, academics, and civil society organizations to shed light on the overlapping challenges that data workers face in both countries, such as low wages, outsourcing, insufficient health protection, and lack of recognition for their work.
+
+These demands were initially developed during the first International Solidarity Meeting that took place back in 2024 in Nairobi, Kenya, bringing together for the first time, social media content moderators, data workers, and works council members from Kenya and Germany (you can read the jointly developed demands here).
+
+I found it striking how universal the demands for fair and safe working conditions are despite the fact that data workers in Kenya and Germany face very different experiences working in the field, especially in terms of their contract status, mental health protection, unionizing experiences, and potential risks for speaking up.
+
+And at the same time, I found it inspiring to see how much data workers can learn from their peers who have already managed to organize themselves, and established channels to bring their demands to policymakers and advocate internationally for their rights.
+
+By discussing the demands and strategizing with diverse stakeholders the roundtable allowed to amplify workers' voices and foster cross-cultural dialogue to strengthen digital labor policies and global worker solidarity.
+
+HIGHLIGHT: Data Labelers in Kenya united and launched the Data Labelers Association
+
+A highlight of the policy roundtable was the announcement of the launch of the Data Labelers Association in Kenya, co-founded and co-led by Joan Kinyua, a data worker and participant of the International Solidarity Meeting. Together with other data labelers, Joan established the organization to push for better work protection, as workers are systematically being exploited by an industry that doesn’t recognize their critical contributions to advancing the field of AI technologies. Joan recently visited SUPERRR in Berlin, and you can watch the video interview where she shares her story and mission here.
+
+A tech future that doesn’t extract but empowers people
+
+I believe that these gatherings and moments of convening give us a glimpse into an alternative future: One where attention is centered around building international solidarity, bringing together diverse actors with different ideas, and sharing knowledge and resources. One where tech doesn’t extract but empowers people.
+
+MAY – Organizing the exploratory workshop on AI supply chains and labor and presenting a visual mapping exercise
+
+We co-organized an exploratory workshop on AI supply chains with a focus on labor together with the European Center for Constitutional and Human Rights (ECCHR) and Eva Kocher from Viadrina University. The workshop aimed to bring together researchers, legal experts, civil society organizations, and data workers to explore the current state and challenges of the supply-chain due diligence and labor rights. We heard from our UK collaborators, Foxglove, about the international efforts of building content moderators’ unions and the long and complex legal battles in pursuing litigation processes. Together with data workers, SUPERRR developed a visualization of the AI landscape, which was presented and discussed during the workshop. A visual exercise called “Mapping AI: The Hidden Labor Behind The AI” will be published soon.
+
+MAY – Re:publica panel “Am I Not Human? Data workers behind our AI systems and social media platforms speak out”
+
+We continued to shed light on data workers’ experiences and moved these conversations to the re:publica 2025 festival stage. I had the immense pleasure of moderating the panel featuring Andreas Hänisch (Deputy Chairman of the TikTok Works Council) and Joan Kinyua (President, Data Labeler Association Kenya), discussing how the systemic isolation of data workers weakens collective actions, what we can learn from worker councils’ experiences in Germany, and the urgent need for international solidarity and global responsibility. (You can find the livestream recording of the panel here)
+
+I started this job because I was dreaming of becoming a women in tech.
+
+Joan Kinyua
+
+While we discussed the policy and regulatory challenges of ensuring fair and decent working conditions, and the fight for unionizing and collective organization, the panel put an emphasis on the lived experiences of data workers. Joan shared a glimpse into the day-to-day lives of data workers in Kenya and the struggles that many face in this industry. The lack of transparency, accountability, and job safety, leaves workers unprotected against platforms and tech companies. “I remember when Remotask [a data work platform] suddenly closed my account and this was my only source of income. During that time, my baby was very young, and a situation like this can lead to mental health problems like anxiety, and extreme stress.” (Joan Kinyua)
+
+Andreas shared his experience of establishing the workers’ council at TikTok Germany that represents more than 400 employees in Berlin and fights to improve the working conditions of in-house content moderators.
+
+Beyond the difficulties of setting up a workers’ council, it was striking to hear about the challenges of organizing an international workforce. Many international data workers in Germany are from different countries and too often not aware of the country‘s strong labour rights. As a consequence, workers don’t know about their rights and the influence and bargaining power that workers councils and unions can have on their employer or industry.
+
+AUGUST – TikTok workers fight back against mass lay-offs in Germany
+
+Collective action and international solidarity are essential to fight back against unlawful working conditions and the undermining of regulations that aim to protect workers and citizens. When those safeguards are challenged, it is critical to move from conference stages to mobilising supporters on the streets.
+
+"You rarely see the Trust and Safety workers - but they’re the frontline defense of democratic discourse online."
+
+Julia Kloiber
+
+This was the case over the summer in Berlin when TikTok Germany announced the mass layoff of 150 workers from their Trust and Safety team. Their plans to replace content moderators with AI systems led to several days-long strikes of TikTok employees and supporters.
+
+And here's why we should all care about it: In 2023, TikTok had over 20 million users in Germany, and the workers of the Trust and Safety team made sure that your feed stayed free of hate, harassment, and violence. “You rarely see the Trust and Safety workers - but they’re the frontline defense of democratic discourse online”. (Julia Kloiber)
+
+While the company claims to automate workers with AI, it’s more likely that these jobs will be shifted to cheaper, less protected workers by outsourcing firms. AI systems will still rely on human labor, as they need to be trained, corrected, and guided by people. So claiming that AI replaces workers hides the truth: the attempt at weakening labor protection and union power.
+
+Workers fought back. Sixty Trust and Safety staff protested near the TikTok offices, backed by the union ver.di. which gained them international attention and solidarity. Despite the workers' fight, by the end of 2025, an agreement was settled between the representing union, ver.di, and TikTok. And just before the end of the year, the non-profit organization Foxglove supported TikTok moderators in the UK to file a lawsuit against the company that fired them just days before they were due to vote for the formation of a union. You can read more about it here.
+
+Celebrating the launch of the Data Workers Inquiry Project
+
+We’re happy to celebrate the achievements of our partner organizations and collaborators in our network. One of them is the Data Workers Inquiry. The project is a global and radically participatory research initiative that lets data workers themselves become community researchers. It is led by Weizenbaum Institute researcher and our close collaborator, Dr. Milagros Miceli. (We’re also celebrating that she was recognized for her research work as one of the TIME100 most influential people in AI in 2025).
+
+Data workers identify and formulate their own research questions, and the formats in which they want to share their unique stories. It is incredibly inspiring to see that the initiative doesn’t reduce data workers to research subjects but empowers them to be community researchers by providing them with fair wages, a methodology, and a platform to conduct their own individual inquiries. I recommend the piece “The Emotional Labor behind AI Intimacy” by Michael Geoffrey Asia, who offers a rare glimpse into the corners of AI-assisted intimacy, working in a job where he and other workers impersonate an AI sex chatbot. You can find more inquiries here.
+
+SEPTEMBER – Organizing the Data Workers Transnational Assembly in Berlin
+
+Throughout the year, we focused on strengthening our networks and nurturing our community. A great way to do it is by joining forces with partner organizations and collaborators.
+
+Together with the Data Workers Inquiry, we organized the Data Worker Transnational Assembly that took place in Berlin. The two-day summit brought together data workers from around the world to share experiences, network through a participatory workshop approach, and make their voices heard by parliamentarians, academics, and the public. During the workshops, potential ideas were explored, for example, establishing a union for data workers to better advocate for their rights, represent their interests, and better organize workers with their peers. Participants also examined potential opportunities to formalize data workers’ skill sets and expertise that they acquired on the job by establishing vocational training certification paths with the chamber of commerce and educational institutions. Most data workers have to sign Non-Disclosure Agreements that prohibit them from speaking about their projects or the tasks that they completed, making it almost impossible to prove their work experience and expertise, ultimately hindering their career progression in this industry. The event concluded with a public event, and you can watch the recording here.
+
+2. Continuing our data work project in 2026 and demystifying AI narratives with our panel discussions
+
+In 2026, we will continue to work on our data work project, building international solidarity and supporting worker’s efforts. One thing is certain: there’s more to come!
+
+Kicking off 2026 with a panel discussion series on AI misconceptions and myths
+
+The three-part series in collaboration with libraries in Berlin titled “KI: Macht, Mythen, Misstverständnisse” shines a light on the unchecked AI narratives and explores which power dynamics are really at play, what myths are blurring our perception and what consequences does they have on our democracy, environment and work lives.
+
+The second panel on 21.01.2026 will feature former TikTok employee and labor rights activist Sonthaya Etschenberg and Julia Kloiber from SUPERRR and discuss the invisible and precarious working conditions in the AI industry.
+
+The three events will take place in January in Berlin and are held in German. Event Information and registration is available here.
+
+A little Inspiration for your 2026 Reading List
+
+To start the new year with a good deed and inspired by the annual book review of our team member Zara, I compiled a little reading list with some book recommendations that you might enjoy:
+
+Machine Readable Me: The Hidden Ways Tech Shapes Our Identities by SUPERRR's very own Zara Rahman. A must-read to truly understand how identification technologies impact our lives in ways we can see and don’t see it.
+
+Klara and the Sun by Kazuo Ishiguro. A novel that explores what it means to not be human in a dystopian future.
+
+Empire of AI: Dreams and Nightmares in Sam Altma’s OpenAI by Karen Hao. This book reads like a thriller. It chronicles the emergence of OpenAI while Big Tech races for absolute technological, political and economical domination, with devastating consequences for the environment, humans and society.
+
+Feeding the Machine: The Hidden Human Labour Powering AI by Callum Cant, James Muldoon and Mark Graham. This book investigates the precarious hidden workforce behind the AI industry and the network or organizations that maintain these exploitative systems. It provides a great overview and a detailed account of the larger AI industry and infrastructure.
+
+Imagination: A Manifesto by Ruha Benjamin. This book explains how imagination intersects with power, activism, and collective futures and provides many examples. A wonderful book for anybody who wants to use imagination for positive transformation work.
+
+Author(s):
+Rim Melake
+
+content moderation
+
+datawork
+
+Other Posts
+
+Virtual Screening Coded Bias
+
+23.03.2021
+
+event
+
+The feminist organizations netzforma*, Motif Institute and Superrr Lab are hosting a virtual screening and discussion of the film Coded Bias.
+
+Read post
+
+Workshop – Thinking of Futures On Emerging Perspectives
+
+27.07.2021
+
+workshop
+
+futuring
+
+Superrr Lab and the partners of The New New program invite you to join us for a workshop on August 18th.
+
+Read post
+
+15 Visionen aus der digitalen Zivilgesellschaft
+
+21.09.2021
+
+Policy
+
+Welche Digitalpolitik brauchen wir für eine bessere Welt?
+
+Read post
+
+Stay in touch!
+Subscribe to our Newsletter:
+
+Subscribe
+
+Follow us:
+
+Mastodon
+
+Instagram
+
+LinkedIn
+
+Code of Conduct
+
+RSS
+
+Contact
+
+Legal

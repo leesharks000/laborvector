@@ -1,0 +1,153 @@
+Responsible AI Starts with the Data Supply Chain - Partnership on AI
+
+RESEARCH
+
+Research
+
+AI & Human Connection
+
+AI, Labor, and the Economy
+
+AI Safety
+
+Enterprise AI
+
+Public Policy
+
+Philanthropy
+
+European Steering Committee
+
+RESOURCES
+
+Blog
+
+Resource Library
+
+EVENTS
+
+ABOUT US
+
+About Us
+
+Expert Council
+
+ChangeMakers
+
+Team
+
+Funding
+
+Press
+
+Careers
+
+PARTNERS
+
+SUPPORT US
+
+RESEARCH
+
+Research
+
+AI & Human Connection
+
+AI, Labor, and the Economy
+
+AI Safety
+
+Enterprise AI
+
+Public Policy
+
+Philanthropy
+
+European Steering Committee
+
+RESOURCES
+
+Blog
+
+Resource Library
+
+EVENTS
+
+ABOUT US
+
+About Us
+
+Expert Council
+
+ChangeMakers
+
+Team
+
+Funding
+
+Press
+
+Careers
+
+PARTNERS
+
+SUPPORT US
+
+DONATE
+
+×
+
+SEARCH
+
+Share
+
+Our Blog
+
+/
+
+Responsible Sourcing Across the Data Supply Line
+
+Responsible AI Starts with the Data Supply Chain
+
+Michael George, Eliza McCullough
+
+April 29, 2026
+
+Last International Workers’ Day, we wrote about the data enrichment workers whose labor makes AI possible, but whose contributions remain largely invisible. A year later, our work continues in advancing positive outcomes for the people behind the technology and across the AI value chain.
+
+Conversations around AI have mainly centered around the technology itself: the models, their capabilities, and even the risks they can introduce. But rarely have those conversations extended to the workers powering these AI systems. Data enrichment workers, the people who label and annotate the training data on which these systems are built, are essential to AI, yet their contributions are frequently overlooked. Research has shown that these workers often face low wages, unclear expectations, and inadequate support. The AI data supply chain remains largely opaque and unregulated, leaving these workers without sufficient protections. The conditions under which data is produced directly affect the quality, safety, and reliability of the AI that is built on it.
+
+Since 2020, Partnership on AI has spotlighted the importance of raising standards across the data enrichment supply chain to advance positive outcomes for the people powering these systems. In 2023, PAI released a first-of-its-kind AI job impact assessment and recommendations for the field with its Guidelines for AI and Shared Prosperity, which included recommendations around the responsible sourcing of data. But raising standards also requires practical tools that companies can put to use. As part of our work to support the implementation of the Guidelines, finalized versions of two of our resources, developed and refined in conversation with companies throughout the supply chain, as well as worker advocates, are now available: the Vendor Engagement Guidance, which helps companies have more accountable conversations with their downstream vendors about worker treatment, and the Transparency Template, which outlines what companies should be monitoring and publicly reporting about their data enrichment practices.
+
+But addressing the needs of data enrichment workers is one part of a larger story. The challenges data enrichment workers face highlight a much broader issue as the AI value chain becomes more complex, and as AI becomes embedded across supply chains impacting workers across the global economy: how will AI impact workers, and how can we ensure that workers shape the future of AI?
+
+“The path we take will depend on the decisions of companies, policymakers, and labor organizations, and whether workers are a part of that conversation.”
+
+AI tools have the potential to expand economic opportunity, increase productivity, and improve people’s lives. But they also carry the real risk of accelerating inequality or degrading job quality, displacing workers, and concentrating gains among those who are already advantaged. The path we take will depend on the decisions of companies, policymakers, and labor organizations, and whether workers are a part of that conversation.
+
+Since PAI released the Guidelines for AI and Shared Prosperity in 2023, uncertainty about the potential path of technological development has grown—including the timeline and distribution of potential benefits or harms. Planning is required to take account of uncertainty, the potential for near-term benefits and harms, and the adoption and diffusion of new technologies. To do so, PAI has convened a new Labor and Economy Steering Committee, an advisory group that will leverage scenario analysis to help us develop actions stakeholders and policymakers should take now to increase the likelihood of positive economic outcomes.
+
+PAI’s work in raising standards for data enrichment workers continues on through our support of our long-standing partner Business for Social Responsibility (BSR) via their initiative focused on labor rights in the AI data supply chain. This initiative aims to accelerate the adoption of a human rights-based approach to AI data practices by forming an industry working group, conducting a sector-wide human rights assessment, and developing practical tools. The primary goal is to support companies in integrating data enrichment issues into their human rights and responsible procurement programs, leveraging existing human rights due diligence methods that have been effective in other supply chains.
+
+If you are interested in collaborating with industry partners on data enrichment and participating in BSR’s working group, you can reach out to Lale Tekisalp at ltekisalp@bsr.org.
+
+The challenges faced by data workers are not one-off issues but systemic problems that require comprehensive, multistakeholder engagement. Legislative efforts are also underway that are focused on increasing the pay received by data enrichment workers and increasing transparency in the data enrichment supply chain, with more to come. Responsible AI cannot be achieved without the responsible treatment of the people whose labor makes AI possible. Our work will continue to focus on these systemic issues, ensuring that as AI reshapes economies, the workers navigating that change have a voice in shaping it.
+
+Back to All Posts
+
+RESEARCH
+
+RESOURCES
+
+EVENTS
+
+ABOUT US
+
+PARTNERS
+
+SUPPORT US
+
+© 2026 Partnership on AI | All Rights Reserved
+
+Transparency and Governance
+
+Privacy Policy

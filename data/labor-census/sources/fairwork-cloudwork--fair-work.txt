@@ -1,0 +1,635 @@
+Fairwork Certification | Independent certification for the labour behind AI
+
+FairworkCertification
+
+Home
+Why Certify
+How It Works
+Impact
+Country Ratings
+Team
+About
+
+Book a consultation
+
+Independent · Evidence-based · Born at Oxford
+
+Certification for the human labour behind AI.
+
+There is nothing artificial about the millions of people who annotate data and moderate content to power the systems we call intelligent. Fairwork independently certifies the firms that commission this work, based on evidence including the voices of the workers themselves. For those firms, it's independent proof of responsible AI that stands up to regulators, investors and customers.
+
+See how it works
+Book a consultation
+
+A non-profit spun out of the Oxford Internet Institute (OII) & Berlin Social Science Center (WZB).
+
+16M+
+
+Workers whose conditions improved
+
+880+
+
+Company ratings
+
+440+
+
+Verified improvements delivered
+
+41
+
+Countries where we have verified conditions
+
+Seven years of Fairwork research. Now a certification programme built for AI supply chains.
+
+The problem
+
+The workforce behind AI is hidden, and increasingly regulated.
+
+AI relies on outsourced data work in regions where labour protections are thin, monitoring is hard, and responsibility becomes diffuse across layers of suppliers.
+
+Laws like the EU's Corporate Sustainability Due Diligence Directive (CS3D) now extend accountability across supply chains, including digital services and AI. Ethical oversight is becoming a legal obligation.
+
+What certification delivers
+
+Regulation
+Be regulation-ready
+
+Align early with global standards and avoid compliance risks.
+
+Reputation
+Earn trust
+
+Show stakeholders your AI practices match your values.
+
+Quality
+Stronger teams
+
+Fair wages and secure jobs help retain skilled data workers.
+
+Growth
+Financial upside
+
+Tap into ESG capital, new markets, and long-term savings.
+
+See why firms certify
+
+What we certify
+
+A VERIFIED ACCOUNT OF HOW WORK IS ACTUALLY DONE.
+
+Governance
+The lead firm
+
+We assess how a firm structures, resources, procures and oversees the AI work it commissions: the decisions that shape working conditions upstream.
+
+Outcomes
+The suppliers
+
+We independently verify the conditions under which suppliers deliver the work.
+
+Voice
+Stakeholder Inclusion
+
+Anonymous, non-retaliatory worker testimony sits at the centre of every assessment. No certification decision rests on a single source of evidence.
+
+Five principles
+
+The standard every assessment is measured against.
+
+01
+
+Fair Pay
+
+Workers earn at least the local living wage after work-related costs.
+
+02
+
+Fair Conditions
+
+Safe working environments, paid leave, and basic protections against occupational risk.
+
+03
+
+Fair Contracts
+
+Secure contracts, clear terms, and genuine employment stability.
+
+04
+
+Fair Management
+
+Fair systems for data oversight, feedback, appeals and redress.
+
+05
+
+Fair Representation
+
+Support for workers' voice, organising, and good-faith negotiation.
+
+Read the full principles (PDF)
+
+Two levels of certification
+
+From independent assessment to verified improvement.
+
+Entry level · Transitional
+
+Fairwork Onboard
+
+Valid 12 months
+
+The project has undergone independent verification
+
+Supplier evidence and worker testimony collected
+
+Findings accepted within the certified scope
+
+A binding, time-bound Corrective Action Plan in place
+
+Higher level · Verified
+
+Fairwork Endorsed
+
+Valid as long as progress is made
+
+Agreed corrective actions implemented
+
+Identified harms remedied and independently verified
+
+Continuous, worker-level improvements supported by evidence
+
+Oversight and procurement systems working in practice
+
+Onboard confirms that independent scrutiny has taken place and a remediation plan is in motion. Endorsed confirms that improvements are verified and continuing.
+
+In their words
+
+What government and business say about Fairwork.
+
+Government
+
+The current Fairwork report for Germany provides important insights in this dynamically developing sector.
+Dr Michael Schäfer, State Secretary, Federal Ministry of Labour and Social Affairs, Germany, 2025. Source
+
+Partner
+
+We have joined the Fairwork Pledge and are delighted to be a partner.
+McDonald's Germany, Fairwork Partner since 2024. Source
+
+Rated company
+
+I'm excited to see us being recognised for our work in this area.
+Benjamin Knowles, CEO, Pedal Me, London. Rated 8 out of 10 in Fairwork UK 2021. Source
+
+Let's build fairer AI, together.
+
+Book a free consultation
+
+Why certify
+
+If you rely on AI, you rely on a supply chain that should be fair.
+
+Certification is for more than AI companies. If your business trains models, operates platforms, or delivers AI-powered services, human data work sits somewhere in your supply chain. Certifying it helps you prepare for due-diligence law, earns the trust of investors and customers, and can build a more stable workforce.
+
+01 · Regulation-ready
+Meet due-diligence law early
+
+Align with CS3D and global due-diligence regimes before compliance becomes urgent or negligence gets fined. A confidential assessment supports internal due diligence and regulatory readiness.
+
+02 · Trust
+Prove your practices match your values
+
+Show investors, partners and customers that your AI is sourced responsibly, backed by independent evidence and worker testimony.
+
+03 · Resilience
+Retain skilled data workers
+
+Fair pay and secure work produce a more stable, skilled and reliable data workforce, which is critical to long-term AI quality.
+
+04 · Financial upside
+Move beyond checkbox compliance
+
+Access ESG-aligned capital and new markets, and build supplier relationships designed for continuous improvement rather than one-off audits.
+
+Who it's for
+
+Lead firms with the leverage to shape how work is done.
+
+Certification is awarded to the lead firm that commissions AI work through suppliers. You're eligible where you:
+
+Commission AI-related labour through one or more suppliers.
+
+Can identify the suppliers materially involved in delivering the work.
+
+Have contractual or commercial leverage to require supplier cooperation.
+
+Agree to open the project to independent verification, including worker outreach.
+
+Certification can't proceed where supplier access is denied, worker outreach is obstructed, or the proposed scope is too narrow to support a credible assessment.
+
+Scope
+
+What certification covers.
+
+Certification applies to a defined project or body of contracted work, not a firm's entire global operations, unless expressly agreed.
+
+In scope
+
+Data annotation & enrichment
+
+Content moderation
+
+Validation & quality assurance
+
+Transcription
+
+AI-enabled customer support
+
+Contact-centre operations supporting automated systems
+
+Typically out of scope
+
+Core infrastructure & compute
+
+Model development & research roles
+
+Specialised technical engineering
+
+These involve different employment structures, risk profiles and access constraints, and fall outside the standard scope.
+
+Not sure if your work is in scope?
+
+Talk to our team
+
+How certification works
+
+Rigorous by design. Built to improve working conditions.
+
+Every certification is conducted against the Fairwork AI Principles using a triangulated methodology. No decision rests on any single source of evidence.
+
+Methodology
+
+Three streams of evidence, weighed together.
+
+Stream 1
+Desk research
+
+Legal, regulatory, sectoral and wage-benchmark context for every supplier location, shaping the evidence requests and sampling intensity.
+
+Stream 2
+Management evidence
+
+Contracts, payroll, grievance records, procurement and oversight systems, plus interviews with lead-firm and supplier management.
+
+Stream 3
+Worker evidence
+
+Anonymous, voluntary, safeguarded worker outreach. Non-retaliation is a mandatory condition of engagement.
+
+…a benchmark that stakeholders can use to assess platform labour practices.
+
+ASEAN Employment Outlook 2023, describing Fairwork. The Outlook is ASEAN's official employment report, endorsed by its Senior Labour Officials. Read the report
+
+The two levels
+
+From Onboard to Endorsed.
+
+Entry · Transitional · 12 months
+
+Fairwork Onboard
+
+Independent scrutiny + a binding remediation pathway
+
+Project independently examined
+
+Worker testimony incorporated
+
+Findings accepted; accountability established
+
+Corrective Action Plan agreed where required
+
+Higher · Verified · Ongoing
+
+Fairwork Endorsed
+
+Continuous improvement proven in practice
+
+Corrective actions implemented
+
+Harms remedied to meet Fairwork standards
+
+Worker improvements evidenced
+
+Oversight systems demonstrably operational
+
+Two ways to engage
+
+Start with a snapshot, or commit to the full pathway.
+
+Pathway A
+
+Audit-only
+
+A one-time, confidential assessment of labour standards in your AI supply chain. You receive a detailed evaluation against the Fairwork Principles, benchmarking, and a tailored action plan. A powerful first step towards fairness and due-diligence readiness.
+
+Pathway B
+
+Full certification
+
+Commit to the complete process. Receive Fairwork Onboard after independent assessment, then earn Fairwork Endorsed once improvements are verified: a public, evidence-backed signal of ethical leadership.
+
+The assessment journey
+
+From application to certified, with worker outreach at its core.
+
+Stage 1–2
+Scoping & context
+
+Confirm eligibility, define the certified scope, identify suppliers, and set the legal and wage-benchmark context.
+≈ 4–8 weeks
+
+Stage 3
+Management evidence
+
+Review governance, contracts, payroll and oversight systems; interview lead-firm and supplier management.
+≈ 6–10 weeks
+
+Stage 4
+Worker verification
+
+Safeguarded, anonymous worker outreach to verify conditions in practice, protected by non-retaliation.
+≈ 6–10 weeks
+
+Stage 5–6
+Findings & CAP
+
+Triangulate evidence, share draft findings for factual review, and agree a time-bound Corrective Action Plan.
+≈ 7–12 weeks
+
+Stage 7–9
+Decision & follow-up
+
+Share the outcome, verify remediation, and monitor continuously toward Endorsed status.
+ongoing
+
+What the mark means
+
+A certification you can verify.
+
+Every use of the certification mark states its level, its scope and its validity period. Certification is time-limited and applies only to the certified scope.
+
+Where publication is agreed, Fairwork publishes a report covering the certified scope, the methodology, key findings against each principle, and the outcome. The mark then links back to that report.
+
+Ready to map your AI labour footprint?
+
+Book a consultation
+
+Impact & evidence
+
+The evidence behind the standard.
+
+Fairwork certification is built on years of academic research into digital labour: a proven, independent methodology that gives your certification real weight with regulators, investors and customers.
+
+16M+
+
+Workers whose conditions improved
+
+880+
+
+Company ratings
+
+440+
+
+Verified improvements delivered
+
+41
+
+Countries where we have verified conditions
+
+Figures illustrative of Fairwork's cumulative research impact. See the full list here.
+
+From research to certification
+
+Why the programme exists.
+
+For years, Fairwork benchmarked labour conditions publicly against its principles. Benchmarking increases transparency, but on its own it doesn't embed standards into procurement or create sustained accountability.
+
+Certification closes that gap: it combines independent verification, worker testimony and structured, time-bound remediation, requiring firms to open real projects to scrutiny and act on what's found.
+
+Case studies
+
+What engaging with Fairwork delivers.
+
+Sama
+
+Kenya · Uganda · Data annotation
+
+The Workers Behind AI at Sama
+
+The first Fairwork AI report used the ratings framework to assess conditions at a data-annotation company with a social-impact mission, showing that fairness at work isn't guaranteed, but that meaningful, evidenced improvements are achievable through engagement.
+
+HITL
+
+Bulgaria · W. Asia · sub-Saharan Africa
+
+Humans in the Loop: Who Powers AI?
+
+A complex, multi-tier subcontracting model assessed against the Fairwork AI Principles. The company's willingness to connect the research team with subcontractors and workers made verified improvements possible, even in conflict-affected settings.
+
+Recognition
+
+The standard governments already use.
+
+Ministries, lawmakers and development agencies already use the Fairwork Principles to set expectations.
+
+UK Foreign, Commonwealth & Development Office
+Digital Development Strategy 2024 to 2030
+Names Fairwork as the reference point for raising standards in the gig economy.
+Read the strategy
+
+Federal Ministry of Labour and Social Affairs, Germany
+Fairwork Germany ratings, 2025 and 2026
+Funds the Fairwork Germany reports and describes them as important insight into a fast-changing sector.
+Read the reports
+
+United States Senate
+Letter to AI companies on data work, 2023
+Lawmakers drew on the Fairwork AI Principles when they wrote to nine leading AI companies about data work.
+Read the letter
+
+Government of Tamil Nadu
+Study on the status of platform-based gig workers, 2026
+Adopted Fairwork's principles and methodology for its own study of platform workers, to inform state policy.
+Read the study
+
+The Fairwork pledge has been signed by 77 organisations representing almost 27 million people. See the full list.
+
+See where your supply chain stands.
+
+Request an assessment
+
+Country Ratings
+
+Establishing a Fairwork team.
+
+Fairwork's ratings of digital labour platforms have now been published in 41 countries across five continents. The programme was established in 2018 as a collaboration between the Oxford Internet Institute and the WZB Berlin Social Science Center, and it has since grown into a network of national teams working to a common method. We welcome approaches from teams who wish to extend that network.
+
+What a national team does
+
+A national team scores a range of the country's gig economy platforms over the course of a year. The assessment draws on desk research, on interviews with workers, and on evidence submitted by the platforms, which are invited to respond before scores are settled. The output is a public report and a league table, and both are published under the Fairwork name alongside the reports of every other country in the network.
+
+What a rating changes
+
+The value of such a rating to a national ecosystem has proved considerable. Platforms have agreed to more than 440 specific improvements as a consequence of being rated, regulators in several jurisdictions have drawn on the reports in framing legislation, and the reports have given trade unions, journalists and workers a shared and independent account of conditions that did not previously exist.
+
+Correspondence
+
+Teams are constituted, hosted and resourced in different ways in different countries, and we would rather discuss a particular case than describe a general model. Enquiries may be sent to info@fair.work.
+
+Ratings published
+
+41 countries
+
+Across five continents, since 2018.
+
+Recent reports
+
+Argentina 2025
+
+Brazil 2025
+
+Cloudwork 2025
+
+Colombia 2025
+
+Ecuador 2025
+
+Germany 2026
+
+India 2024
+
+Indonesia 2025
+
+Jordan 2025
+
+Paraguay 2025
+
+Philippines 2025
+
+Poland 2025
+
+Spain 2025
+
+Uruguay 2025
+
+All Fairwork reports
+
+Fairwork Spain ratings, 2025
+
+PlatformScore
+
+Just Eat7
+
+Cabify3
+
+Livo3
+
+Uber2
+
+Cuideo0
+
+Glovo0
+
+Taskrabbit0
+
+Scores out of 10, with two points available under each of the five principles. Source: Fairwork Spain Ratings 2025.
+
+Team
+
+The people behind the standard.
+
+Fairwork Certification is led by the team that built the Fairwork programme. Between them, they have assessed working conditions at hundreds of companies in more than 40 countries and negotiated hundreds of verified improvements for workers.
+
+Executive Director
+
+Mark Graham
+
+Oxford Internet Institute, University of Oxford
+
+Mark founded Fairwork and has led its growth into a programme that has assessed companies in more than 40 countries and negotiated hundreds of improvements to working conditions. He is Professor of Internet Geography at the Oxford Internet Institute, University of Oxford. His books include Feeding the Machine, on the hidden human labour behind AI. As Executive Director, he leads the strategy and standards of the certification body.
+
+CFO and Director
+
+Patrick Feuerstein
+
+Berlin Social Science Center (WZB)
+
+Patrick co-leads Fairwork Germany and directs the Fairwork Observatory, working directly with companies, workers and policymakers to turn assessment findings into agreed improvements. He is a sociologist at the Berlin Social Science Center (WZB) and completed his doctorate at the University of Göttingen. As CFO, he oversees the finances and operations of the certification body.
+
+Director
+
+Richard Heeks
+
+Global Development Institute, University of Manchester
+
+Richard has spent three decades advising governments and international organisations, including the FCDO, GIZ and the ILO, on how digital technology changes work and development. He co-developed the Fairwork framework and led its extension across the Global South. He is Professor of Digital Development at the University of Manchester and Director of its Centre for Digital Development.
+
+Member
+
+Janaki Srinivasan
+
+University of Oxford
+
+Janaki has spent years assessing platform companies and advocating for better conditions for their workers as a co-investigator of Fairwork India, one of the programme's longest-running country teams. She is Associate Professor of Digital South Asian Studies at the University of Oxford, and previously taught at IIIT Bangalore, where she convened its Centre for IT and Public Policy. Her book The Political Lives of Information was published by MIT Press.
+
+Talk to the team.
+
+Book a consultation
+
+About
+
+An independent certifier, by design.
+
+Fairwork is a non-profit organisation and University of Oxford spinout working to improve labour standards in the global AI economy. Through its independent certification programme, Fairwork helps companies identify risks, improve working conditions and demonstrate responsible labour practices across their AI supply chains, for workers involved in data annotation, content moderation and other essential human work behind AI.
+
+Fairwork certification serves as proof of responsible labour practices within AI that stand up to customer scrutiny, investor expectations and emerging regulatory standards.
+
+IndependentA non-profit CLG with no commercial stake in the outcome of any certification.
+
+Evidence-ledDecisions rest on triangulated evidence, never on a firm's self-declaration alone.
+
+Worker-centredAnonymous worker testimony and non-retaliation are non-negotiable conditions of engagement.
+
+TransparentWhere publication is agreed, findings are published and every mark links to its report.
+
+AccountableCertification is time-limited, subject to monitoring, and can be suspended or revoked.
+
+Get in touch
+
+Let's build fairer AI, together.
+
+Whether you're beginning to map your AI labour footprint or advancing toward certification, we'll help you find a clear, credible path. Book a free consultation and we'll talk through scope, timelines and pathway.
+
+info@fair.work
+
+linkedin.com/company/fairworklimited
+
+FairworkCertification
+
+Independent, evidence-based certification for the human labour behind AI. A non-profit spun out of the Oxford Internet Institute & WZB Berlin.
+
+Explore
+
+Home
+Why Certify
+How It Works
+Impact
+Country ratings
+Team
+About
+
+Contact
+
+Book a consultation
+info@fair.work
+LinkedIn

@@ -24,7 +24,7 @@ row(slug="anthropic-economic-index", name="Anthropic Economic Index", aka=["AEI"
     data_access="data releases on Hugging Face (Anthropic/EconomicIndex), with prompt texts in an online appendix", license="data CC-BY; code MIT (the dataset card's YAML header gives license: mit)",
     lifecycle={"state": "active", "detail": "six reports from the initial release of 2025-02-10 to the sixth of 2026-06-26; the index page last updated 26 June 2026; the June 2026 report changed the pipeline to continuous daily sampling"},
     founded="2025-02-10 (the initial data release)",
-    version_and_time={"initial_release": "2025-02-10", "fourth_report": "2026-01-15", "fifth_report": "2026-03-24", "sixth_report": "2026-06-26", "index_page_updated": "2026-06-26", "read": "2026-10-29"},
+    version_and_time={"initial_release": "2025-02-10", "third_report": "2025-09-15 (arXiv 2511.15080, submitted 2025-11-19)", "fourth_report": "2026-01-15", "fifth_report": "2026-03-24", "sixth_report": "2026-06-26", "index_page_updated": "2026-06-26", "read": "2026-10-29"},
     negative_tags=["NOT a measure of AI use across providers: a platform-specific observation of Anthropic's own product, Claude (Claude.ai, Cowork, Claude Code and the first-party API), published by Anthropic",
                    "NOT an employment outcome series: it observes usage and survey responses",
                    "task success is Claude's assessment of whether Claude completes tasks",
@@ -71,10 +71,13 @@ row(slug="anthropic-economic-index", name="Anthropic Economic Index", aka=["AEI"
       "license": Q("anthropic-economic-index--readme", "Data released under CC-BY, code released under MIT License."),
       "founded": Q("anthropic-economic-index--readme", "Initial release with O*NET task mappings, automation vs. augmentation data, and more"),
       "sixth_report": Q("anthropic-economic-index--readme", "date = {2026-06-26},"),
+      "third_report": Q("anthropic-economic-index--readme", "title = {Anthropic Economic Index Report: Uneven Geographic and Enterprise AI Adoption}, date = {2025-09-15},"),
+      "third_report_number": Q("anthropic-economic-index--readme", "- [3rd report](https://www.anthropic.com/research/anthropic-economic-index-september-2025-report)"),
+      "third_report_arxiv": Q("anthropic-economic-index--arxiv-third-report", "arXiv:2511.15080 (econ) [Submitted on 19 Nov 2025] Title: Anthropic Economic Index report: Uneven geographic and enterprise AI adoption"),
       "third_party_description": Q("stanford-canaries--dashboard", "The Anthropic Economic Index summarizes total usage at the occupation level and further decomposes this usage into automation and augmentation patterns.", basis="third_party"),
       "used_by": Q("anthropic-economic-index--jan-2026", "the automation/augmentation distinction from prior reports has already been used by external researchers to analyze labor market shifts ( Brynjolfsson, Chandar & Chen, 2025 )"),
       "neighbour_microsoft": Q("anthropic-economic-index--jan-2026", "See also Tomlinson et al (2025) for a related AI applicability score."),
     },
     relations=[{"rel": "used_by", "target": "stanford-canaries", "note": "the Canaries Dashboard groups occupations by the Index's augmentation and automation ratios and uses it as an exposure measure"},
                {"rel": "neighbour", "target": "microsoft-working-with-ai", "note": "the January 2026 report cites Tomlinson et al. for a related AI applicability score; the same method family on another provider's product"}],
-    unchecked=["the index home page's data (the saved page shows only 'Loading data'; it is a JavaScript application)", "the datasets on Hugging Face (only the README was read)", "the 1st, 2nd, 3rd and 5th reports, the appendices, and the 'Labor market impacts' and robot-exposure releases", "the companion Claude Code report and the October 2026 'The AI expectations gap' article listed as related"])
+    unchecked=["the index home page's data (the saved page shows only 'Loading data'; it is a JavaScript application)", "the datasets on Hugging Face (only the README was read)", "the 1st, 2nd and 5th reports, and the 3rd report beyond its arXiv abstract page (its PDF was saved by the /non composer and not admitted), the appendices, and the 'Labor market impacts' and robot-exposure releases", "the companion Claude Code report and the October 2026 'The AI expectations gap' article listed as related"])

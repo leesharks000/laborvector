@@ -2,21 +2,33 @@
  "data-workers-inquiry": {
   "home": "https://data-workers.org/",
   "press": "https://data-workers.org/press-release/",
-  "weizenbaum": "https://www.weizenbaum-institut.de/en/projects/data-workers-inquiry/"
+  "weizenbaum": "https://www.weizenbaum-institut.de/en/projects/data-workers-inquiry/",
+  "dair-project": "https://dair-institute.org/projects/data-workers-inquiry/",
+  "techpolicy-press": "https://www.techpolicy.press/data-workers-in-their-own-voices/",
+  "bot-populi": "https://botpopuli.net/the-data-workers-inquiry/",
+  "superrr": "https://superrr.net/en/blog/data-work-a-year-in-rrreview"
  },
  "fairwork-cloudwork": {
   "oii-ai": "https://fairwork.oii.ox.ac.uk/ai",
   "oii-cloudwork-report": "https://fairwork.oii.ox.ac.uk/wp-content/uploads/sites/17/2025/05/Fairwork-Cloudwork-Report-2025-FINAL.pdf",
-  "oii-home": "https://fairwork.oii.ox.ac.uk/"
+  "oii-home": "https://fairwork.oii.ox.ac.uk/",
+  "wzb-2022": "https://wzb.eu/en/news/new-fairwork-cloudwork-rating",
+  "kcl-2022": "https://kclpure.kcl.ac.uk/portal/en/publications/fairwork-cloudwork-ratings-2022-work-in-the-plenatary-labour-mark/",
+  "oii-cloudwork-page": "https://fairwork.oii.ox.ac.uk/en/ratings/cloudwork/",
+  "fair-work": "https://fair.work/"
  },
  "pai-responsible-sourcing": {
   "library": "https://partnershiponai.org/responsible-sourcing-library/",
-  "workstream": "https://partnershiponai.org/workstream/responsible-sourcing/"
+  "workstream": "https://partnershiponai.org/workstream/responsible-sourcing/",
+  "post-20260429": "https://partnershiponai.org/responsible-ai-starts-with-the-data-supply-chain/",
+  "workstream-archive": "https://partnershiponai.org/workstream_tax/responsible-sourcing/",
+  "oecd-catalogue": "https://oecd.ai/en/catalogue/tools/responsible-data-enrichment-sourcing-resource-library-for-ai-practitioners"
  },
  "turkopticon": {
   "home": "https://turkopticon.net/",
   "faq": "https://turkopticon.net/faq/index.html",
-  "whats-next": "https://blog.turkopticon.net/?p=3600"
+  "whats-next": "https://blog.turkopticon.net/?p=3600",
+  "still-here": "https://www.linkedin.com/pulse/turkopticon-still-here-turkopticon-koouc"
  },
  "coworker-bossware-database": {
   "database": "https://home.coworker.org/?p=770",
@@ -24,41 +36,54 @@
  },
  "worker-info-exchange": {
   "home": "https://www.workerinfoexchange.org/",
-  "about-us": "https://www.workerinfoexchange.org/about-us"
+  "about-us": "https://www.workerinfoexchange.org/about-us",
+  "foundation-home": "https://workerinfoexchange.nl/",
+  "foundation-post-20260429": "https://workerinfoexchange.nl/worker-info-exchange-partners-with-tuc-on-landmark-new-reportexposing-the-human-cost-of-ubers-dynamic-pay/"
  },
  "ilo-platform-policy-tracker": {
   "launch": "https://www.ilo.org/resource/news/ilo-launches-global-policy-tracker-digital-labour-platforms",
   "cba-expansion": "https://www.ilo.org/resource/news/ilo-expands-digital-labour-platform-policy-tracker-include-collective",
-  "observatory": "https://www.ilo.org/topics-and-sectors/observatory-ai-and-work-digital-economy"
+  "observatory": "https://www.ilo.org/topics-and-sectors/observatory-ai-and-work-digital-economy",
+  "home": "https://digitallabour.ilo.org/",
+  "dlp-portal": "https://www.ilo.org/topics-and-sectors/digital-labour-platforms"
  },
  "ilo-genai-exposure-index": {
   "wp140": "https://webapps.ilo.org/static/english/intserv/working-papers/wp140/index.html",
-  "brief": "https://www.ilo.org/node/706776"
+  "brief": "https://www.ilo.org/node/706776",
+  "nask-index": "https://www.nask.pl/index"
  },
  "anthropic-economic-index": {
   "home": "https://www.anthropic.com/economic-index",
   "readme": "https://huggingface.co/datasets/Anthropic/EconomicIndex/raw/main/README.md",
   "jan-2026": "https://www.anthropic.com/research/anthropic-economic-index-january-2026-report",
-  "jun-2026": "https://www.anthropic.com/research/economic-index-june-2026-report"
+  "jun-2026": "https://www.anthropic.com/research/economic-index-june-2026-report",
+  "arxiv-third-report": "https://arxiv.org/abs/2511.15080"
  },
  "openai-gdpval": {
   "arxiv": "https://arxiv.org/abs/2510.04374",
   "post": "https://openai.com/index/gdpval/",
-  "paper-html": "https://arxiv.org/html/2510.04374v1"
+  "paper-html": "https://arxiv.org/html/2510.04374v1",
+  "cdn-pdf": "https://cdn.openai.com/pdf/d5eb7428-c4e9-4a33-bd86-86dd4bcf12ce/GDPval.pdf",
+  "hf-dataset": "https://huggingface.co/datasets/openai/gdpval",
+  "inspect-evals": "https://ukgovernmentbeis.github.io/inspect_evals/evals/gdpval/index.html",
+  "wikipedia-ai-agent-benchmark": "https://en.wikipedia.org/wiki/AI_agent_benchmark"
  },
  "microsoft-working-with-ai": {
   "arxiv": "https://arxiv.org/abs/2507.07935",
-  "readme": "https://raw.githubusercontent.com/microsoft/working-with-ai/main/README.md"
+  "readme": "https://raw.githubusercontent.com/microsoft/working-with-ai/main/README.md",
+  "msr-publication": "https://www.microsoft.com/en-us/research/?p=1144520"
  },
  "stanford-canaries": {
   "paper": "https://digitaleconomy.stanford.edu/publication/canaries-in-the-coal-mine-six-facts-about-the-recent-employment-effects-of-artificial-intelligence/",
-  "dashboard": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/"
+  "dashboard": "https://digitaleconomy.stanford.edu/project/canaries-dashboard/",
+  "paper-pdf": "https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf"
  },
  "yale-budget-lab-ai-tracker": {
   "tracker": "https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market",
   "first-report": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs",
-  "first-report-pdf": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf",
-  "september-cps-update": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-september-cps-update"
+  "tracker-pdf": "https://budgetlab.yale.edu/sites/default/files/page_to_pdf/1419/publication_1419.pdf",
+  "september-cps-update": "https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-september-cps-update",
+  "exposure-review": "https://budgetlab.yale.edu/research/labor-market-ai-exposure-what-do-we-know"
  },
  "berkeley-negotiating-tech": {
   "inventory": "https://laborcenter.berkeley.edu/negotiating-tech/"
@@ -66,6 +91,10 @@
  "dair-luddite-lab": {
   "home": "https://labor.dair-institute.org/",
   "about": "https://labor.dair-institute.org/about",
-  "resources": "https://labor.dair-institute.org/resources"
+  "resources": "https://labor.dair-institute.org/resources",
+  "aiweekly-primer": "https://aiweekly.co/alerts/luddite-lab-publishes-primer-reframing-ai-job-displacement",
+  "newsletter": "https://buttondown.com/luddite-lab",
+  "newsletter-launch": "https://buttondown.com/luddite-lab/archive/join-us-for-the-luddite-lab-launch/",
+  "homonym-luddite-labs": "https://www.ludditelabs.io/about"
  }
 }

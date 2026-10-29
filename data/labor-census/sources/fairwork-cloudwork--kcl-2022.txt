@@ -1,0 +1,259 @@
+Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market
+- King's College London
+
+Skip to main navigation
+
+Skip to search
+
+Skip to main content
+
+King's College London Home
+
+Search content at King's College London
+
+Home
+
+Profiles
+
+Research units
+
+Research output
+
+Projects
+
+Student theses
+
+Activities
+
+Datasets
+
+Impacts
+
+Prizes
+
+Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market
+
+Kelle Howson
+
+, Jonas Valente
+
+, Hannah Johnston
+
+, Pablo Aguera Reneses
+
+, Funda Ustek Spilda
+
+, Daniel Arubayi
+
+, Patrick Feuerstein
+
+, Matthew Cole
+
+, Srujana Katta
+
+, Tatiana Lopez
+
+, Giulia Varaschin
+
+, Mark Graham
+
+Digital Humanities
+
+Institute for Economic Justice (IEJ)
+
+Fairwork
+
+York University (Canada)
+
+WZB Berlin Social Science Center
+
+University of Sussex
+
+University of Oxford
+
+University of Würzburg
+
+Research output: Book/Report › Report
+
+74
+Downloads
+(Pure)
+
+Overview
+
+Fingerprint
+
+Abstract
+
+The Fairwork Cloudwork Report 2022 assesses and scores basic standards of fairness in working arrangements on 15 online remote digital labour platforms, according to our five Fairwork principles — pay, conditions, contracts, management, and representation.
+
+Original language
+
+English
+
+Publisher
+
+Fairwork
+
+Number of pages
+
+34
+
+Publication status
+
+Published - 2022
+
+UN SDGs
+
+This output contributes to the following UN Sustainable Development Goals (SDGs)
+
+SDG 8
+Decent Work and Economic Growth
+
+Keywords
+
+cloudwork
+
+remote work
+
+digital labour
+
+platform work
+
+online work
+
+Access to Document
+
+Fairwork-Cloudwork-Ratings-2022-FINAL-ENFinal published version, 21.8 MB
+
+https://fair.work/wp-content/uploads/sites/17/2022/08/Fairwork-Cloudwork-Ratings-2022-FINAL-EN.pdf
+
+Fingerprint
+
+Dive into the research topics of 'Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market'. Together they form a unique fingerprint.
+
+Contract Management
+Earth and Planetary Sciences
+100%
+
+Labor Market
+Economics, Econometrics and Finance
+100%
+
+View full fingerprint
+
+Cite this
+
+APA
+
+Author
+
+BIBTEX
+
+Harvard
+
+Standard
+
+RIS
+
+Vancouver
+
+Howson, K., Valente, J., Johnston, H., Aguera Reneses, P., Ustek Spilda, F., Arubayi, D., Feuerstein, P., Cole, M., Katta, S., Lopez, T., Varaschin, G., & Graham, M. (2022). Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market. Fairwork. https://fair.work/wp-content/uploads/sites/17/2022/08/Fairwork-Cloudwork-Ratings-2022-FINAL-EN.pdf
+
+Howson, Kelle ; Valente, Jonas ; Johnston, Hannah et al. / Fairwork Cloudwork Ratings 2022 : Work in the Plenatary Labour Market. Fairwork, 2022. 34 p.
+
+@book{e2c78c8deb8a477785178248235c77c5,
+
+title = "Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market",
+
+abstract = "The Fairwork Cloudwork Report 2022 assesses and scores basic standards of fairness in working arrangements on 15 online remote digital labour platforms, according to our five Fairwork principles — pay, conditions, contracts, management, and representation.",
+
+keywords = "cloudwork, remote work, digital labour, platform work, online work",
+
+author = "Kelle Howson and Jonas Valente and Hannah Johnston and \{Aguera Reneses\}, Pablo and \{Ustek Spilda\}, Funda and Daniel Arubayi and Patrick Feuerstein and Matthew Cole and Srujana Katta and Tatiana Lopez and Giulia Varaschin and Mark Graham",
+
+year = "2022",
+
+language = "English",
+
+publisher = "Fairwork",
+
+}
+
+Howson, K, Valente, J, Johnston, H, Aguera Reneses, P, Ustek Spilda, F, Arubayi, D, Feuerstein, P, Cole, M, Katta, S, Lopez, T, Varaschin, G & Graham, M 2022, Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market. Fairwork. <https://fair.work/wp-content/uploads/sites/17/2022/08/Fairwork-Cloudwork-Ratings-2022-FINAL-EN.pdf>
+
+Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market. / Howson, Kelle; Valente, Jonas ; Johnston, Hannah et al.
+Fairwork, 2022. 34 p.
+Research output: Book/Report › Report
+
+TY - BOOK
+
+T1 - Fairwork Cloudwork Ratings 2022
+
+T2 - Work in the Plenatary Labour Market
+
+AU - Howson, Kelle
+
+AU - Valente, Jonas
+
+AU - Johnston, Hannah
+
+AU - Aguera Reneses, Pablo
+
+AU - Ustek Spilda, Funda
+
+AU - Arubayi, Daniel
+
+AU - Feuerstein, Patrick
+
+AU - Cole, Matthew
+
+AU - Katta, Srujana
+
+AU - Lopez, Tatiana
+
+AU - Varaschin, Giulia
+
+AU - Graham, Mark
+
+PY - 2022
+
+Y1 - 2022
+
+N2 - The Fairwork Cloudwork Report 2022 assesses and scores basic standards of fairness in working arrangements on 15 online remote digital labour platforms, according to our five Fairwork principles — pay, conditions, contracts, management, and representation.
+
+AB - The Fairwork Cloudwork Report 2022 assesses and scores basic standards of fairness in working arrangements on 15 online remote digital labour platforms, according to our five Fairwork principles — pay, conditions, contracts, management, and representation.
+
+KW - cloudwork
+
+KW - remote work
+
+KW - digital labour
+
+KW - platform work
+
+KW - online work
+
+M3 - Report
+
+BT - Fairwork Cloudwork Ratings 2022
+
+PB - Fairwork
+
+ER -
+
+Howson K, Valente J, Johnston H, Aguera Reneses P, Ustek Spilda F, Arubayi D et al. Fairwork Cloudwork Ratings 2022: Work in the Plenatary Labour Market. Fairwork, 2022. 34 p.
+
+Powered by Pure Link opens in a new tab, Scopus Link opens in a new tab & Elsevier Fingerprint Engine™ Link opens in a new tab
+
+All content on this site: Copyright © 2026 King's College London, its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply
+
+We use cookies to help provide and enhance our service and tailor content. By continuing you agree to the use of cookies
+
+Log in to Pure Link opens in a new tab
+
+King's College London data protection policy Link opens in a new tab
+
+About web accessibility Link opens in a new tab
+
+Report vulnerability Link opens in a new tab

@@ -57,5 +57,5 @@ row(slug="berkeley-negotiating-tech", name="Negotiating Tech: An Inventory of U.
       "funding": Q("berkeley-negotiating-tech--inventory", "Funding support provided by John D. and Catherine T. MacArthur Foundation and Omidyar Network"),
     },
     relations=[{"rel": "neighbour", "target": "coworker-bossware-database", "note": "Coworker's Little Tech report acknowledges Lisa Kresge of the UC Berkeley Labor Center"},
-               {"rel": "neighbour", "target": "ilo-platform-policy-tracker", "note": "the ILO tracker's CBA component also holds collective agreements, for platform work in the European Union"}],
+               {"rel": "neighbour", "target": "ilo-platform-policy-tracker", "note": "the ILO tracker's CBA component also holds collective agreements, for platform work, those publicly available in Europe (the tracker's home page)"}],
     unchecked=["the six section pages and their provisions (only the overview page was saved)", "the linked contracts", "the count of provisions naming AI or generative AI"])

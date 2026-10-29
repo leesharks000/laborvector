@@ -1,0 +1,150 @@
+The Data Workers’ Inquiry » Bot Populi
+
+Sections
+
+Big Tech Watch
+
+Feminist Digitality
+
+The New Precariat
+
+Online Publics
+
+Data Stories
+
+Inside Intelligence
+
+The Policy Table
+
+Knowledge Futures
+
+Special Issues
+
+DataSyn
+
+All Sections
+
+Podcasts
+
+Platform Predicament
+
+Feminist Digital Futures
+
+The Davos Diaires
+
+EcoMinassat
+
+All Podcasts
+
+About
+
+×
+
+×
+
+Search
+
+29 April 2025 | 7 min read
+
+The Data Workers’ Inquiry
+
+Lessons learned from the core team
+
+By
+Laurenz Sachenbacher
+
+Summary
+
+In 1880, Karl Marx initiated the Workers’ Inquiry, a novel and unprecedented research project, inviting industrial workers to participate in producing first-hand accounts of the capitalist system and their place within it. The ‘Data Worker’s Inquiry’ is a renewal of this project for the age of AI. Laurenz Sachenbacher reflects on the conjunction that motivated this undertaking, and the critical insights that have emerged from its first phase.
+
+Data work refers to an essential occupation of digital capitalism that amounts to between 4.4% and 12.5% of the global labor force. The workers receive low wages for occupations that involve annotation, tagging, and labelling of data, as well as debugging, correcting, and evaluating algorithmic and AI solutions. Requesters for data work are very diverse, which is why scholars distinguish between three subtypes in the AI development pipeline—AI preparation, AI impersonation, and AI verification—and content moderation, where workers check if user-generated content on social media platforms adheres to pre-defined guidelines. The different tasks associated with data work are performed in two main settings, either workers are hired on digital platforms such as “Remotasks”, executing tasks paid by piece with rates set by the requesters soliciting the work or as employees of Business Process Outsourcing firms (BPOs), subcontractors that profit from offering data work as a provision of services. In both modes of employment, data workers have been found to be largely invisibilized and so drastically underpaid that scholars and activists alike speak of ‘institutionalized wage theft’.
+
+The point is for workers to retain epistemic authority, to center their perspectives on the struggles they face in following the overarching goals of the organization and building workplace power.
+
+In an attempt to oppose this structurally conditioned form of digital exploitation, the Data Workers’ Inquiry is a community-based research project in which data workers from across the world are invited as community researchers to lead their own inquiry in their respective workplaces. The point is for workers to retain epistemic authority, to center their perspectives on the struggles they face in following the overarching goals of the organization and building workplace power. Assisted by a core team of trained qualitative researchers, each of the 13 projects was tailored to the specificities of their respective national context, yet, put in conversation during a speakers’ series to distill international trends and commonalities. Inspiration for the precise make-up of the research was Marx’s 1880 Workers’ Inquiry, where he invited workers to produce the “exact and positive knowledge” of their class composition necessary to guide political action. Based on an understanding of the ever-changing composition of labor in capitalist modes of production, the politics and outputs of each inquiry were refined through the research process itself. Marx’s original 100 questions were adapted in iterative cycles to account for the new modes of production, new forms of technological involvement, and new forms of global competition, all according to what the workers regarded as helpful knowledge acquisition to assist their political interventions.
+
+The findings of the inquiries highlight the globally conditioned exploitation of data workers.
+
+The findings of the inquiries highlight the globally conditioned exploitation of data workers. Hired from poor or otherwise vulnerable backgrounds, they are kept in pervasive forms of economic dependency, with BPOs and platforms targeting whole neighbourhoods with little to no other opportunities for wage labor or individual people with migrant backgrounds that require their employment status to retain their legal residency. Through this dependency, the workers are also politically disempowered, exacerbated by so-called ‘Non-disclosure agreements’ (NDAs) that legally prohibit workers in BPOs from voicing their contempt and hence from collectivizing. With data work commonly misconceived as ‘low-skill’ or ‘easy’ labor, workers on platforms disclosed that their task instructions range from ill-defined to opaque, with little to no ability to contact the requester, who can not only decide on the payment itself, but can refuse it for arbitrary reasons. Testimonies of workers reported mass rejections or unsubstantiated suspensions of platform accounts based on allegedly inaccurate task completion, which amounts to the aforementioned institutionalized wage theft, because workers are given no avenue to double-check how to execute their tasks and are reprimanded only after completion of their labor. For BPOs, pre-defined ‘Key-Performance-Indicators’ (KPIs) similarly serve as a disciplinary tool screening the pace of work, threatening to curb workers’ payments, or terminating their contracts in cases of non-compliance. Altogether, workers themselves reported that the global nature of digital capitalism, with a seemingly infinite amount of latent labor forces, intensifies the historically contingent oppression of the Global Majority by outsourcing essential labor without adequate payment, avenues for participation or even accreditation for the data produced.
+
+Altogether, workers themselves reported that the global nature of digital capitalism, with a seemingly infinite amount of latent labor forces, intensifies the historically contingent oppression of the Global Majority by outsourcing essential labor without adequate payment, avenues for participation or even accreditation for the data produced.
+
+Despite all the commonalities, there are decisive differences in the specific form of precarity workers are struggling with, hinging on both the national context of workers’ residence and the precise form of data work in question. Considering the former, workers highlighted the crucial role of national shortages of labor in determining their decision to become data workers in the first place. Simply put, with no other work being available in countries crippled by global austerity politics, people are forced into accepting data work as their only means of income, even if they are ‘paid’ in the form of Amazon Gift Cards instead of actual money, which further heightens the dependency of data workers on digital platforms as not only their employer but also as an enforced marketplace. As a direct example of the power platforms hold over data workers in certain countries, consider the case of Remotask in Kenya, which closed all its operations, allegedly in response to workers’ organizing, threatening many with economic ruin. Another very important aspect is the mental health issues that data workers have to cope with. Specifically, content moderators asserted that the split between adhering to KPIs and the content of their work, which ranges from disturbing at best to re-traumatising at worst, pushes them into drug addiction and social exclusion. In conjunction with the aforementioned precarization and political disempowerment, data workers finally also reported an aggravation of existing forms of oppression, such as women’s vulnerability to sexual abuse at the working place or exploitation of reproductive labor, necessitating a constant connection between the internationally conditioned trend towards exploiting and disempowering data workers and the specificities entailed by the situations of the directly affected people in question.
+
+What are the lessons we need to draw from the findings of these courageous workers? What is the role of research in supporting their struggle for adequate payment, political participation, and societal recognition? As one of the core researchers who accompanied every inquiry, I think there are two crucial questions to address: the strategic challenge of international organization and the ambivalent role of academia in supporting these struggles. Concerning international organization, as described already, all inquiries testify to some aspects of the internationally conditioned problems inherent to data work; be it the global flow of capital it enables, the latent labour force that is used to undercut workers’ demands in a specific national context, or the general trend of invisibilizing the work necessary to uphold the smooth functioning of allegedly ephemeral ‘cloud services’. However, all the solution approaches we accompanied and enthusiastically applaud, such as efforts to build workers’ councils, advocacy groups, or non-institutionalized solidarity structures in the form of peer-to-peer mental health support, were largely forced to remain on a localized level. Employing a relative outsider’s perspective, it seems as though the pervasiveness with which workers are pitted against each other, most drastically perceptible in the wage discrepancies of similar tasks relative to the data workers’ location, is not a bug but an intentional feature of globally distributed data work. The lackluster information about the specifics of this occupation, enforced through the ubiquitous usage of NDAs and opaque governance structures on platforms, not only obstructs workers in organizing beyond ameliorating their immediate plights, but crucially also inhibits solidarity from the larger society because they simply do not know about the severity of the problem.
+
+As one of the core researchers who accompanied every inquiry, I think there are two crucial questions to address: the strategic challenge of international organization and the ambivalent role of academia in supporting these struggles.
+
+This leads to the second point, namely the ambivalent role of researchers who stand in solidarity with workers. As ‘informed outsiders’, our role in the Data Workers’ Inquiry was to conjoin the workers’ experiences of exploitation into a repository that highlights their structurally conditioned nature. A clear strength of this position was that we could utilize the epistemic power inherent in the name of our institutions and titles to shift the focus onto workers’ claims and demands, which had direct effects concerning, for example, the ‘Platform workers’ Directive’ of the European Union, which included data work in its definition of platform work after testimonies of Data Workers invited by researchers. Celebrating the direct material effects this legislation has on platform workers all over Europe, it also highlights the lurking danger of listening to invisibilized, precarious workers only after someone allegedly important shifts attention onto them. We, in the core team, further observed a growing tendency amongst academics to somewhat ‘fetishize’ workers’ perspectives in that they are referenced to advance reformist goals that are not necessarily in accordance with those of the workers themselves. Throughout our research, we tried our best not to reproduce this fetishization, on the one hand by giving workers complete epistemic authority in where to put the focus and how to communicate their findings, and, on the other, by having them retain full ownership over their inquiries, referencing the names of the workers throughout. Instead of focusing on academic outputs as a measure of our projects’ success, we decidedly tried to prioritize strategic debates about the international linkages and specificities of our co-researchers’ inquiries. However, even our best attempts to practice solidarity over pursuing personal material advantages remained institutionally bound, meaning that we needed to employ ‘scientific’, detached language in applying for grants and were invited as core-researchers to talk about workers’ struggles at conferences instead of having them present themselves.
+
+The political answers we need are international by nature, because data work is a global phenomenon that produces the ‘high-quality’ data necessary for contemporary AI applications and smooth functioning on digital platforms.
+
+Summing up, data work and research into it are shaped by marked differences in political agency and valorization, which requires researchers to resolutely scrutinize their own work in an attempt not to reproduce these structurally conditioned imbalances. The Marxist heritage we ascribe to in the Data Workers’ Inquiry comes with a clear message, namely, that theory and praxis can only be emancipatory if they are in constant conjunction. The political answers we need are international by nature, because data work is a global phenomenon that produces the ‘high-quality’ data necessary for contemporary AI applications and smooth functioning on digital platforms. Referencing Roy Bhaksar’s famous assertion that ‘the world cannot be changed unless it is adequately interpreted’, standing in solidarity with data workers as an academic does not mean to merely give them a platform. We need to collectively move beyond posing critical questions about data work to paving the way for political action, that means using the resources we are granted to produce clear definitions and palpable facts adding to our inchoate understanding of the structural forces pushing data workers into precarity, and then advocate for publicity and solidarity from civil society to pressure the companies that benefit the most from exploiting data workers. A crucial first step is to ameliorate data workers’ economic dependency, as it conditions all other struggles ranging from political disempowerment to mental health issues, something that academics, as common requesters for data work, are specifically culpable.
+
+If you’d like to connect to stay informed about the upcoming projects of the Data Workers’ Inquiry or get involved, you can reach them here.
+
+#Artificial Intelligence (AI)
+
+#content moderation
+
+#data workers
+
+#labor
+
+#labor rights
+
+#Mayday Issue
+
+About the Author(s)
+
+Laurenz Sachenbacher
+
+Laurenz Sachenbacher has been working as a student assistant in the research group "Data, Algorithmic Systems and Ethics" at the Weizenbaum Institute since June 2023. He is studying philosophy of technology in his master's program at the Technische Universität Berlin. He completed his bachelor's degree in cognitive science at University College Maastricht.
+
+In 2020 and 2021, he was a student assistant at the Freiburg Institute for Advanced Studies (FRIAS). As part of the project "Responsible AI: Normative aspects of the interaction of humans and intelligent systems", he conducted research on socio-political consequences of algorithmic systems, with a special focus on the care sector and supported the organization of an interdisciplinary conference on "Responsible Artificial Intelligence".
+
+Read More
+
+Articles you might be interested in
+
+Big Tech Watch
+
+Glimpses from a Town Hall: Notes on a Burgeoning Anti-Data Center Struggle
+
+Satyavrat Krishnakumar
+
+October 29 | 5 min read
+
+Big Tech Watch
+
+From Pipe Dream to Pipelines
+
+Aditi Pillai
+
+October 29 | 8 min read
+
+Big Tech Watch
+
+Editorial | September 2026
+
+The DataSyn Team
+
+September 30 | 4 min read
+
+Bot Populi, an independent digital media space, examines the digital from a social justice and Global South perspective.
+
+Contributors
+
+All Videos
+
+Archive
+
+Contact Information
+
+For any queries and suggestions, please write to hello@botpopuli.net
+
+Follow Bot Populi
+
+Sign up for our newsletter
+
+All content (except where explicitly stated) is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License for widescale, free reproduction and translation.
