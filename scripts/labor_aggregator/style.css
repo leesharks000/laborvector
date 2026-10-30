@@ -1,12 +1,12 @@
-/* Labor Vector design system (2026-10-29): the MMRS system (machinemediation.org/assets/mmrs.css) with its own accent, rust. Source: scripts/labor_aggregator/style.css; build.py writes /assets/lv.css.
-   which the meta-aggregator pages and the landing page link. Light by default, dark by the reader's setting. */
-:root{--bg:#fafaf8;--fg:#14161a;--accent:#9a3412;--dim:#6b6a63;--teal:#0f7b5f;--red:#b3261e;--border:#e7e4dc;--surface:#ffffff;--soft:#f3f1ec;
---sans:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,'SFMono-Regular',monospace;--serif:'Source Serif 4',Georgia,serif;
+/* Labor Vector design system. Source: scripts/labor_aggregator/style.css; build.py writes /assets/lv.css, which every page links.
+   2026-10-30 (operator: "im not feeling that any kind of site identity has been preserved"): the site's own identity restored over the shared components —
+   paper ground (#fafaf7), navy accent (#0d2c54), its own type; light always (the automatic dark scheme copied from machinemediation on 2026-10-29 is removed). */
+:root{color-scheme:light;--bg:#fafaf7;--fg:#1a1a1a;--accent:#0d2c54;--dim:#5c5b55;--teal:#1c6e4a;--red:#a41623;--border:#dcd7cb;--surface:#fffefb;--soft:#f2f0e9;
+--sans:'EB Garamond',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,'SFMono-Regular',monospace;--serif:'EB Garamond',Georgia,serif;--ui:'IBM Plex Mono',ui-monospace,monospace;--fs:18.5px;
 --accent2:var(--accent)}
-@media (prefers-color-scheme:dark){:root{--bg:#0f0f0e;--fg:#ecebe6;--dim:#a09f97;--border:#2a2923;--surface:#161613;--soft:#1c1b18;--accent:#f0956a;--teal:#3fcf9f;--red:#ef6a55}}
 *{margin:0;padding:0;box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
-body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.62;font-size:var(--fs);-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none;border-bottom:1px solid color-mix(in srgb,var(--fg) 25%,transparent)}
 a:hover{color:var(--accent);border-color:var(--accent)}
 code,.mono{font-family:var(--mono);font-size:.88em}
@@ -155,3 +155,11 @@ pre.bib{font-family:var(--mono);font-size:.8em;background:var(--soft);border:1px
 .signup .trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .signup .msg{font-size:.9em;margin:8px 0 0;min-height:1.2em}.signup .msg:empty{display:none}
 .signup .msg.good{color:var(--teal)}.signup .msg.bad{color:var(--red)}
+
+/* identity layer (2026-10-30): interface labels in the site's UI face, squarer corners, paper cards, room between sections */
+.nav-top,.srch input,.btn,.chip,.crumb,.f button,.b,.cap span,.legend,.fig-cap,.sn,.pipe .lbl,.flow .step span,.signup label.ok,h2,h3{font-family:var(--ui)}
+h2{font-size:.72em;letter-spacing:.14em}h3{font-size:.7em}
+.row,.signup,.cite,.pipe,table,.tw,.flow .step,.flow-x .x,pre.bib{border-radius:4px}.btn,.chip,.f button,.nav-top a,.srch,.cap span,.signup input[type=email]{border-radius:3px}
+.wm i{border-radius:2px}.btn{font-weight:500;letter-spacing:.02em}
+.row:hover{box-shadow:0 6px 18px rgba(26,26,26,.07)}
+.btn{white-space:normal;max-width:100%;text-align:left}.cap{flex-wrap:wrap}.axn-chip{white-space:normal!important;max-width:100%;overflow-wrap:anywhere}
