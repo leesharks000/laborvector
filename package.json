@@ -1,0 +1,8 @@
+{
+  "name": "laborvector",
+  "private": true,
+  "description": "Static site; the only server code is api/subscribe.js (email signup into a private Vercel Blob store).",
+  "dependencies": {
+    "@vercel/blob": "2.8.2"
+  }
+}

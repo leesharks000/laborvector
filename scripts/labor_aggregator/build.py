@@ -32,6 +32,33 @@ def topbar(on=""):
             f'<form class="srch" action="/aggregators/" method="get" role="search"><input name="q" type="search" placeholder="Search {len(ROWS)} resources" aria-label="Search the resources"></form></div></header>')
 
 
+def signup(follow=None, name=None):
+    """An email box. Posts to /api/subscribe, which stores the address privately (see /privacy)."""
+    if follow:
+        h, t = f"Follow {e(name)}", "An email when this record changes: the resource ends, comes back, changes hands, or publishes new findings."
+    else:
+        h, t = "The Labor Vector digest", "New records in the labor and AI census, changes to the resources it follows, and new worked questions, by email, now and then."
+    return (f'<form class="signup" action="/api/subscribe" method="post">'
+            f'<h4>{h}</h4><p>{t}</p><div class="fr"><input type="email" name="email" required placeholder="you@example.org" autocomplete="email" aria-label="Email address">'
+            f'<button class="btn" type="submit">{"Follow" if follow else "Subscribe"}</button></div>'
+            + (f'<input type="hidden" name="follow" value="{e(follow)}">' if follow else "")
+            + '<input type="hidden" name="page" value=""><span class="trap" aria-hidden="true"><input type="text" name="website" tabindex="-1" autocomplete="off"></span>'
+            '<label class="ok"><input type="checkbox" name="consent" value="yes" required><span>Email me from Labor Vector about this. My address is stored privately and never published; '
+            'every email carries a one-click unsubscribe. <a href="/privacy">Privacy</a></span></label><p class="msg" role="status"></p></form>')
+SIGNUP_JS = ("<script>document.querySelectorAll('form.signup').forEach(f=>{f.page.value=location.pathname;f.onsubmit=async ev=>{ev.preventDefault();const m=f.querySelector('.msg'),b=f.querySelector('button');"
+             "b.disabled=true;m.className='msg';m.textContent='Saving…';try{const r=await fetch(f.action,{method:'POST',headers:{'Accept':'application/json','Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(new FormData(f))});"
+             "const j=await r.json().catch(()=>({}));if(r.ok){m.className='msg good';m.textContent='You are on the list. Thank you.';f.email.value=''}else{m.className='msg bad';m.textContent=j.error||'That did not work. Please try again.'}}"
+             "catch(_){m.className='msg bad';m.textContent='That did not work. Please try again.'}b.disabled=false}})</script>")
+PRIVACY = ("<p>Labor Vector asks for one thing: an email address, typed in by the person who owns it, with a box ticked to agree to the emails.</p>"
+           "<h2>What is stored</h2><p>The address, which list it joined (the digest, or a follow of one record, and which), the date, and the page the form was on. Nothing else: no name, no IP address, no tracking.</p>"
+           "<h2>Where</h2><p>In a private store of the site's host, Vercel, shared with its sibling sites machinemediation.org and provenanceerasure.org. Private means no web address serves the records; only the sites' own signup code and their operator can read them. Addresses are never published, sold or shared.</p>"
+           "<h2>What it is used for</h2><p>The emails the person asked for: the digest, or notice that a followed record changed. No email has been sent yet; the list is gathered first. Every email will carry a one-click unsubscribe, and an unsubscribe removes the address from that list.</p>"
+           "<h2>Removal</h2><p>Anyone can ask for their address to be deleted entirely, from any email, and it is.</p>")
+def simple_page(path, title, body):
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(title)} — Labor Vector</title>'
+            f'<link rel="canonical" href="{SITE}{path}"><meta name="robots" content="noindex">{HEAD}</head><body>{topbar()}<div class="wrap"><div class="crumb"><a href="/">Labor Vector</a> / {e(title.lower())}</div>'
+            f'<h1>{e(title)}</h1><div class="kernel">{body}</div><div class="foot">Labor Vector · laborvector.org · editor Lee Sharks</div></div></body></html>')
+
 def bchip(r, f):
     v = r["evidence"].get(f)
     if not v: return ""
@@ -171,9 +198,9 @@ def page(r):
 <h2>Entity</h2><table>{tbl(ENT)}</table>
 <h2>Relations</h2>{relhtml or '<p class="pend">None recorded yet.</p>'}
 <div style="margin-top:34px">{fold("Evidence", f'<ul class="ev">{ev}</ul>', len(r["evidence"]), "every field's quote, its source and the hash of the saved copy")}{fold("Negative tags", f'<ul>{neg}</ul>' if neg else '', len(r.get("negative_tags", [])), "what it is not")}{fold("Sources", f'<ul>{src}</ul>', len(r["sources"]), "every source read, with its date and hash")}{fold("Not yet checked", f'<ul>{unc}</ul>' if unc else '', len(r.get("unchecked", [])), "what remains to read")}</div>
-<h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]} · entity {BASE}{r["slug"]}#entity · <a href="/data/labor-census/census.json">the census as data</a></p></div><pre class="bib">{e(bibtex(r))}</pre>
+<div style="margin-top:34px">{signup(r["slug"], r["name"])}</div><h2>Cite this record</h2><div class="cite"><p id="cite">{e(cite_text(r))}</p><p class="d">Record {BASE}{r["slug"]} · entity {BASE}{r["slug"]}#entity · <a href="/data/labor-census/census.json">the census as data</a></p></div><pre class="bib">{e(bibtex(r))}</pre>
 <div class="foot">Editor: Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>). This page is the Labor Vector meta-aggregator's record of the resource above: its reading and fields are ours, and each field carries its source, its basis and the hash of the copy read. The resource's own terms and findings are kept as its own. Compiled {D["compiled"]}. CC BY 4.0.</div></div>
-<script>document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{{const t=document.getElementById(b.dataset.copy).innerText;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1600)}}).catch(()=>{{}})}})</script></body></html>"""
+<script>document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>{{const t=document.getElementById(b.dataset.copy).innerText;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>{{const o=b.textContent;b.textContent='Copied';setTimeout(()=>b.textContent=o,1600)}}).catch(()=>{{}})}})</script>{SIGNUP_JS}</body></html>"""
 
 
 SVG = lambda d: f'<svg viewBox="0 0 32 32" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{d}</svg>'
@@ -214,12 +241,12 @@ def index():
 <h2 id="questions">Worked questions</h2><p class="section">A research question, the kind of evidence that can answer it, and the resources that hold that evidence.</p><div class="qs">{qs}</div>
 <h2>Evidence by kind</h2><div class="tw"><table class="tv"><tr><td></td>{"".join(f"<td>{e(k)}</td>" for k in kinds_used)}</tr>{mat}</table></div>
 <p class="legend">The census as data: <a href="/data/labor-census/census.json">census.json</a> and <a href="/data/labor-census/questions.json">questions.json</a>, with every saved source in <a href="https://github.com/leesharks000/laborvector/tree/main/data/labor-census/sources">data/labor-census/sources</a>.</p>
-<div class="foot">Labor Vector · laborvector.org · editor Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>) · a sibling of the <a href="https://www.machinemediation.org/aggregators/">MMRS meta-aggregator</a> and the <a href="https://www.provenanceerasure.org/aggregators/">provenance meta-aggregator</a></div></div>
+<div style="margin-top:34px">{signup()}</div><div class="foot">Labor Vector · laborvector.org · editor Lee Sharks (<a href="https://orcid.org/0009-0000-1599-0703">ORCID 0009-0000-1599-0703</a>) · a sibling of the <a href="https://www.machinemediation.org/aggregators/">MMRS meta-aggregator</a> and the <a href="https://www.provenanceerasure.org/aggregators/">provenance meta-aggregator</a></div></div>
 <script>let fs={{}};const qi=document.querySelector('.srch input');qi.value=new URLSearchParams(location.search).get('q')||'';document.querySelector('.srch').onsubmit=ev=>{{ev.preventDefault();apply()}};qi.oninput=()=>apply();
 function apply(){{const q=qi.value.trim().toLowerCase();let n=0;document.querySelectorAll('.f button').forEach(x=>{{const k=x.dataset.int?'int':x.dataset.kind?'kind':'all';x.classList.toggle('on',k==='all'?!fs.int&&!fs.kind:fs[k]===x.dataset[k])}});
 document.querySelectorAll('#L .row').forEach(r=>{{const ok=(!fs.int||r.dataset.int.split(' ').includes(fs.int))&&(!fs.kind||r.dataset.kind.split('|').includes(fs.kind))&&(!q||q.split(' ').filter(Boolean).every(w=>r.dataset.text.includes(w)));r.style.display=ok?'':'none';n+=ok}});document.getElementById('none').style.display=n?'none':'block'}}
 document.querySelectorAll('.f button').forEach(b=>b.onclick=()=>{{if(b.dataset.all){{fs={{}}}}else{{const k=b.dataset.int?'int':'kind',v=b.dataset[k];fs[k]=fs[k]===v?undefined:v}}apply()}});apply();
-document.querySelectorAll('.flow .step').forEach(b=>b.onclick=()=>{{const on=b.getAttribute('aria-expanded')!=='true';document.querySelectorAll('.flow .step').forEach(x=>{{x.setAttribute('aria-expanded','false');document.getElementById(x.getAttribute('aria-controls')).hidden=true}});if(on){{b.setAttribute('aria-expanded','true');document.getElementById(b.getAttribute('aria-controls')).hidden=false}}}})</script></body></html>"""
+document.querySelectorAll('.flow .step').forEach(b=>b.onclick=()=>{{const on=b.getAttribute('aria-expanded')!=='true';document.querySelectorAll('.flow .step').forEach(x=>{{x.setAttribute('aria-expanded','false');document.getElementById(x.getAttribute('aria-controls')).hidden=true}});if(on){{b.setAttribute('aria-expanded','true');document.getElementById(b.getAttribute('aria-controls')).hidden=false}}}})</script>{SIGNUP_JS}</body></html>"""
 
 
 EXTRA = """
@@ -243,6 +270,8 @@ EXTRA = """
 """
 
 (ROOT / "assets").mkdir(exist_ok=True); (ROOT / "assets/lv.css").write_text(CSS + EXTRA, encoding="utf-8")
+for _p, _t, _b in [("/privacy", "Privacy", PRIVACY), ("/subscribed", "Subscribed", "<p>You are on the list. Thank you.</p><p><a href=\"/aggregators/\">Back to the resources</a></p>")]:
+    (ROOT / _p.strip("/")).mkdir(exist_ok=True); (ROOT / _p.strip("/") / "index.html").write_text(simple_page(_p, _t, _b), encoding="utf-8")
 OUT.mkdir(exist_ok=True); (OUT / "index.html").write_text(index(), encoding="utf-8")
 for r in ROWS:
     p = OUT / r["slug"]; p.mkdir(exist_ok=True); (p / "index.html").write_text(page(r), encoding="utf-8")
@@ -264,7 +293,7 @@ def front_block():
     return ("<!-- LV-AGGREGATOR-START (generated by scripts/labor_aggregator/build.py from data/labor-census/census.json) -->\n"
             f'<section class="lvagg" id="labor-and-ai" aria-label="Labor and AI"><h2>Labor and AI: the meta-aggregator</h2><p class="lead">DSL asks where a system\'s labor flows relative to the task commissioned. The meta-aggregator widens the question to the labor around AI: '
             f'who supplies it, who directs it, and who receives its gains, and what kind of evidence each resource brings. {len(ROWS)} resources across five intersections, compiled {D["compiled"]}.</p>'
-            f'<div class="minis">{li}</div><h3>Worked questions</h3><ul>{qli}</ul><p class="section" style="margin-top:12px"><a class="btn" href="/aggregators/">All {len(ROWS)} resources and every question</a> <a class="btn ghost" href="/data/labor-census/census.json">The census as data</a></p></section>\n'
+            f'<div class="minis">{li}</div><h3>Worked questions</h3><ul>{qli}</ul><p class="section" style="margin-top:12px"><a class="btn" href="/aggregators/">All {len(ROWS)} resources and every question</a> <a class="btn ghost" href="/data/labor-census/census.json">The census as data</a></p>' + signup() + SIGNUP_JS + '</section>\n'
             "<!-- LV-AGGREGATOR-END -->")
 
 
